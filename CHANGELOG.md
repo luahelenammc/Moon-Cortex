@@ -3,6 +3,17 @@
 
 # Changelog
 
+## 0.1.0-pre.4 — 2026-09-01
+
+Integrated-package contract clarification for the Financial Living System.
+
+- made `downloads/financial-living-system.zip` the canonical transport and default use surface for the Financial Living System;
+- clarified that the module's Markdown files are cooperating parts of one integrated system, not independent installable components;
+- retained `ADAPTIVE_FINANCE_BOOTSTRAP.md` as the automatic entrypoint inside the complete package rather than a standalone distribution unit;
+- preserved proportional internal loading: the package travels whole, while the executing AI consults only the internal material needed for the current field and step;
+- replaced the old standalone-bootstrap setup contract with complete-package setup plus optional Moon Source-aware installation;
+- preserved local runtime sovereignty after installation.
+
 ## 0.1.0-pre.3 — 2026-09-01
 
 Public namespace, orientation and distribution refinement of the first domain module.

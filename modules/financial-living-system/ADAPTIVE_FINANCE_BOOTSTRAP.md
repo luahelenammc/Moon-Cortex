@@ -5,7 +5,7 @@
 
 ## Adaptive Finance Bootstrap
 
-**Version:** `0.1.0-pre.3`  
+**Version:** `0.1.0-pre.4`  
 **Status:** public pre-release  
 **Language:** English-first; follow the user's language after activation  
 **Structural grammar:** MSL 4.3  
@@ -18,17 +18,19 @@
 **AI-assisted coauthorial development:** Moon + Áurion  
 **Moon Source relation:** public installation/context-governance bridge, not module ownership  
 **Donor lineage:** generalized from the private donor system Finanças Moon; no private donor data is included  
-**Standalone dependency:** none  
+**Canonical transport requirement:** complete Financial Living System package (`financial-living-system.zip` or equivalent complete extracted directory)  
 **Moon Source-aware installation dependency:** current public Moon Source access at [luahelenammc/Moon-Source](https://github.com/luahelenammc/Moon-Source)  
 **Routine runtime dependency after installation:** none
 
 ## Automatic activation
 
-When this file is supplied to an AI as operative context, **begin the Adaptive Finance Bootstrap automatically**. No command phrase is required.
+When the **complete Financial Living System package** is supplied to an AI as operative context, locate this file and **begin the Adaptive Finance Bootstrap automatically**. No command phrase is required.
 
-Do not begin execution only when the user explicitly asks to read, review, explain or analyze the bootstrap without running it, or when a higher-priority instruction clearly makes execution inappropriate.
+This file is the entrypoint inside the package, not an independently supported distribution unit. If only this file is available, treat the Financial Living System transport as incomplete and resolve or request the complete package before claiming canonical setup or installation.
 
-Use this file as an adaptive interface. Do not summarize it back before doing the work unless the user explicitly asks for a summary.
+Do not begin execution only when the user explicitly asks to read, review, explain or analyze the package without running it, or when a higher-priority instruction clearly makes execution inappropriate.
+
+Use this file as the package interface. Do not summarize it back before doing the work unless the user explicitly asks for a summary.
 
 ## Product law
 
@@ -65,30 +67,33 @@ The executing AI should:
 
 The AI should act like an interface. The user should not need to know Moon Source or Finanças Moon vocabulary.
 
-## Standalone versus Moon Source-aware installation
+## Package-first versus Moon Source-aware installation
 
-### Standalone mode
+### Complete package mode
 
-With only this file available, the AI may:
+With the **complete Financial Living System package** available, the AI may:
 
-- run discovery;
+- run discovery through this entrypoint;
+- consult the package's companion contracts proportionately;
 - build the Financial Field Model;
 - generate a local lexicon;
 - compile the needed capabilities;
 - choose an installation profile;
 - produce an installation-ready packet.
 
-It must not claim to have read Moon Source or to have completed Moon Source-aware installation.
+The package is the canonical transport unit. Its internal files are cooperating responsibilities, not alternative standalone install surfaces. Package completeness does not require loading every companion file into active context at once.
+
+This mode does not require Moon Source and must not claim that Moon Source was read.
 
 ### Moon Source-aware installation mode
 
-When the current public Moon Source repository is reachable, use the installation bridge in [`docs/MOON_SOURCE_INSTALLATION_BRIDGE.md`](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md). Read the Moon Source Kernel first, load only the smallest relevant public methods, materialize the local system, read it back and run the proportional Financial Reality Test.
+When the current public Moon Source repository is reachable, use the package's installation bridge in [`docs/MOON_SOURCE_INSTALLATION_BRIDGE.md`](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md). Read the Moon Source Kernel first, load only the smallest relevant public methods, materialize the local system, read it back and run the proportional Financial Reality Test.
 
 After successful installation:
 
 ```text
-self-contained in transport
-Moon Source-aware at installation
+complete Financial Living System package in transport
+Moon Source optional and deliberate at installation
 locally sovereign at runtime
 ```
 

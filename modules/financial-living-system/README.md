@@ -3,66 +3,96 @@
 
 # 🌙 Moon Cortex · Financial Living System
 
-**Adaptive personal-finance organization for AI: map financial reality before choosing structure.**
+**Adaptive personal-finance organization for AI: one integrated package that maps financial reality before choosing structure.**
 
 A budget template starts with categories. A dashboard starts with widgets. A finance app starts with whatever its database already knows how to store. Real financial life often starts somewhere messier: several pay rhythms, money that belongs to another period, credit purchases that are not current cash outflows, protected reserves that look spendable, reimbursements that have not arrived, or a perfectly usable spreadsheet that should not be replaced.
 
-The Financial Living System is the Moon Cortex finance module for organizing that field into a living, user-owned financial system. It is instantiated through the **Adaptive Finance Bootstrap**, which discovers the situation before deciding what capabilities or local form are warranted.
+The **Financial Living System** is the Moon Cortex finance module for turning that field into a living, user-owned financial system. It is not a menu of independent components. Its public files form one cooperating package: the **Adaptive Finance Bootstrap** is the entrypoint, while the capability map, invariants, installation bridge, privacy/claims contract, validation test and examples provide the surrounding system it relies on.
 
-> 📦 **Want the whole Financial Living System at once?**  
-> 💸⬇️ [**Download the complete module (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) — bootstrap, methods, tests and fictional examples in one file.
+> 📦 **Start here: download the complete Financial Living System.**  
+> 💸⬇️ [**Download `financial-living-system.zip`**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) — the canonical transport and default use surface.
+
+## One system, not a component shelf
+
+Unlike Moon Source, whose public components can often be consulted independently by responsibility, the Financial Living System is distributed as an **integrated module**.
+
+The files inside the package have different jobs, but they are not separate products, separate installation routes or interchangeable downloads. The normal contract is:
+
+```text
+download the complete Financial Living System package
+        ↓
+give the package to the AI as operative context
+        ↓
+Adaptive Finance Bootstrap starts the process
+        ↓
+companion contracts remain available to the bootstrap
+        ↓
+field discovery + capability compilation + validation
+        ↓
+user-local living financial system
+```
+
+**Package completeness does not mean loading every file into active context at once.** The full package should travel together so its contracts remain available; the executing AI should inspect and load the smallest relevant internal material as the setup requires.
+
+That distinction is important:
+
+> **The package is indivisible in distribution. Internal attention is still proportional.**
 
 ## Why the Financial Living System exists
 
 Personal-finance systems commonly fail in two opposite ways: they are too thin to preserve real distinctions, or so elaborate that the user ends up maintaining the system instead of using it.
 
-The Financial Living System takes a field-first route. It separates the stable financial distinctions that matter from the optional capabilities that should appear only when the user's situation earns them. The result can therefore stay compact for a simple case and become richer only when credit, installments, irregular income, shared money, multiple currencies, protected reserves or other material complexity actually exists.
+The Financial Living System takes a field-first route. It separates stable financial distinctions from conditional capabilities that should activate only when the user's actual situation earns them. The resulting local system can remain compact for a simple case and become richer only when credit, installments, irregular income, shared money, multiple currencies, protected reserves or other material complexity actually exists.
 
 Its job is not to moralize spending or prescribe one ideal budget. Its job is to make financial state, obligations, timing and uncertainty **legible enough to reconcile and act on**.
 
-## Start with reality, not the template
+## Use it in four steps
 
-| If the situation contains… | Start with… |
-|---|---|
-| A simple salary, one currency and a few recurring obligations | Core state, reconciliation and reserve semantics |
-| Credit cards, inherited installments or open statements | Credit, installment-tail and next-cycle capabilities |
-| Reimbursements or shared costs | Economic authorship and receivable/shared-money ledgers |
-| Irregular income or advances | Temporal ownership and irregular-income handling |
-| Multiple currencies | Currency-specific state and explicit conversion evidence |
-| An existing spreadsheet or finance workspace | Existing-system integration instead of replacement |
-| Unclear jurisdiction-specific rules | Jurisdiction discovery and explicit verification boundaries |
+### 1. Download the complete package
 
-The full routing surface lives in the [Capability Map](docs/CAPABILITY_MAP.md). The user does not need to choose these technical names during setup.
+Use the canonical ZIP:
+
+📦 [**`financial-living-system.zip`**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+
+Downloading or copying only one internal Markdown file is not the canonical setup path.
+
+### 2. Give the package to the AI
+
+Provide the complete ZIP, extracted directory or equivalent complete package surface as operative context. The user should not need to identify individual components or know Moon Cortex vocabulary.
+
+### 3. Let the Adaptive Finance Bootstrap start automatically
+
+Inside the package, [`ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md) is the canonical entrypoint. No command phrase is required. The AI should begin adaptive setup automatically unless the user explicitly asks only to read, review or analyze the package without execution.
+
+The bootstrap inspects supplied financial material first, discovers only material gaps, preserves sound existing systems, activates only earned capabilities and chooses a local form the host can actually maintain.
+
+### 4. Keep the generated local system sovereign
+
+The package governs setup and installation. After installation, ordinary finance work should run from the user's own local sources rather than requiring the Financial Living System ZIP or Moon Source on every interaction.
 
 ## The architecture in one minute
 
-The module follows this loop:
-
 ```text
-user's financial reality
-        ↓
-Financial Living System
-        ↓ instantiated through
+financial-living-system.zip
+        ↓ complete public module travels together
 Adaptive Finance Bootstrap
-        ↓
-inspect → infer → ask only material gaps
-        ↓
+        ↓ entrypoint + adaptive field discovery
 Financial Field Model
         ↓
-activate only earned capabilities
+Capability Map + Financial Invariants
+        ↓ only earned capabilities activate
+local form + installation contract
         ↓
-choose the smallest maintainable local form
+Financial Reality Test + readback
         ↓
 user-local living financial system
-        ↓
-readback + Financial Reality Test
 ```
 
 The central law is:
 
 > **Map the user's financial reality first, then generate the smallest local finance system that actually fits it.**
 
-A few distinctions carry most of the system:
+A few distinctions carry most of the financial model:
 
 - credit purchase ≠ immediate cash outflow;
 - statement payment = cash outflow + liability settlement;
@@ -72,17 +102,26 @@ A few distinctions carry most of the system:
 - observed future pressure ≠ closed truth;
 - available capability ≠ activated capability.
 
-## Start here
+## What travels inside the package
 
-Provide [`ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md) to an AI as operative context.
+These files cooperate as one public system:
 
-**No command phrase is required.** The bootstrap is self-activating by default: the AI should begin adaptive setup automatically unless the user explicitly asks only to read, review or analyze the artifact without execution.
+| Internal part | Responsibility inside the package |
+|---|---|
+| [`ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md) | Entry interface, field discovery, routing, compilation and installation orchestration |
+| [`docs/UNIVERSAL_FINANCIAL_INVARIANTS.md`](docs/UNIVERSAL_FINANCIAL_INVARIANTS.md) | Financial distinctions that must survive local adaptation |
+| [`docs/CAPABILITY_MAP.md`](docs/CAPABILITY_MAP.md) | Core and conditional capabilities plus activation/deactivation logic |
+| [`docs/MOON_SOURCE_INSTALLATION_BRIDGE.md`](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md) | Optional Moon Source-aware installation governance |
+| [`docs/PRIVACY_AND_CLAIMS.md`](docs/PRIVACY_AND_CLAIMS.md) | Safe-input, privacy, evidence and public-claim boundaries |
+| [`docs/FINANCIAL_REALITY_TEST.md`](docs/FINANCIAL_REALITY_TEST.md) | Bounded validation and readback contract |
+| [`examples/`](examples/) | Fictional scenarios showing how one package compiles differently across fields |
+| [`CHANGELOG.md`](CHANGELOG.md) | Module chronology and public contract changes |
 
-The AI should inspect any supplied financial material before asking the user to repeat it, discover only material gaps, preserve a sound existing system when one already exists, protect sensitive information and explain where the generated local system should live.
+The table describes **internal anatomy**, not a choose-your-own-installation menu.
 
-## What can be compiled
+## What can be activated
 
-The Financial Living System has a small core and a conditional capability layer.
+The package carries a stable core plus conditional capabilities. Carrying a capability in the package does not mean activating it in the user's local system.
 
 | Layer | Examples |
 |---|---|
@@ -95,37 +134,39 @@ A user without meaningful credit should not receive decorative card machinery. A
 
 ## Installation states
 
-The module distinguishes setup, installation and ordinary runtime.
+The complete Financial Living System package can operate with or without the optional Moon Source bridge.
 
-### Standalone setup
+### Package setup
 
-With only the canonical bootstrap, an AI can discover the field, compile the Financial Field Model, map local terminology, select capabilities and produce an installation-ready plan.
+With the **complete Financial Living System package** available, an AI can discover the financial field, compile the Financial Field Model, map local terminology, select capabilities, choose an installation profile and produce an installation-ready plan.
+
+This does **not** require Moon Source. It does require the Financial Living System package as the canonical transport unit.
 
 ### Moon Source-aware installation
 
-When the current public [Moon Source](https://github.com/luahelenammc/Moon-Source) repository is deliberately available, the installer can use the [Moon Source Installation Bridge](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md). The Moon Source Kernel is read first, only the smallest relevant methods are loaded, the local system is materialized and read back, and the Financial Reality Test is run proportionately.
+When the current public [Moon Source](https://github.com/luahelenammc/Moon-Source) repository is deliberately available, the package can additionally use the [Moon Source Installation Bridge](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md). The Moon Source Kernel is read first, only the smallest relevant public methods are loaded, the local system is materialized and read back, and the Financial Reality Test is run proportionately.
 
 ### User-local runtime
 
-After installation, ordinary finance work should operate from the user's own local sources. Moon Source remains a justified reconfiguration or repair dependency, not a permanent upstream API.
+After installation, ordinary finance work should operate from the user's own local sources. Moon Source remains a justified reconfiguration or repair dependency, not a permanent upstream API. The Financial Living System package remains the upstream public module, not the user's day-to-day ledger.
 
 In shorthand:
 
 ```text
-self-contained in transport
-Moon Source-aware at installation
+complete package in transport
+Moon Source optional at installation
 locally sovereign at runtime
 ```
 
 ## Examples
 
-The examples are fictional, didactic and non-evidentiary. They show how the same module compiles differently when the field changes.
+The package includes three fictional, didactic and non-evidentiary scenarios. They show how the **same integrated system** compiles differently when the field changes.
 
-- [Simple Salaried User](examples/SIMPLE_SALARIED_USER.md) — a deliberately small installation without credit machinery.
+- [Simple Salaried User](examples/SIMPLE_SALARIED_USER.md) — a deliberately small local installation without credit machinery.
 - [Credit and Non-Monthly Pay User](examples/CREDIT_AND_NONMONTHLY_PAY_USER.md) — biweekly income, credit tails, microfrequency and reimbursement.
 - [Irregular Multi-Currency User](examples/IRREGULAR_MULTICURRENCY_USER.md) — uncertain income, multiple currencies, protected tax reserve and integration into an existing spreadsheet.
 
-The examples are not case studies and do not contain private Finanças Moon data.
+The examples are not separate presets to install and do not contain private Finanças Moon data.
 
 ## Evidence, boundary and reuse
 
@@ -139,31 +180,31 @@ The module is deliberately conservative about what its public artifacts prove.
 
 The financial architecture was generalized from the private donor system **Finanças Moon**. Naming that lineage does not publish the donor corpus or turn private financial facts into evidence.
 
-## Module map
+## Internal map for inspection
 
-Use this README for orientation; use deeper files when the responsibility actually belongs there.
+If you are auditing, adapting or studying the package, these are its canonical internal routes. Ordinary users should start from the complete ZIP above rather than collecting these files individually.
 
-| Need | Canonical route |
+| Inspect | Internal route |
 |---|---|
-| Run adaptive setup | [ADAPTIVE_FINANCE_BOOTSTRAP.md](ADAPTIVE_FINANCE_BOOTSTRAP.md) |
-| See capability activation rules | [docs/CAPABILITY_MAP.md](docs/CAPABILITY_MAP.md) |
-| Inspect cross-jurisdiction financial distinctions | [docs/UNIVERSAL_FINANCIAL_INVARIANTS.md](docs/UNIVERSAL_FINANCIAL_INVARIANTS.md) |
-| Install with current public Moon Source methods | [docs/MOON_SOURCE_INSTALLATION_BRIDGE.md](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md) |
-| Validate an installed local system | [docs/FINANCIAL_REALITY_TEST.md](docs/FINANCIAL_REALITY_TEST.md) |
-| Inspect privacy, claims and attribution | [docs/PRIVACY_AND_CLAIMS.md](docs/PRIVACY_AND_CLAIMS.md) |
-| Browse fictional scenarios | [examples/](examples/) |
-| Follow module changes | [CHANGELOG.md](CHANGELOG.md) |
-| Download the whole module | [financial-living-system.zip](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) |
+| Entry and orchestration contract | [ADAPTIVE_FINANCE_BOOTSTRAP.md](ADAPTIVE_FINANCE_BOOTSTRAP.md) |
+| Capability activation rules | [docs/CAPABILITY_MAP.md](docs/CAPABILITY_MAP.md) |
+| Cross-jurisdiction financial distinctions | [docs/UNIVERSAL_FINANCIAL_INVARIANTS.md](docs/UNIVERSAL_FINANCIAL_INVARIANTS.md) |
+| Optional Moon Source installation bridge | [docs/MOON_SOURCE_INSTALLATION_BRIDGE.md](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md) |
+| Validation contract | [docs/FINANCIAL_REALITY_TEST.md](docs/FINANCIAL_REALITY_TEST.md) |
+| Privacy, claims and attribution | [docs/PRIVACY_AND_CLAIMS.md](docs/PRIVACY_AND_CLAIMS.md) |
+| Fictional scenarios | [examples/](examples/) |
+| Module chronology | [CHANGELOG.md](CHANGELOG.md) |
 
 ## Current baseline
 
-**Version:** `0.1.0-pre.3`  
+**Version:** `0.1.0-pre.4`  
 **Status:** public pre-release  
 **Structural grammar:** MSL 4.3  
 **Canonical module path:** `modules/financial-living-system/`  
-**Canonical instantiation artifact:** `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`
+**Canonical transport unit:** `downloads/financial-living-system.zip`  
+**Canonical entrypoint inside the package:** `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`
 
-The executing AI should follow the user's language after activation. The public portable is English-first, model-agnostic and does not require a primary `SKILL.md`, bank connector, hosted UI or autonomous transaction layer.
+The public package is English-first and model-agnostic. The executing AI should follow the user's language after activation. The current public module does not require a primary `SKILL.md`, bank connector, hosted UI or autonomous transaction layer.
 
 Created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion**. Moon retains final authority.
 

@@ -3,6 +3,16 @@
 
 # Financial Living System Changelog
 
+## 0.1.0-pre.4 — 2026-09-01
+
+Package-integrity clarification.
+
+- established the complete Financial Living System ZIP as the canonical transport and default use surface;
+- clarified that internal Markdown files cooperate as one module and are not separate installation choices;
+- retained the Adaptive Finance Bootstrap as the entrypoint inside the package;
+- removed the prior standalone-bootstrap execution contract;
+- preserved proportional internal loading, adaptive capability activation, optional Moon Source-aware installation and locally sovereign runtime.
+
 ## 0.1.0-pre.3 — 2026-09-01
 
 Canonical product namespace and public-entrypoint release.

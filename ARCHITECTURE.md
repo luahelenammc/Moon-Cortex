@@ -43,13 +43,14 @@ The short contract is:
 
 These are separate states:
 
-- **Transport:** the canonical bootstrap artifact at `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md` is self-contained and can begin setup without Moon Source.
-- **Installation:** a canonical Moon Source-aware installation consults the current public Moon Source repository, reads its Kernel first and uses only the methods needed for that installation.
-- **Runtime:** the generated user-local financial system operates from its own sources. Routine transactions do not require Moon Source retrieval.
+- **Transport:** the canonical transport unit is the complete `downloads/financial-living-system.zip` package (or an equivalent complete extracted directory). Its internal files travel as one module.
+- **Entrypoint:** `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md` starts and routes setup from inside that package; it is not the independently supported distribution unit.
+- **Installation:** a Moon Source-aware installation may additionally consult the current public Moon Source repository, read its Kernel first and use only the methods needed for that installation.
+- **Runtime:** the generated user-local financial system operates from its own sources. Routine transactions do not require the upstream package or Moon Source retrieval.
 
-The canonical public transport artifact is now named for its actual role: `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`. The pre-release namespace therefore distinguishes the **Financial Living System** module from the **Adaptive Finance Bootstrap** mechanism that instantiates it.
+The package is indivisible in distribution but proportional in attention: all Financial Living System contracts remain available, while the executing AI loads only the internal material needed for the current field and step.
 
-If the Moon Source bridge is unavailable, discovery and compilation may still finish. The result must say `ready_for_installation`, not pretend that Moon Source-aware installation happened.
+If the Moon Source bridge is unavailable, package-based discovery and compilation may still finish. The result must say `ready_for_installation`, not pretend that Moon Source-aware installation happened.
 
 ## MSL 4.3 posture
 
@@ -61,7 +62,7 @@ This repository uses Markdown-native, proportionate materialization:
 - a test documents what was actually validated;
 - historical or superseded material is not allowed to govern the present by accident.
 
-The repository deliberately does not create a machine-readable module registry, package manager, website mirror, runtime service or skill adapter in `0.1.0-pre.3`.
+The repository deliberately does not create a machine-readable module registry, package manager, website mirror, runtime service or skill adapter in `0.1.0-pre.4`.
 
 ## Public/private boundary
 
