@@ -3,11 +3,12 @@
 
 # Finance Capability Map
 
-**Module:** Moon Cortex · Finance Bootstrap Seed  
-**Version:** `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System  
+**Bootstrap:** Adaptive Finance Bootstrap  
+**Version:** `0.1.0-pre.2`  
 **MSL:** 4.3
 
-The setup does not ask the user to choose technical engine names. It observes the financial field, identifies the missing capability and compiles the smallest adequate form.
+The bootstrap does not ask the user to choose technical capability names. It observes the financial field, identifies the missing capability and compiles the smallest adequate form.
 
 > **Access ≠ activation.**
 
@@ -58,7 +59,7 @@ Compile irregular-income and multi-currency layers, plus reserve or tax capabili
 
 ### Existing governed system
 
-Map equivalent responsibilities first. Integrate missing capabilities into the existing authority structure; do not create a parallel Moon-shaped system merely because the seed has a tidy tree.
+Map equivalent responsibilities first. Integrate missing capabilities into the existing authority structure; do not create a parallel Moon-shaped system merely because the bootstrap has a tidy tree.
 
 ## Deactivation and review
 
@@ -74,8 +75,10 @@ Deactivation preserves historical evidence. It does not erase past events.
 
 ## Public boundary
 
-Capability names are public abstractions. They do not disclose private compiler thresholds, scoring, source ordering or hidden runtime machinery.
+Capability names are public abstractions. Implementation-specific thresholds and private donor internals are outside the public contract unless explicitly documented here.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Moon Cortex · capability access is broad; activation is situated.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
