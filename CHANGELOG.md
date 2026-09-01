@@ -3,6 +3,18 @@
 
 # Changelog
 
+## 0.1.0-pre.3 — 2026-09-01
+
+Public namespace, orientation and distribution refinement of the first domain module.
+
+- renamed the module directory from `modules/finance-bootstrap/` to `modules/financial-living-system/` so the public namespace names the product rather than its setup mechanism;
+- renamed the canonical bootstrap artifact from `FINANCE_BOOTSTRAP_SEED.md` to `ADAPTIVE_FINANCE_BOOTSTRAP.md`;
+- rebuilt the Moon Cortex and Financial Living System READMEs from first principles using a problem-first, architecture-in-one-minute and download-forward orientation pattern;
+- added `downloads/financial-living-system.zip` as the complete current Financial Living System module archive;
+- advanced current module-facing version references to `0.1.0-pre.3` because canonical public routes changed;
+- preserved the Financial Living System functional contract, field-before-form behavior, automatic bootstrap activation, `access ≠ activation`, jurisdiction discovery, Moon Source bridge and local runtime sovereignty;
+- made no Moon Source repository changes.
+
 ## 0.1.0-pre.2 — 2026-09-01
 
 Editorial and architectural clarification of the first finance module without path churn.

@@ -11,7 +11,7 @@ The public body includes or may include:
 
 - Moon Cortex module identity and responsibility boundaries;
 - the **Financial Living System** as the current finance module/product identity;
-- the **Adaptive Finance Bootstrap** as the canonical instantiation mechanism, carried at the stable path `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`;
+- the **Adaptive Finance Bootstrap** as the canonical instantiation mechanism, carried at the stable path `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`;
 - generalized financial invariants and capability-routing rules;
 - synthetic, fictional, non-evidentiary setup examples;
 - installation and continuity contracts;

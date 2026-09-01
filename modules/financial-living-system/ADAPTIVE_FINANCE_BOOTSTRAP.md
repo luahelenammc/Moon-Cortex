@@ -5,12 +5,12 @@
 
 ## Adaptive Finance Bootstrap
 
-**Version:** `0.1.0-pre.2`  
+**Version:** `0.1.0-pre.3`  
 **Status:** public pre-release  
 **Language:** English-first; follow the user's language after activation  
 **Structural grammar:** MSL 4.3  
-**Canonical path:** `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`  
-**Path note:** historical filename retained for stable links; the mechanism's current name is **Adaptive Finance Bootstrap**
+**Canonical path:** `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`  
+**Artifact role:** canonical generative instantiation interface for the **Financial Living System**
 
 **Module / product identity:** Moon Cortex · Financial Living System  
 **Bootstrap mechanism:** Adaptive Finance Bootstrap  

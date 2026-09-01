@@ -3,7 +3,7 @@
 
 # Moon Cortex Licensing
 
-## License map for `0.1.0-pre.2`
+## License map for `0.1.0-pre.3`
 
 This release contains documentation, methods, public portables, examples and textual specifications. Those Moon-authored project files are offered under the **Creative Commons Attribution 4.0 International** license (`CC-BY-4.0`), subject to any file-level or third-party notice.
 
@@ -25,7 +25,7 @@ When sharing or adapting a material part of this repository, identify:
 
 Suggested adaptation credit:
 
-> Adapted from **Moon Cortex · Financial Living System**, instantiated through the **Adaptive Finance Bootstrap**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original bootstrap artifact: `luahelenammc/Moon-Cortex/modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`. Licensed under CC BY 4.0.
+> Adapted from **Moon Cortex · Financial Living System**, instantiated through the **Adaptive Finance Bootstrap**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original bootstrap artifact: `luahelenammc/Moon-Cortex/modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`. Licensed under CC BY 4.0.
 
 Attribution does not imply endorsement, partnership, certification, adoption or validation by Moon.
 

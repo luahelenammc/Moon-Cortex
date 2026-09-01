@@ -43,11 +43,11 @@ The short contract is:
 
 These are separate states:
 
-- **Transport:** the canonical bootstrap artifact at `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md` is self-contained and can begin setup without Moon Source.
+- **Transport:** the canonical bootstrap artifact at `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md` is self-contained and can begin setup without Moon Source.
 - **Installation:** a canonical Moon Source-aware installation consults the current public Moon Source repository, reads its Kernel first and uses only the methods needed for that installation.
 - **Runtime:** the generated user-local financial system operates from its own sources. Routine transactions do not require Moon Source retrieval.
 
-The historical filename `FINANCE_BOOTSTRAP_SEED.md` is retained for path stability. Its current semantic role is the **Adaptive Finance Bootstrap** for the Financial Living System.
+The canonical public transport artifact is now named for its actual role: `modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`. The pre-release namespace therefore distinguishes the **Financial Living System** module from the **Adaptive Finance Bootstrap** mechanism that instantiates it.
 
 If the Moon Source bridge is unavailable, discovery and compilation may still finish. The result must say `ready_for_installation`, not pretend that Moon Source-aware installation happened.
 
@@ -61,7 +61,7 @@ This repository uses Markdown-native, proportionate materialization:
 - a test documents what was actually validated;
 - historical or superseded material is not allowed to govern the present by accident.
 
-The repository deliberately does not create a machine-readable module registry, package manager, website mirror, runtime service or skill adapter in `0.1.0-pre.2`.
+The repository deliberately does not create a machine-readable module registry, package manager, website mirror, runtime service or skill adapter in `0.1.0-pre.3`.
 
 ## Public/private boundary
 
