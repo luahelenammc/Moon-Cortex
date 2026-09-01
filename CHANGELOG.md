@@ -10,6 +10,7 @@ Initial public pre-release foundation and first domain module.
 - introduced Moon Cortex as a pre-release module lineage;
 - marked the repository's public pre-inauguration through its first usable portable module, without presenting this as the full Moon Cortex launch;
 - added the Finance Bootstrap Seed as the canonical portable artifact;
+- corrected activation UX so the canonical seed self-starts when supplied as operative context, without requiring the user to know a command phrase;
 - separated transport, Moon Source-assisted installation and user-local runtime;
 - added public financial invariants, adaptive capability routing, installation profiles and reality tests;
 - added synthetic examples for simple salary, credit/non-monthly pay and irregular multi-currency income;
