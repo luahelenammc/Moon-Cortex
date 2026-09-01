@@ -7,6 +7,12 @@ Moon Cortex is a public pre-release lineage for domain modules that help AI syst
 
 The repository is intentionally small at this stage. **Finance Bootstrap Seed** is the first available module and the first test of a generative domain module inside Moon Cortex.
 
+## Pre-inauguration milestone
+
+On **2026-09-01**, Moon Cortex entered public **pre-inauguration** through its first usable portable module: **Finance Bootstrap Seed 0.1.0-pre.1**.
+
+This is intentionally narrower than a full Moon Cortex launch. It makes one bounded Cortex module publicly usable and inspectable while the broader Cortex taxonomy, module family and long-term architecture remain under development.
+
 ## Start with the module
 
 Open [`modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`](modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md) and give it to an AI with:
