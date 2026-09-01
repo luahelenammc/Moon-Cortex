@@ -15,9 +15,9 @@ This is intentionally narrower than a full Moon Cortex launch. It makes one boun
 
 ## Start with the module
 
-Open [`modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`](modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md) and give it to an AI with:
+Open or provide [`modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`](modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md) to an AI as operative context. The seed is **self-activating by default**: the AI should begin the adaptive bootstrap automatically unless the user explicitly asks only to read, review or analyze it without execution.
 
-> **Run this bootstrap with me.**
+The user does not need to know a command phrase or Moon Source vocabulary before receiving value.
 
 The Finance Bootstrap maps a user's financial reality before selecting capabilities or a file structure. It can run in standalone mode and can use the current public Moon Source repository as an installation bridge.
 
