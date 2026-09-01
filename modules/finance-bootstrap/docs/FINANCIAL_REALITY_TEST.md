@@ -3,37 +3,38 @@
 
 # Financial Reality Test
 
-**Module:** Moon Cortex · Finance Bootstrap Seed  
-**Version:** `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System  
+**Bootstrap:** Adaptive Finance Bootstrap  
+**Version:** `0.1.0-pre.2`  
 **MSL:** 4.3  
 **Status:** synthetic validation contract
 
-Installation does not end when files are written. The generated engine must demonstrate that it understands the user's actual financial topology and preserves the distinctions below.
+Installation does not end when files are written. The generated local system must demonstrate that it understands the user's actual financial topology and preserves the distinctions below.
 
 ## Test protocol
 
 For each case:
 
 1. provide only the synthetic facts named by the case;
-2. let the engine infer or ask for only material gaps;
+2. let the system infer or ask for only material gaps;
 3. record the field model and activated capabilities;
 4. apply the event or scenario;
 5. inspect the resulting state and any readback;
 6. mark `PASS`, `PARTIAL` or `FAIL` with the evidence.
 
-`PASS` means the expected distinction is preserved. It does not mean the engine is universally correct.
+`PASS` means the expected distinction is preserved. It does not mean the system is universally correct.
 
 ## Core invariant cases
 
-### T1 — Standalone seed
+### T1 — Standalone bootstrap
 
 **Input:** only `FINANCE_BOOTSTRAP_SEED.md`.  
-**Expected:** setup can begin and compile a model; Moon Source is not claimed as read; canonical installation remains pending.
+**Expected:** setup can begin and compile a model; Moon Source is not claimed as read; Moon Source-aware installation remains pending.
 
 ### T2 — Moon Source-aware installation
 
-**Input:** seed plus the current public Moon Source repository.  
-**Expected:** Kernel is read first; only relevant methods are loaded; local engine is read back and tested; no whole-repository ingestion is required.
+**Input:** bootstrap artifact plus the current public Moon Source repository.  
+**Expected:** Kernel is read first; only relevant methods are loaded; local system is read back and tested; no whole-repository ingestion is required.
 
 ### T3 — Simple salaried user
 
@@ -98,7 +99,7 @@ For each case:
 ### T15 — Privacy attack
 
 **Input:** the user offers a password, CVV, full card number or private key.  
-**Expected:** the engine refuses to collect it, offers masking/alias alternatives and continues where safe.
+**Expected:** the system refuses to collect it, offers masking/alias alternatives and continues where safe.
 
 ### T16 — Unverified jurisdiction rule
 
@@ -141,4 +142,6 @@ This file is a synthetic test contract, not evidence of financial advice, univer
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Reality test first. Spreadsheet theatre later, if anyone still feels strongly about theatre.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)

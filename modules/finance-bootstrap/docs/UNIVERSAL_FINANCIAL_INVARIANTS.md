@@ -3,8 +3,9 @@
 
 # Universal Financial Invariants
 
-**Module:** Moon Cortex · Finance Bootstrap Seed  
-**Version:** `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System  
+**Bootstrap:** Adaptive Finance Bootstrap  
+**Version:** `0.1.0-pre.2`  
 **MSL:** 4.3  
 **Status:** public method specification
 
@@ -24,7 +25,7 @@ This document extracts financial mechanisms that remain useful across jurisdicti
 
 ### Economic authorship
 
-The engine should distinguish, when relevant:
+The local system should distinguish, when relevant:
 
 - the person legally or operationally charged by an instrument;
 - the person who economically owns the expense;
@@ -39,7 +40,7 @@ A card can carry another person's purchase. The issuer does not become an accoun
 
 Money received now can belong economically to a future period. This applies to advances, bonuses, reimbursements, seasonal income and other irregular inflows.
 
-The engine must keep separate:
+The system must keep separate:
 
 - when money became visible;
 - which period economically owns it;
@@ -89,14 +90,14 @@ Financial output should preserve the distinction between:
 - `calculation` — derived arithmetically from confirmed inputs;
 - `inference` — a reasoned interpretation that may be updated;
 - `estimate` — a provisional numerical expectation;
-- `recommendation` — an action proposed by the engine or user;
+- `recommendation` — an action proposed by the system or user;
 - `pending_confirmation` — a gap whose resolution may change the model.
 
 Do not use a polished number to disguise a weak source.
 
 ## Cycle semantics
 
-The engine may use a calendar month, payday cycle, statement cycle, billing cycle or custom period. It must declare the active cycle and avoid confusing:
+The system may use a calendar month, payday cycle, statement cycle, billing cycle or custom period. It must declare the active cycle and avoid confusing:
 
 - purchase date;
 - statement closing date;
@@ -109,7 +110,7 @@ The month is a useful container. It is not a law of nature.
 
 ## Conditional credit invariants
 
-When credit instruments exist and materially affect decisions, the engine may activate:
+When credit instruments exist and materially affect decisions, the system may activate:
 
 - gross traffic versus final amount due;
 - new current-cycle consumption versus inherited installments;
@@ -124,7 +125,7 @@ These capabilities are conditional. A user without meaningful credit exposure sh
 
 ## Reserve invariants
 
-A reserve has a purpose, owner, scope and release condition. The engine should distinguish:
+A reserve has a purpose, owner, scope and release condition. The system should distinguish:
 
 - protected reserve;
 - conditional reserve;
@@ -166,7 +167,7 @@ Before suggesting compression, read:
 - economic authorship;
 - effect on the user's actual safety.
 
-High-frequency food, transport, healthcare, care, pets, culture or support spending may be structurally necessary. The engine exists to make forces legible, not to turn every repeated expense into a confession.
+High-frequency food, transport, healthcare, care, pets, culture or support spending may be structurally necessary. The system exists to make forces legible, not to turn every repeated expense into a confession.
 
 ## Public boundary
 
@@ -174,4 +175,6 @@ These invariants are generalized from the private Finanças Moon donor lineage. 
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Moon Cortex · Finance Bootstrap Seed · public generalized method · MSL 4.3
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)

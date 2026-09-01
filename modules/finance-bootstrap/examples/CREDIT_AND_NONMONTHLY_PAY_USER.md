@@ -4,7 +4,8 @@
 # Synthetic Example B · Credit and Non-Monthly Pay User
 
 **Status:** hypothetical / fictional / didactic / non-evidentiary  
-**Module:** Finance Bootstrap Seed `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System `0.1.0-pre.2`  
+**Bootstrap:** Adaptive Finance Bootstrap  
 **MSL:** 4.3
 
 This example demonstrates why a calendar-month budget can misread a biweekly earner with credit tails. It is fictional, not a case study.
@@ -87,7 +88,7 @@ The card ledger keeps separate fields for:
 
 ### Non-monthly income
 
-The engine uses the every-other-week rhythm as the primary cycle. A third pay event is recorded as a confirmed inflow when it occurs, but is not silently promoted to sustainable monthly baseline income.
+The local system uses the every-other-week rhythm as the primary cycle. A third pay event is recorded as a confirmed inflow when it occurs, but is not silently promoted to sustainable monthly baseline income.
 
 ### Credit purchase
 
@@ -103,7 +104,7 @@ An inherited installment remains a current liability with historical origin. A n
 
 ### Microfrequency
 
-Repeated transport and convenience events are aggregated by function and interval. The engine surfaces a pattern for review; it does not call the spending wasteful solely because it is frequent.
+Repeated transport and convenience events are aggregated by function and interval. The system surfaces a pattern for review; it does not call the spending wasteful solely because it is frequent.
 
 ### Reimbursement
 
@@ -115,7 +116,7 @@ The visible statement amount is `observed_ground`. Known future installments are
 
 ## Proportional reality check
 
-The engine passes this example if it:
+The system passes this example if it:
 
 - does not treat a third pay event as ordinary monthly baseline income;
 - distinguishes gross card traffic from amount due;
@@ -132,4 +133,6 @@ Reconfigure if the user stops using credit, changes pay rhythm, adds a currency,
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Synthetic example only. The cards are imaginary; their ability to create paperwork is not.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)

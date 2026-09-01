@@ -3,8 +3,9 @@
 
 # Privacy, Claims and Attribution Boundary
 
-**Module:** Moon Cortex · Finance Bootstrap Seed  
-**Version:** `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System  
+**Bootstrap:** Adaptive Finance Bootstrap  
+**Version:** `0.1.0-pre.2`  
 **MSL:** 4.3
 
 ## Safe input boundary
@@ -23,27 +24,28 @@ Third-party private information should remain out unless it is necessary, author
 
 ## Public disclosure boundary
 
-This repository must not contain:
+The released public module excludes:
 
 - personal salary, balance, credit limit, debt or account data;
 - statements, screenshots or private financial files;
 - family names, relationships or reimbursement details that identify real people;
 - medical, tax, care, surgery or other personal circumstances;
 - private source links or connector configuration;
-- a recognizable private transaction sequence disguised with aliases.
+- recognizable private transaction sequences disguised with aliases;
+- private implementation detail that is unnecessary to understand or use the public contract.
 
-Synthetic examples must be newly composed from generalized mechanisms. Sanitization is not a find-and-replace operation with a fake moustache.
+Published synthetic examples are newly composed from generalized mechanisms. They are not renamed copies of private financial situations.
 
 ## What the module may claim
 
 The public module may claim that it is:
 
-- an adaptive personal-finance organization and reconciliation bootstrap;
+- an adaptive personal-finance organization and reconciliation system family;
 - a mechanism for mapping financial reality before choosing structure;
 - a way to activate capabilities by observed need;
-- a portable, model-agnostic setup artifact;
+- instantiated through a portable, model-agnostic Adaptive Finance Bootstrap;
 - a method for separating cash, liability, receivable, reserve and temporal ownership;
-- capable of generating a local living finance system in a host that supports the required persistence and readback;
+- capable of generating a user-local living financial system in a host that supports the required persistence and readback;
 - generalized from repeated private dogfooding in the Finanças Moon donor system, without publishing that private corpus.
 
 ## What the module must not claim
@@ -68,7 +70,7 @@ When a current jurisdiction-specific rule materially changes the financial model
 2. verify it from an authoritative current source when available;
 3. record source, date and provisionality when useful;
 4. if verification is unavailable, mark the rule unknown or pending;
-5. do not turn the engine into tax, legal or investment advice.
+5. do not turn the system into tax, legal or investment advice.
 
 Currency and terminology do not identify a jurisdiction by themselves.
 
@@ -104,23 +106,24 @@ Donor lineage:
 
 Moon Source relationship:
 
-> Moon Source provides related public context-architecture and installation methods. It does not own this Finance module.
+> Moon Source provides related public context-architecture and installation methods. It does not own the Financial Living System.
 
 Preserve the canonical Moon Cortex path and the applicable CC BY 4.0 license when adapting the public artifact. Indicate material changes and do not imply endorsement.
 
-## Public QA checklist
+## Public integrity invariants
 
-Before publishing a change, check:
+The public release is intended to remain true to these properties:
 
-- no private links, balances, names, statements or transaction fragments escaped;
-- no local payment or tax term governs the universal schema without qualification;
-- no US-specific term governs the universal schema without qualification;
+- private links, balances, names, statements and transaction fragments remain outside the repository;
+- jurisdiction-specific payment or tax terms do not become universal schema without qualification;
 - examples remain fictional and non-evidentiary;
-- the claim ceiling matches the observed tests;
-- Moon Cortex is not presented as Moon Source;
-- Moon Source is not duplicated as a local dependency;
-- no `SKILL.md` is presented as the canonical pre-release artifact.
+- the claim ceiling stays bounded by observed tests;
+- Moon Cortex and Moon Source remain distinct systems with an explicit bridge;
+- Moon Source is not duplicated into the user's local runtime;
+- `FINANCE_BOOTSTRAP_SEED.md` remains the canonical bootstrap artifact path, while **Financial Living System** remains the module/product identity.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Publish enough to demonstrate the mechanism, not enough to reconstruct the private machine.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)

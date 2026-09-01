@@ -7,10 +7,11 @@ This repository is a public pre-release projection of Moon Cortex. It is intenti
 
 ## Public in this release
 
-The public body may include:
+The public body includes or may include:
 
-- module identity and responsibility boundaries;
-- the Finance Bootstrap Seed as a standalone portable artifact;
+- Moon Cortex module identity and responsibility boundaries;
+- the **Financial Living System** as the current finance module/product identity;
+- the **Adaptive Finance Bootstrap** as the canonical instantiation mechanism, carried at the stable path `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`;
 - generalized financial invariants and capability-routing rules;
 - synthetic, fictional, non-evidentiary setup examples;
 - installation and continuity contracts;
@@ -20,7 +21,7 @@ The public body may include:
 
 ## Outside the public body
 
-Do not publish through this repository:
+The public release excludes:
 
 - real personal salaries, balances, debts, credit limits or transactions;
 - account, card, authentication or payment identifiers;
@@ -29,32 +30,30 @@ Do not publish through this repository:
 - health, tax, surgery or other personal financial circumstances;
 - the private Finanças Moon source corpus;
 - Local Moon Source, Moon Professional Source or other private source corpora;
-- hidden resolver, compiler, scoring, reconciliation or mutation machinery;
+- private implementation details that are not required to understand or use the public module;
 - credentials, passwords, PINs, CVVs, seed phrases, private keys or tokens;
-- claims of adoption, endorsement, validation, savings or institutional readiness.
+- claims of adoption, endorsement, validation, savings or institutional readiness that are not supported by public evidence.
 
-## Sanitization rule
+## Synthetic-example boundary
 
-Sanitization is not replacing names and currency symbols inside a copied personal scenario. Public examples must be newly composed from generalized mechanisms. They must not preserve a recognizable sequence of private transactions or personal circumstances under aliases.
+Published examples are newly composed from generalized mechanisms. They do not preserve recognizable private transaction sequences or personal circumstances under aliases.
+
+The examples demonstrate routing and accounting distinctions; they are not case studies, proof of adoption or measured-outcome evidence.
 
 ## Moon Source relationship
 
-Moon Source is a public method repository and installation reference. It is not the owner of Moon Cortex or the Finance module. The current public repository is consulted at installation time because its Kernel, connected-source discipline, MSL and reliability methods are current public context-governance authorities for that bridge.
+Moon Source is a public method repository and installation/context-governance reference. It is not the owner of Moon Cortex or the Financial Living System.
 
-The bridge must not copy Moon Source wholesale into this repository, and a generated user-local engine must not poll Moon Source for routine financial runtime.
+The current public Moon Source repository may be consulted at installation time because its Kernel and relevant public methods can govern context shape, connected-source authority, readback, reliability and MSL materialization. The generated user-local financial system does not depend on routine Moon Source polling after installation.
 
-## Synthetic examples
+## Disclosure principle
 
-Files under `modules/finance-bootstrap/examples/` are fictional didactic scenarios. They illustrate routing and accounting behavior only. They are not case studies, proof of adoption, measured outcomes or evidence that a named person or organization used the module.
+The public body exposes the module's identity, functional contract, interfaces, invariants, examples, validation boundaries and provenance. Private donor data and unnecessary private implementation detail remain outside that contract.
 
-## Public reconstruction test
-
-Before adding material, ask:
-
-> Could a competent outsider reconstruct a material part of the private donor runtime, hidden compiler or personal corpus from the combination now published?
-
-If yes, reduce the disclosure to principles, responsibilities, interfaces or bounded synthetic examples.
+This boundary protects both inspectability and local sovereignty: a user should be able to understand what the public module does without the repository becoming a mirror of a private donor system.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> 🌙 **Moon Cortex** · public pre-release boundary · private source corpora and personal donor data remain outside this repository.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)

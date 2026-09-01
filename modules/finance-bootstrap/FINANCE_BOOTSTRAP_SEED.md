@@ -1,45 +1,50 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Moon Cortex · Finance Bootstrap Seed
+# Moon Cortex · Financial Living System
 
-**Version:** `0.1.0-pre.1`  
+## Adaptive Finance Bootstrap
+
+**Version:** `0.1.0-pre.2`  
 **Status:** public pre-release  
 **Language:** English-first; follow the user's language after activation  
 **Structural grammar:** MSL 4.3  
-**Canonical path:** `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`
+**Canonical path:** `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md`  
+**Path note:** historical filename retained for stable links; the mechanism's current name is **Adaptive Finance Bootstrap**
 
+**Module / product identity:** Moon Cortex · Financial Living System  
+**Bootstrap mechanism:** Adaptive Finance Bootstrap  
 **Creator and final human authority:** Lua Helena Moon Martins Cardoso (Moon)  
 **AI-assisted coauthorial development:** Moon + Áurion  
 **Moon Source relation:** public installation/context-governance bridge, not module ownership  
 **Donor lineage:** generalized from the private donor system Finanças Moon; no private donor data is included  
 **Standalone dependency:** none  
-**Canonical installation dependency:** current public Moon Source access at [luahelenammc/Moon-Source](https://github.com/luahelenammc/Moon-Source)  
+**Moon Source-aware installation dependency:** current public Moon Source access at [luahelenammc/Moon-Source](https://github.com/luahelenammc/Moon-Source)  
 **Routine runtime dependency after installation:** none
 
 ## Automatic activation
 
-When this file is supplied to an AI as operative context, **begin the adaptive Finance Bootstrap automatically**. No command phrase is required.
+When this file is supplied to an AI as operative context, **begin the Adaptive Finance Bootstrap automatically**. No command phrase is required.
 
-Do not begin execution only when the user explicitly asks to read, review, explain or analyze the seed without running it, or when a higher-priority instruction clearly makes execution inappropriate.
+Do not begin execution only when the user explicitly asks to read, review, explain or analyze the bootstrap without running it, or when a higher-priority instruction clearly makes execution inappropriate.
 
 Use this file as an adaptive interface. Do not summarize it back before doing the work unless the user explicitly asks for a summary.
 
 ## Product law
 
-This is a **generative seed**, not a fixed Personal Finance Engine.
+The **Financial Living System** is the finance module/product identity. This file is its **generative bootstrap mechanism**, not a fixed personal-finance template.
 
 ```text
-Finance Bootstrap Seed
-        ↓ adaptive setup
+Financial Living System
+        ↓ instantiated through
+Adaptive Finance Bootstrap
+        ↓ adaptive field discovery
 Financial Field Model
-        ↓ capability compilation
-Personal Finance Engine specification
-        ↓ installation
-User-local Living Financial System
+        ↓ capability compilation + local form
+user-local living financial system
 ```
 
-> **Do not give everyone the same finance template. Map the user's financial reality first, then generate the smallest Finance Engine that actually fits it.**
+> **Do not give everyone the same finance template. Map the user's financial reality first, then generate the smallest local finance system that actually fits it.**
 
 ## Operating contract for the executing AI
 
@@ -53,14 +58,14 @@ The executing AI should:
 - use ordinary financial language and introduce technical terms only when they help;
 - protect secrets and unnecessary sensitive detail;
 - choose the destination and host before creating a rich structure;
-- produce the generated result rather than merely explaining the seed;
+- produce the generated result rather than merely explaining the bootstrap;
 - perform readback after any authorized source mutation;
 - never claim Moon Source was consulted unless it was actually retrieved during the current installation;
 - never claim installation success when only setup or compilation was completed.
 
 The AI should act like an interface. The user should not need to know Moon Source or Finanças Moon vocabulary.
 
-## Standalone versus canonical installation
+## Standalone versus Moon Source-aware installation
 
 ### Standalone mode
 
@@ -73,11 +78,11 @@ With only this file available, the AI may:
 - choose an installation profile;
 - produce an installation-ready packet.
 
-It must not claim to have read Moon Source or to have completed canonical installation.
+It must not claim to have read Moon Source or to have completed Moon Source-aware installation.
 
-### Canonical installation mode
+### Moon Source-aware installation mode
 
-When the current public Moon Source repository is reachable, use the installation bridge in [`docs/MOON_SOURCE_INSTALLATION_BRIDGE.md`](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md). Read the Moon Source Kernel first, load only the smallest relevant public methods, materialize the local engine, read it back and run the proportional Financial Reality Test.
+When the current public Moon Source repository is reachable, use the installation bridge in [`docs/MOON_SOURCE_INSTALLATION_BRIDGE.md`](docs/MOON_SOURCE_INSTALLATION_BRIDGE.md). Read the Moon Source Kernel first, load only the smallest relevant public methods, materialize the local system, read it back and run the proportional Financial Reality Test.
 
 After successful installation:
 
@@ -173,7 +178,7 @@ Activate only instruments that exist:
 - personal, education, housing, tax, institutional or informal debt;
 - other local liabilities.
 
-If the user has no card, do not materialize card intelligence merely because this seed knows how to spell “installment.”
+If the user has no card, do not materialize card intelligence merely because this bootstrap knows how to spell “installment.”
 
 #### Obligation topology
 
@@ -216,7 +221,7 @@ High frequency does not imply waste. Read function, need, accessibility, recurre
 
 ### 4. Discover the host
 
-Before materializing the engine, determine where it can live:
+Before materializing the local system, determine where it can live:
 
 - AI/model environment;
 - persistent workspace availability;
@@ -265,7 +270,7 @@ The user should not need to learn Moon Source, Finanças Moon or another country
 
 ## Capability compiler
 
-Compile by observed need. The presence of a capability in this file is not evidence that it belongs in the user's engine.
+Compile by observed need. The presence of a capability in this file is not evidence that it belongs in the user's system.
 
 ### Core capabilities
 
@@ -309,7 +314,7 @@ Examples:
 
 ## Accounting and state contract
 
-The generated engine must preserve, when relevant:
+The generated system must preserve, when relevant:
 
 - credit purchase creates future liability; it is not immediate cash outflow;
 - statement payment is cash outflow plus liability settlement, not a second economic expense;
@@ -349,7 +354,7 @@ Use when persistent multi-file storage, retrieval and readback are reliable. Typ
 - optional specialized ledgers;
 - closed cycles and history.
 
-Exact file names are compiled locally. The donor's personal filenames are not exported.
+Exact file names are compiled locally. Private donor filenames are not part of the public contract.
 
 ### `compact_source_system`
 
@@ -368,7 +373,7 @@ For a constrained host, use one clearly sectioned living source. State the reduc
 
 Inspect the existing system, map equivalent responsibilities, preserve working names and add only missing finance responsibilities. Do not build a parallel context empire.
 
-## Continuity contract for the generated engine
+## Continuity contract for the generated system
 
 The installation must define:
 
@@ -385,7 +390,7 @@ The local system may use simpler names than this portable. Preserve responsibili
 
 ## Moon Source installation bridge
 
-Canonical installation uses current public Moon Source only at the installation boundary:
+Moon Source-aware installation uses current public Moon Source only at the installation boundary:
 
 1. resolve the current public repository;
 2. read `MOON_SOURCE_AI_KERNEL.md` first;
@@ -393,7 +398,7 @@ Canonical installation uses current public Moon Source only at the installation 
 4. route only to the public methods materially needed by this host and field;
 5. avoid recursive whole-repository ingestion;
 6. choose the local form;
-7. materialize the Finance Engine;
+7. materialize the user-local financial system;
 8. read it back from the authoritative destination;
 9. run the Financial Reality Test;
 10. declare success only when the intended local state and validation are visible.
@@ -404,7 +409,7 @@ If Moon Source is unavailable:
 setup_status = complete
 financial_model_status = compiled
 installation_status = ready_for_installation
-canonical_installation_complete = false
+moon_source_aware_installation_complete = false
 ```
 
 Return the exact resume instruction and do not claim that current Moon Source methods were used.
@@ -463,22 +468,24 @@ Do not expose internal routing machinery merely to make the report look sophisti
 
 ## Public claim ceiling
 
-This seed may claim that it is an adaptive personal-finance organization and reconciliation bootstrap; that it maps a user's financial field; that it can route capabilities by need; and that it supports explicit cash, liability, reserve, receivable and temporal-ownership distinctions.
+The Financial Living System may claim that its Adaptive Finance Bootstrap maps a user's financial field, routes capabilities by need and supports explicit cash, liability, reserve, receivable and temporal-ownership distinctions for building a user-local finance organization and reconciliation system.
 
 It must not claim financial-advisor, fiduciary, tax, legal or investment status; guaranteed savings or debt reduction; universal country support; automatic bank access; universal statement parsing; regulatory compliance; external adoption; measured impact; production readiness; or correctness in every environment.
 
 ## Attribution and lineage
 
-Moon Cortex and this Finance Bootstrap Seed were created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion**. The financial architecture was generalized from the private donor system **Finanças Moon**.
+Moon Cortex · Financial Living System and its Adaptive Finance Bootstrap were created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion**. The financial architecture was generalized from the private donor system **Finanças Moon**.
 
-Moon Source is the public related method repository used as an installation bridge:
+Moon Source is the public related method repository used as an installation/context-governance bridge:
 
 - https://github.com/luahelenammc/Moon-Source
 - https://www.luahelena.com.br/moonsource/?lang=en
 - https://www.luahelena.com.br/ia/?lang=en
 
-This is a local adaptation and domain extraction, not an official Moon Source portable. No endorsement, partnership or adoption is implied.
+This is a Moon Cortex domain module, not an official Moon Source portable. No endorsement, partnership or adoption is implied.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> 🌙 **Moon Cortex · Finance Bootstrap Seed 0.1.0-pre.1** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [License](../../LICENSING.md) · [Moon Source installation reference](https://github.com/luahelenammc/Moon-Source)
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)

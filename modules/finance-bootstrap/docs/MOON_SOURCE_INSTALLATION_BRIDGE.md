@@ -3,44 +3,45 @@
 
 # Moon Source Installation Bridge
 
-**Module:** Moon Cortex · Finance Bootstrap Seed  
-**Version:** `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System  
+**Bootstrap:** Adaptive Finance Bootstrap  
+**Version:** `0.1.0-pre.2`  
 **MSL:** 4.3  
 **Bridge status:** public specification
 
-## The three-body boundary
+## The boundary
 
 ```text
-Moon Cortex
-defines Finance module identity
-        ↓
-Finance Bootstrap Seed
-discovers and compiles the user's financial system
-        ↓
+Moon Cortex · Financial Living System
+defines the finance module identity
+        ↓ instantiated through
+Adaptive Finance Bootstrap
+discovers and compiles the user's financial field
+        ↓ optional installation governance
 Moon Source
-contributes current public installation/context-governance methods
+contributes current public context-architecture methods
         ↓
-User-local Finance Engine
+user-local living financial system
 owns operational runtime after installation
 ```
 
 Canonical sentence:
 
-> **Moon Cortex defines the module's functional lineage. Moon Source helps install it as governed living context. The resulting finance system belongs operationally to the user.**
+> **Moon Cortex defines the Financial Living System. The Adaptive Finance Bootstrap instantiates it from the user's field. Moon Source can govern installation context. The resulting local system belongs operationally to the user.**
 
 ## Transport, installation and runtime
 
 ### Transport
 
-The Finance Bootstrap Seed is independently readable and executable as a setup interface. It does not require the Moon Source repository to begin discovery or finish the Financial Field Model.
+The canonical bootstrap artifact is independently readable and executable as a setup interface. It does not require the Moon Source repository to begin discovery or finish the Financial Field Model.
 
 ### Installation
 
-A canonical completed installation requires current access to the public [`luahelenammc/Moon-Source`](https://github.com/luahelenammc/Moon-Source) repository. The current public method is part of the installation boundary, not a private corpus embedded into this module.
+A Moon Source-aware completed installation requires current access to the public [`luahelenammc/Moon-Source`](https://github.com/luahelenammc/Moon-Source) repository. The current public method is part of the installation boundary, not a private corpus embedded into this module.
 
 ### Runtime
 
-After installation, the generated Finance Engine operates from its own local sources. Routine transaction logging, reconciliation and cycle updates do not fetch Moon Source on every invocation.
+After installation, the generated user-local financial system operates from its own local sources. Routine transaction logging, reconciliation and cycle updates do not fetch Moon Source on every invocation.
 
 ## Installation gate
 
@@ -53,7 +54,7 @@ The executing AI must:
 5. load only the smallest relevant current public methods;
 6. avoid recursive whole-repository ingestion;
 7. resolve the local form and authority boundaries;
-8. materialize or integrate the user's Finance Engine;
+8. materialize or integrate the user's local financial system;
 9. read the authoritative destination back;
 10. run the proportional Financial Reality Test;
 11. report the exact installation state, sources used, validation and remaining uncertainty.
@@ -107,7 +108,7 @@ Use:
 setup_status = complete
 financial_model_status = compiled
 installation_status = ready_for_installation
-canonical_installation_complete = false
+moon_source_aware_installation_complete = false
 ```
 
 State exactly what must be resumed after access is restored. Never claim to have consulted current Moon Source from memory.
@@ -136,7 +137,7 @@ Installation is complete only if a later routine finance event can be handled fr
 
 ## Bridge attribution
 
-This bridge uses public Moon Source methods as a related installation lineage. It is a Moon Cortex adaptation and does not claim that Moon Source owns, endorses, validates or adopts the Finance module.
+This bridge uses public Moon Source methods as related installation lineage. It is part of Moon Cortex · Financial Living System and does not claim that Moon Source owns, endorses, validates or adopts the module.
 
 Canonical public references:
 
@@ -146,4 +147,6 @@ Canonical public references:
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Moon Cortex by identity. Moon Source by installation. User-local sovereignty by runtime.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
