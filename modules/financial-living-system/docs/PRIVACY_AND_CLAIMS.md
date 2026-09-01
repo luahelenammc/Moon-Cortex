@@ -5,7 +5,7 @@
 
 **Module:** Moon Cortex · Financial Living System  
 **Bootstrap:** Adaptive Finance Bootstrap  
-**Version:** `0.1.0-pre.2`  
+**Version:** `0.1.0-pre.3`  
 **MSL:** 4.3
 
 ## Safe input boundary
@@ -120,7 +120,7 @@ The public release is intended to remain true to these properties:
 - the claim ceiling stays bounded by observed tests;
 - Moon Cortex and Moon Source remain distinct systems with an explicit bridge;
 - Moon Source is not duplicated into the user's local runtime;
-- `FINANCE_BOOTSTRAP_SEED.md` remains the canonical bootstrap artifact path, while **Financial Living System** remains the module/product identity.
+- `ADAPTIVE_FINANCE_BOOTSTRAP.md` remains the canonical bootstrap artifact path, while **Financial Living System** remains the module/product identity.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

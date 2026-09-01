@@ -4,7 +4,7 @@
 # Synthetic Example B · Credit and Non-Monthly Pay User
 
 **Status:** hypothetical / fictional / didactic / non-evidentiary  
-**Module:** Moon Cortex · Financial Living System `0.1.0-pre.2`  
+**Module:** Moon Cortex · Financial Living System `0.1.0-pre.3`  
 **Bootstrap:** Adaptive Finance Bootstrap  
 **MSL:** 4.3
 

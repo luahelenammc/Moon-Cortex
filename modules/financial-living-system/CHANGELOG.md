@@ -3,6 +3,16 @@
 
 # Financial Living System Changelog
 
+## 0.1.0-pre.3 — 2026-09-01
+
+Canonical product namespace and public-entrypoint release.
+
+- moved the module to `modules/financial-living-system/` so the directory names the product rather than the bootstrap mechanism;
+- renamed the canonical instantiation artifact to `ADAPTIVE_FINANCE_BOOTSTRAP.md`;
+- rebuilt this README as a problem-first entrypoint with a one-minute architecture, adaptive-start route, examples, evidence boundaries and repository map;
+- added a complete downloadable module archive at `downloads/financial-living-system.zip`;
+- kept the Adaptive Finance Bootstrap self-activating and preserved all existing financial invariants, capability routing and installation-state semantics.
+
 ## 0.1.0-pre.2 — 2026-09-01
 
 Public identity and editorial architecture patch.

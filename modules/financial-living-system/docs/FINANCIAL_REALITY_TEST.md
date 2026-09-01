@@ -5,7 +5,7 @@
 
 **Module:** Moon Cortex · Financial Living System  
 **Bootstrap:** Adaptive Finance Bootstrap  
-**Version:** `0.1.0-pre.2`  
+**Version:** `0.1.0-pre.3`  
 **MSL:** 4.3  
 **Status:** synthetic validation contract
 
@@ -28,7 +28,7 @@ For each case:
 
 ### T1 — Standalone bootstrap
 
-**Input:** only `FINANCE_BOOTSTRAP_SEED.md`.  
+**Input:** only `ADAPTIVE_FINANCE_BOOTSTRAP.md`.  
 **Expected:** setup can begin and compile a model; Moon Source is not claimed as read; Moon Source-aware installation remains pending.
 
 ### T2 — Moon Source-aware installation
