@@ -4,7 +4,8 @@
 # Synthetic Example C · Irregular Multi-Currency User
 
 **Status:** hypothetical / fictional / didactic / non-evidentiary  
-**Module:** Finance Bootstrap Seed `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System `0.1.0-pre.2`  
+**Bootstrap:** Adaptive Finance Bootstrap  
 **MSL:** 4.3
 
 This example demonstrates irregular income, two currencies and integration into an existing personal knowledge system. It is fictional, not a case study.
@@ -20,7 +21,7 @@ The fictional user says:
 - the user already maintains a spreadsheet with current balances and a history tab;
 - the spreadsheet is useful, but it does not distinguish confirmed income from expected contracts or record conversion evidence.
 
-The user asks for an engine that fits the existing spreadsheet instead of replacing it.
+The user asks for a system that fits the existing spreadsheet instead of replacing it.
 
 ## Field model
 
@@ -60,7 +61,7 @@ Not activated:
 
 ## Integration plan
 
-The existing spreadsheet remains the numerical ledger if its current values and formulas are read back successfully. The Finance Engine adds only missing responsibilities:
+The existing spreadsheet remains the numerical ledger if its current values and formulas are read back successfully. The Financial Living System adds only missing responsibilities:
 
 - confirmed versus expected income;
 - currency-specific balance fields;
@@ -70,21 +71,21 @@ The existing spreadsheet remains the numerical ledger if its current values and 
 - review and close triggers;
 - unresolved difference field.
 
-The engine does not build a parallel five-file empire merely because five files are aesthetically pleasing.
+The bootstrap does not build a parallel five-file empire merely because five files are aesthetically pleasing.
 
 ## Expected behavior
 
 An unsigned or unpaid contract is `expected_income`, not current cash. A received payment is a confirmed inflow in its original currency.
 
-Converting `CUR-B` to `CUR-A` is recorded as a linked currency movement. The engine preserves the original amounts and requires an explicit rate, source and date before presenting a converted total.
+Converting `CUR-B` to `CUR-A` is recorded as a linked currency movement. The local system preserves the original amounts and requires an explicit rate, source and date before presenting a converted total.
 
 The tax reserve remains outside free operating cash. A review cycle can compare expected obligations with the reserve, but cannot release it without an explicit decision and event.
 
-At close, the engine reconciles each currency separately, then reports any translated view as a derived calculation with its conversion evidence.
+At close, the system reconciles each currency separately, then reports any translated view as a derived calculation with its conversion evidence.
 
 ## Proportional reality check
 
-The engine passes this example if it:
+The system passes this example if it:
 
 - keeps future contracts outside confirmed cash;
 - does not silently convert or merge currencies;
@@ -96,8 +97,10 @@ The engine passes this example if it:
 
 ## Update triggers
 
-Review the engine if the user becomes salaried, adds material credit, changes tax residence, introduces a third currency, changes the spreadsheet's authority or adopts a host with different readback guarantees.
+Review the system if the user becomes salaried, adds material credit, changes tax residence, introduces a third currency, changes the spreadsheet's authority or adopts a host with different readback guarantees.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Synthetic example only. Two currencies enter; one spreadsheet leaves slightly more adult.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
