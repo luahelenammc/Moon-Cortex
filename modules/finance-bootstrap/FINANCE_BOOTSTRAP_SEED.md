@@ -17,13 +17,13 @@
 **Canonical installation dependency:** current public Moon Source access at [luahelenammc/Moon-Source](https://github.com/luahelenammc/Moon-Source)  
 **Routine runtime dependency after installation:** none
 
-## Start here
+## Automatic activation
 
-Give this file to an AI and say:
+When this file is supplied to an AI as operative context, **begin the adaptive Finance Bootstrap automatically**. No command phrase is required.
 
-> **Run this bootstrap with me.**
+Do not begin execution only when the user explicitly asks to read, review, explain or analyze the seed without running it, or when a higher-priority instruction clearly makes execution inappropriate.
 
-The AI must use this file as an adaptive interface. It should not summarize the file back before doing the work.
+Use this file as an adaptive interface. Do not summarize it back before doing the work unless the user explicitly asks for a summary.
 
 ## Product law
 
