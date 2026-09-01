@@ -28,7 +28,7 @@ The goal is not maximal machinery. The goal is the smallest living capability th
 | If you need to… | Start here |
 |---|---|
 | Build a personal finance organization and reconciliation system around a real financial situation | [Financial Living System](modules/financial-living-system/README.md) |
-| Let an AI discover that financial field and instantiate the system adaptively | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md) |
+| Use the Financial Living System with an AI | [Download the complete Financial Living System package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) and keep the full package together |
 | Understand what Moon Cortex owns versus the bootstrap, Moon Source and the user-local runtime | [Architecture](ARCHITECTURE.md) |
 | Inspect what is public, synthetic or deliberately excluded | [Public Boundary](PUBLIC_BOUNDARY.md) |
 | Reuse or adapt public material with correct attribution | [Licensing](LICENSING.md) |
@@ -67,19 +67,19 @@ A few principles carry most of the architecture:
 
 | Module | Public responsibility | Instantiation | Status |
 |---|---|---|---|
-| [Financial Living System](modules/financial-living-system/README.md) | Personal-finance organization, state and reconciliation shaped around the user's actual financial field | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md) | `0.1.0-pre.3` |
+| [Financial Living System](modules/financial-living-system/README.md) | Personal-finance organization, state and reconciliation shaped around the user's actual financial field | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md) | `0.1.0-pre.4` |
 
 Finance is the first demonstrated domain, not a decree that every future Cortex module must use the same packaging or bootstrap pattern.
 
 ## Financial Living System
 
-The Financial Living System is not a budget template and does not require the user to know Moon Cortex vocabulary. Its canonical bootstrap is self-activating when supplied as operative context, unless the user explicitly asks only to read, review or analyze it.
+The Financial Living System is not a budget template and does not require the user to know Moon Cortex vocabulary. Its canonical transport unit is the complete module ZIP. The Adaptive Finance Bootstrap is the entrypoint inside that package, not a separate installable product.
 
 It can remain small for a simple salaried user or compile additional capabilities when the field actually contains credit tails, reimbursements, irregular income, multiple currencies, protected reserves, shared costs or other material complexity.
 
-📘 [**Open the module README**](modules/financial-living-system/README.md) for the problem-first orientation, installation states, examples and module map.
+📦 [**Download the complete Financial Living System module (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) — this is the default transport and use surface.
 
-📦 [**Download the complete Financial Living System module (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip).
+📘 [**Open the module README**](modules/financial-living-system/README.md) for package-first usage, installation states, examples and internal anatomy.
 
 ## Moon Cortex and Moon Source
 
@@ -121,7 +121,7 @@ Use this README for orientation; use deeper files only when the responsibility b
 ## Current baseline
 
 **Status:** public pre-release / pre-inauguration  
-**Current public module:** Financial Living System `0.1.0-pre.3`  
+**Current public module:** Financial Living System `0.1.0-pre.4`  
 **Current instantiation mechanism:** Adaptive Finance Bootstrap  
 **Structural grammar:** MSL 4.3
 

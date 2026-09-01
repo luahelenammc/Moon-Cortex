@@ -5,7 +5,7 @@
 
 **Module:** Moon Cortex · Financial Living System  
 **Bootstrap:** Adaptive Finance Bootstrap  
-**Version:** `0.1.0-pre.3`  
+**Version:** `0.1.0-pre.4`  
 **MSL:** 4.3  
 **Bridge status:** public specification
 
@@ -33,7 +33,7 @@ Canonical sentence:
 
 ### Transport
 
-The canonical bootstrap artifact is independently readable and executable as a setup interface. It does not require the Moon Source repository to begin discovery or finish the Financial Field Model.
+The canonical transport unit is the complete Financial Living System package. `ADAPTIVE_FINANCE_BOOTSTRAP.md` is the entry interface inside that package, while the companion files remain available as cooperating contracts. The package does not require the Moon Source repository to begin discovery or finish the Financial Field Model. An isolated bootstrap file is not the canonical Financial Living System transport.
 
 ### Installation
 

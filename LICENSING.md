@@ -3,7 +3,7 @@
 
 # Moon Cortex Licensing
 
-## License map for `0.1.0-pre.3`
+## License map for `0.1.0-pre.4`
 
 This release contains documentation, methods, public portables, examples and textual specifications. Those Moon-authored project files are offered under the **Creative Commons Attribution 4.0 International** license (`CC-BY-4.0`), subject to any file-level or third-party notice.
 
