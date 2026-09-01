@@ -4,10 +4,11 @@
 # Synthetic Example A · Simple Salaried User
 
 **Status:** hypothetical / fictional / didactic / non-evidentiary  
-**Module:** Finance Bootstrap Seed `0.1.0-pre.1`  
+**Module:** Moon Cortex · Financial Living System `0.1.0-pre.2`  
+**Bootstrap:** Adaptive Finance Bootstrap  
 **MSL:** 4.3
 
-This example demonstrates that the seed can stay small. It is not a case study and does not represent a real person.
+This example demonstrates that the bootstrap can stay small. It is not a case study and does not represent a real person.
 
 ## Field supplied
 
@@ -56,7 +57,7 @@ Not activated:
 - Multi-Currency Layer;
 - Irregular Income Layer.
 
-The seed does not hand this user a credit-card dashboard simply because the dashboard exists. A rare victory for restraint.
+The bootstrap does not hand this user a credit-card dashboard simply because the dashboard exists. A rare victory for restraint.
 
 ## Installation profile
 
@@ -71,15 +72,15 @@ A full specialized-ledger tree would add maintenance without adding a current ca
 
 ## Expected local behavior
 
-When the salary arrives, the engine records confirmed cash. It then marks the portion assigned to recurring obligations and the protected emergency reserve. Only the remainder is operating cash.
+When the salary arrives, the local system records confirmed cash. It then marks the portion assigned to recurring obligations and the protected emergency reserve. Only the remainder is operating cash.
 
 Moving money from the current account to savings is an internal transfer. It is not new income or spending.
 
-At cycle close, the engine reconciles opening cash, salary, paid obligations, transfers and closing cash, then carries only open commitments into the next cycle.
+At cycle close, the system reconciles opening cash, salary, paid obligations, transfers and closing cash, then carries only open commitments into the next cycle.
 
 ## Proportional reality check
 
-The engine passes this example if it:
+The system passes this example if it:
 
 - excludes the protected emergency reserve from free operating cash;
 - does not invent card or installment machinery;
@@ -93,4 +94,6 @@ Review the installation if the user adds credit, irregular income, shared expens
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
-> Synthetic example only. No adoption, impact or financial-advice claim is made.
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
