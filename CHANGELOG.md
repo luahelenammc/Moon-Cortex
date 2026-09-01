@@ -3,6 +3,19 @@
 
 # Changelog
 
+## 0.1.0-pre.2 — 2026-09-01
+
+Editorial and architectural clarification of the first finance module without path churn.
+
+- promoted **Moon Cortex · Financial Living System** as the finance module/product identity;
+- named the canonical setup mechanism **Adaptive Finance Bootstrap** while retaining `modules/finance-bootstrap/FINANCE_BOOTSTRAP_SEED.md` as the stable bootstrap artifact path;
+- clarified the relationship between module identity, bootstrap instantiation, Moon Source-assisted installation governance and user-local runtime sovereignty;
+- removed or reframed publication-process residue that belonged to authoring/sanitization workflow rather than the finished public module;
+- preserved runtime privacy, credential, jurisdiction, claim and readback safeguards;
+- standardized a compact Moon Cortex credits/attribution stamp across tracked public Markdown documents, including canonical licensing, Moon Source and professional-context routes;
+- preserved `field before form`, `access ≠ activation`, internationalization/jurisdiction discovery, existing-system integration and automatic bootstrap activation;
+- made no path rename, no bank-connector addition, no autonomous-transaction claim and no Moon Source modification.
+
 ## 0.1.0-pre.1 — 2026-09-01
 
 Initial public pre-release foundation and first domain module.
@@ -17,4 +30,10 @@ Initial public pre-release foundation and first domain module.
 - added explicit privacy, claims, attribution and licensing boundaries;
 - kept the repository free of private Finanças Moon content, bank connectors, autonomous transactions and `SKILL.md` adapters.
 
-This is a pre-release. Future Cortex architecture is not finalized by this changelog entry.
+This remains a pre-release. Future Cortex architecture is not finalized by these entries.
+
+<!-- MOON-CORTEX-PUBLIC-STAMP -->
+
+---
+
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
