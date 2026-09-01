@@ -29,9 +29,7 @@ The central law is:
 
 ## Start
 
-Give the canonical file to an AI and say:
-
-> **Run this bootstrap with me.**
+Provide the canonical seed to an AI as operative context. **No command phrase is required.** The seed should activate automatically and begin setup unless the user explicitly asks only to read, review or analyze it without execution.
 
 The AI should begin setup rather than recite the file. It should inspect supplied financial material first, ask only questions that can change the result, protect sensitive data and explain where the generated engine should live.
 
