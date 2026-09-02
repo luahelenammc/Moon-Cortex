@@ -3,6 +3,15 @@
 
 # Changelog
 
+## Unreleased
+
+Public-safe preview surface for incubated Moon Cortex module families.
+
+- added `PREVIEW.md` as a deliberately low-detail showcase of top-level incubated module families;
+- surfaced **Image Cortex**, **Voice, Text Engines & Interfaces**, **Music, Media & Taste Engines** and **Adaptive Learning Loop** without publishing internal architecture or private donor material;
+- clarified that incubation is not a release promise and that names, scope, packaging and publication order may still change;
+- linked the preview from the root README without changing the current public-module baseline or Financial Living System version.
+
 ## 0.1.0-pre.4 — 2026-09-01
 
 Integrated-package contract clarification for the Financial Living System.
