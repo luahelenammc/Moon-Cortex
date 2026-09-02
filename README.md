@@ -29,6 +29,7 @@ The goal is not maximal machinery. The goal is the smallest living capability th
 |---|---|
 | Build a personal finance organization and reconciliation system around a real financial situation | [Financial Living System](modules/financial-living-system/README.md) |
 | Use the Financial Living System with an AI | [Download the complete Financial Living System package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) and keep the full package together |
+| Preview the module families currently incubating behind the public boundary | [Incubated Modules Preview](PREVIEW.md) |
 | Understand what Moon Cortex owns versus the bootstrap, Moon Source and the user-local runtime | [Architecture](ARCHITECTURE.md) |
 | Inspect what is public, synthetic or deliberately excluded | [Public Boundary](PUBLIC_BOUNDARY.md) |
 | Reuse or adapt public material with correct attribution | [Licensing](LICENSING.md) |
@@ -71,6 +72,8 @@ A few principles carry most of the architecture:
 
 Finance is the first demonstrated domain, not a decree that every future Cortex module must use the same packaging or bootstrap pattern.
 
+For a deliberately low-detail glimpse of directions that are real enough to name but **not yet public releases**, see [Incubated Modules Preview](PREVIEW.md).
+
 ## Financial Living System
 
 The Financial Living System is not a budget template and does not require the user to know Moon Cortex vocabulary. Its canonical transport unit is the complete module ZIP. The Adaptive Finance Bootstrap is the entrypoint inside that package, not a separate installable product.
@@ -110,6 +113,7 @@ Use this README for orientation; use deeper files only when the responsibility b
 |---|---|
 | Moon Cortex architecture and responsibility boundaries | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | Current finance module | [modules/financial-living-system/](modules/financial-living-system/) |
+| Preview of incubated module families | [PREVIEW.md](PREVIEW.md) |
 | Canonical adaptive finance instantiation interface | [ADAPTIVE_FINANCE_BOOTSTRAP.md](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md) |
 | Public/private disclosure boundary | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
 | Licensing and attribution | [LICENSING.md](LICENSING.md) + [NOTICE](NOTICE) |
