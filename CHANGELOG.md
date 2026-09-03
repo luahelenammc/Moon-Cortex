@@ -10,7 +10,8 @@ Public-safe preview surface for incubated Moon Cortex module families.
 - added `PREVIEW.md` as a deliberately low-detail showcase of top-level incubated module families;
 - surfaced **Image Cortex**, **Voice, Text Engines & Interfaces**, **Music, Media & Taste Engines** and **Adaptive Learning Loop** without publishing internal architecture or private donor material;
 - clarified that incubation is not a release promise and that names, scope, packaging and publication order may still change;
-- linked the preview from the root README without changing the current public-module baseline or Financial Living System version.
+- linked the preview from the root README without changing the current public-module baseline or Financial Living System version;
+- corrected the public distribution boundary: the repository remains the inspectable public body, while the **Financial Living System ZIP is the only current downloadable portable**; the root repository ZIP is no longer presented as a Moon Cortex distribution artifact.
 
 ## 0.1.0-pre.4 — 2026-09-01
 
@@ -68,4 +69,4 @@ This remains a pre-release. Future Cortex architecture is not finalized by these
 
 ---
 
-> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Financial Living System (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
