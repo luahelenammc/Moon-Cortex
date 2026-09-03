@@ -15,7 +15,7 @@ The previews below intentionally omit private donor material, internal architect
 
 A field-shaped personal-finance system that adapts its local structure to the user's actual financial reality instead of imposing one universal template.
 
-**Status:** public pre-release · [open the module](modules/financial-living-system/README.md)
+**Status:** public pre-release · [open the module](modules/financial-living-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
 
 ## Incubating
 
@@ -46,4 +46,4 @@ For the repository-wide disclosure contract, see [PUBLIC_BOUNDARY.md](PUBLIC_BOU
 
 ---
 
-> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
+> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Financial Living System (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
