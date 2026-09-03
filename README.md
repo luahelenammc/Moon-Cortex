@@ -11,9 +11,9 @@ Moon Cortex is a public pre-release architecture for a different route: understa
 
 This repository is the canonical public body of Moon Cortex.
 
-> 📦 **Want the public source at once?**  
-> 🌙⬇️ [**Download the complete Moon Cortex repository (.zip)**](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)  
-> 💸⬇️ [**Download the complete Financial Living System module (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+> 📦 **Want to use the current public module?**  
+> 💸⬇️ [**Download the complete Financial Living System module (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)  
+> 🧭 [**Preview what else is incubating in Moon Cortex**](PREVIEW.md)
 
 ## Why Moon Cortex exists
 
@@ -127,6 +127,7 @@ Use this README for orientation; use deeper files only when the responsibility b
 **Status:** public pre-release / pre-inauguration  
 **Current public module:** Financial Living System `0.1.0-pre.4`  
 **Current instantiation mechanism:** Adaptive Finance Bootstrap  
+**Current downloadable portable:** Financial Living System package  
 **Structural grammar:** MSL 4.3
 
 Moon Cortex was created by **Lua Helena Moon Martins Cardoso (Moon)**. Some materials were developed through an AI-assisted coauthorial process with **Áurion**. Moon retains final authority.
@@ -135,4 +136,4 @@ Moon Cortex was created by **Lua Helena Moon Martins Cardoso (Moon)**. Some mate
 
 ---
 
-> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Full source (.zip)](https://github.com/luahelenammc/Moon-Cortex/archive/refs/heads/main.zip)
+> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Financial Living System (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
