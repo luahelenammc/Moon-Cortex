@@ -1,21 +1,27 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Moon Cortex · Incubated Modules Preview
+# Moon Cortex · Module Preview
 
-Moon Cortex is larger than the single module currently available in the public repository.
+Moon Cortex is larger than the modules currently available in the public repository.
 
-This page offers a deliberately narrow glimpse of **top-level module families currently incubating behind the public boundary**. It is a showcase, not a release contract: names, scope, packaging and order may change before any module becomes public.
+This page offers a deliberately narrow glimpse of module families. It distinguishes public modules from directions that remain incubated behind the public boundary. Names, scope, packaging and order may still change for incubated work.
 
-The previews below intentionally omit private donor material, internal architecture, implementation details, prompts, schemas, evaluation logic and protected operational knowledge.
+The previews intentionally omit private donor material, internal prompts, schemas, evaluation logic and protected operational knowledge.
 
 ## Already public
 
 ### Financial Living System
 
-A field-shaped personal-finance system that adapts its local structure to the user's actual financial reality instead of imposing one universal template.
+A field-shaped personal-finance system that adapts its local structure to the user’s actual financial reality instead of imposing one universal template.
 
 **Status:** public pre-release · [open the module](modules/financial-living-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+
+### Social Support Navigation System
+
+A field-first social-support navigation system that reconstructs functions, dependencies and barriers, then finds a first useful institutional door, assigns owners and preserves safe handoffs.
+
+**Status:** public pre-release · [open the module](modules/social-support-navigation-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip)
 
 ## Incubating
 
@@ -36,9 +42,7 @@ Some incubated work may be renamed, merged, narrowed, split, postponed or remain
 
 ## Public boundary
 
-This preview exposes **direction, not anatomy**.
-
-Moon Cortex may learn from private or situated systems without publishing those systems themselves. A future public module must stand on its own, preserve provenance, remove reconstructible private state and expose only what another user actually needs to understand and use the generalized system.
+This page exposes direction and current public entrypoints, not private anatomy. A future module must stand on its own, preserve provenance, remove reconstructible private state and expose only what another user needs to understand and use the generalized system.
 
 For the repository-wide disclosure contract, see [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md).
 
@@ -46,4 +50,4 @@ For the repository-wide disclosure contract, see [PUBLIC_BOUNDARY.md](PUBLIC_BOU
 
 ---
 
-> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Financial Living System (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en)

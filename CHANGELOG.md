@@ -5,20 +5,24 @@
 
 ## Unreleased
 
-Public-safe preview surface for incubated Moon Cortex module families.
+Second public module and multi-module root generalization.
 
-- added `PREVIEW.md` as a deliberately low-detail showcase of top-level incubated module families;
-- surfaced **Image Cortex**, **Voice, Text Engines & Interfaces**, **Music, Media & Taste Engines** and **Adaptive Learning Loop** without publishing internal architecture or private donor material;
-- clarified that incubation is not a release promise and that names, scope, packaging and publication order may still change;
-- linked the preview from the root README without changing the current public-module baseline or Financial Living System version;
-- corrected the public distribution boundary: the repository remains the inspectable public body, while the **Financial Living System ZIP is the only current downloadable portable**; the root repository ZIP is no longer presented as a Moon Cortex distribution artifact.
+- added **Moon Cortex · Social Support Navigation System** as a second public domain module;
+- retained **Defensoria Social** only as bounded private donor lineage and changed the public module identity to avoid confusion with a public or regulated authority;
+- added the complete module portable at `downloads/social-support-navigation-system.zip`;
+- generalized the root README and architecture from one finance demonstration to multiple domain-shaped module topologies;
+- expanded the public boundary, licensing, NOTICE and attribution model to cover both module families;
+- moved Social Support Navigation System into the public section of `PREVIEW.md` while retaining existing incubated families;
+- replaced the finance-specific root stamp with a generic Moon Cortex stamp;
+- preserved Financial Living System `0.1.0-pre.4`, its paths, complete ZIP and integrated-package contract;
+- made no repository-wide multi-module portable and no software-license decision.
 
 ## 0.1.0-pre.4 — 2026-09-01
 
 Integrated-package contract clarification for the Financial Living System.
 
 - made `downloads/financial-living-system.zip` the canonical transport and default use surface for the Financial Living System;
-- clarified that the module's Markdown files are cooperating parts of one integrated system, not independent installable components;
+- clarified that the module’s Markdown files are cooperating parts of one integrated system, not independent installable components;
 - retained `ADAPTIVE_FINANCE_BOOTSTRAP.md` as the automatic entrypoint inside the complete package rather than a standalone distribution unit;
 - preserved proportional internal loading: the package travels whole, while the executing AI consults only the internal material needed for the current field and step;
 - replaced the old standalone-bootstrap setup contract with complete-package setup plus optional Moon Source-aware installation;
@@ -45,8 +49,8 @@ Editorial and architectural clarification of the first finance module without pa
 - clarified the relationship between module identity, bootstrap instantiation, Moon Source-assisted installation governance and user-local runtime sovereignty;
 - removed or reframed publication-process residue that belonged to authoring/sanitization workflow rather than the finished public module;
 - preserved runtime privacy, credential, jurisdiction, claim and readback safeguards;
-- standardized a compact Moon Cortex credits/attribution stamp across tracked public Markdown documents, including canonical licensing, Moon Source and professional-context routes;
-- preserved `field before form`, `access ≠ activation`, internationalization/jurisdiction discovery, existing-system integration and automatic bootstrap activation;
+- standardized a compact Moon Cortex credits/attribution stamp across tracked public Markdown documents;
+- preserved `field before form`, `access ≠ activation`, internationalization/jurisdiction discovery, existing-system integration and automatic activation;
 - made no path rename, no bank-connector addition, no autonomous-transaction claim and no Moon Source modification.
 
 ## 0.1.0-pre.1 — 2026-09-01
@@ -54,7 +58,7 @@ Editorial and architectural clarification of the first finance module without pa
 Initial public pre-release foundation and first domain module.
 
 - introduced Moon Cortex as a pre-release module lineage;
-- marked the repository's public pre-inauguration through its first usable portable module, without presenting this as the full Moon Cortex launch;
+- marked the repository’s public pre-inauguration through its first usable portable module, without presenting this as the full Moon Cortex launch;
 - added the Finance Bootstrap Seed as the canonical portable artifact;
 - corrected activation UX so the canonical seed self-starts when supplied as operative context, without requiring the user to know a command phrase;
 - separated transport, Moon Source-assisted installation and user-local runtime;
@@ -69,4 +73,4 @@ This remains a pre-release. Future Cortex architecture is not finalized by these
 
 ---
 
-> 🌙 **Moon Cortex · Financial Living System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · instantiated through **Adaptive Finance Bootstrap** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · [Financial Living System (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en)
