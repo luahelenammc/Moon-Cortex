@@ -16,10 +16,10 @@ This repository is the canonical public body of Moon Cortex.
 > ## 📦 Start with a module
 >
 > 💸 **Financial Living System** — organize and reconcile a real personal-finance field as one living, user-owned system.  
-> [Read the module](modules/financial-living-system/README.md) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+> [Read the module](modules/financial-living-system/README.md) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1)
 >
 > 🧭 **Social Support Navigation System** — turn a fragmented support situation into functions, barriers, institutional routes, owners and bounded next steps.  
-> [Read the module](modules/social-support-navigation-system/README.md) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip)
+> [Read the module](modules/social-support-navigation-system/README.md) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
 
 ## Why Moon Cortex exists
 
