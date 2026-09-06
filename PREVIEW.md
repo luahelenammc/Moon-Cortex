@@ -15,13 +15,13 @@ The previews intentionally omit private donor material, internal prompts, schema
 
 A field-shaped personal-finance system that adapts its local structure to the user’s actual financial reality instead of imposing one universal template.
 
-**Status:** public pre-release · [open the module](modules/financial-living-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+**Status:** public pre-release · [open the module](modules/financial-living-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1)
 
 ### Social Support Navigation System
 
 A field-first social-support navigation system that reconstructs functions, dependencies and barriers, then finds a first useful institutional door, assigns owners and preserves safe handoffs.
 
-**Status:** public pre-release · [open the module](modules/social-support-navigation-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip)
+**Status:** public pre-release · [open the module](modules/social-support-navigation-system/README.md) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
 
 ## Incubating
 
