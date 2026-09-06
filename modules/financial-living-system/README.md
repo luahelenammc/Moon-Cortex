@@ -10,7 +10,7 @@ A budget template starts with categories. A dashboard starts with widgets. A fin
 The **Financial Living System** is the Moon Cortex finance module for turning that field into a living, user-owned financial system. It is not a menu of independent components. Its public files form one cooperating package: the **Adaptive Finance Bootstrap** is the entrypoint, while the capability map, invariants, installation bridge, privacy/claims contract, validation test and examples provide the surrounding system it relies on.
 
 > 📦 **Start here: download the complete Financial Living System.**  
-> 💸⬇️ [**Download `financial-living-system.zip`**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip) — the canonical transport and default use surface.
+> 💸⬇️ [**Download `financial-living-system.zip`**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1) — the canonical transport and default use surface.
 
 ## One system, not a component shelf
 
@@ -52,7 +52,7 @@ Its job is not to moralize spending or prescribe one ideal budget. Its job is to
 
 Use the canonical ZIP:
 
-📦 [**`financial-living-system.zip`**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip)
+📦 [**`financial-living-system.zip`**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1)
 
 Downloading or copying only one internal Markdown file is not the canonical setup path.
 
