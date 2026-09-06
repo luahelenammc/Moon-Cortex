@@ -11,7 +11,7 @@ The **Social Support Navigation System** is the Moon Cortex module for reconstru
 
 ## Start with the complete module
 
-📦 [**Download the complete Social Support Navigation System package (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip)
+📦 [**Download the complete Social Support Navigation System package (.zip)**](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
 
 The ZIP is the canonical portable. The files inside it cooperate as one public module, while the executing AI should load only the internal material needed for the current request. No activation phrase is required when the complete package is supplied as operative context with a social-support navigation request.
 
@@ -129,4 +129,4 @@ Moon retains final authority over this public body and its future changes.
 
 ---
 
-> 🌙 **Moon Cortex · Social Support Navigation System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Module portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip)
+> 🌙 **Moon Cortex · Social Support Navigation System** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Module portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
