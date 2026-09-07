@@ -1,0 +1,38 @@
+# SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon)
+# SPDX-License-Identifier: Apache-2.0
+
+name: Validate title and version separation
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "README.md"
+      - "modules/**"
+      - "docs/REPOSITORY_NAMING_AND_VERSIONING.md"
+      - "templates/REPOSITORY_NAMING_AND_VERSIONING.md"
+      - "scripts/**"
+      - ".github/workflows/validate-title-version.yml"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "modules/**"
+      - "docs/REPOSITORY_NAMING_AND_VERSIONING.md"
+      - "templates/REPOSITORY_NAMING_AND_VERSIONING.md"
+      - "scripts/**"
+      - ".github/workflows/validate-title-version.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  title-version-separation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/check_title_version_separation.py
+      - run: python scripts/test_title_version_separation.py

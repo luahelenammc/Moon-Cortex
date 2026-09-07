@@ -133,6 +133,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 | Use the Social Support Navigation System | [modules/social-support-navigation-system/](modules/social-support-navigation-system/) |
 | Preview incubating module families | [PREVIEW.md](PREVIEW.md) |
 | Inspect the public/private boundary | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
+| Keep public titles separate from release versions | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
 | Reuse or adapt public material | [LICENSING.md](LICENSING.md) + [NOTICE](NOTICE) |
 | Follow public change history | [CHANGELOG.md](CHANGELOG.md) |
 | Explore the related context architecture | [Moon Source](https://github.com/luahelenammc/Moon-Source) |

@@ -5,13 +5,13 @@
 
 ## License map for the current public pre-release
 
-This repository contains documentation, methods, public portables, examples and textual specifications. Moon-authored project files are offered under the **Creative Commons Attribution 4.0 International** license (`CC-BY-4.0`), subject to any file-level or third-party notice.
+This repository contains documentation, methods, public portables, examples, textual specifications and a small validation automation layer. Moon-authored documentation and knowledge files are offered under the **Creative Commons Attribution 4.0 International** license (`CC-BY-4.0`), while validation scripts and GitHub workflows are offered under the **Apache License 2.0** (`Apache-2.0`), subject to any file-level or third-party notice.
 
 The standard license text is included at [`LICENSES/CC-BY-4.0.txt`](LICENSES/CC-BY-4.0.txt), and the canonical license URI is:
 
 https://creativecommons.org/licenses/by/4.0/
 
-There are no software, executable automation or workflow files in this pre-release. If a future release adds that layer, it must make a separate licensing decision; documentation and software must not be collapsed into one license merely for convenience.
+Validation scripts under `scripts/**` and workflows under `.github/workflows/**` are technical automation and use Apache-2.0. Documentation and software remain separate license layers; the addition of a guard does not change the license of the module content or public portables.
 
 ## Attribution
 
