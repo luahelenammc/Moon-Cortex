@@ -37,6 +37,34 @@ Package: downloads/social-support-navigation-system.zip
 
 The title remains stable while the version changes. A technical path may retain a version marker when that is part of a compatibility or transport contract; that marker must not become the current human-facing title.
 
+## Documentation and first-use changes
+
+A README, onboarding or first-use clarification does not by itself advance the module's semantic release state.
+
+Treat the change as documentation-only when it clarifies:
+
+- how to begin;
+- what is or is not installed;
+- which entry file or package to provide;
+- what the human must do manually;
+- what external capability is actually required;
+- how to troubleshoot a misunderstood first run;
+- the difference between a human-facing README and the module's canonical operational entry.
+
+A version change becomes relevant when the module's domain contract, routing behavior, output contract, compatibility boundary or other operational semantics actually change.
+
+In compact form:
+
+```text
+better explanation of existing behavior
+→ no semantic bump by default
+
+changed behavior or compatibility contract
+→ evaluate release-state change
+```
+
+This follows the [Module Design Contract](MODULE_DESIGN_CONTRACT.md) and prevents UX/documentation fixes from being misrepresented as new method generations.
+
 ## Local sovereignty and inheritance
 
 This rule governs the public repository body and module surfaces. It does not rename user-local systems, private donor sources or internal artifacts. Future Cortex modules should copy [the reusable template](../templates/REPOSITORY_NAMING_AND_VERSIONING.md), adapt the governed surfaces they expose, and install the automated guard before public promotion.
