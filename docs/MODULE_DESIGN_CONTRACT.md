@@ -23,9 +23,7 @@ A new module should add a domain capability, not a renamed template.
 
 ## Human entry and embedded first use
 
-The module `README.md` is the primary human-facing entry surface. It should explain how to begin from inside the component instead of sending the newcomer to a detached onboarding file by default.
-
-A new public module, and an existing module when it receives a material documentation or package revision, should make first use discoverable near the beginning of its README. The exact heading may follow the module's voice, but the content must answer plainly:
+If a module has a canonical entry artifact, that artifact is the primary human and AI entry surface. A new public module, and an existing module when it receives a material documentation or package revision, should make first use discoverable near the beginning of that canonical entry. The exact heading may follow the module's voice, but the content must answer plainly:
 
 - what the module is for;
 - whether anything is actually installed;
@@ -35,28 +33,23 @@ A new public module, and an existing module when it receives a material document
 - which actions still depend on a real connector, tool, permission, professional authority or manual step;
 - what the module does not claim or do.
 
-The README may include a starter prompt, tiny example and troubleshooting path where useful. The goal is not identical prose across modules; the goal is that each module teaches its own first run.
+The entry must also include a starter prompt, tiny example and troubleshooting path where useful. The goal is not identical prose across modules; the goal is that each canonical entry teaches its own first run.
 
-Do not create a separate `FIRST_USE.md` merely because onboarding grows. A detached onboarding surface is justified only when it has a genuinely independent audience, lifecycle, transport contract or responsibility that cannot remain coherent in the README.
+Do not create a separate `FIRST_USE.md` or module `README.md` merely because onboarding grows. A detached README is justified only when the module directory itself has a genuinely independent human navigation responsibility that cannot be carried safely by the canonical entry. A repository-level README remains appropriate because the repository is a multi-module navigation surface.
 
-## Human entry is not operational authority
+## One entry, not necessarily one file
 
-The README teaches the human how to enter. The module's canonical operational entry governs AI-side execution.
+The module's canonical entry can carry human orientation and AI-side operational authority together. Internal docs and examples remain valid when they own real responsibilities, but they are subordinate routes rather than competing entries.
 
 ```text
-README.md
-= identity + orientation + first use
-
-canonical module entry
-= operational routing / instantiation authority
+canonical entry artifact
+= identity + orientation + first use + operational routing / instantiation authority
 
 module package
 = complete transport surface
 ```
 
-These roles may coexist in one module without becoming competing semantic bodies.
-
-A README must not silently change the operational contract. If the README and canonical entry disagree, the disagreement must be resolved explicitly rather than letting onboarding prose become a hidden second specification.
+One entry does not mean one file. Composite modules should remain multi-file when docs, examples, changelog or adapters own real responsibilities. They should not expose two human/AI entry artifacts for the same module. If an exceptional module README and the canonical entry disagree, the disagreement must be resolved explicitly rather than letting navigation prose become a hidden second specification.
 
 ## Transport, attention, installation and runtime are different states
 
@@ -111,17 +104,17 @@ Keep these categories distinct:
 
 One category does not silently prove another.
 
-A module-specific README and canonical entry must preserve the repository's `PUBLIC_BOUNDARY.md` and any stronger domain boundary required by the module.
+The canonical entry and any exceptional module README must preserve the repository's `PUBLIC_BOUNDARY.md` and any stronger domain boundary required by the module.
 
 ## Versioning and onboarding changes
 
-A documentation or first-use clarification does not by itself earn a semantic version bump.
+A documentation or first-use clarification does not by itself earn a semantic version bump, even when it changes the canonical entry hash or the complete package bytes.
 
 When feedback reveals confusion, classify the delta first:
 
 ```text
 misunderstood first step / installation / integration / manual action
-→ README or interface clarification
+→ canonical-entry onboarding or interface clarification
 
 wrong domain rule / wrong routing contract / wrong operational behavior
 → semantic module change
@@ -150,7 +143,7 @@ Before a new module is treated as public-ready, confirm that:
 - domain responsibility is distinct;
 - public/private boundary is safe;
 - canonical operational entry is explicit;
-- README teaches the first run without requiring repository archaeology;
+- canonical entry teaches the first run without requiring repository archaeology;
 - installation/integration claims match actual capability;
 - complete package transport is defined;
 - active attention can remain proportional;

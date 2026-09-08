@@ -5,6 +5,13 @@
 
 ## Unreleased
 
+### Canonical module entry onboarding rebase — 2026-09-08
+
+- integrated first-use onboarding into the canonical Financial Living System and Social Support Navigator entry artifacts;
+- retired the redundant module-level `README.md` files while retaining complete composite module packages and their real internal files;
+- migrated root module cards, active-module tables and repository map links to canonical `#first-use` anchors;
+- promoted the rule **one entry, not necessarily one file** and clarified that onboarding integration changes do not earn semantic version bumps by themselves.
+
 Second public module and multi-module root generalization.
 
 - added **Moon Cortex · Social Support Navigation System** as a second public domain module;

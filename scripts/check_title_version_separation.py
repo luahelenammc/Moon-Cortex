@@ -35,9 +35,6 @@ def governed_files(root: Path = ROOT) -> list[Path]:
     for module in sorted((root / "modules").iterdir()):
         if not module.is_dir():
             continue
-        readme = module / "README.md"
-        if readme.is_file():
-            files.append(readme)
         files.extend(sorted(module.glob("*BOOTSTRAP*.md")))
         files.extend(sorted(module.glob("*NAVIGATOR*.md")))
     return files
@@ -58,9 +55,8 @@ def validation_errors(root: Path = ROOT) -> list[str]:
             continue
         if contains_version_marker(heading):
             errors.append(f"{relative}: heading contains a version marker: {heading!r}")
-        if path.name == "README.md" and path.parent != root:
-            if not VERSION_FIELD_RE.search(content):
-                errors.append(f"{relative}: active module README has no dedicated Version field")
+        if path.parent != root and not VERSION_FIELD_RE.search(content):
+            errors.append(f"{relative}: canonical module entry has no dedicated Version field")
 
     return errors
 
@@ -75,4 +71,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

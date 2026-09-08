@@ -22,6 +22,59 @@
 **Moon Source-aware installation dependency:** current public Moon Source access at [luahelenammc/Moon-Source](https://github.com/luahelenammc/Moon-Source)  
 **Routine runtime dependency after installation:** none
 
+## First use
+
+### What this is
+
+The Financial Living System is a domain module for making a real financial field legible across timing, obligations, reserves, credit, reconciliation and uncertainty. This file is its canonical human and AI entry artifact: the **Adaptive Finance Bootstrap** discovers the field and generates the smallest local system that fits it. It is not a fixed budget template.
+
+### Do I install anything?
+
+The module does not install a bank connector, hosted ledger, background service or autonomous transaction layer. The complete package travels together; the generated system becomes locally sovereign after setup. Moon Source is optional and deliberate during installation, not a permanent runtime dependency.
+
+### Start here
+
+Give the AI the complete `financial-living-system.zip`, its extracted directory or an equivalent complete package surface, then say:
+
+```text
+Use the Financial Living System package for this task.
+Start the Adaptive Finance Bootstrap automatically.
+Inspect what I already have, find only the financial gaps that matter,
+and generate the smallest local system I can actually maintain.
+
+Situation or goal: [describe what you want to make more legible]
+```
+
+If you only want an audit or explanation, say so explicitly. No command phrase is otherwise required when the complete package is supplied as operative context.
+
+### What happens next
+
+The bootstrap should inspect existing material, identify the actual financial friction, discover only material gaps, activate only capabilities the field earns, choose a proportional installation profile and produce an installation-ready local result. It should read back any authorized mutation and distinguish setup, compilation and installation rather than claiming success too early.
+
+### Manual / unavailable capability boundary
+
+You may need to provide statements or an existing system, choose the local destination, authorize a connector, verify current jurisdiction-specific rules, save the generated artifacts and approve any mutation. A package can explain a Moon Source bridge or a capability without making that bridge available. Current legal, tax, banking or regulated advice remains outside the module's authority.
+
+### Tiny example
+
+If the supplied material shows a simple salary, ordinary recurring bills and no meaningful credit tail, the bootstrap should generate a compact local system rather than activate card, debt, reimbursement and multi-currency machinery merely because those files exist in the package.
+
+### If the first result goes wrong
+
+If the result is too large, say:
+
+```text
+Re-run the Adaptive Finance Bootstrap with proportional attention.
+Preserve my existing working system, activate only capabilities earned by my field,
+and show the smallest repair or local form before creating more structure.
+```
+
+If only this file is available, obtain the complete package before claiming canonical module setup; this entrypoint is not a standalone substitute for the cooperating module files.
+
+### What this module does not claim
+
+It does not provide financial advice, determine legal or tax obligations, guarantee a benefit or outcome, own the user's records, connect to a bank by description alone or authorize transactions. It is a public, model-agnostic setup architecture with explicit limits.
+
 ## Automatic activation
 
 When the **complete Financial Living System package** is supplied to an AI as operative context, locate this file and **begin the Adaptive Finance Bootstrap automatically**. No command phrase is required.

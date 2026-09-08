@@ -39,7 +39,7 @@ The title remains stable while the version changes. A technical path may retain 
 
 ## Documentation and first-use changes
 
-A README, onboarding or first-use clarification does not by itself advance the module's semantic release state.
+A README, onboarding or first-use clarification does not by itself advance the module's semantic release state, even when onboarding is integrated into the canonical entry and changes its hash or the complete package bytes.
 
 Treat the change as documentation-only when it clarifies:
 
@@ -49,7 +49,7 @@ Treat the change as documentation-only when it clarifies:
 - what the human must do manually;
 - what external capability is actually required;
 - how to troubleshoot a misunderstood first run;
-- the difference between a human-facing README and the module's canonical operational entry.
+- the difference between repository/module navigation and the module's canonical human + AI entry.
 
 A version change becomes relevant when the module's domain contract, routing behavior, output contract, compatibility boundary or other operational semantics actually change.
 
@@ -62,6 +62,8 @@ better explanation of existing behavior
 changed behavior or compatibility contract
 → evaluate release-state change
 ```
+
+The governing structural rule is **one entry, not necessarily one file**: a composite module may keep internal files that own real responsibilities, but should not expose two competing entry artifacts. A module README is optional and should exist only when the module directory itself owns independent navigation that the canonical entry cannot safely carry.
 
 This follows the [Module Design Contract](MODULE_DESIGN_CONTRACT.md) and prevents UX/documentation fixes from being misrepresented as new method generations.
 
