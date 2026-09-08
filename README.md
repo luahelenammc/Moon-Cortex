@@ -16,10 +16,10 @@ This repository is the canonical public body of Moon Cortex.
 > ## 📦 Start with a module
 >
 > 💸 **Financial Living System** — organize and reconcile a real personal-finance field as one living, user-owned system.  
-> [Start with the canonical entry](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1)
+> [Read the module](modules/financial-living-system/README.md) · [Start / canonical entry](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1)
 >
 > 🧭 **Social Support Navigation System** — turn a fragmented support situation into functions, barriers, institutional routes, owners and bounded next steps.  
-> [Start with the canonical entry](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
+> [Read the module](modules/social-support-navigation-system/README.md) · [Start / canonical entry](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
 
 ## Why Moon Cortex exists
 
@@ -67,7 +67,7 @@ A few principles carry most of the architecture:
 - **Domain shape before universal interface.** A module should fit its field rather than imitate another successful module.
 - **Capability before decoration.** Activate a mechanism because the situation earns it, not because the package happens to contain it.
 - **Access is not activation.** A capability, connector or method being available does not mean it belongs in the current local system.
-- **First use belongs at the smallest sovereign entry surface.** Each module has one canonical entry artifact that teaches both the human and the AI how to begin. A composite module may retain deeper files with real responsibilities, but it should not expose two competing entry artifacts.
+- **One authoritative entry, one readable facade.** A composite module may have a human-facing README for presentation and directory navigation, while one canonical entry artifact remains the sole operational and semantic authority and carries the operative First use instructions.
 - **Complete transport, proportional attention.** A module may travel as a complete package while the executing AI loads only what the current task requires.
 - **Installation is not permanent dependency.** The useful result should remain operable from the user’s own authoritative sources whenever possible.
 - **Local sovereignty is part of the architecture.** Public modules can shape a local capability without owning the person’s resulting state, decisions or records.
@@ -77,22 +77,23 @@ A few principles carry most of the architecture:
 
 | Module | Use it when… | Canonical entry | Typical local result |
 |---|---|---|---|
-| [Financial Living System](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) | financial reality needs to become legible across timing, obligations, reserves, credit, reconciliation or other material complexity | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) | a living user-local financial system |
-| [Social Support Navigation System](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) | a support situation is fragmented across needs, barriers, institutions, informal dependencies or unresolved next steps | [Social Support Navigator](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) | a direct route, Living Case State, Resource Pack or Support Handoff |
+| [Financial Living System](modules/financial-living-system/README.md) | financial reality needs to become legible across timing, obligations, reserves, credit, reconciliation or other material complexity | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) | a living user-local financial system |
+| [Social Support Navigation System](modules/social-support-navigation-system/README.md) | a support situation is fragmented across needs, barriers, institutions, informal dependencies or unresolved next steps | [Social Support Navigator](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) | a direct route, Living Case State, Resource Pack or Support Handoff |
 
 These are **active public modules** and the first demonstrated Cortex topologies. They are examples of the architecture’s range, not templates that future modules must copy.
 
 ## How to use a module
 
-Each module's canonical entry artifact is the human and AI first-use surface as well as the operational interface. The repository root remains the navigation surface for choosing among modules; it should not duplicate module onboarding.
+Each composite module exposes a readable README surface for human browsing and a canonical entry artifact for operative First use and routing. The README makes the module legible; the canonical entry governs what the module actually does.
 
 The normal path is intentionally simple:
 
 1. **Choose the domain module that matches the problem.**
-2. **Open the canonical entry or download the complete package.** Each active module has one canonical entry and its own complete ZIP.
-3. **Give the package to the AI as operative context** and state the real situation or goal.
-4. **Let the canonical entry route the work.** The user should not need to learn the repository taxonomy first.
-5. **Keep the useful result locally sovereign.** Ongoing state should live with the user, project or authorized local system rather than depending on hidden upstream memory.
+2. **Read the module README if you need orientation.** It shows purpose, boundaries, anatomy, canonical entry and download route without duplicating the operational method.
+3. **Open the canonical entry or download the complete package.** Each active module has one authoritative entry and its own complete ZIP.
+4. **Give the package to the AI as operative context** and state the real situation or goal.
+5. **Let the canonical entry route the work.** The user should not need to learn the repository taxonomy first.
+6. **Keep the useful result locally sovereign.** Ongoing state should live with the user, project or authorized local system rather than depending on hidden upstream memory.
 
 The package travels whole; attention remains proportional. New and materially revised modules should follow the repository-level [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md).
 
@@ -133,8 +134,8 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 |---|---|
 | Understand the shared Cortex architecture | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | Design or materially revise a public module | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
-| Use the Financial Living System | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) |
-| Use the Social Support Navigation System | [Social Support Navigator](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) |
+| Use the Financial Living System | [💸 Financial Living System](modules/financial-living-system/README.md) |
+| Use the Social Support Navigation System | [🧭 Social Support Navigation System](modules/social-support-navigation-system/README.md) |
 | Preview incubating module families | [PREVIEW.md](PREVIEW.md) |
 | Inspect the public/private boundary | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
 | Keep public titles separate from release versions | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
@@ -148,6 +149,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 **Status:** active public architecture  
 **Active public modules:** Financial Living System; Social Support Navigation System  
 **Canonical transport:** one complete ZIP per module  
+**Human browse surfaces:** one non-authoritative README per active composite module  
 **Repository-wide portable:** none  
 **Structural grammar:** MSL 4.3
 
