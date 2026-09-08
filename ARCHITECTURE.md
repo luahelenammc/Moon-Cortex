@@ -60,6 +60,24 @@ Social support is a navigation architecture. It may produce a direct answer, a b
 
 These differences are part of the design. The Financial Living System does not legislate a bootstrap shape for future modules, and the Social Support Navigation System does not need to imitate finance to belong in the Cortex.
 
+## Human entry and module design contract
+
+A Cortex module has two different entry responsibilities that must remain legible:
+
+```text
+module README
+= human identity + orientation + first use
+
+canonical module entry
+= AI-side operational routing / instantiation
+```
+
+The human should not need to open a second onboarding file or understand repository taxonomy before learning how to begin. First-use guidance therefore belongs inside the module README by default, close to the point where the user already enters the component. A detached onboarding file is an exception that requires an independent audience, lifecycle or transport reason.
+
+This does not turn the README into the operational authority. The README explains the first run; the module-specific entry interface still governs execution. Documentation may clarify installation, integration, manual steps and unavailable capabilities, but it must not silently rewrite the domain contract.
+
+The repository-level rules for new and materially revised modules are defined in [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md).
+
 ## Responsibility boundaries
 
 | Layer | Owns | Does not own |
