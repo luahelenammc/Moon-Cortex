@@ -67,6 +67,7 @@ A few principles carry most of the architecture:
 - **Domain shape before universal interface.** A module should fit its field rather than imitate another successful module.
 - **Capability before decoration.** Activate a mechanism because the situation earns it, not because the package happens to contain it.
 - **Access is not activation.** A capability, connector or method being available does not mean it belongs in the current local system.
+- **First use belongs at the point of entry.** A module README should teach the human how to begin without requiring a detached onboarding file; the canonical module entry remains the AI-side operational authority.
 - **Complete transport, proportional attention.** A module may travel as a complete package while the executing AI loads only what the current task requires.
 - **Installation is not permanent dependency.** The useful result should remain operable from the user’s own authoritative sources whenever possible.
 - **Local sovereignty is part of the architecture.** Public modules can shape a local capability without owning the person’s resulting state, decisions or records.
@@ -83,6 +84,8 @@ These are **active public modules** and the first demonstrated Cortex topologies
 
 ## How to use a module
 
+The module README is the primary human first-use surface; the module-specific canonical entry is the operational interface the AI follows after the human has entered the module.
+
 The normal path is intentionally simple:
 
 1. **Choose the domain module that matches the problem.**
@@ -91,7 +94,7 @@ The normal path is intentionally simple:
 4. **Let the module-specific entry interface route the work.** The user should not need to learn the repository taxonomy first.
 5. **Keep the useful result locally sovereign.** Ongoing state should live with the user, project or authorized local system rather than depending on hidden upstream memory.
 
-The package travels whole; attention remains proportional.
+The package travels whole; attention remains proportional. New and materially revised modules should follow the repository-level [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md).
 
 ## Moon Cortex and Moon Source
 
@@ -129,6 +132,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 | Need | Canonical route |
 |---|---|
 | Understand the shared Cortex architecture | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| Design or materially revise a public module | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
 | Use the Financial Living System | [modules/financial-living-system/](modules/financial-living-system/) |
 | Use the Social Support Navigation System | [modules/social-support-navigation-system/](modules/social-support-navigation-system/) |
 | Preview incubating module families | [PREVIEW.md](PREVIEW.md) |
