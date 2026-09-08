@@ -31,6 +31,12 @@ Package: [technical package path]
 Validation command: python scripts/check_title_version_separation.py
 ```
 
+## Documentation-only changes
+
+A clearer README, embedded first-use section, installation disclaimer, manual-step explanation or troubleshooting improvement does not by itself change the module's semantic release state.
+
+Use the [Module Design Contract](../docs/MODULE_DESIGN_CONTRACT.md) to separate onboarding/interface deltas from actual operational-contract changes. Evaluate a version change only when behavior, compatibility, routing, domain invariants or output semantics materially change.
+
 Add an automated guard and a regression test before public promotion. A technical version marker must not become the current human-facing title.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
