@@ -3,6 +3,12 @@
 
 # Social Support Navigation System Changelog
 
+## Unreleased — 2026-09-08
+
+- embedded human and AI first-use onboarding in `SOCIAL_SUPPORT_NAVIGATOR.md`;
+- retired the redundant module README while preserving the complete composite package and local case-state boundary;
+- made no semantic version bump: onboarding integration changes the entry/package bytes but not the navigation contract.
+
 ## 0.1.0-pre.1 — 2026-09-04
 
 Initial public projection of a bounded social-support navigation system.

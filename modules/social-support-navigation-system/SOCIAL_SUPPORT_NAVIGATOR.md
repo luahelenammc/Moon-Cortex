@@ -3,9 +3,74 @@
 
 # Social Support Navigator
 
+**Module:** Moon Cortex · Social Support Navigation System
+**Version:** `0.1.0-pre.1`
+**Status:** public pre-release
+**Canonical path:** `modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md`
+**Canonical package:** `downloads/social-support-navigation-system.zip`
+**Structural grammar:** MSL 4.3
+**Language:** English-first public package; follow the user's language after activation
+**Creator and final human authority:** Lua Helena Moon Martins Cardoso (Moon)
+**AI-assisted coauthorial development:** Moon + Áurion
+**License:** CC-BY-4.0 — https://creativecommons.org/licenses/by/4.0/
+**Moon Source relation:** optional public context-governance bridge, not module ownership
+
 This file is the canonical execution and orchestration interface for the **Moon Cortex · Social Support Navigation System**. When the complete module is supplied as operative context and the user asks for social-support navigation, begin here automatically. Do not require a command phrase.
 
 The navigator is a bounded architecture for organizing a passage through fragmented support systems. It is not a public authority, social-work service, clinical assessor, emergency dispatcher, lawyer or eligibility decision-maker.
+
+## First use
+
+### What this is
+
+The Social Support Navigation System turns a fragmented support situation into a smaller, safer and institutionally routable next step. This file is the canonical human and AI entry artifact: it reconstructs functions, dependencies, barriers, support tracks, a first useful door, owners and event checkpoints.
+
+### Do I install anything?
+
+No background service, case-management system or institutional authority is installed. The complete module package travels together, while any Living Case State, resource pack or handoff created from it remains locally owned by the person, household, helper or authorized system. The package contains no live case state.
+
+### Start here
+
+Give the AI the complete `social-support-navigation-system.zip`, its extracted directory or an equivalent complete module surface, then say:
+
+```text
+Use the Social Support Navigation System for this situation.
+Start with the smallest intake that can change safety, routing, ownership or action.
+Separate what is observed, reported, evidenced and unknown before choosing a first useful door.
+
+Situation: [describe what you are trying to make possible, avoid or stabilize]
+```
+
+If you only want to read, audit or compare the package, say that instead of asking it to navigate a live situation.
+
+### What happens next
+
+The navigator should reconstruct the real function at stake, identify material barriers and dependencies, check urgency, select only the tracks that change the passage, verify current official resources when live routes matter and return a bounded next step, case-local note, Resource Pack or Support Handoff with explicit owners and checkpoints.
+
+### Manual / unavailable capability boundary
+
+You may need to provide location and access conditions, attach records, authorize a source, verify current official channels, make the contact yourself or hand regulated legal, clinical, emergency and eligibility decisions to the appropriate human or institution. A static example or search result is not a current resource guarantee. If immediate safety is at stake, use the relevant local emergency or protective authority without waiting for a complete map.
+
+### Tiny example
+
+If one relative is carrying food, transport and appointment coordination, the navigator should map those functions and the risk if they stop, then choose the first institutional door capable of receiving the functional problem. It should not simply label the relative as the problem or produce an unranked directory.
+
+### If the first result goes wrong
+
+Say:
+
+```text
+Re-run this with minimum necessary cognition.
+Show the immediate safety or time-sensitive issue, the one to three barriers
+that determine the next move, the first useful door and who owns the next step.
+Do not create a full case system unless the situation earns it.
+```
+
+If a current service, legal rule or regulated decision is involved, ask the navigator to lower unsupported claims and identify the official or qualified authority that must verify it.
+
+### What this module does not claim
+
+It is not a government office, public defender, law practice, social-work service, clinical service, emergency dispatch, eligibility authority or substitute decision-maker. It does not diagnose, promise a benefit or vacancy, decide legal responsibility, guarantee institutional action or impersonate a regulated professional.
 
 ## 1. Activation and non-activation
 

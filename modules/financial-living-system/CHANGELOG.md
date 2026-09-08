@@ -3,6 +3,12 @@
 
 # Financial Living System Changelog
 
+## Unreleased — 2026-09-08
+
+- embedded human and AI first-use onboarding in `ADAPTIVE_FINANCE_BOOTSTRAP.md`;
+- retired the redundant module README while preserving the complete composite package and proportional internal attention;
+- made no semantic version bump: onboarding integration changes the entry/package bytes but not the finance contract.
+
 ## 0.1.0-pre.4 — 2026-09-01
 
 Package-integrity clarification.

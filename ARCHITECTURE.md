@@ -62,19 +62,19 @@ These differences are part of the design. The Financial Living System does not l
 
 ## Human entry and module design contract
 
-A Cortex module has two different entry responsibilities that must remain legible:
+A Cortex module may remain multi-file, but its entry layer should be singular:
 
 ```text
-module README
-= human identity + orientation + first use
+canonical module entry artifact
+= human identity + first use + AI-side operational routing / instantiation
 
-canonical module entry
-= AI-side operational routing / instantiation
+internal files
+= real responsibilities owned below the entry
 ```
 
-The human should not need to open a second onboarding file or understand repository taxonomy before learning how to begin. First-use guidance therefore belongs inside the module README by default, close to the point where the user already enters the component. A detached onboarding file is an exception that requires an independent audience, lifecycle or transport reason.
+The human should not need to open a second onboarding file or understand repository taxonomy before learning how to begin. The canonical entry is the smallest sovereign surface already expected to receive the module. A module README is not required by default and is justified only when the module directory itself owns an independent navigation responsibility that cannot be carried safely by the canonical entry.
 
-This does not turn the README into the operational authority. The README explains the first run; the module-specific entry interface still governs execution. Documentation may clarify installation, integration, manual steps and unavailable capabilities, but it must not silently rewrite the domain contract.
+This is the rule **one entry ≠ one file**. A composite module may keep docs, examples and changelog files, but they must not become competing entry artifacts. The canonical entry should explain transport, installation boundary, manual steps and unavailable capabilities without silently rewriting the domain contract.
 
 The repository-level rules for new and materially revised modules are defined in [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md).
 
