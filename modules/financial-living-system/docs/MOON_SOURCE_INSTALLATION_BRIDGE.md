@@ -6,7 +6,7 @@
 **Module:** Moon Cortex · Financial Living System  
 **Bootstrap:** Adaptive Finance Bootstrap  
 **Version:** `0.1.0-pre.4`  
-**MSL:** 4.3  
+**MSL:** 5.0  
 **Bridge status:** public specification
 
 ## The boundary
@@ -70,7 +70,7 @@ The write is not complete merely because a connector returns success. Readback c
 | Which source owns which responsibility? | `docs/RESPONSIBILITY_MAP.md` |
 | How should connected sources, authority and readback be handled? | `docs/CONNECTED_SOURCES.md` |
 | How should mutation, failure and receipts be bounded? | `docs/OPERATIONAL_RELIABILITY.md` |
-| How should MSL 4.3 materialization be shaped? | `portables/msl/MSL_4_3.md` |
+| How should MSL 5.0 materialization be shaped? | `portables/msl/MSL_5_0.md` |
 | How should portable identity and adaptation be preserved? | `docs/PORTABLE_DESIGN_CONTRACT.md` plus `docs/CREDITS_ATTRIBUTION_OPS.md` when material |
 | How should current public licensing and claims be checked? | `LICENSING.md`, `PUBLIC_BOUNDARY.md` and `EVIDENCE_AND_CLAIMS.md` |
 
