@@ -58,4 +58,4 @@ Financial Living System is not a bank connector, autonomous transaction layer, r
 
 ---
 
-> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](../../LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source)
+> 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](../../LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · Questions, suggestions, or proposals? Feel free to contact me at [LuaHelenaMMC@gmail.com](mailto:LuaHelenaMMC@gmail.com).
