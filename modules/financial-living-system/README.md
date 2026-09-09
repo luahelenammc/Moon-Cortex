@@ -49,7 +49,7 @@ Financial Living System is not a bank connector, autonomous transaction layer, r
 - **Status:** public pre-release
 - **Canonical entry:** [`modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md)
 - **Transport surface:** [`downloads/financial-living-system.zip`](../../downloads/financial-living-system.zip)
-- **Structural grammar:** MSL 4.3
+- **Structural grammar:** MSL 5.0
 - **License:** CC BY 4.0 · see [repository licensing](../../LICENSING.md)
 
 > **Authority:** This README presents and navigates the module. [`ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md) remains the operational and semantic authority and contains the operative **First use** instructions. The complete ZIP remains the transport surface.

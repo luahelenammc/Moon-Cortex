@@ -8,7 +8,7 @@
 **Status:** public pre-release
 **Canonical path:** `modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md`
 **Canonical package:** `downloads/social-support-navigation-system.zip`
-**Structural grammar:** MSL 4.3
+**Structural grammar:** MSL 5.0
 **Language:** English-first public package; follow the user's language after activation
 **Creator and final human authority:** Lua Helena Moon Martins Cardoso (Moon)
 **AI-assisted coauthorial development:** Moon + Áurion
