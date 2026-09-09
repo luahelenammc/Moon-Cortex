@@ -82,6 +82,12 @@ python scripts/test_title_version_separation.py
 
 The guard checks active public module headings and their dedicated version metadata. It does not ban version-bearing changelog headings, historical references, technical coordinates or package filenames.
 
+## Visibility-neutral version tokens
+
+Repository visibility is an orthogonal publication/distribution state, not part of a version token. Moon Cortex versions therefore use bare release state only. Public/private exposure belongs in repository location, status, boundary and distribution metadata; never append a visibility qualifier to the numeric version.
+
+Removing a legacy visibility qualifier is a bookkeeping-only normalization and does not by itself advance the numeric release. Future accepted updates continue to follow the governing release rule on the bare version itself.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
