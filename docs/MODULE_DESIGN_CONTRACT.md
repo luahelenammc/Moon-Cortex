@@ -5,6 +5,8 @@
 
 A public Cortex module must be understandable, enterable and safely usable without requiring the newcomer to learn the repository taxonomy first.
 
+**MSL profile:** 5.1-compatible Markdown-native module-contract surface; entry, authority and local-sovereignty boundaries remain explicit.
+
 ## Domain identity before copied morphology
 
 A module earns its shape from its domain. Do not copy the file tree, bootstrap, state model, output family or runtime assumptions of another Cortex module merely because that module already works.

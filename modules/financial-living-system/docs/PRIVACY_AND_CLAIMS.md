@@ -6,7 +6,7 @@
 **Module:** Moon Cortex · Financial Living System  
 **Bootstrap:** Adaptive Finance Bootstrap  
 **Version:** `0.1.0-pre.4`  
-**MSL:** 4.3
+**MSL:** 5.1
 
 ## Safe input boundary
 

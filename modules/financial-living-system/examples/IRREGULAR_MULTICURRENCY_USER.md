@@ -6,7 +6,7 @@
 **Status:** hypothetical / fictional / didactic / non-evidentiary  
 **Module:** Moon Cortex · Financial Living System `0.1.0-pre.4`  
 **Bootstrap:** Adaptive Finance Bootstrap  
-**MSL:** 4.3
+**MSL:** 5.1
 
 This example demonstrates irregular income, two currencies and integration into an existing personal knowledge system. It is fictional, not a case study.
 

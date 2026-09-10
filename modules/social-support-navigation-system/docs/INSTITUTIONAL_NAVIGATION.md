@@ -5,6 +5,8 @@
 
 This layer turns a lived situation into a request that a real institution can receive, route and answer. It is not a complaint center, tribunal, press office or guarantee of response.
 
+**MSL profile:** 5.1-compatible Markdown-native module contract; domain, privacy and authority boundaries remain unchanged.
+
 ## Jurisdiction before resource
 
 Before recommending a current route, resolve as much as matters:

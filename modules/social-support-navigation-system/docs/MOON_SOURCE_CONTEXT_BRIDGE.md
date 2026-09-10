@@ -5,6 +5,8 @@
 
 This is an optional bridge between the public Moon Cortex module and the public Moon Source context/method body. It is not a dependency and it does not import private Local Moon Source material.
 
+**MSL profile:** 5.1-compatible Markdown-native bridge contract; domain, privacy and authority boundaries remain unchanged.
+
 ## Ownership and jurisdiction
 
 - **Moon Cortex** owns the identity and public contract of the Social Support Navigation System.

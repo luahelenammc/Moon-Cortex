@@ -53,7 +53,7 @@ Any Living Case State, Resource Pack or handoff produced from the module belongs
 - **Status:** public pre-release
 - **Canonical entry:** [`modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md`](SOCIAL_SUPPORT_NAVIGATOR.md)
 - **Transport surface:** [`downloads/social-support-navigation-system.zip`](../../downloads/social-support-navigation-system.zip)
-- **Structural grammar:** MSL 5.0
+- **Structural grammar:** MSL 5.1
 - **License:** CC BY 4.0 · see [repository licensing](../../LICENSING.md)
 
 > **Authority:** This README presents and navigates the module. [`SOCIAL_SUPPORT_NAVIGATOR.md`](SOCIAL_SUPPORT_NAVIGATOR.md) remains the operational and semantic authority and contains the operative **First use** instructions. The complete ZIP remains the transport surface.

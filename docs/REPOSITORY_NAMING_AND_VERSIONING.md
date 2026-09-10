@@ -5,6 +5,8 @@ Moon Cortex keeps human-facing identity separate from release state.
 - **Title / name = identity.** A module title names the stable domain capability and should remain useful after an ordinary release advances.
 - **Version = state.** A version records the current pre-release, compatibility or generation state in dedicated metadata and release history.
 
+**MSL profile:** 5.1-compatible Markdown-native naming/release surface; title identity and version state remain separate.
+
 ## Governed surfaces
 
 For current public modules, keep the stable title in:

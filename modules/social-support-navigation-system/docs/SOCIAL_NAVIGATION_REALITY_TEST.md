@@ -5,6 +5,8 @@
 
 This is a documentation-level synthetic validation contract. It uses fictional cases only. Passing these checks means that the package expresses the intended routing and boundary behavior; it does not establish social-work efficacy, clinical validity, legal validity, institutional adoption or measured outcomes.
 
+**MSL profile:** 5.1-compatible Markdown-native synthetic validation surface; fictional status and claim ceiling remain unchanged.
+
 ## How to run
 
 Give a fresh AI the complete module package and one synthetic case at a time. Record the output, questions asked, route selected, owner, checkpoint, privacy result and professional-boundary result. Each test returns `PASS`, `PARTIAL` or `FAIL` with evidence.

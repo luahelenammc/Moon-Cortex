@@ -6,7 +6,7 @@
 **Module:** Moon Cortex · Financial Living System  
 **Bootstrap:** Adaptive Finance Bootstrap  
 **Version:** `0.1.0-pre.4`  
-**MSL:** 4.3  
+**MSL:** 5.1  
 **Status:** public method specification
 
 This document extracts financial mechanisms that remain useful across jurisdictions, payment systems, currencies and income rhythms. It is an ontology of distinctions, not a country-specific chart of accounts.

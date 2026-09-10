@@ -5,6 +5,8 @@
 
 These are the stable laws of the Social Support Navigation System. They are meant to survive localization and adaptation without turning the module into a professional authority or a fixed program directory.
 
+**MSL profile:** 5.1-compatible Markdown-native module contract; domain, privacy and authority boundaries remain unchanged.
+
 ## The invariants
 
 1. **The person remains sovereign.** Support should increase the person’s ability to understand, choose and continue, whenever safety permits.
