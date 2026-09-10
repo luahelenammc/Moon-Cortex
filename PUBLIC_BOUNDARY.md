@@ -5,6 +5,8 @@
 
 This repository is a public pre-release projection of Moon Cortex. It contains two public domain modules, each with its own identity, public responsibility, package shape and claim ceiling. It remains intentionally narrower than the private and professional bodies that informed it.
 
+**MSL profile:** 5.1-compatible Markdown-native public-boundary surface; domain, privacy and claim ceilings remain explicit.
+
 ## Public in this release
 
 The public body includes or may include:

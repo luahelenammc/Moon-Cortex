@@ -3,6 +3,12 @@
 
 # Changelog
 
+## MSL 5.1 public-surface alignment — 2026-09-10
+
+- Updated active Moon Cortex structural-grammar references and the Moon Source bridge routes to MSL 5.1 / Preflight V2.1.
+- Added compact MSL 5.1 format profiles to the reviewed first- and second-wave governance, module-contract and synthetic-example surfaces without changing domain semantics, package identity or claim ceilings.
+- Rebuilt the complete module packages with the preserved file set and current Markdown bodies.
+
 ## Unreleased
 
 ### Canonical module entry onboarding rebase — 2026-09-08

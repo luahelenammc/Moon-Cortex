@@ -9,6 +9,8 @@ This page offers a deliberately narrow glimpse of module families. It distinguis
 
 The previews intentionally omit private donor material, internal prompts, schemas, evaluation logic and protected operational knowledge.
 
+**MSL profile:** 5.1-compatible Markdown-native preview surface; public/incubated status and boundary remain explicit.
+
 ## Already public
 
 ### Financial Living System

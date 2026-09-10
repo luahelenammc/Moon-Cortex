@@ -4,7 +4,7 @@
 # Moon Cortex Architecture
 
 **Status:** public pre-release  
-**Structural grammar:** MSL 5.0
+**Structural grammar:** MSL 5.1
 
 Moon Cortex is a public lineage for domain modules that help AI systems produce situated, user-owned capabilities. The repository is intentionally smaller than a complete platform or product specification. Its job is to make coherent public systems inspectable while keeping each domain’s responsibility and boundary legible.
 

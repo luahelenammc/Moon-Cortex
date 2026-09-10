@@ -5,6 +5,8 @@
 
 This case is fictional and jurisdiction-neutral. It is a demonstration of architecture, not a real case study.
 
+**MSL profile:** 5.1-compatible Markdown-native synthetic example; fictional status and claim ceiling remain unchanged.
+
 ## The situation
 
 Rowan, a fictional adult, currently depends on a sibling, Jordan, for transportation to appointments, form completion, medication reminders and communication with service offices. Jordan has begun missing work and cannot continue handling every function. Rowan wants to keep the relationship while making daily support safer and more sustainable.

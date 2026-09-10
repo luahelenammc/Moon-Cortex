@@ -5,6 +5,8 @@
 
 This case is fictional and jurisdiction-neutral. It is a demonstration of institutional navigation, not a real resource recommendation.
 
+**MSL profile:** 5.1-compatible Markdown-native synthetic example; fictional status and claim ceiling remain unchanged.
+
 ## The situation
 
 The fictional Vale household is struggling to keep food and utilities stable after a sudden income reduction. A neighbor mentioned a “household support program,” but the household does not know which authority owns it. A search result lists an old phone number; a current official page appears to direct residents to a different intake channel.

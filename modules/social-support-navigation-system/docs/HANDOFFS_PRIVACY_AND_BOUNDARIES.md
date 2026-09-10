@@ -3,6 +3,8 @@
 
 # Handoffs, Privacy and Boundaries
 
+**MSL profile:** 5.1-compatible Markdown-native handoff contract; domain, privacy and authority boundaries remain unchanged.
+
 ## Support Handoff
 
 A **Support Handoff** is a bounded artifact that helps another person, institution or AI continue a concrete passage without taking the person’s decision-making authority. It should carry enough context to act and no more than the recipient needs.

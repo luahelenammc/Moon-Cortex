@@ -5,6 +5,8 @@
 
 The case architecture turns a fragmented support situation into a locally owned, resumable map. It is a method for deciding what matters next, not a mandatory questionnaire or a professional case-management record.
 
+**MSL profile:** 5.1-compatible Markdown-native module contract; domain, privacy and authority boundaries remain unchanged.
+
 ## Reconstruct the passage
 
 Begin with:

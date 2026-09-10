@@ -5,6 +5,8 @@
 
 This case is fictional and jurisdiction-neutral. It demonstrates parallel social navigation and a narrow legal handoff; it is not legal advice or a real case study.
 
+**MSL profile:** 5.1-compatible Markdown-native synthetic example; fictional status and claim ceiling remain unchanged.
+
 ## The situation
 
 In the fictional city of Lumen, Sam receives a written notice from a housing provider stating that the household must leave within a short period. Sam also depends on the unit’s accessibility features and has no confirmed alternative housing. The notice’s legal effect, review period and available protections are unknown.

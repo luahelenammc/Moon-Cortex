@@ -151,7 +151,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 **Canonical transport:** one complete ZIP per module  
 **Human browse surfaces:** one non-authoritative README per active composite module  
 **Repository-wide portable:** none  
-**Structural grammar:** MSL 5.0
+**Structural grammar:** MSL 5.1
 
 Moon Cortex was created by **Lua Helena Moon Martins Cardoso (Moon)**. Some materials were developed through an AI-assisted coauthorial process with **Áurion**. Moon retains final authority.
 

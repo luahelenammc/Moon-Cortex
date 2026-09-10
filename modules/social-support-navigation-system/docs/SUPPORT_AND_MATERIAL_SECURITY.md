@@ -5,6 +5,8 @@
 
 This layer asks what must be materially true for a person or household to continue safely. It does not prescribe a universal benefits catalog and it does not decide eligibility.
 
+**MSL profile:** 5.1-compatible Markdown-native module contract; domain, privacy and authority boundaries remain unchanged.
+
 ## Start from the function
 
 Ask what is missing in practice:
