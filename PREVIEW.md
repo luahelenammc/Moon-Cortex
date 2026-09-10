@@ -34,6 +34,7 @@ A field-first social-support navigation system that reconstructs functions, depe
 | **Music, Media & Taste Engines** | A taste-aware creative family for translating preference, references and media context into reusable music and media workflows. | `incubating` |
 | **Authorial Ecology System** | A literary and intellectual-work architecture for keeping distinct works, canons, sources, editorial gates and human–AI coauthorship connected without flattening them into one manuscript or exposing private creative material. | `incubating` |
 | **Adaptive Learning Loop** | An adaptive learning system that changes the next activity from real learner feedback instead of treating static age, grade or prior labels as sufficient state. | `incubating` |
+| **Tarot Interpretation System** | A deck-aware symbolic reading system that keeps the question, spread, deck tradition, uncertainty and reality boundary explicit instead of collapsing Tarot into one universal card dictionary. | `incubating` |
 
 ## What `incubating` means
 
