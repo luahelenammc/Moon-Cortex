@@ -32,7 +32,7 @@ A field-first social-support navigation system that reconstructs functions, depe
 | **Image Cortex** | A modular visual system for turning intent into coherent image workflows and outputs across different kinds of visual work. | `incubating` |
 | **Voice, Text Engines & Interfaces** | A language-and-interaction family for shaping how AI reads context, communicates, revises and presents text for different human situations. | `incubating` |
 | **Music, Media & Taste Engines** | A taste-aware creative family for translating preference, references and media context into reusable music and media workflows. | `incubating` |
-| **Escritos · Authorial Writing Ecology** | A literary architecture for keeping distinct works, canons, sources, editorial gates and human–AI coauthorship connected without flattening them into one manuscript or exporting private creative material. | `incubating` |
+| **Authorial Ecology System** | A literary and intellectual-work architecture for keeping distinct works, canons, sources, editorial gates and human–AI coauthorship connected without flattening them into one manuscript or exposing private creative material. | `incubating` |
 | **Adaptive Learning Loop** | An adaptive learning system that changes the next activity from real learner feedback instead of treating static age, grade or prior labels as sufficient state. | `incubating` |
 
 ## What `incubating` means
