@@ -65,12 +65,12 @@ The write is not complete merely because a connector returns success. Readback c
 
 | Installation question | Smallest Moon Source route |
 |---|---|
-| How should the task be shaped before building? | `https://github.com/luahelenammc/Moon-Source/blob/main/portables/preflight/PREFLIGHT_V2.md` when the task is materially ambiguous or risky |
+| How should the task be shaped before building? | `https://github.com/luahelenammc/Moon-Source/blob/main/portables/preflight/PREFLIGHT.md` when the task is materially ambiguous or risky |
 | What form should the field receive? | `docs/FIELD_TO_FORM.md` |
 | Which source owns which responsibility? | `docs/RESPONSIBILITY_MAP.md` |
 | How should connected sources, authority and readback be handled? | `docs/CONNECTED_SOURCES.md` |
 | How should mutation, failure and receipts be bounded? | `docs/OPERATIONAL_RELIABILITY.md` |
-| How should MSL 5.1 materialization be shaped? | `https://github.com/luahelenammc/Moon-Source/blob/main/portables/msl/MSL_5_1.md` |
+| How should MSL 5.1 materialization be shaped? | `https://github.com/luahelenammc/Moon-Source/blob/main/portables/msl/MOON_SOURCE_LANGUAGE.md` |
 | How should portable identity and adaptation be preserved? | `docs/PORTABLE_DESIGN_CONTRACT.md` plus `docs/CREDITS_ATTRIBUTION_OPS.md` when material |
 | How should current public licensing and claims be checked? | `LICENSING.md`, `PUBLIC_BOUNDARY.md` and `EVIDENCE_AND_CLAIMS.md` |
 

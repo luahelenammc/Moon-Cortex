@@ -3,6 +3,12 @@
 
 # Changelog
 
+## Stable canonical-path governance — 2026-09-24
+
+- Established that current module entry and package paths follow stable semantic identity while release state remains in metadata and history.
+- Added a proportional regression guard over the canonical-entry and package routes declared in each active module README; current module paths and packages are already version-neutral, so no renames or module-version changes were needed.
+- Clarified that history, migrations and intentionally parallel compatibility generations remain valid versioned identities.
+
 ## MSL 5.1 public-surface alignment — 2026-09-10
 
 - Updated active Moon Cortex structural-grammar references and the Moon Source bridge routes to MSL 5.1 / Preflight V2.1.
