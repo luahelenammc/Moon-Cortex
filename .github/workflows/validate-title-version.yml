@@ -9,6 +9,7 @@ on:
     paths:
       - "README.md"
       - "modules/**"
+      - "downloads/**"
       - "docs/REPOSITORY_NAMING_AND_VERSIONING.md"
       - "templates/REPOSITORY_NAMING_AND_VERSIONING.md"
       - "scripts/**"
@@ -18,6 +19,7 @@ on:
     paths:
       - "README.md"
       - "modules/**"
+      - "downloads/**"
       - "docs/REPOSITORY_NAMING_AND_VERSIONING.md"
       - "templates/REPOSITORY_NAMING_AND_VERSIONING.md"
       - "scripts/**"

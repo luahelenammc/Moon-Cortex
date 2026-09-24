@@ -6,17 +6,37 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION_MARKER_RE = re.compile(
     r"(?i)(?<![A-Za-z])(?:v\d+(?:\.\d+)*|\d+\.\d+(?:\.\d+)*(?:-[a-z0-9.-]+)?|(?:alpha|beta|rc)\d*)(?![A-Za-z])"
 )
+PATH_VERSION_MARKER_RE = re.compile(
+    r"(?i)(?<![A-Za-z0-9])(?:v\d+(?:[._]\d+)*|\d+(?:[._]\d+)+(?:-[a-z0-9][a-z0-9.-]*)?)(?![A-Za-z0-9])"
+)
 H1_RE = re.compile(r"^\s*#\s+(?!#)(.*?)\s*$", re.MULTILINE)
 VERSION_FIELD_RE = re.compile(r"(?im)^\*\*Version:\*\*\s*`?[^`\s]+`?")
+CANONICAL_ENTRY_RE = re.compile(
+    r"(?im)^\s*-\s*\*\*Canonical entry:\*\*\s*\[[^\]]+\]\(([^)]+)\)"
+)
+TRANSPORT_SURFACE_RE = re.compile(
+    r"(?im)^\s*-\s*\*\*Transport surface:\*\*\s*\[[^\]]+\]\(([^)]+)\)"
+)
+
+# A current version-bearing route is exceptional and needs a reason. The
+# current repository has no such compatibility/schema route.
+VERSIONED_CURRENT_PATH_EXCEPTIONS: dict[str, str] = {}
 
 
 def contains_version_marker(value: str) -> bool:
     return bool(VERSION_MARKER_RE.search(value))
+
+
+def contains_version_marker_in_path(value: str) -> bool:
+    """Detect release markers in a live route, including parent directories."""
+
+    return bool(PATH_VERSION_MARKER_RE.search(value))
 
 
 def first_h1(markdown: str) -> str | None:
@@ -40,8 +60,63 @@ def governed_files(root: Path = ROOT) -> list[Path]:
     return files
 
 
+def current_module_path_errors(root: Path = ROOT) -> list[str]:
+    """Check current module entry and package routes named by each module README.
+
+    Moon Cortex has no machine-readable capability registry; the active
+    modules' READMEs are the repository's current route map.
+    """
+
+    errors: list[str] = []
+    modules = root / "modules"
+    if not modules.is_dir():
+        return errors
+
+    root_resolved = root.resolve()
+    for module_readme in sorted(modules.glob("*/README.md")):
+        content = module_readme.read_text(encoding="utf-8")
+        module = module_readme.parent.name
+        for coordinate, pattern in (
+            ("canonical entry", CANONICAL_ENTRY_RE),
+            ("transport package", TRANSPORT_SURFACE_RE),
+        ):
+            targets = sorted(set(pattern.findall(content)))
+            if not targets:
+                errors.append(f"{module_readme.relative_to(root)}: missing current {coordinate} route")
+                continue
+            for target in targets:
+                parsed = urlsplit(target.strip())
+                if parsed.scheme or parsed.netloc or not parsed.path:
+                    errors.append(
+                        f"{module_readme.relative_to(root)}: current {coordinate} must use a repository path"
+                    )
+                    continue
+                resolved = (module_readme.parent / parsed.path).resolve()
+                try:
+                    relative = resolved.relative_to(root_resolved).as_posix()
+                except ValueError:
+                    errors.append(
+                        f"{module_readme.relative_to(root)}: current {coordinate} escapes the repository"
+                    )
+                    continue
+                if not resolved.is_file():
+                    errors.append(
+                        f"{module_readme.relative_to(root)}: missing current {coordinate}: {relative}"
+                    )
+                if (
+                    contains_version_marker_in_path(relative)
+                    and not VERSIONED_CURRENT_PATH_EXCEPTIONS.get(relative, "").strip()
+                ):
+                    errors.append(
+                        f"{module}: current {coordinate} contains a version marker: {relative!r}; "
+                        "keep release state in metadata or document a semantic exception"
+                    )
+    return errors
+
+
 def validation_errors(root: Path = ROOT) -> list[str]:
     errors: list[str] = []
+    errors.extend(current_module_path_errors(root))
     files = governed_files(root)
     for path in files:
         if not path.is_file():

@@ -20,8 +20,15 @@ Record release state separately in:
 
 - `**Version:**` metadata;
 - changelog and release records;
-- technical filenames, paths and package names when those coordinates are useful;
 - compatibility notes and historical prose.
+
+## Stable canonical artifact naming and directory geometry
+
+For every living/current public module, canonical filenames and paths identify the stable semantic object, not its release number. Put version state in artifact metadata, changelogs and release records. An ordinary version bump must not require a canonical path change.
+
+Current package paths follow the same rule unless a package is intentionally an immutable, release-specific snapshot. A version-bearing current filename or parent directory needs a documented semantic reason, such as a schema generation or compatibility layer that must remain valid in parallel. Do not create version-, model- or release-specific directories when a shared semantic container is sufficient.
+
+Preserve historical snapshots, migrations, external versioned standards and other genuinely parallel identities. When a canonical path moves, repair current links and package members, then read back the active surfaces. Do not leave compatibility twins by default. Naming-only cleanup does not advance a module's semantic version.
 
 The current active modules illustrate the contract:
 
@@ -37,7 +44,7 @@ Technical entry: modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGAT
 Package: downloads/social-support-navigation-system.zip
 ```
 
-The title remains stable while the version changes. A technical path may retain a version marker when that is part of a compatibility or transport contract; that marker must not become the current human-facing title.
+The title, canonical entry path and current package path remain stable while the version changes. A version-bearing current path is permitted only for a documented semantic exception.
 
 ## Documentation and first-use changes
 
@@ -82,7 +89,7 @@ python scripts/check_title_version_separation.py
 python scripts/test_title_version_separation.py
 ```
 
-The guard checks active public module headings and their dedicated version metadata. It does not ban version-bearing changelog headings, historical references, technical coordinates or package filenames.
+The guard checks active public module headings, dedicated version metadata, and the current canonical-entry and package paths named by each module README. Moon Cortex has no separate capability registry, so those README routes are the current path map. The path check includes parent directories, ignores historical prose, and supports a reasoned exception allowlist.
 
 ## Visibility-neutral version tokens
 

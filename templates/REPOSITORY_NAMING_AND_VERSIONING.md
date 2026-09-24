@@ -16,12 +16,20 @@ Use the stable title in:
 - root navigation, cards and tables;
 - public package labels.
 
-Keep version markers in dedicated metadata and technical/history coordinates:
+Keep version markers in dedicated release-state surfaces:
 
 - `**Version:**` fields;
 - changelogs and release notes;
-- technical filenames, paths, package names and compatibility identifiers;
+- release records and registries;
 - explicitly historical prose.
+
+## Stable canonical artifact naming and directory geometry
+
+For a living/current module, the canonical filename and path identify the stable semantic object. Current package paths follow the same rule unless the package is an intentionally immutable release snapshot. Put version state in metadata; an ordinary version bump must not require a canonical rename.
+
+A version-bearing current filename or directory needs a documented semantic reason, such as a schema generation or compatibility layer kept live in parallel. Do not create version-, model- or release-specific directories when a shared semantic container is sufficient. Preserve historical snapshots, migrations, external versioned standards and other genuinely parallel identities.
+
+When a canonical path moves, repair active links and package members, then read back the current surfaces. Do not leave compatibility twins by default. Naming-only cleanup does not advance the module's semantic version.
 
 ```text
 Stable title: [human-facing identity]
@@ -37,9 +45,9 @@ A clearer README, canonical-entry first-use section, installation disclaimer, ma
 
 Use the [Module Design Contract](../docs/MODULE_DESIGN_CONTRACT.md) to separate onboarding/interface deltas from actual operational-contract changes. Evaluate a version change only when behavior, compatibility, routing, domain invariants or output semantics materially change.
 
-The structural rule is **one entry, not necessarily one file**: a composite module may retain internal files that own real responsibilities, but should expose one canonical human + AI entry artifact. A module `README.md` is optional and should be added only when the module directory itself owns independent navigation that the canonical entry cannot safely carry.
+The structural rule is **one entry, not necessarily one file**: a composite module may retain internal files that own real responsibilities, but should expose one canonical human + AI entry artifact. A module `README.md` is optional and should be added only when the module directory itself owns independent navigation that the canonical entry cannot safely carry. In this repository, the module README identifies the current canonical entry and package for the path guard.
 
-Add an automated guard and a regression test before public promotion. A technical version marker must not become the current human-facing title.
+Add an automated guard and a regression test before public promotion. The guard should check current canonical/package paths and parent directories, while preserving historical references and documented semantic exceptions.
 
 ## Visibility-neutral version tokens
 
