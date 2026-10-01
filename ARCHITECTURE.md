@@ -26,7 +26,7 @@ local operation, feedback and reconfiguration
 
 The loop is stable. Its internal morphology is not.
 
-## Two demonstrated topologies
+## Three demonstrated module shapes
 
 ### Financial Living System
 
@@ -58,7 +58,23 @@ user-local case state, Resource Pack or Support Handoff
 
 Social support is a navigation architecture. It may produce a direct answer, a bounded institutional request, a local Living Case State or a handoff rather than one generated system tree.
 
-These differences are part of the design. The Financial Living System does not legislate a bootstrap shape for future modules, and the Social Support Navigation System does not need to imitate finance to belong in the Cortex.
+### Probability Calibration System
+
+```text
+uncertain, bounded outcome
+        ↓
+Probability Calibration System
+        ↓
+Probability Calibrator
+        ↓ define target + assess fit/evidence + express uncertainty
+qualitative band or evidence-supported quantitative estimate
+        ↓
+updated read, confidence, triggers and proportionate action
+```
+
+Probability calibration is a field-first method, not a universal equation or mandatory numeric model. Qualitative estimates remain valid when evidence does not support a percentage. The module separates fit, evidence, probability and confidence, and keeps current sources and local forecast records under user control.
+
+These differences are part of the design. The Financial Living System does not legislate a bootstrap shape for future modules, and the Social Support Navigation System does not need to imitate finance to belong in the Cortex. The Probability Calibration System does not make numerical output mandatory.
 
 ## Human entry and module design contract
 
@@ -87,6 +103,8 @@ The repository-level rules for new and materially revised modules are defined in
 | Adaptive Finance Bootstrap | Finance field discovery, capability routing and local-system instantiation | Financial advice, user data ownership or autonomous transactions |
 | Social Support Navigation System | Social-support reconstruction, barrier/passage routing, institutional navigation and bounded handoffs | Public authority, legal/clinical decisions, eligibility or live case ownership |
 | Social Support Navigator | Entry, orchestration, output routing and persistence gate for the social module | The person’s sovereignty, institutional decisions or professional judgment |
+| Probability Calibration System | Field-first estimation and update contract that keeps fit, evidence, probability and confidence distinct | A universal formula, unsupported numeric precision, predictive validity or professional authority |
+| Probability Calibrator | Target definition, evidence review, probability expression, confidence, freshness and update routing | A running predictive model, current data feed, user forecast log or the outcome itself |
 | Moon Source | Public context architecture and installation methods when deliberately consulted | Ownership of either Cortex module or perpetual runtime execution |
 | User-local state | Current facts, decisions, sources, records, choices and updates after local use | The public identity or claims of the Cortex modules |
 
@@ -95,7 +113,7 @@ The repository-level rules for new and materially revised modules are defined in
 These states must remain distinct:
 
 - **Transport:** each public module has its own canonical complete ZIP. There is no repository-wide multi-module portable yet.
-- **Entry:** each module chooses its own entry interface. Finance uses the Adaptive Finance Bootstrap; social support uses the Social Support Navigator.
+- **Entry:** each module chooses its own entry interface. Finance uses the Adaptive Finance Bootstrap; social support uses the Social Support Navigator; probability calibration uses the Probability Calibrator.
 - **Installation:** a module may optionally consult current public Moon Source methods for context, authority, freshness and readback governance.
 - **Runtime:** the generated or organized user-local system should operate from its own authoritative sources. Routine use should not require hidden upstream memory.
 
@@ -103,7 +121,7 @@ Complete-package transport does not mean loading every file into active context 
 
 ## Source and system relationship
 
-Moon Source is the broader public context/method body. Moon Cortex is the public applied/system body. A bridge can carry context, provenance and installation guidance without merging the bodies or transferring authority.
+Moon Source is the broader public context/method body. Moon Cortex is the public applied/system body. A bridge can carry context, provenance and installation guidance without merging the bodies or transferring authority. Route a candidate by function: source/context-governance methods may belong in Moon Source, while reusable domain or problem-field systems belong in Moon Cortex after its public boundary is met. Generalization alone does not determine the destination.
 
 The contract is:
 
@@ -113,10 +131,11 @@ The contract is:
 
 Public files contain generalized mechanisms, synthetic examples, public claims, package guidance and explicit limitations. They do not contain private finance records, social-support case histories, identifying records, live resource packs, private legal analysis, credentials or protected donor/runtime corpora.
 
-The two donor lineages are named only to keep extraction honest:
+The donor lineages are named only to keep extraction honest:
 
 - **Finanças Moon** → Financial Living System;
-- **Defensoria Social** → Social Support Navigation System.
+- **Defensoria Social** → Social Support Navigation System;
+- **Local Moon Source** → Probability Calibration System, as a generalized method only.
 
 Lineage does not publish either donor corpus or transfer private facts into the public body.
 
@@ -124,9 +143,10 @@ Lineage does not publish either donor corpus or transfer private facts into the 
 
 It establishes:
 
-- a multi-module public Cortex body with two demonstrated domain shapes;
+- a multi-module public Cortex body with three demonstrated domain shapes;
 - a complete integrated Financial Living System portable;
 - a complete Social Support Navigation System portable;
+- a complete Probability Calibration System portable;
 - field-before-form and user-local sovereignty laws;
 - domain-specific entry and output contracts;
 - synthetic validation and explicit claim boundaries;
