@@ -19,10 +19,20 @@ EXPECTED = {
     "docs/CORE_INVARIANTS.md",
     "docs/CALIBRATION_MODEL.md",
     "docs/EVIDENCE_AND_CLAIMS.md",
+    "docs/FORECAST_VERIFICATION.md",
     "docs/MOON_SOURCE_CONTEXT_BRIDGE.md",
+    "docs/QUANTITATIVE_METHODS.md",
     "docs/REALITY_TEST.md",
+    "docs/SCIENTIFIC_REFERENCES.md",
+    "docs/STRUCTURED_EXPERT_ELICITATION.md",
     "examples/synthetic_examples.md",
     "CHANGELOG.md",
+    "reference/__init__.py",
+    "reference/probability_calibration.py",
+    "reference/forecast_verification.py",
+    "reference/tests/__init__.py",
+    "reference/tests/test_quantification.py",
+    "reference/tests/test_forecast_verification.py",
 }
 LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 
@@ -31,7 +41,11 @@ def validation_errors() -> list[str]:
     if not MODULE.is_dir():
         return ["missing probability-calibration-system module directory"]
 
-    actual = {path.relative_to(MODULE).as_posix() for path in MODULE.rglob("*") if path.is_file()}
+    actual = {
+        path.relative_to(MODULE).as_posix()
+        for path in MODULE.rglob("*")
+        if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc"
+    }
     if actual != EXPECTED:
         errors.append(f"module file set mismatch: missing={sorted(EXPECTED - actual)}, unexpected={sorted(actual - EXPECTED)}")
 
@@ -40,8 +54,8 @@ def validation_errors() -> list[str]:
         entry_text = entry.read_text(encoding="utf-8")
         if not re.search(r"(?im)^# Probability Calibrator\s*$", entry_text):
             errors.append("canonical entry has an unexpected title")
-        if "**Version:** `0.1.0-pre.1`" not in entry_text:
-            errors.append("canonical entry is missing version 0.1.0-pre.1")
+        if "**Version:** 0.2.0-pre.1" not in entry_text:
+            errors.append("canonical entry is missing version 0.2.0-pre.1")
         if "## First use" not in entry_text:
             errors.append("canonical entry is missing embedded first-use instructions")
         for field in ("as_of", "expire_if", "refresh_if", "manual_recalibration_required_if", "safe_fallback_read"):
@@ -84,9 +98,14 @@ def validation_errors() -> list[str]:
     if "capela" in combined:
         errors.append("module package contains a private situational adapter name")
     example_text = (MODULE / "examples" / "synthetic_examples.md").read_text(encoding="utf-8").lower() if (MODULE / "examples" / "synthetic_examples.md").is_file() else ""
-    for marker in ("high fit, low evidence", "moderate probability, high confidence", "correlated reposts", "qualitative only", "recalibration"):
+    for marker in ("high fit, low evidence", "moderate probability, high confidence", "correlated", "qualitative only", "recalibration"):
         if marker not in example_text:
             errors.append(f"synthetic examples are missing required case: {marker}")
+
+    stale_version = "0.1.0-pre.1"
+    for source in markdown_files:
+        if source.name != "CHANGELOG.md" and stale_version in source.read_text(encoding="utf-8"):
+            errors.append(f"{source.relative_to(ROOT)} retains stale current-state version {stale_version}")
 
     if not PACKAGE.is_file():
         errors.append("missing complete package downloads/probability-calibration-system.zip")

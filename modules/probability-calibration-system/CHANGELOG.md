@@ -3,6 +3,23 @@
 
 # Probability Calibration System Changelog
 
+## 0.2.0-pre.1 — 2026-10-01
+
+Scientific Quantification & Empirical Calibration.
+
+- added a percentage permission gate, Q0–Q5 quantification classes, and a machine-readable provenance contract;
+- added empirical reference-class mode, Beta-Binomial posterior intervals, Bayesian odds updates, and a mandatory dependence gate;
+- added structured expert elicitation and cautious multi-estimator aggregation;
+- added seeded Monte Carlo uncertainty propagation, sensitivity guidance, and a separate expected-utility layer;
+- added a public Forecast Ledger schema and explicit resolution statuses;
+- added Brier, Brier Skill Score, logarithmic scoring, reliability data, sharpness summaries, and Brier decomposition;
+- added caller-defined data-sufficiency gates and out-of-sample isotonic and Platt recalibration methods;
+- added dependency-light Python reference code and mathematical/control tests;
+- added scientific-method sources, twelve synthetic examples, and a cold-start contract;
+- preserved the qualitative-first fallback, high-stakes limits, local sovereignty, and separation of fit, evidence, probability, confidence, and utility.
+
+No real resolved forecast history is included. The release makes no empirical performance or calibration claim.
+
 ## 0.1.0-pre.1 — 2026-09-30
 
 Initial public pre-release.

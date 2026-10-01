@@ -3,80 +3,68 @@
 
 # Evidence and Claims
 
-**MSL profile:** 5.1-compatible Markdown-native evidence contract; provenance, sample limitations, domain authority, and claim ceilings remain explicit.
+**MSL profile:** 5.1-compatible Markdown-native evidence contract; provenance, sample limits, domain authority, and claim ceilings remain explicit.
 
 ## Evidence is about the target
 
-Evidence quality is not one number. Review the parts that matter to this estimate:
+Review the parts that matter to the defined event:
 
-- **Directness:** does the source observe the outcome or report something indirect?
-- **Reliability:** can the source and its method be trusted for this claim?
-- **Specificity:** does it distinguish the defined event from nearby outcomes?
-- **Recency:** is the information still current for the stated horizon?
-- **Independence:** does it add a new observation, or repeat an existing source?
-- **Coverage:** which relevant cases, time periods, and outcomes are represented?
-- **Selection:** which cases are missing, filtered, or more likely to be recorded?
-- **Consistency:** what contradictory observations or alternative explanations remain?
-- **Causal relevance:** is the source evidence of a cause, a predictor, or only compatibility?
+- **Directness and specificity:** does the source observe the outcome, and does it distinguish that outcome from nearby ones?
+- **Reliability and provenance:** how was the information produced, and can the chain be checked?
+- **Recency and coverage:** is it current, and which relevant cases or periods are represented?
+- **Independence and causal origin:** is it new information or a derivative of the same source or event?
+- **Selection and missingness:** which cases were excluded, lost, or more likely to be recorded?
+- **Consistency and alternatives:** which contradictions and other explanations remain?
 
-A source can be reliable but weakly related to the target. A signal can fit the story while providing little evidence for the probability.
+A source may be reliable but weakly related to the target. A signal may fit the story yet provide little evidence about the outcome.
 
-## Keep four judgments separate
+## Keep judgments separate
 
 | Judgment | Question |
 |---|---|
-| Fit | How closely does this reference class or analogue match the present case? |
-| Evidence | How trustworthy, relevant, independent, and complete is the information? |
+| Fit | How closely does the class, analogue, or model match this case? |
+| Evidence | How relevant, traceable, independent, current, and complete is the information? |
 | Probability | How likely is the defined outcome within the stated horizon? |
-| Confidence | How reliable is this estimate given its evidence and assumptions? |
+| Confidence | How reliable is the estimate under its evidence and assumptions? |
+| Utility | What values and consequences attach to possible actions and states? |
 
-Do not combine these into a single score. State the limitation at the point where it affects the estimate.
+Do not collapse these into one score. Make an assumption visible at the point where it affects the estimate.
 
-## Base rates and quantitative claims
+## Numeric provenance
 
-A base rate is useful only when the historical event, population, measurement, and time period are sufficiently relevant to the present target. State its source and denominator. Explain any important mismatch. A past frequency may inform a forecast; it does not guarantee an individual result.
+Every percentage has a quantification class. The public schema in [Quantitative methods](QUANTITATIVE_METHODS.md) captures the target, horizon, as-of time, raw and final values, method, reference class or prior, dependence, uncertainty, sources, assumptions, expiry, and update triggers. Fields may be omitted only when they do not apply; missing values are unknown, not invitations to fabricate.
 
-Use no numerical probability when the event is undefined, the reference class is not defensible, source quality is unknown, the data are too sparse for the requested precision, or a relevant model cannot be verified. Say what information would make a number supportable.
+A reference frequency needs a relevant event definition and denominator. A Bayesian update needs a prior and evidence model. An elicited number needs a documented process. A simulated distribution needs traceable inputs. A recalibrated probability needs preserved raw forecasts and held-out evaluation.
 
-Do not infer quantitative validity from confident language, a large-looking count without a denominator, or several reports derived from one source.
+## Evaluation and claim ceiling
 
-## Evaluating a repeated forecasting process
+Proper scoring rules and calibration diagnostics evaluate a set of probabilistic forecasts against outcomes; they do not validate a method for every domain or individual case. Calibration and sharpness should be read together. Resolution, reliability, sample size, event prevalence, selection, dependence, and subgroup scope affect interpretation.
 
-Research on probabilistic forecasts distinguishes properties such as calibration and sharpness and studies forecast evaluation with proper scoring rules and diagnostic tools. The suitable evaluation depends on the forecast type, data, and purpose. Aggregate performance does not establish accuracy for an individual case or subgroup, and a selected metric does not by itself validate the underlying model.
+The module may claim that it supports:
 
-Relevant primary references:
+- structured qualitative and evidence-based quantitative forecasts;
+- reference-class reasoning and Bayesian updating;
+- documented structured expert elicitation;
+- uncertainty propagation from supplied inputs;
+- scoring and diagnostics for eligible resolved forecasts;
+- recalibration when an explicit data policy and out-of-sample evidence permit it.
 
-- Tilmann Gneiting, Fadoua Balabdaoui, and Adrian E. Raftery, [Probabilistic Forecasts, Calibration and Sharpness](https://doi.org/10.1111/j.1467-9868.2007.00587.x), *Journal of the Royal Statistical Society: Series B*, 2007.
-- Tilmann Gneiting and Adrian E. Raftery, [Strictly Proper Scoring Rules, Prediction, and Estimation](https://doi.org/10.1198/016214506000001437), *Journal of the American Statistical Association*, 2007.
+It may not claim scientifically validated superiority, universal calibration, expert-equivalent performance, measured performance without real resolved records, or clinical, legal, financial, or other domain validity.
 
-These references describe statistical forecast evaluation. They do not validate this module or any forecast produced with it.
-
-## Claims this module may make
-
-It may say that it:
-
-- defines and structures a forecast;
-- separates facts, assumptions, fit, evidence, probability, and confidence;
-- identifies a quantitative basis or explains why one is missing;
-- records freshness, uncertainty, alternatives, and update triggers;
-- supports inspection of a repeated forecast process when adequate outcome data and an appropriate method exist.
-
-It may not claim that it is accurate, calibrated, validated, clinically or professionally valid, superior to experts, universally correct, or proven to improve decisions. It may not imply adoption, impact, endorsement, or measured performance without separate evidence.
-
-## Evidence categories stay distinct
+## Evidence categories remain distinct
 
 - **Architecture:** a documented design contract.
-- **Synthetic example:** a fictional illustration of behavior.
-- **Reality test:** a check that required boundaries and outputs are present.
-- **Forecast log:** user-local records of estimates and outcomes.
-- **External evaluation:** a defined study against a suitable comparator with adequate data.
-- **Professional or regulatory validity:** a separate domain-specific determination by the relevant authority.
+- **Synthetic example:** a fictional illustration.
+- **Software test:** a check of mathematical and control behavior on chosen fixtures.
+- **Forecast ledger:** user-local forecasts, assumptions, and outcomes.
+- **External evaluation:** a study on real resolved records against a suitable comparator.
+- **Professional or regulatory validity:** a separate domain-specific determination.
 
-One category does not prove another. All package examples are synthetic and non-evidentiary.
+One category does not prove another. All package examples and tests are synthetic; they are not forecast history.
 
-## High-stakes claims ceiling
+## High-stakes boundary
 
-Do not provide individual medical prognosis, legal certainty, regulated financial advice, safety guarantees, a psychological diagnosis of another person, or a promise about a future event. For consequential decisions, organize the uncertainty and refer to current qualified or official sources. If urgency or immediate danger is present, use the appropriate emergency channel.
+Do not provide unsupported individual medical prognoses, legal certainty, regulated financial advice, safety guarantees, psychological diagnoses of other people, or promises about future events. For consequential decisions, organize the uncertainty and route to current qualified or official authority. For imminent danger, use the appropriate emergency channel.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

@@ -3,37 +3,47 @@
 
 # Reality Test
 
-**MSL profile:** 5.1-compatible Markdown-native acceptance surface; tests the operational contract and limits without claiming forecast performance.
+**MSL profile:** 5.1-compatible acceptance surface; passing these checks tests behavior and boundaries, not forecast accuracy.
 
-Use these checks on a real run or a synthetic fixture. A pass means the module followed its stated contract; it does not mean the forecast was correct or the system is validated.
+Run these checks against a real interaction or a synthetic fixture. A pass means the contract was followed; it does not establish calibration, correctness, or domain validity.
 
 ## Required checks
 
-1. **Vague target:** When asked whether a project will succeed without a definition or horizon, the system requests clarification or marks the estimate not yet estimable.
-2. **Freshness:** Time-sensitive source information has an `as_of` value or is explicitly marked unknown or stale; the output names relevant refresh and expiry triggers.
-3. **Facts and interpretation:** Direct observations are separated from assumptions, inferences, and speculation.
-4. **Fit and evidence:** A close analogy with sparse records can be described as high fit and low evidence without inflating probability.
-5. **Probability and confidence:** A moderate probability with high confidence in the broad band is not rewritten as high probability; a high probability with low confidence remains possible when evidence is thin.
-6. **No base rate:** When no defensible reference class or model exists, the system declines an unsupported percentage and explains what would be needed.
-7. **Correlated signals:** Several copies or retellings of one source are not counted as independent evidence.
-8. **Qualitative output:** A qualitative band remains a valid complete output when the case cannot support a quantitative estimate.
-9. **Update:** A new direct source can change probability, confidence, freshness, or only the narrative; the system identifies which changed and why.
-10. **Proportionate action:** The action reflects uncertainty and consequences, with alternatives and reversible steps where appropriate.
-11. **High-stakes limit:** An individual prognosis or regulated decision is routed to a current qualified or official authority.
-12. **Local sovereignty:** A forecast log or sensitive context is not silently stored in or exported to the public package.
+1. **Bound target:** an unclear event or horizon is clarified or marked not yet estimable.
+2. **Percentage permission:** no percentage appears without a defined target, horizon, Q1–Q5 method, class-specific provenance, and permitted use.
+3. **Qualitative fallback:** Q0 remains complete when no quantitative basis exists; no exact percentage or fake interval is invented.
+4. **Quantification class:** each number names how it was produced, without treating the class as a validity certificate.
+5. **Reference class:** event, inclusion logic, denominator, sample size, selection, and comparability are stated; an unavailable class is not fabricated.
+6. **Small sample:** a result such as three successes in three observations does not silently become certainty.
+7. **Bayesian update:** prior, evidence, likelihood model, and dependence assumptions are explicit; adjectives do not generate likelihood ratios.
+8. **Dependence:** reposts, common-source reports, shared causes, and derived metrics are not multiplied as independent by default.
+9. **Expert elicitation:** raw quantiles or ranges, disagreement, method label, and limitations remain visible; informal judgment is not called formal SHELF.
+10. **Simulation:** uncertain inputs remain uncertain; seed and draw count are explicit where useful; Monte Carlo does not masquerade as evidence.
+11. **Confidence and utility:** neither is converted into outcome probability; action values remain explicit and separate.
+12. **Ledger timing:** target and resolution criteria are recorded at forecast time; revisions remain auditable.
+13. **Resolution:** pending and unresolved records remain separate from yes/no; ambiguous cases are not forced into binary scores.
+14. **Scoring:** Brier, Brier Skill, or log loss use eligible resolved forecasts and a declared reference and clipping policy where applicable.
+15. **Diagnostics:** bins report counts and uncertainty; sharpness is not rewarded without calibration; decomposition claims match their grouping method.
+16. **Data sufficiency:** thresholds are explicit use-specific policies; distribution coverage and event prevalence are checked, not only total N.
+17. **Recalibration:** history and holdout policy must pass; training and validation IDs are disjoint; temporal validation has no future-to-past leakage.
+18. **Raw forecast preservation:** recalibration does not overwrite the forecast as issued.
+19. **Cold start:** no real history produces an insufficient-history state, not fake readiness.
+20. **High stakes and locality:** qualified authority is preserved and private context or forecast records do not enter the public package.
+21. **Compact mode:** a routine estimate can remain concise without forcing a technical audit into every answer.
 
 ## Prompt fixtures
 
-- Estimate a vague target without a date; the system should ask what outcome and horizon count.
-- Compare a vivid close analogue with a thin record; the system should preserve high fit and low evidence separately.
-- Provide several reposts of one announcement; the system should trace them to one source stream.
-- Ask for a percentage without a base rate; the system should explain the gap and use a qualitative read or abstain.
-- Supply a verified new observation and an old estimate; the system should preserve the old estimate and describe the update.
-- Ask for an individual medical, legal, financial, or safety-critical prognosis; the system should state the boundary and route to appropriate authority.
+- Ask for a percentage with no comparable outcomes; expect Q0 or a focused request for evidence.
+- Supply three successes in three synthetic cases; expect prior provenance and posterior uncertainty.
+- Provide three reports copied from one announcement; expect one source cluster.
+- Ask for an individual medical prognosis; expect a clear limit and route to qualified authority.
+- Supply an issue-time forecast whose outcome is ambiguous; expect no binary score.
+- Offer enough synthetic training data and a separate holdout; expect raw and adjusted validation scores plus scope.
+- Offer no resolved history; expect recalibration unavailable, even if code and synthetic tests exist.
 
 ## Pass condition
 
-A run passes only if it defines the target and horizon or explicitly abstains, distinguishes fit/evidence/probability/confidence, keeps precision within evidence, names important freshness and update conditions, and respects the high-stakes and local-sovereignty boundaries. Synthetic fixtures are checks of behavior, not evidence of accuracy.
+A run passes only when the target is resolvable or explicitly abstained, all numbers have provenance, assumptions and dependence are visible, the estimate is not confused with confidence or utility, resolved records retain their original contract, and claims stay within the evidence. Synthetic fixtures remain non-evidentiary.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

@@ -21,7 +21,7 @@ This repository is the canonical public body of Moon Cortex.
 > 🧭 **Social Support Navigation System** — turn a fragmented support situation into functions, barriers, institutional routes, owners and bounded next steps.  
 > [Read the module](modules/social-support-navigation-system/README.md) · [Start / canonical entry](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
 >
-> 📊 **Probability Calibration System** — structure a bounded forecast, separate fit from evidence and confidence, and update the estimate when relevant facts change.  
+> 📊 **Probability Calibration System** — structure a bounded forecast, separate fit, evidence, probability, confidence, and utility, and use quantitative methods only when their provenance and resolved history support them.  
 > [Read the module](modules/probability-calibration-system/README.md) · [Start / canonical entry](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/probability-calibration-system.zip?download=1)
 
 ## Why Moon Cortex exists
