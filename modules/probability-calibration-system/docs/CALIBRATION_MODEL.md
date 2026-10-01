@@ -3,84 +3,52 @@
 
 # Calibration Model
 
-**MSL profile:** 5.1-compatible Markdown-native method surface; each estimate carries its target, evidence basis, uncertainty, freshness, and update conditions.
+**MSL profile:** 5.1-compatible Markdown-native method surface; each forecast carries its target, evidence basis, uncertainty, provenance, freshness, and update conditions.
 
-This model is a decision aid, not a fixed algorithm. It may stop at any step when the target, evidence, or authority boundary is unresolved.
+This is a field-first decision aid, not a fixed algorithm. It stays concise unless the target earns a quantitative mode.
 
-## Sequence
+## Route
 
-### 1. Bound the question
+1. **Define the event.** State outcome, population or case, horizon, and predeclared resolution rule.
+2. **Set the evidence cutoff.** Record sources and what was knowable at forecast time. Mark stale, missing, or unverified facts.
+3. **Separate facts and interpretation.** Label observations, reports, assumptions, inferences, unknowns, and contradictions.
+4. **Assess fit and reference class.** Compare event definition, population, period, process, setting, incentives, and measurement. If no defensible class exists, record it as unavailable.
+5. **Pass the percentage permission gate.** A defined target and horizon are necessary but not sufficient. Identify the quantitative method and its provenance, or stay qualitative.
+6. **Choose the least demanding justified regime.** Q0 qualitative; Q1 structured elicitation; Q2 empirical reference class; Q3 Bayesian evidence update; Q4 simulation; Q5 empirically recalibrated forecast.
+7. **Compute only from supplied, traceable inputs.** State the prior, likelihood, reference class, elicitation record, or input distributions where applicable. Never create one from a descriptor or narrative alone.
+8. **Audit dependence and sensitivity.** Cluster repeated or causally linked evidence. Show if a reasonable prior, likelihood, or dependence choice materially changes the result.
+9. **Separate probability, confidence, and action.** Confidence describes reliability of the estimate. Expected utility is optional and requires explicit value assumptions.
+10. **Preserve the forecast and update triggers.** Log before outcome only when useful; resolve by the original criteria and evaluate only eligible resolved records.
 
-Write the outcome, relevant case or population, time horizon, and resolution rule. Include any important conditions. Separate the outcome the user wants from the outcome that can actually be observed.
+## Reference-class check
 
-### 2. Set the evidence cutoff
+Ask what usually happens in genuinely comparable cases before an engaging case-specific story dominates. Disclose the sample size, event count, inclusion and exclusion logic, time period, and comparability limitations. Check whether the class is too small, heterogeneous, selected, or affected by a process change. A nested class can help expose the trade-off between sample size and similarity.
 
-Record the date, sources, and information available at the moment of the estimate. Mark any facts that are stale or unverified. If a current fact could change the answer, verify it when a suitable authorized source is available; otherwise state the limitation.
+When a defensible class does not exist, record **reference class unavailable** and route to a different method. Never fabricate a base rate.
 
-### 3. Map facts, claims, and unknowns
+## Numeric methods
 
-Separate direct observations from reports, interpretations, assumptions, and speculation. For every material signal, note:
+Use a Beta-Binomial posterior for a binary outcome history only when a prior is justified and its provenance is stated. A small sample such as three successes in three cases must not silently become certainty; the result depends on an explicit prior and retains posterior uncertainty.
 
-- source and provenance;
-- directness and reliability;
-- specificity to the defined outcome;
-- recency and freshness;
-- independence from other signals;
-- coverage of the relevant cases or process;
-- material omissions, selection effects, contradictions, and alternative explanations;
-- whether the signal is causal, predictive, or merely compatible with the outcome.
+Use Bayesian odds updates only with an explicit prior and likelihood ratio whose source or elicitation is recorded. Multiple likelihood ratios may be multiplied only under a defensible conditional-independence model. Unknown dependence requires grouping, conservative aggregation, wider uncertainty, or a qualitative fallback.
 
-### 4. Assess the reference class and fit
+Use Monte Carlo only to propagate supplied uncertain distributions through a stated model. Report inputs, their sources, dependence assumptions, sample count, and seed policy when reproducibility matters. More simulation draws reduce computational error; they do not repair missing or invented inputs.
 
-Choose a reference class only when its event definition and relevant context resemble the present case. Explain material mismatches in population, period, process, environment, incentives, constraints, or measurement. Keep an analogy separate from a measured frequency. If a defensible reference class is absent, say so.
+For quantitative details and provenance, see [Quantitative methods](QUANTITATIVE_METHODS.md).
 
-### 5. Choose the probability form
+## Confidence
 
-- **Qualitative band:** preferred for sparse, mixed, evolving, or non-comparable evidence.
-- **Numeric range:** useful when quantitative evidence exists but a single point would overstate certainty.
-- **Point probability or predictive distribution:** use only when an appropriate base rate, validated model, or defensible quantitative method supports it.
-
-State the denominator, period, model or method, assumptions, and main uncertainty when they apply. Explain what the estimate does and does not cover. Do not present historical frequency as a guarantee for an individual case.
-
-### 6. Rate confidence in the estimate
-
-Confidence is a separate statement about the estimate. Consider target clarity, evidence quality and quantity, reference-class fit, stability, source independence, unresolved contradictions, and model limitations. A strong broad reference class may support high confidence in a broad moderate probability band, while leaving confidence in an exact point low.
-
-Do not output a numeric confidence score unless a field-specific, validated method supports it. Plain language is sufficient.
-
-### 7. Compare alternatives and specify updates
-
-Name the alternative scenarios that materially affect the decision. For each important one, state which observation would change the read and how. Distinguish an event that changes the outcome likelihood from an event that only changes confidence or narrows uncertainty.
-
-### 8. Select a proportionate action
-
-Choose an action based on the user goal, consequences, reversibility, and remaining uncertainty. If the cost of being wrong is high, use qualified current authority and avoid relying on an informal forecast.
-
-## Optional signal progression
-
-Some fields involve a sequence of observable steps. In those cases, a local signal ladder may describe progression from ambiguous attention, to recognition, to specific engagement, to a concrete commitment, to an observed outcome. Define the stages from the field and the target event.
-
-A ladder describes what kind of signal occurred. It is not a universal measure of signal strength, evidence independence, or event probability. Do not sum its levels, treat adjacent steps as equal intervals, or infer that a later stage guarantees the target.
-
-## Quantitative calibration and review
-
-Calibration is a property evaluated across a set of forecasts and resolved outcomes, not a certificate earned by one correct prediction. A quantitative review needs comparable targets, explicit probabilities, aligned horizons, reliable outcomes, and enough data for useful uncertainty bounds. Dependencies, shifting populations, missing cases, and selection into the record can make apparent calibration misleading.
-
-Suitable scoring rules or graphical diagnostics can help evaluate a repeated forecast process when their assumptions fit the task. Select the evaluation method for the forecast type and intended use. Do not infer that a better aggregate score proves causal understanding, professional validity, or success on every subgroup.
-
-Do not calibrate a local scale from too few, selectively retained, or shifting cases. If a stable reference class cannot be established, preserve the uncertainty instead of fitting thresholds to noise.
+Assess confidence qualitatively from target clarity, evidence quantity and quality, independence, freshness, reference-class fit, missingness, model sensitivity, and domain validity. Do not turn confidence into a hidden weighted score unless a separately validated method exists.
 
 ## Update policy
 
-An update should preserve the former estimate and document:
+Preserve the prior forecast. On an update, record the new source or event, when it became available, which assumption or class changed, whether probability or confidence moved, and the next trigger. A repeated copy is not a new independent signal.
 
-1. the new source or event and when it became available;
-2. whether it changes the target, the probability, confidence, freshness, or only the narrative;
-3. the assumption or reference-class match that changed;
-4. the revised estimate and remaining uncertainty;
-5. the next trigger or expiry condition.
+## Empirical review
 
-A repeated copy of an existing source is not a new independent signal. A direct observation can materially change an estimate without proving the causal mechanism behind it.
+Evaluate a repeated forecasting process only after outcomes resolve under the forecast-time criteria. Select metrics and bins for the target use, disclose sample limits, and use a legitimate reference forecast for skill scores. Fit and evaluate any recalibration model on disjoint data or with a declared cross-validation plan. Do not use future outcomes in training.
+
+At cold start, report that empirical calibration is unavailable. This is the correct status until resolved history meets an explicit data policy.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

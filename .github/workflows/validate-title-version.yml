@@ -40,3 +40,7 @@ jobs:
       - run: python scripts/check_probability_calibration_package.py
       - run: python scripts/check_version_visibility.py
       - run: python scripts/test_title_version_separation.py
+      - name: Run Probability Calibration System reference tests
+        run: python -m unittest discover -s modules/probability-calibration-system/reference/tests -t modules/probability-calibration-system -v
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"

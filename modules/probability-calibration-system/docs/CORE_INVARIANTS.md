@@ -3,50 +3,51 @@
 
 # Core Invariants
 
-**MSL profile:** 5.1-compatible Markdown-native module contract; uncertainty, evidence, freshness, and authority boundaries remain explicit.
+**MSL profile:** 5.1-compatible Markdown-native module contract; uncertainty, provenance, freshness, and authority boundaries remain explicit.
 
 These invariants govern every use of the Probability Calibration System.
 
 ## 1. Define the target
 
-A forecast is about a specified event, population or case, and horizon. If the outcome cannot later be resolved, clarify it or say that the request is not yet estimable.
+A forecast has a specified event, population or case, horizon, and resolution criteria. If a future reader could not determine what counts as yes, no, or unresolved, clarify the target or abstain.
 
-## 2. Keep fit, evidence, probability, and confidence distinct
+## 2. Keep fit, evidence, probability, confidence, and utility distinct
 
-- **Fit:** resemblance between the present case and a proposed reference class, analogue, or model.
-- **Evidence:** information that bears on the target, with its reliability, directness, independence, recency, specificity, and coverage.
-- **Probability:** the estimated chance of the defined outcome within the stated horizon.
-- **Confidence:** the reliability of the probability estimate, given evidence, fit, assumptions, and stability.
+- **Fit:** resemblance between the present case and a reference class, analogue, or model.
+- **Evidence:** information bearing on the target, with source quality, dependence, coverage, recency, and selection limits.
+- **Probability:** the estimated chance of the defined event.
+- **Confidence:** the reliability of the probability estimate.
+- **Utility:** the value or cost of an action in possible states.
 
-None of these terms substitutes for another. High fit is not proof. Confidence is not the probability of the outcome.
+No one judgment substitutes for another. Probability does not recommend an action by itself.
 
-## 3. Precision must be earned
+## 3. Qualitative output remains complete
 
-Use qualitative bands when evidence does not support numerical detail. Use a quantitative probability only when a defensible data source or domain model supports it. State the basis and uncertainty. Never create precision to satisfy the form of a request.
+When evidence is sparse, unstable, non-comparable, or unquantified, Q0 qualitative-only is a valid result. Confidence may be stated qualitatively. Do not add arbitrary exact percentages or fake intervals.
 
-## 4. There is no universal probability formula
+## 4. Every percentage passes a provenance gate
 
-Do not impose one equation, score, signal ladder, Bayesian prior, or weighting scheme on every field. Use a quantitative method only when the event, data, assumptions, and domain justify that method.
+A numeric probability requires a defined event and horizon, an identified Q1–Q5 method, class-specific provenance, and precision justified by the evidence. A user request, confident phrasing, or convenient formula cannot waive that gate.
 
-## 5. Evidence remains traceable
+## 5. There is no universal probability formula
 
-Separate observations from interpretation. Preserve source, date, provenance, contradictions, missing information, and the relation between each observation and the target. Repeated or dependent claims do not become independent evidence through repetition.
+Do not map signal stages, confidence, qualitative labels, or arbitrary scores to a universal probability. Choose a method only when its assumptions, data, and domain justify it.
 
-## 6. Forecasts can change
+## 6. Evidence remains traceable and dependent signals remain dependent
 
-Every time-sensitive estimate has an evidence cutoff. Record assumptions and triggers that require refresh or manual recalibration. A changed estimate should identify what changed; it should not silently rewrite a prior forecast.
+Preserve the source, cutoff, inclusion logic, contradictions, missing information, and relation to the target. Reposts, derivatives, or several measurements of one origin do not become independent by multiplication.
 
-## 7. Actions are proportionate
+## 7. Forecasts and outcomes keep their own history
 
-State uncertainty and alternatives. Prefer reversible actions when uncertainty is material. A forecast is not a promise, an instruction, or a substitute for the user decision.
+Define resolution criteria when issuing a forecast. Preserve raw forecasts, later recalibrated values, revisions, and reasons. Ambiguous, invalidated, unresolved, cancelled, or superseded cases are not silently forced into binary scores.
 
-## 8. The domain keeps its authority
+## 8. Calibration is earned by resolved forecasts
 
-High-stakes, regulated, professional, or emergency matters require current qualified authority. The module may organize questions and evidence but does not claim professional or regulatory validity.
+A single forecast, synthetic example, or internal test cannot establish performance. Use comparable resolved records, honest reference forecasts, uncertainty-aware diagnostics, and out-of-sample evaluation before any empirical recalibration claim.
 
-## 9. Local state remains local
+## 9. Domain authority and local ownership remain intact
 
-Forecast logs, sensitive context, and user records remain under user control. Public examples and test cases are synthetic and do not demonstrate predictive performance.
+High-stakes matters require current qualified authority. Private forecasts, sensitive context, and user records remain local. Public examples are synthetic and demonstrate no predictive performance.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

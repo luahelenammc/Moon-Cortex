@@ -3,44 +3,53 @@
 
 # Probability Calibration System
 
-Structure a forecast around a clearly defined outcome, the evidence that bears on it, and the conditions that would change the estimate.
+Structure a forecast around a resolvable outcome, its evidence, and the conditions that would change the estimate. Use qualitative calibration by default; add numbers only when a method and its provenance support them.
 
-Use this module when a decision depends on an uncertain future outcome and you need a proportionate, inspectable estimate. It keeps **fit**, **evidence**, **probability**, and **confidence in the estimate** distinct. Qualitative probability bands are valid outputs; a percentage is optional and requires a defensible basis.
+The system keeps **fit**, **evidence**, **probability**, **confidence**, and **decision utility** distinct. It supports reference classes, Bayesian updates, structured elicitation, uncertainty propagation, forecast scoring, and empirical recalibration when the data earn those methods.
 
 - **Status:** Public pre-release
-- **Version:** `0.1.0-pre.1`
+- **Version:** 0.2.0-pre.1
 - **Canonical entry:** [Probability Calibrator](PROBABILITY_CALIBRATOR.md#first-use)
 - **Transport surface:** [Complete module package](../../downloads/probability-calibration-system.zip)
-- **License:** CC BY 4.0
+- **License:** CC BY 4.0 for documentation; Apache-2.0 for the dependency-light reference code
 
 ## Start here
 
-Give the complete package to the AI, or open the [canonical entry](PROBABILITY_CALIBRATOR.md#first-use), and describe one bounded outcome plus its time horizon. Share any relevant observations, source material, comparable outcomes, constraints, and the decision the estimate will inform. The module will ask for missing details when they could change the result.
+Give the complete package to the AI, or open the [canonical entry](PROBABILITY_CALIBRATOR.md#first-use), and describe one bounded outcome, its horizon, and how the outcome will be resolved. Share relevant observations, sources, comparable outcomes, constraints, and the decision the estimate will inform.
 
-Nothing is installed. The package provides a reasoning contract and reference material. It does not create a predictive model, data feed, tracker, or professional authority.
+The default path stays concise and may stop at a qualitative band. A percentage requires a defined event and horizon, a permitted quantitative regime, and traceable provenance. If there is no adequate basis, Q0 qualitative-only remains a complete scientific answer.
+
+Nothing is installed or connected by giving the package to an AI. The reference implementation is optional local code. It does not supply evidence, create a data feed, maintain a forecast history, or establish domain performance.
 
 ## Module anatomy
 
-- [Probability Calibrator](PROBABILITY_CALIBRATOR.md) — canonical operational entry and first-use instructions.
-- [Core invariants](docs/CORE_INVARIANTS.md) — rules that every estimate must preserve.
-- [Calibration model](docs/CALIBRATION_MODEL.md) — a field-first process for making and updating an estimate.
-- [Evidence and claims](docs/EVIDENCE_AND_CLAIMS.md) — evidence quality, evaluation limits, and claim ceilings.
-- [Moon Source context bridge](docs/MOON_SOURCE_CONTEXT_BRIDGE.md) — optional guidance for governed sources and freshness.
+- [Probability Calibrator](PROBABILITY_CALIBRATOR.md) — canonical routing, percentage permission gate, first-use instructions, output contract, and limits.
+- [Core invariants](docs/CORE_INVARIANTS.md) — rules every estimate preserves.
+- [Calibration model](docs/CALIBRATION_MODEL.md) — field-first estimation and update sequence.
+- [Quantitative methods](docs/QUANTITATIVE_METHODS.md) — provenance classes, reference classes, Bayesian methods, dependence, simulation, sensitivity, and decision utility.
+- [Structured expert elicitation](docs/STRUCTURED_EXPERT_ELICITATION.md) — elicitation, quantiles, aggregation, and protocol-label limits.
+- [Forecast verification](docs/FORECAST_VERIFICATION.md) — ledger schema, resolution, scoring, diagnostics, sufficiency gates, and recalibration.
+- [Evidence and claims](docs/EVIDENCE_AND_CLAIMS.md) — evidence quality, validation limits, and public claim ceiling.
+- [Scientific references](docs/SCIENTIFIC_REFERENCES.md) — primary and high-authority methods sources.
+- [Moon Source context bridge](docs/MOON_SOURCE_CONTEXT_BRIDGE.md) — optional source authority and freshness guidance.
 - [Reality test](docs/REALITY_TEST.md) — acceptance checks for a responsible run.
-- [Synthetic examples](examples/synthetic_examples.md) — fictional, low-stakes demonstrations.
-- [Module changelog](CHANGELOG.md) — module release history.
+- [Synthetic examples](examples/synthetic_examples.md) — fictional demonstrations, not evidence of performance.
+- [Python reference implementation](reference/probability_calibration.py) and [tests](reference/tests/test_quantification.py) — standard-library methods for quantitative transformations, ledger semantics, scoring, diagnostics, and gated isotonic/Platt recalibration.
+- [Module changelog](CHANGELOG.md) — release history.
+
+## Cold start
+
+At release, no real resolved forecast history is supplied. Scoring functions and ledger tooling are available, but empirical performance, reliability claims, performance-weighted aggregation, and evidence-backed recalibration remain unavailable until suitable forecasts resolve and pass an explicit data policy. Synthetic fixtures test implementation behavior; they do not fill the historical record.
 
 ## Responsibility and limits
 
-The Probability Calibration System organizes uncertainty. It does not guarantee accuracy, establish that any estimate is calibrated, replace domain research, or decide for the user. It does not infer that a plausible analogy is evidence, convert confidence into probability, or add related signals as if they were independent.
+The system organizes uncertainty; it does not guarantee accuracy, establish that any estimate is calibrated, replace domain research, or decide for the user. Monte Carlo propagates uncertainty in supplied inputs; it does not create information. A numerical score is not validation.
 
-Quantitative forecasts require a defined event and horizon, an appropriate reference class or validated domain model, and enough relevant data to support the precision shown. If that basis is absent, the module can provide a qualitative band, explain why the probability is not estimable, or request evidence.
+Medical, legal, financial, safety-critical, self-harm, emergency, regulated, and other high-stakes decisions require current qualified authority. The module may organize questions and uncertainty, but must not provide an unsupported prognosis, regulated advice, or substitute professional judgment.
 
-Medical, legal, financial, safety-critical, self-harm, emergency, regulated, and other high-stakes decisions require current qualified authority. This module may help organize questions and uncertainty, but it must not supply an individual prognosis or regulated advice.
+## Provenance and local sovereignty
 
-## Provenance
-
-This public module generalizes a probability-protocol mechanism from Local Moon Source. The private source, local context, personal records, and any situational adapters remain outside this package.
+This public module generalizes a probability-protocol mechanism from Local Moon Source. Private sources, context, personal records, forecast history, and situational adapters remain outside the package. A public schema may support a local private ledger; actual private forecasts must not be published.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
