@@ -42,6 +42,11 @@ Title: Social Support Navigation System
 Version: 0.1.0-pre.1
 Technical entry: modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md
 Package: downloads/social-support-navigation-system.zip
+
+Title: Probability Calibration System
+Version: 0.1.0-pre.1
+Technical entry: modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md
+Package: downloads/probability-calibration-system.zip
 ```
 
 The title, canonical entry path and current package path remain stable while the version changes. A version-bearing current path is permitted only for a documented semantic exception.

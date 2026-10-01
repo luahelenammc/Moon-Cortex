@@ -16,6 +16,7 @@ from check_title_version_separation import (  # noqa: E402
     contains_version_marker_in_path,
     current_module_path_errors,
     first_h1,
+    governed_files,
     normalize_heading,
     validation_errors,
 )
@@ -58,6 +59,21 @@ def main() -> None:
         assert not any("canonical entry contains a version marker" in error for error in errors)
         assert any("transport package contains a version marker" in error for error in errors)
         del VERSIONED_CURRENT_PATH_EXCEPTIONS[exception_path]
+
+        probability = root / "modules" / "probability"
+        probability.mkdir()
+        (probability / "README.md").write_text(
+            "- **Canonical entry:** [Entry](PROBABILITY_CALIBRATOR.md)\n"
+            "- **Transport surface:** [ZIP](../../downloads/probability.zip)\n",
+            encoding="utf-8",
+        )
+        (probability / "PROBABILITY_CALIBRATOR.md").write_text(
+            "# Probability Calibrator\n**Version:** 0.1.0-pre.1\n",
+            encoding="utf-8",
+        )
+        (downloads / "probability.zip").write_bytes(b"fixture")
+        assert probability / "PROBABILITY_CALIBRATOR.md" in governed_files(root)
+
     print("title/version separation tests passed")
 
 

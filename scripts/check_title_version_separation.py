@@ -51,13 +51,33 @@ def normalize_heading(value: str) -> str:
 
 
 def governed_files(root: Path = ROOT) -> list[Path]:
+    """Resolve canonical entry files from the current module README routes.
+
+    Entry artifact names follow each domain module; the README route is the
+    current repository map and avoids guessing from mechanism-specific names.
+    """
+
     files = [root / "README.md"]
-    for module in sorted((root / "modules").iterdir()):
-        if not module.is_dir():
-            continue
-        files.extend(sorted(module.glob("*BOOTSTRAP*.md")))
-        files.extend(sorted(module.glob("*NAVIGATOR*.md")))
-    return files
+    modules = root / "modules"
+    if not modules.is_dir():
+        return files
+
+    root_resolved = root.resolve()
+    for module_readme in sorted(modules.glob("*/README.md")):
+        content = module_readme.read_text(encoding="utf-8")
+        for target in CANONICAL_ENTRY_RE.findall(content):
+            parsed = urlsplit(target.strip())
+            if parsed.scheme or parsed.netloc or not parsed.path:
+                continue
+            candidate = (module_readme.parent / parsed.path).resolve()
+            try:
+                candidate.relative_to(root_resolved)
+            except ValueError:
+                continue
+            if candidate.is_file():
+                files.append(candidate)
+
+    return list(dict.fromkeys(files))
 
 
 def current_module_path_errors(root: Path = ROOT) -> list[str]:

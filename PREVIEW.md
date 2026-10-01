@@ -25,6 +25,12 @@ A field-first social-support navigation system that reconstructs functions, depe
 
 **Status:** public pre-release · [open the canonical entry](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
 
+### Probability Calibration System
+
+A field-first method for estimating a bounded uncertain outcome, separating case fit from evidence and probability from confidence, and setting explicit update triggers. Qualitative probability bands are valid outputs; percentages require a defensible basis.
+
+**Status:** public pre-release · [open the canonical entry](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/probability-calibration-system.zip?download=1)
+
 ## Incubating
 
 | Module family | Public preview | Status |

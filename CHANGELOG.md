@@ -17,7 +17,14 @@
 
 ## Unreleased
 
-### Canonical module entry onboarding rebase — 2026-09-08
+### Probability Calibration System public module — 2026-09-30
+
+- added the public **Probability Calibration System** at a stable canonical entry and complete module package;
+- established qualitative bands as first-class outputs and required a defensible basis for quantitative precision;
+- separated fit, evidence, probability, and confidence, and added source freshness, update, synthetic-example, and high-stakes contracts;
+- clarified the distinct Moon Source context-governance and Moon Cortex domain-system responsibilities without adding a repository-wide portable or making a software-license change.
+
+## Canonical module entry onboarding rebase — 2026-09-08
 
 - integrated first-use onboarding into the canonical Financial Living System and Social Support Navigator entry artifacts;
 - retired the redundant module-level `README.md` files while retaining complete composite module packages and their real internal files;

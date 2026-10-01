@@ -20,6 +20,9 @@ This repository is the canonical public body of Moon Cortex.
 >
 > 🧭 **Social Support Navigation System** — turn a fragmented support situation into functions, barriers, institutional routes, owners and bounded next steps.  
 > [Read the module](modules/social-support-navigation-system/README.md) · [Start / canonical entry](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
+>
+> 📊 **Probability Calibration System** — structure a bounded forecast, separate fit from evidence and confidence, and update the estimate when relevant facts change.  
+> [Read the module](modules/probability-calibration-system/README.md) · [Start / canonical entry](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/probability-calibration-system.zip?download=1)
 
 ## Why Moon Cortex exists
 
@@ -57,7 +60,7 @@ user-local operation, ownership and reconfiguration
 
 The loop is stable. The shape inside it is not.
 
-A finance module may instantiate an integrated living system. A social-support module may instead produce a direct next step, a Resource Pack, a Living Case State or a bounded Support Handoff. Both belong in Moon Cortex because **the domain determines the morphology**.
+A finance module may instantiate an integrated living system. A social-support module may instead produce a direct next step, a Resource Pack, a Living Case State or a bounded Support Handoff. The Probability Calibration System organizes an uncertainty estimate and its update conditions. These belong in Moon Cortex because **the domain determines the morphology**.
 
 ## Core laws
 
@@ -79,8 +82,9 @@ A few principles carry most of the architecture:
 |---|---|---|---|
 | [Financial Living System](modules/financial-living-system/README.md) | financial reality needs to become legible across timing, obligations, reserves, credit, reconciliation or other material complexity | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) | a living user-local financial system |
 | [Social Support Navigation System](modules/social-support-navigation-system/README.md) | a support situation is fragmented across needs, barriers, institutions, informal dependencies or unresolved next steps | [Social Support Navigator](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) | a direct route, Living Case State, Resource Pack or Support Handoff |
+| [Probability Calibration System](modules/probability-calibration-system/README.md) | a bounded decision depends on an uncertain future outcome, evidence quality, or meaningful update triggers | [Probability Calibrator](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) | a qualitative probability band or evidence-supported quantitative estimate, with confidence and update conditions |
 
-These are **active public modules** and the first demonstrated Cortex topologies. They are examples of the architecture’s range, not templates that future modules must copy.
+These three **active public modules** demonstrate different Cortex shapes: an integrated living system, a navigation system, and a field-first probability-calibration method. They show the architecture’s range; future modules do not need to copy their internal forms.
 
 ## How to use a module
 
@@ -136,6 +140,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 | Design or materially revise a public module | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
 | Use the Financial Living System | [💸 Financial Living System](modules/financial-living-system/README.md) |
 | Use the Social Support Navigation System | [🧭 Social Support Navigation System](modules/social-support-navigation-system/README.md) |
+| Use the Probability Calibration System | [📊 Probability Calibration System](modules/probability-calibration-system/README.md) |
 | Preview incubating module families | [PREVIEW.md](PREVIEW.md) |
 | Inspect the public/private boundary | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
 | Keep public titles separate from release versions | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
@@ -147,7 +152,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 ## Current baseline
 
 **Status:** active public architecture  
-**Active public modules:** Financial Living System; Social Support Navigation System  
+**Active public modules:** Financial Living System; Social Support Navigation System; Probability Calibration System  
 **Canonical transport:** one complete ZIP per module  
 **Human browse surfaces:** one non-authoritative README per active composite module  
 **Repository-wide portable:** none  

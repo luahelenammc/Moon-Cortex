@@ -32,6 +32,12 @@ When sharing or adapting a material part of this repository, identify:
 
 > Adapted from **Moon Cortex · Social Support Navigation System**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original module path: `luahelenammc/Moon-Cortex/modules/social-support-navigation-system/`. Licensed under CC BY 4.0.
 
+### Probability Calibration System example
+
+> Adapted from **Moon Cortex · Probability Calibration System**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original module path: `luahelenammc/Moon-Cortex/modules/probability-calibration-system/`. Licensed under CC BY 4.0.
+
+The Probability Calibration System generalizes a method from Local Moon Source. The private source, local context, personal forecast logs, and situational adapters are not included in the public module.
+
 Attribution does not imply endorsement, partnership, certification, adoption, professional licensure or validation by Moon.
 
 ## Compact public stamp
@@ -50,6 +56,10 @@ The finance module retains its module-specific identity and portable link. Its d
 
 The social module retains its module-specific identity and portable link. Its donor lineage is the private internal project **Defensoria Social**.
 
+### Probability Calibration System stamp
+
+The probability module retains its module-specific identity and portable link. Its donor lineage is Local Moon Source, generalized at the method level only; private state and situational adapters remain outside the public module.
+
 Module-specific stamps point to module-specific portables. The repository should not gain a repository-wide distribution package merely because it contains multiple modules.
 
 ## Donor lineage
@@ -57,11 +67,12 @@ Module-specific stamps point to module-specific portables. The repository should
 The current public modules were generalized from private donor systems:
 
 - **Finanças Moon** → **Financial Living System**;
-- **Defensoria Social** → **Social Support Navigation System**.
+- **Defensoria Social** → **Social Support Navigation System**;
+- **Local Moon Source** → **Probability Calibration System** (generalized probability method only).
 
-The donor corpora are not part of this public release. Naming a donor does not license, disclose or publish its private data, cases, contacts, records, conversations or situated source state.
+The donor corpora and private source state are not part of this public release. Naming a donor does not license, disclose or publish its private data, cases, contacts, records, conversations or situated source state.
 
-Moon Source provided public context-architecture and installation-method lineage. Moon Source does not own either Cortex module. Preserve the public relationship and applicable terms when reusing material from either repository; do not infer permission to expose private source bodies.
+Moon Source provided public context-architecture and installation-method lineage. Moon Source does not own any Cortex module. Preserve the public relationship and applicable terms when reusing material from either repository; do not infer permission to expose private source bodies.
 
 ## Third-party material
 
