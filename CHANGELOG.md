@@ -17,6 +17,14 @@
 
 ## Unreleased
 
+### Moon Image Cortex public module — 2026-10-08
+
+- added the public **Moon Image Cortex** as the fourth active module with a canonical Visual Director and complete portable package;
+- generalized the shared visual kernel, consent-based Human Canon method, eleven specialist routes, visual QA protocols and 22 text-only acceptance fixtures;
+- added reproducible package build and validation scripts and connected them to the existing repository checks;
+- updated the root module index, architecture, public boundary, licensing, NOTICE, preview and changelog;
+- recorded experimental and source-gap routes, attribution boundaries and the absence of renderer-performance, exact-likeness and external-adoption claims.
+
 ### Probability Calibration System public module — 2026-09-30
 
 - added the public **Probability Calibration System** at a stable canonical entry and complete module package;

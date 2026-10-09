@@ -31,11 +31,16 @@ A field-first method for estimating a bounded uncertain outcome, separating case
 
 **Status:** public pre-release · [open the canonical entry](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/probability-calibration-system.zip?download=1)
 
+### Moon Image Cortex
+
+A visual-intelligence and image-direction system that reconstructs intent, selects a suitable specialist route, prepares an image or edit direction, and checks actual outputs against the brief.
+
+**Status:** public pre-release · [open the canonical entry](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-image-cortex.zip?download=1)
+
 ## Incubating
 
 | Module family | Public preview | Status |
 |---|---|---|
-| **Image Cortex** | A modular visual system for turning intent into coherent image workflows and outputs across different kinds of visual work. | `incubating` |
 | **Voice, Text Engines & Interfaces** | A language-and-interaction family for shaping how AI reads context, communicates, revises and presents text for different human situations. | `incubating` |
 | **Music, Media & Taste Engines** | A taste-aware creative family for translating preference, references and media context into reusable music and media workflows. | `incubating` |
 | **Authorial Ecology System** | A literary and intellectual-work architecture for keeping distinct works, canons, sources, editorial gates and human–AI coauthorship connected without flattening them into one manuscript or exposing private creative material. | `incubating` |

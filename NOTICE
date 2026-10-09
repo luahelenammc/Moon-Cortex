@@ -14,6 +14,9 @@ Current public modules:
 - Moon Cortex · Probability Calibration System
   - canonical path: modules/probability-calibration-system/
   - canonical portable: downloads/probability-calibration-system.zip
+- Moon Cortex · Moon Image Cortex
+  - canonical path: modules/moon-image-cortex/
+  - canonical portable: downloads/moon-image-cortex.zip
 
 Canonical source: https://github.com/luahelenammc/Moon-Cortex
 Moon Source installation reference: https://github.com/luahelenammc/Moon-Source
@@ -24,7 +27,8 @@ Private donor lineages:
 - Finanças Moon → Financial Living System
 - Defensoria Social → Social Support Navigation System
 - Local Moon Source (generalized probability method only) → Probability Calibration System
+- Local Moon Source (generalized visual methods only) → Moon Image Cortex
 
-No private donor corpus, personal finance record, live social-support case, individual forecast log, private source context or identifying data is included here.
+No private donor corpus, personal finance record, live social-support case, individual forecast log, personal photo, identity profile, private visual reference set, private source context or identifying data is included here.
 
 The standard Creative Commons Attribution 4.0 legal text in LICENSES/CC-BY-4.0.txt remains subject to its own terms.
