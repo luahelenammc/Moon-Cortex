@@ -5,7 +5,11 @@
 
 from __future__ import annotations
 
+import tempfile
 import unittest
+import zipfile
+from pathlib import Path
+from unittest.mock import patch
 
 import build_moon_image_cortex_package
 import check_moon_image_cortex_package as checks
@@ -19,6 +23,17 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         first = build_moon_image_cortex_package.archive_bytes()
         second = build_moon_image_cortex_package.archive_bytes()
         self.assertEqual(first, second)
+
+    def test_stale_but_valid_zip_is_rejected(self) -> None:
+        """A valid ZIP with bytes unlike the committed reproducible build must fail."""
+        with tempfile.TemporaryDirectory() as directory:
+            stale_package = Path(directory) / "moon-image-cortex.zip"
+            stale_package.write_bytes(build_moon_image_cortex_package.archive_bytes())
+            with zipfile.ZipFile(stale_package, "a") as archive:
+                archive.comment = b"stale-public-artifact"
+            with patch.object(checks, "PACKAGE", stale_package):
+                errors = checks.validation_errors()
+        self.assertIn("ZIP differs from deterministic build output", errors)
 
     def test_acceptance_matrix_covers_all_intents_once(self) -> None:
         matrix = checks.MODULE / "docs" / "IMAGE_CORTEX_REALITY_TEST.md"
