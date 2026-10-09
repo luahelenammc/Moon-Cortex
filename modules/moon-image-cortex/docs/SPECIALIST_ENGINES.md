@@ -191,7 +191,7 @@ Each engine is a route contract. Trigger it only when its properties help the cu
 
 **Visual DNA:** Reduce the claim to one conflict, embody it in one visible mechanism, and turn that mechanism into a clear image. A fictional mascot can carry the argument without resembling a known artist’s character.
 
-**Composition and material:** Use large editorial typography, restrained palette, aged paper or ink only when useful, one focal action and clear reading distance. Optional political-cartoon submode: a viewer should recognize the conflict quickly and understand the visual turn after a short second look.
+**Composition and material:** Use large editorial typography, restrained palette, aged paper or ink only when useful, one focal action and clear reading distance. Optional political-cartoon submode: aim for a clear thesis at about two seconds and a visible turn by ten seconds, with less text. This is a reading-time design heuristic, not a measured guarantee; avoid trivializing victims.
 
 **Must preserve:** The argument, dignity of affected people, legibility, and seriousness proportional to the subject.
 
@@ -210,6 +210,8 @@ Each engine is a route contract. Trigger it only when its properties help the cu
 **Trigger:** A user-authorized pixel-world scene should be reinterpreted as a newly composed embodied environment or documentary-like photograph.
 
 **Visual DNA:** Extract spatial relationships, action and broad color blocks from the user’s permitted input. Translate each into physical objects, depth, materials and plausible illumination. Rebuild the scene rather than enlarging or tracing sprite assets.
+
+**Evidence boundary:** The source prototype has only been exercised in a Habbo context; transfer to other pixel worlds remains unverified. This fact does not authorize use of Habbo assets or imply affiliation.
 
 **Composition and material:** Preserve the user’s requested action and key spatial relations; allow camera perspective, atmospheric depth, lived-in materials and new details to change the scene.
 

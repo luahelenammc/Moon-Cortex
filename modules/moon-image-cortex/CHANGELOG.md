@@ -11,6 +11,8 @@
 - Added 22 synthetic text acceptance intents and text-only examples.
 - Added a deterministic complete ZIP and structural/content validation scripts.
 - Excluded person-specific profiles and images, private packs and prompts, and source-gap candidates. Pixel-World Camera Translation remains experimental.
+- Clarified that the pixel-world translation prototype has only been exercised in a Habbo context, with no cross-game validation, copied assets, or affiliation implied.
+- Stated the optional editorial-poster submode’s two-second thesis / ten-second visual-turn reading heuristic as a design target, not a measured guarantee.
 - No image rendering, model performance, exact identity fidelity, or external adoption claim is made.
 
 
