@@ -38,6 +38,9 @@ jobs:
           python-version: "3.x"
       - run: python scripts/check_title_version_separation.py
       - run: python scripts/check_probability_calibration_package.py
+      - run: python scripts/build_moon_image_cortex_package.py
+      - run: python scripts/check_moon_image_cortex_package.py
+      - run: python scripts/test_moon_image_cortex_package.py
       - run: python scripts/check_version_visibility.py
       - run: python scripts/test_title_version_separation.py
       - name: Run Probability Calibration System reference tests

@@ -3,7 +3,7 @@
 
 # Moon Cortex Public Boundary
 
-This repository is a public pre-release projection of Moon Cortex. It contains three public domain modules, each with its own identity, public responsibility, package shape and claim ceiling. It remains intentionally narrower than the private and professional bodies that informed it.
+This repository is a public pre-release projection of Moon Cortex. It contains four public domain modules, each with its own identity, public responsibility, package shape and claim ceiling. It remains intentionally narrower than the private and professional bodies that informed it.
 
 **MSL profile:** 5.1-compatible Markdown-native public-boundary surface; domain, privacy and claim ceilings remain explicit.
 
@@ -15,6 +15,7 @@ The public body includes or may include:
 - the **Financial Living System** as a generalized, privacy-stripped finance module;
 - the **Social Support Navigation System** as a generalized, privacy-stripped social-support module;
 - the **Probability Calibration System** as a generalized, privacy-stripped method for field-first estimates and updates;
+- **Moon Image Cortex** as a generalized visual-intelligence and image-direction module, with synthetic textual QA and no bundled renderer;
 - module-specific entry interfaces, invariants, navigation contracts and package anatomy;
 - fictional, synthetic, non-evidentiary examples and bounded reality tests;
 - optional Moon Source installation/context-governance bridges;
@@ -31,6 +32,7 @@ The public release excludes:
 - patient, client, family, collaborator, legal, health, disability, school or service records;
 - live benefit applications, private resource packs, current private contacts or institutional response logs;
 - private forecast logs, individual probability assessments, personal records, or private source state;
+- personal images, identity profiles, biometric data, private visual canon, reference packs, or user-specific aesthetic preferences;
 - private legal analysis, substantive strategy or protected work product;
 - Local Moon Source, Moon Professional Source and other private source corpora;
 - credentials, passwords, tokens, keys or authentication material;
@@ -51,6 +53,8 @@ The Social Support Navigation System specifically does not publish:
 The Financial Living System specifically does not publish personal salaries, balances, family ledgers, card data, statements, private financial circumstances or bank credentials.
 
 The Probability Calibration System specifically does not publish personal forecast logs, private evidence records, individual medical or legal assessments, proprietary evaluation sets, claims of validated predictive performance, or regulated advice.
+
+Moon Image Cortex specifically does not publish personal images, identity profiles, private source-photo collections, Moon-specific visual preferences, branded reference packs, or private image prompts. Synthetic tests check route and instruction consistency; they do not establish renderer performance, exact likeness, visual fidelity, or image-model quality.
 
 ## Synthetic-example boundary
 

@@ -24,6 +24,9 @@ This repository is the canonical public body of Moon Cortex.
 > 📊 **Probability Calibration System** — structure a bounded forecast, separate fit, evidence, probability, confidence, and utility, and use quantitative methods only when their provenance and resolved history support them.  
 > [Read the module](modules/probability-calibration-system/README.md) · [Start / canonical entry](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/probability-calibration-system.zip?download=1)
 
+> 🎨 **Moon Image Cortex** — turn visual intent into a fitting direction, image-edit instruction, or inspected result across photographic, historical, editorial and experimental routes.  
+> [Read the module](modules/moon-image-cortex/README.md) · [Start / canonical entry](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-image-cortex.zip?download=1)
+
 ## Why Moon Cortex exists
 
 A useful AI system needs more than a polished output. It needs the right **domain shape**.
@@ -60,7 +63,7 @@ user-local operation, ownership and reconfiguration
 
 The loop is stable. The shape inside it is not.
 
-A finance module may instantiate an integrated living system. A social-support module may instead produce a direct next step, a Resource Pack, a Living Case State or a bounded Support Handoff. The Probability Calibration System organizes an uncertainty estimate and its update conditions. These belong in Moon Cortex because **the domain determines the morphology**.
+A finance module may instantiate an integrated living system. A social-support module may instead produce a direct next step, a Resource Pack, a Living Case State or a bounded Support Handoff. The Probability Calibration System organizes an uncertainty estimate and its update conditions. Moon Image Cortex reconstructs visual intent, selects a suitable image route, and keeps direction, rendering, inspection and fidelity claims distinct. These belong in Moon Cortex because **the domain determines the morphology**.
 
 ## Core laws
 
@@ -83,8 +86,9 @@ A few principles carry most of the architecture:
 | [Financial Living System](modules/financial-living-system/README.md) | financial reality needs to become legible across timing, obligations, reserves, credit, reconciliation or other material complexity | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) | a living user-local financial system |
 | [Social Support Navigation System](modules/social-support-navigation-system/README.md) | a support situation is fragmented across needs, barriers, institutions, informal dependencies or unresolved next steps | [Social Support Navigator](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) | a direct route, Living Case State, Resource Pack or Support Handoff |
 | [Probability Calibration System](modules/probability-calibration-system/README.md) | a bounded decision depends on an uncertain future outcome, evidence quality, or meaningful update triggers | [Probability Calibrator](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) | a qualitative probability band or evidence-supported quantitative estimate, with confidence and update conditions |
+| [Moon Image Cortex](modules/moon-image-cortex/README.md) | visual intent needs reconstruction into an image direction, authorized edit, aesthetic route or visual QA | [Visual Director](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) | a user-owned visual state, direction sheet, render handoff, or evidence-bounded QA report |
 
-These three **active public modules** demonstrate different Cortex shapes: an integrated living system, a navigation system, and a field-first probability-calibration method. They show the architecture’s range; future modules do not need to copy their internal forms.
+These four **active public modules** demonstrate different Cortex shapes: an integrated living system, a navigation system, a field-first probability-calibration method, and a visual-intelligence system. They show the architecture’s range; future modules do not need to copy their internal forms.
 
 ## How to use a module
 
@@ -138,6 +142,7 @@ Incubation is a property of those future modules — **not of Moon Cortex as a w
 |---|---|
 | Understand the shared Cortex architecture | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | Design or materially revise a public module | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
+| Start visual work | [Moon Image Cortex Visual Director](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) |
 | Use the Financial Living System | [💸 Financial Living System](modules/financial-living-system/README.md) |
 | Use the Social Support Navigation System | [🧭 Social Support Navigation System](modules/social-support-navigation-system/README.md) |
 | Use the Probability Calibration System | [📊 Probability Calibration System](modules/probability-calibration-system/README.md) |
