@@ -147,7 +147,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         routes = [route for route in routes if "/regions/" not in route]
         self.assertEqual(17, len(routes))
         self.assertEqual(17, len(set(routes)))
-        self.assertIn("sole", index.lower())
+        self.assertIn("only general operational entry", index.lower())
         self.assertIn("not rendered", index.lower())
         self.assertIn("geography", index.lower())
 
