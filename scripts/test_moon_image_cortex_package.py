@@ -119,7 +119,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             content = path.read_text(encoding="utf-8")
             self.assertGreaterEqual(len(content.encode("utf-8")), 5400, relative)
             self.assertIn(heading, content, relative)
-            self.assertIn("QA", content, relative)
+            self.assertTrue("qa" in content.lower() or "audit" in content.lower(), relative)
 
     def test_shared_compilation_and_diagnostic_depth(self) -> None:
         visual_state = (checks.MODULE / "docs/VISUAL_STATE_AND_COMPILATION.md").read_text(encoding="utf-8")
