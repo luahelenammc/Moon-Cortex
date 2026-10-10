@@ -35,6 +35,47 @@ Load this contract **only** when the Visual Director selects Sublime Lyric Still
 
 Return the smallest useful subset of `direction_sheet`, `prompt_for_renderer`, `edit_instruction`, `QA_report` and source-role constraints. A prompt without an available authorized renderer must say **not rendered**. The Visual Director remains the only general operational entry. Examples above are synthetic instructions, not validated output samples.
 
+## Cinematic atmospheric still production
+
+This route is closer to an **uncovered film frame or a small lyric caption** than to an illustrated quotation card. The emotional effect comes from a scene's scale, visual force, human presence and empty space; the text acts as a whisper, not an explanation.
+
+### Composition grammar
+
+| Decision | Working constraint |
+|---|---|
+| Frame | 9:16 vertical preferred when requested; adapt to specified destination |
+| Dominant phenomenon | Select **one** main event: rain, lightning, ocean, wind, moonlight, dawn, distant city light or another justified force |
+| Human presence | Small, distant, partial or silhouetted when relevant; gesture and distance carry emotion more than a close expressive face |
+| Depth | Clear foreground, middle and distant planes; leave one quiet zone for optional text |
+| Exposure | Most of the image may be dark or mid-tone; a few bright anchors have narrative weight |
+| Texture | Film-still material, fine grain, atmospheric haze, restrained compression when justified, no wall-to-wall detail |
+| Text | At most one short phrase; small, legible, placed in actual negative space, optionally lowercase |
+
+The sky, sea or architecture may dominate the frame. Human presence is not always necessary. Avoid turning “lyric” into copyrighted song quotation; use supplied authorized text or an original short line.
+
+### Force-first compilation
+
+1. Determine the feeling, not a string of cinematic adjectives.
+2. Choose one physical atmospheric phenomenon that embodies it.
+3. Place a person or meaningful trace only when it adds narrative scale.
+4. Establish the frame, horizon/vertical lines, depth and negative space.
+5. Set a few motivated lights and controlled contrast.
+6. Choose whether the artifact is a real film-like photograph, an illustration or a deliberately compressed digital memory.
+7. Add the exact supplied/original phrase if needed; confirm spelling, contrast and safe margins.
+8. Inspect the image first without reading the text: does it still evoke something?
+
+### Three synthetic scene studies
+
+**Rain window:** a half-visible person inside a dim bus, with warm reflected streetlight and substantial dark sky; original caption low in the quiet region.  
+**Night coast:** small human silhouette facing wind and surf, one distant city light as anchor, no dramatic eye contact.  
+**Empty road:** a low-contrast road receding toward a pale cloud opening, faint mist and a small readable line of text that does not cover the horizon.
+
+### Avoid and repair
+
+Reject large inspirational typography, giant white captions, multiple atmospheric phenomena competing, overly dramatic posing, fake cinematic anamorphic glare, oversharpened foliage and generic AI “epic” lighting. If the image feels like a poster, reduce text size/density and restore space and photographic restraint. If the image is emotionally flat, change scale, gesture or dominant light before adding symbols.
+
+Deliver `dominant_force`, `frame_and_depth`, `human_presence_policy`, `light`, `texture`, `text_exactness`, `negative_guidance`, `QA`.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
