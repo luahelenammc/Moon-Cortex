@@ -11,18 +11,16 @@ For aesthetic references, transfer only properties the user requested: for examp
 
 Do not reproduce protected logos, branded interfaces, distinctive characters, artist signatures, campaign layouts, source prompts, exact slogans, lyrics, or third-party photographs without an appropriate authorization and a task that requires them. Prefer fictional names and newly designed marks.
 
-## Recorded source lineage
+## Public artistic references
 
-The private donor records two useful lineages. This public module retains the general design principles while excluding the source assets and source prompts.
+Some historical design ideas are discussed alongside external public references. These references are **credits for identifiable influences**, not source images or ready-to-copy templates:
 
-- **Lived-In Retrofuturism:** the donor records inspiration from a public Reddit post by xdEArx, “I asked ChatGPT to imagine what modern brands would look like in 1970s ads” ([post](https://www.reddit.com/r/ChatGPT/comments/1uvgq69/i_asked_chatgpt_to_imagine_what_modern_brands/)). The transferable method is counterfactual historical perspective, editorial systems, a believable relation between infrastructure and lived world, and period print logic. No brand advertisement, prompt, character, slogan, logo, source layout, or exact composition is included. This lineage note is attribution, not a claim of collaboration or permission.
-- **Vintage Editorial Rubber Hose Poster:** the donor records an artistic influence associated with [Jade Bern’s public Instagram](https://www.instagram.com/jade.bern/?hl=en) and [portfolio](https://hug.art/artists/jadebern/about). The published route is reduced to general editorial principles: one conflict, one visible mechanism, a clear visual turn, readable type and humane representation. It does not instruct a renderer to imitate Jade Bern, include her work, or imply collaboration, endorsement or license.
+- **Lived-In Retrofuturism:** counterfactual period advertising and historical visual perspective, including the public [xdEArx Reddit example](https://www.reddit.com/r/ChatGPT/comments/1uvgq69/i_asked_chatgpt_to_imagine_what_modern_brands/). The engine instead produces original visual composition and scene logic.
+- **Vintage Editorial Rubber Hose Poster:** readable editorial metaphors and humane representation. [Jade Bern's public portfolio](https://hug.art/artists/jadebern/about) and [Instagram](https://www.instagram.com/jade.bern/?hl=en) are credited as artistic references, **not** as permission to imitate the artist, copy protected work, or imply endorsement.
 
-A lineage reference documents where a method came from. It is not permission to copy an asset or to imitate a living artist. The route remains subject- and task-led.
+## Tool-neutral aesthetic methods
 
-## Historical tool reference
-
-Chromatic Dream Logic is a meta-style compiler documented in the donor’s historical Midjourney V3 context. The public route carries no API, model, weights, preset, or equivalent-performance claim. Its palette, material, light and focal hierarchy can be directed independently of that historical service.
+Chromatic Dream Logic coordinates palette, materials, light and visual hierarchy. It is a direction method, not a promise of identical results across generators or a model-specific preset.
 
 ## Evidence ladder
 

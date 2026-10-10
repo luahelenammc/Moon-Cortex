@@ -13,7 +13,7 @@
 
 Initial public projection of a bounded social-support navigation system.
 
-- generalized reusable architecture from the private internal donor project **Defensoria Social**;
+- established a reusable public social-support navigation architecture;
 - adopted **Social Support Navigation System** as the public identity to avoid confusion with public or regulated authorities;
 - separated surface problem, function, dependency, barrier, passage, first useful door, owner and event checkpoint;
 - added Living Case State guidance without exporting live case state;

@@ -49,7 +49,7 @@ Medical, legal, financial, safety-critical, self-harm, emergency, regulated, and
 
 ## Provenance and local sovereignty
 
-This public module generalizes a probability-protocol mechanism from Local Moon Source. Private sources, context, personal records, forecast history, and situational adapters remain outside the package. A public schema may support a local private ledger; actual private forecasts must not be published.
+Forecast history and relevant source records remain under the user's control. The module itself provides methods and optional local code, not personal forecasts or a live data feed.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

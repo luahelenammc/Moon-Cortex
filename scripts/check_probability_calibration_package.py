@@ -90,7 +90,7 @@ def validation_errors() -> list[str]:
     combined = "\n".join(path.read_text(encoding="utf-8") for path in markdown_files).lower()
     required = (
         "fit", "evidence", "probability", "confidence", "no universal probability formula",
-        "qualitative", "high-stakes", "synthetic", "local moon source",
+        "qualitative", "high-stakes", "synthetic", "provenance",
     )
     for marker in required:
         if marker not in combined:

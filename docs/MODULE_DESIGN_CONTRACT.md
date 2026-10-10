@@ -169,7 +169,7 @@ This repository follows the **single shared [Cross-Source Mirror Sync Protocol](
 
 **Cortex branch binding (F1):** A material update to a registered public module (currently including the Probability Calibration System and Moon Image Cortex) requires the authorized update executor to compare the **affected module files and validated deterministic ZIP/manifest** with the registered frozen local family; if changed, reconcile that exact public-only frozen source family, preserve independent local evidence, identity profiles, preferences, engines and constraints, and verify readback. An unrelated repository HEAD change returns `no_delta`. If private access is missing, report `pending_blocked` and hand off to an authorized maintainer without claiming cross-source closure.
 
-**Module authority stays here.** Moon Cortex owns each domain's operational semantics, public packaging, tests and public/privacy boundary. Moon Source owns the shared **method of mirroring**, not the Cortex modules' content; Local Moon Source owns any private consumers and their registries. No private URLs, tokens, records or mirrors belong in this public repository.
+**Module authority stays here.** Moon Cortex owns each domain's operational semantics, public packaging, tests and public/privacy boundary. Moon Source provides an optional public mirroring method; each Cortex module retains its operational authority. Mirrors and external systems require separate authorization.
 
 ## Promotion gate for a public module
 
