@@ -143,7 +143,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         """Editorial prioritization does not eliminate access to any public component."""
         index = (checks.MODULE / "docs" / "COMPONENT_INDEX.md").read_text(encoding="utf-8")
         import re
-        routes = re.findall(r"\\]\\((\\.\\./(?:engines|components)/[^)]+\\.md)\\)", index)
+        routes = re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", index)
         routes = [route for route in routes if "/regions/" not in route]
         self.assertEqual(17, len(routes))
         self.assertEqual(17, len(set(routes)))
