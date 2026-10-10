@@ -10,7 +10,7 @@ This file is a subordinate component, **not** another general entry, personal me
 
 ## Trigger and first use
 
-This is the **public method analogue**, not the personal contents, of the Local Moon Image Generator and user-specific visual aesthetics. Activate only when someone explicitly wants the system to use, define or refine **their own** aesthetic defaults across authorized tasks.
+This optional component manages user-chosen visual preferences and explicitly scoped local state. Activate only when someone explicitly wants the system to use, define or refine **their own** aesthetic defaults across authorized tasks.
 
 ## Local state contract
 
@@ -27,6 +27,42 @@ Produce an inspectable user-owned `visual_preferences` record, optional applicat
 ## Synthetic activation
 
 A fictional artist opts for matte daylight, warm gray paper and editorial simplicity for their own posters. A later user request for saturated retrofuturism overrides those defaults without changing the stored profile.
+
+## User-owned configuration model
+
+A visual preference profile should accelerate familiar workflows **without claiming ownership over the person or the current request**. It is an optional set of defaults, not a personality inference, private biometric dossier, automatic aesthetic signature or universal style imposed by the engine.
+
+### Configuration fields
+
+| Category | Examples | Override |
+|---|---|---|
+| Default working media | Photography, illustration, editorial artifact, mobile-oriented image | Current task can select any other medium |
+| Color preferences | Favored or excluded relationships, saturation, contrast and tone | Current explicit palette wins |
+| Composition | More breathing room, strong focal hierarchy, typical aspect ratios | Required platform dimensions and task content win |
+| Surface and defects | Natural film grain, paper, painting texture, dislike of plastic skin | Must remain consistent with actual medium |
+| Symbolic motifs | Symbols the user likes, avoids or never wants applied automatically | Silence is **not** permission to insert recurring motifs |
+| Image edit constraints | Preserve skin texture, identity, lens response and untouched regions | Target-image facts and explicit edit request govern |
+| Accessibility | Legibility, caption placement, contrast and reduced decorative clutter | Applicable accessibility needs take priority |
+| Retention and revision | Ephemeral session, user-managed reusable profile, opt-out and version history | No persistence claimed without actual authorized storage |
+
+### Default hierarchy
+
+1. Applicable law, consent, confidentiality and task-specific safety limits.
+2. Current user instruction and supplied sources.
+3. Observed facts in the actual image or reference, with uncertainty marked.
+4. Opt-in preferences explicitly supplied for the current task.
+5. Optional persistent preferences when an authorized environment actually provides them.
+6. Generic engine defaults only where no conflict exists.
+
+A profile is never allowed to rewrite the user's identity, declare a photographic observation certain, infer a sensitive trait or override a current style change. Even strongly preferred motifs remain *available*, not automatic.
+
+### Update discipline
+
+Treat `visual_preferences` as a user-readable object with `scope`, `confirmed_preferences`, `exclusions`, `source`, `last_revision`, `override_log` and `storage_authority`. If the user wants one-off experimentation, create a task-local override and do not silently mutate reusable preferences. Provide a simple reset path in systems where storage actually exists.
+
+**Example:** Someone commonly prefers matte documentary daylight and minimal ornament, but requests a richly saturated 2008 skeuomorphic interface today. The current request routes to Web Retro or Aqua-Skeuo; the profile does not flatten it into documentary photography.
+
+**Audit:** Did any profile preference appear without being opted in? Did current instructions override it? Were irrelevant biography, private photos or identity assumptions kept out of the directions?
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

@@ -37,6 +37,45 @@ Load this contract **only** when the Visual Director selects Pixel-World Camera 
 
 Return the smallest useful subset of `direction_sheet`, `prompt_for_renderer`, `edit_instruction`, `QA_report` and source-role constraints. A prompt without an available authorized renderer must say **not rendered**. The Visual Director remains the only general operational entry. Examples above are synthetic instructions, not validated output samples.
 
+## Isometric-source to physical-space conversion
+
+The experimental route translates a pixel-world scene into a **new physically inhabitable camera view**. The reference may establish object inventory, spatial relationships, recognizable palette and mood. It does not force the original isometric projection, top-down camera or tile-by-tile rendering.
+
+### Translation contract
+
+| From source scene | Into new image |
+|---|---|
+| Pixel-art floor blocks | Real floor material, plausible joints, wear, light interaction and scale |
+| Isometric furniture sprite | Physical furniture with human-scale thickness, gravity, upholstery, seams and shadows |
+| Flattened object layers | Spatial occlusion, foreground/background depth and coherent viewpoint |
+| Bright game palette | Material-compatible colors, paint, light and reflections preserving recognizable mood |
+| Room outline / object topology | Architectural envelope and relative placements, without copying pixel perspective |
+| Sprite lighting | Credible window, lamp, environmental or practical light sources |
+
+### Pipeline
+
+1. Inventory the **core objects** and which relationships make the source recognizable.
+2. Choose a destination medium: room photograph, archviz view, real-scale concept render or physical miniature. Never equate these outputs.
+3. Break the source projection: choose a human-eye or otherwise task-appropriate camera position, vanishing geometry, floor horizon and spatial depth.
+4. Convert each element to material, dimension, reflectance, contact shadow and reasonable construction.
+5. Recompose objects in a plausible space. Foreground should visibly enlarge, distant objects recede and occlude coherently.
+6. Introduce lighting that could exist inside the new room. Preserve the user's chosen palette, but avoid indiscriminate neon bloom.
+7. Check that the scene feels inhabitable and recognizably related to the original while remaining an authored physical interpretation.
+
+### Prompt skeleton
+
+> Use the authorized pixel-world reference to identify room layout, major objects, palette and atmosphere. Reconstruct an original room at human scale from a **ground-level camera**, with realistic perspective, natural occlusion and plausible physical materials. The source's isometric view is only an input representation, not the camera to copy. Preserve the stated key objects **{object_list}** and their relationships. Use **{lighting_plan}** with believable shadows and camera depth. Avoid a top-down view, isometric diorama, toy-like miniature, flat sprites, random modern-lobby replacements, smoothed synthetic surfaces and repeated tile textures.
+
+### Experimental QA and limits
+
+- Is the result a room one could occupy, or still a pixel diorama with realistic textures pasted onto it?
+- Does the camera use a real horizon and physically plausible depth?
+- Do furniture/material transitions obey scale and contact shadows?
+- Are the authorized source's major spatial relationships preserved?
+- Are style, composition and protected game imagery used within the user's permissions?
+
+The original example family involved a specific pixel social world. Generality to other games or scenes is a **hypothesis**, not a tested capability. A text instruction alone is not evidence of a completed physical-space conversion.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
