@@ -13,9 +13,9 @@ The Visual Director routes by **image task**, never by nationality or a favorite
 | **Expressive and editorial** | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md), [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md), [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md), [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | Color-led imagery, restrained uncanny scenes, vertical atmosphere, illustration/posters |
 | **Experimental** | [Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) | Authorized pixel-world scene reinterpretation; transfer breadth unverified |
 
-## Web Retro child lenses
+## Web Retro Windows subthemes
 
-[Windows Vista Ultimate Black](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) is a **conditional child of Web Retro Image Gen**, not another independent specialist. It covers premium black retail packaging, user-customized dark Aero desktop chrome and era-correct derivative web or app visuals. Packaging black is distinct from an official desktop default; select by the user's target artifact.
+[Windows 98](../engines/interfaces-and-retro/web-retro/WINDOWS_98.md), [Windows XP](../engines/interfaces-and-retro/web-retro/WINDOWS_XP.md), [Windows Vista](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA.md) and [Windows 7](../engines/interfaces-and-retro/web-retro/WINDOWS_7.md) are **four conditional children of Web Retro Image Gen**. [Compare their scope](../engines/interfaces-and-retro/web-retro/README.md). Vista loads with **Ultimate Black as its creative default**; that default remains user-overridable and is not presented as Microsoft's universally supplied desktop color. The top-level specialist count does not change.
 
 ## Geographic context overlays, never nationality filters
 

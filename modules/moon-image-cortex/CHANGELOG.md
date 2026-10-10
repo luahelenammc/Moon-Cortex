@@ -3,6 +3,13 @@
 
 # Moon Image Cortex changelog
 
+## 0.1.0-pre.7 — 2026-10-09
+
+- Grouped four optional Windows subthemes directly under Web Retro Image Gen: Windows 98 (Classic gray), Windows XP (Luna Blue), Windows Vista (**Ultimate Black default**) and Windows 7 (Aero Blue).
+- Consolidated Vista Ultimate Black content into the Windows Vista subtheme without discarding its historically grounded materials, modes, references, QA or packaging-versus-Aero distinction.
+- Added period-specific composition, media, originality and cross-era guardrails for Windows 98, XP and 7, and introduced a focused subtheme selector.
+- Updated Visual Director and public discovery surfaces; rebuilt the deterministic 52-source portable package without increasing the 12 primary specialist routes or 18 primary components.
+
 ## 0.1.0-pre.6 — 2026-10-09
 
 - Added **Windows Vista Ultimate Black** as an opt-in **Web Retro Image Gen** child lens for historically informed black packaging, dark Aero personalization and original Vista-era interfaces.

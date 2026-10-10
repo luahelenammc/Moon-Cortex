@@ -89,7 +89,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
         for category in ("photography", "interfaces-and-retro", "expressive-and-editorial", "experimental", "creative-direction", "references-and-identity", "image-editing"):
             self.assertIn(category, index)
-        self.assertEqual(48, len(checks.EXPECTED))
+        self.assertEqual(52, len(checks.EXPECTED))
 
     def test_every_public_child_has_substantive_method_content(self) -> None:
         """A public child needs an operational manual, not a two-paragraph stub."""
@@ -138,7 +138,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         registry = (checks.MODULE / "docs/SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
         self.assertIn("Pixel and game art", registry)
         self.assertEqual(12, len(checks.SPECIALISTS))
-        self.assertEqual(48, len(checks.EXPECTED))
+        self.assertEqual(52, len(checks.EXPECTED))
 
     def test_pixel_art_vs_physical_translation_routing(self) -> None:
         director = (checks.MODULE / "VISUAL_DIRECTOR.md").read_text(encoding="utf-8")
@@ -149,32 +149,50 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
         self.assertIn("pixel-native", index.lower())
 
-    def test_vista_black_is_opt_in_web_retro_child(self) -> None:
-        child = checks.MODULE / "engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md"
-        parent = checks.MODULE / "engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md"
-        self.assertTrue(child.is_file())
-        text = child.read_text(encoding="utf-8")
-        self.assertGreaterEqual(len(text.encode("utf-8")), 12000)
-        self.assertIn("**Status:** active, conditional", text)
-        for term in ("Ultimate Black Packaging", "Dark Aero Desktop", "Aero Glass",
-                     "not a special black operating-system skin", "QA / failure diagnostics",
-                     "not rendered", "Windows Vista", "Microsoft"):
-            self.assertIn(term.lower(), text.lower(), term)
-        self.assertIn("web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md", parent.read_text(encoding="utf-8"))
-        self.assertIn("Windows Vista Ultimate Black", (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8"))
-        self.assertIn("Windows Vista Ultimate Black", (checks.MODULE / "VISUAL_DIRECTOR.md").read_text(encoding="utf-8"))
+    def test_four_windows_subthemes_and_vista_default(self) -> None:
+        directory = checks.MODULE / "engines/interfaces-and-retro/web-retro"
+        registry = (directory / "README.md").read_text(encoding="utf-8")
+        parent = (directory.parent / "WEB_RETRO_IMAGE_GEN.md").read_text(encoding="utf-8")
+        paths = {
+            "Windows 98": "WINDOWS_98.md",
+            "Windows XP": "WINDOWS_XP.md",
+            "Windows Vista": "WINDOWS_VISTA.md",
+            "Windows 7": "WINDOWS_7.md",
+        }
+        for label, name in paths.items():
+            source = directory / name
+            self.assertTrue(source.is_file(), name)
+            manual = source.read_text(encoding="utf-8")
+            self.assertIn(label, manual)
+            self.assertIn("## Component activation", manual)
+            self.assertIn("not rendered", manual.lower())
+            self.assertGreaterEqual(len(manual.encode("utf-8")), 4000)
+            self.assertIn(name, registry)
+            self.assertIn(name, parent)
+        self.assertFalse((directory / "WINDOWS_VISTA_ULTIMATE_BLACK.md").exists())
+        vista = (directory / "WINDOWS_VISTA.md").read_text(encoding="utf-8")
+        self.assertIn("default creative preset is ultimate black", vista.lower().replace("**",""))
+        self.assertIn("not an official exclusive os skin", vista.lower())
+        self.assertIn("Dark Aero Desktop", vista)
+        self.assertIn("Ultimate Black Packaging", vista)
         self.assertEqual(12, len(checks.SPECIALISTS))
-        self.assertNotIn("Windows Vista Ultimate Black", checks.SPECIALISTS)
-        self.assertEqual(48, len(checks.EXPECTED))
+        self.assertEqual(52, len(checks.EXPECTED))
 
-    def test_vista_black_historical_and_tool_boundaries(self) -> None:
-        text = (checks.MODULE / "engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md").read_text(encoding="utf-8")
-        for token in ("packaging", "personalization", "Windows 7", "Flip 3D",
-                      "Screenshot", "copyrighted", "source", "UI", "not rendered"):
-            self.assertIn(token.lower(), text.lower(), token)
-        self.assertIn("https://learn.microsoft.com", text)
-        self.assertIn("https://download.microsoft.com", text)
-        self.assertIn("Aqua-Skeuo Icon Forge", text)
+    def test_windows_subtheme_route_and_cross_version_gates(self) -> None:
+        base = checks.MODULE
+        for p in ("README.md", "VISUAL_DIRECTOR.md", "docs/COMPONENT_INDEX.md",
+                  "docs/SPECIALIST_ENGINES.md", "docs/DOMAIN_AND_CAPABILITY_MAP.md"):
+            doc = (base / p).read_text(encoding="utf-8")
+            self.assertIn("WINDOWS_VISTA.md", doc, p)
+            self.assertIn("WINDOWS_XP.md", doc, p)
+            self.assertIn("WINDOWS_98.md", doc, p)
+            self.assertIn("WINDOWS_7.md", doc, p)
+            self.assertNotIn("WINDOWS_VISTA_ULTIMATE_BLACK.md", doc, p)
+        manual = (base / "engines/interfaces-and-retro/web-retro/WINDOWS_7.md").read_text(encoding="utf-8")
+        self.assertIn("Snap", manual)
+        self.assertIn("Quick Launch", manual)
+        xp = (base / "engines/interfaces-and-retro/web-retro/WINDOWS_XP.md").read_text(encoding="utf-8")
+        self.assertIn("Luna Blue", xp)
 
     def test_shared_compilation_and_diagnostic_depth(self) -> None:
         visual_state = (checks.MODULE / "docs/VISUAL_STATE_AND_COMPILATION.md").read_text(encoding="utf-8")

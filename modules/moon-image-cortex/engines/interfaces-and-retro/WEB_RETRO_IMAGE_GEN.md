@@ -31,11 +31,18 @@ Load this contract **only** when the Visual Director selects Web Retro Image Gen
 
 **Synthetic case:** Build a fictional 2004 local music portal. Reject a contemporary SaaS dashboard and avoid recreating any named service.
 
-## Optional Vista Ultimate Black submodule
+## Windows subthemes
 
-For a specifically requested **Windows Vista Ultimate black-retail identity**, **dark-personalized Aero Glass desktop**, or a new fictional product using that visual grammar, load [Windows Vista Ultimate Black](web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) **after this parent engine**. It distinguishes black retail packaging from optional dark window-glass personalization; Ultimate did not have a separate mandatory black desktop skin.
+When a user specifically wants the Windows-era desktop/interface language, choose exactly one [Windows subtheme](web-retro/README.md) **after** this parent engine. Generic period websites do not need an OS subtheme.
 
-Choose the submodule only for a real Vista-era brief. Continue using this parent directly for generic XP, Windows 7, early web, forums and unrelated period design. The submodule is a **conditional child lens**, not a new top-level specialist. No original Windows assets ship in the package.
+| Subtheme | Default visual preset | Best for |
+|---|---|---|
+| [Windows 98](web-retro/WINDOWS_98.md) | Classic gray | Rectangular toolbars, compact dialogs, classic desktop and early web |
+| [Windows XP](web-retro/WINDOWS_XP.md) | Luna Blue | Opaque colored gradients, rounded XP titlebars and familiar early-2000s application UI |
+| [Windows Vista](web-retro/WINDOWS_VISTA.md) | **Ultimate Black** | Premium black/graphite, restrained blue highlights, dark-personalized Aero Glass and Vista-era windows |
+| [Windows 7](web-retro/WINDOWS_7.md) | Aero Blue / neutral | Windows 7 taskbar, pinned applications, newer desktop-Aero interaction grammar |
+
+**Selection:** route Windows 98/XP/Vista/7 directly from the user's requested period. For **Windows Vista**, use **Ultimate Black by default** unless another Vista appearance or historical screenshot evidence is specified. This is the module's creative preset, not a claim of an official edition-only black OS skin. Other Web Retro use cases remain available without Windows styling. These four are **conditional subthemes**, not new top-level specialists. No original Microsoft system assets ship here.
 
 ## Component return and handoff
 
@@ -49,8 +56,8 @@ This engine creates a **new fictional interface** using historically coherent vi
 
 | Chosen visual era | Layout and interface grammar | Medium-specific cues |
 |---|---|---|
-| Mid-to-late 1990s / Windows 95–98 | Modest browser viewport, beveled gray controls, pixel icons, small system or serif text, link-heavy structure, tables, counters/guestbook when functionally justified | CRT viewing can add curvature, scanlines, mild moiré and screen glare; a clean screenshot should not |
-| Early-to-mid 2000s / XP-era web | More rounded containers, gradients, image buttons, forum/community modules, sidebars, badges and portal density | LCD or CRT depends on actual medium; compression may be modest |
+| Mid-to-late 1990s / classic Windows 98-era web | Modest browser viewport, beveled gray controls, pixel icons, small system or serif text, link-heavy structure, tables, counters/guestbook when functionally justified | CRT viewing can add curvature, scanlines, mild moiré and screen glare; a clean screenshot should not |
+| Early-to-mid 2000s / Windows XP-era web | More rounded containers, gradients, image buttons, forum/community modules, sidebars, badges and portal density | LCD or CRT depends on actual medium; compression may be modest |
 | Late 2000s–early 2010s / glossy web | Controlled rounded cards, Web 2.0 gloss, strong hero modules, gradients, skeuomorphic transitions | Do not accidentally turn it into a contemporary flat-design dashboard |
 | User-specified niche setting | Era-consistent adaptations for forum, fan page, web game, wiki, personal site or service portal | Local language and culture only when grounded; never assume a US nostalgia template |
 
