@@ -36,7 +36,7 @@ Where a source method is experimental, that status travels with it. Text fixture
 
 For each retained family, the adaptation keeps its user-facing trigger, general visual function, control rules, negative constraints and QA decision. Personal names, image assets, profile facts, source prompts, private project examples and unsupported performance claims are not part of the public package.
 
-See [Originality, attribution and claims](ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) for public lineage notes and [Public Boundary](../PUBLIC_BOUNDARY.md) for repository-level scope.
+See [Originality, attribution and claims](ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) for public lineage notes and [Public Boundary](../../../PUBLIC_BOUNDARY.md) for repository-level scope.
 
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
