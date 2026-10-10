@@ -1,17 +1,17 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Windows Vista Ultimate Black · Web Retro Visual Lens
+# Windows Vista · Web Retro Subtheme
 
-**System:** Moon Image Cortex · **Type:** optional child lens of [Web Retro Image Gen](../WEB_RETRO_IMAGE_GEN.md) · **Status:** active, conditional · **Scope:** historically informed visual direction, not an operating-system theme, executable shell or official Microsoft product.
+**System:** Moon Image Cortex · **Type:** Windows-era subtheme of [Web Retro Image Gen](../WEB_RETRO_IMAGE_GEN.md) · **Status:** active, conditional · **Scope:** historically informed visual direction, not an operating-system theme, executable shell or official Microsoft product.
 
-**Parent authority:** [Web Retro Image Gen](../WEB_RETRO_IMAGE_GEN.md) under the sole [Visual Director](../../../VISUAL_DIRECTOR.md#first-use) · [Specialist registry](../../../docs/SPECIALIST_ENGINES.md)
+**Parent authority:** [Web Retro Image Gen](../WEB_RETRO_IMAGE_GEN.md) under the sole [Visual Director](../../../VISUAL_DIRECTOR.md#first-use) · [Windows subtheme index](README.md) · [Specialist registry](../../../docs/SPECIALIST_ENGINES.md)
 
 **Renderer:** external and optional; this text neither renders pixels nor grants access to copyrighted operating-system assets.
 
 ## Component activation
 
-Use this lens **only after Web Retro Image Gen is selected** and a user asks for one of the following:
+Use this subtheme **after Web Retro Image Gen is selected whenever the user requests Windows Vista**. The **default creative preset is Ultimate Black**, applied according to the artifact class. It is selectable without the user repeating the word “Black.” Use it for:
 
 - Visual design influenced by **Windows Vista Ultimate's black retail-box presentation**.
 - A **dark-personalized Windows Vista Aero Glass desktop** or a plausible Vista-era application window.
@@ -19,9 +19,9 @@ Use this lens **only after Web Retro Image Gen is selected** and a user asks for
 - Historical comparison of the Vista Ultimate edition's branding, desktop and software-era design language.
 - A deliberate hybrid combining Ultimate Black's premium packaging language with a separately identified Vista Aero desktop idiom.
 
-A generic glass UI, Windows XP page, Windows 7 taskbar, Win11 dark mode, Mac OS X Aqua icon or early-2000s fan page does **not** automatically activate this lens.
+A generic glass UI, Windows XP page, Windows 7 taskbar, Win11 dark mode, Mac OS X Aqua icon or early-2000s fan page does **not** automatically activate Windows Vista. Route those to their own [Windows subthemes](README.md) or other relevant engines.
 
-### Historical distinction: "Ultimate Black" is not a special black operating-system skin
+### Ultimate Black: default creative preset, not an official exclusive OS skin
 
 **Ultimate** was an edition of Windows Vista. Its distinctive predominantly black retail packaging carried a premium hardware/software presentation; Vista's **Windows Aero Glass** desktop was shared across multiple Vista editions on compatible systems. Users could personalize the glass color and transparency. Therefore:
 
@@ -29,7 +29,7 @@ A generic glass UI, Windows XP page, Windows 7 taskbar, Win11 dark mode, Mac OS 
 - **Dark-tinted Aero** is a supported *personalization choice* for a period-correct Vista desktop.
 - **"Vista Ultimate-only black UI" is not an official default interface and must not be claimed as such.**
 
-In a visual direction, explicitly record whether "black" refers to **packaging**, **dark Aero tint**, **wallpaper**, **art direction** or an **original fictional inspired interface**. These are separate controls.
+**Our default:** when the brief says simply **Windows Vista**, apply the **Ultimate Black** aesthetic direction: dark premium materiality, charcoal/black dominant shell language and restrained blue optical accents, using **dark-personalized Aero** for a desktop or window request. Users may override the colorway and a documented historical source overrides stylistic assumptions in an exact reconstruction. In a direction, explicitly record whether "black" refers to **packaging**, **dark Aero tint**, **wallpaper**, **art direction** or an **original fictional inspired interface**. These are separate controls.
 
 ## Evidence-oriented reference sheet
 
@@ -54,7 +54,7 @@ This is a **research-backed visual brief**, not a reverse-engineered pixel-exact
 | **D. Vista-inspired Web Product** | Original website/dashboard inspired by Vista's polished material grammar | Premium dark navigation with restrained translucency; content remains readable | Browser functionality and responsive design can be modern, but must not masquerade as a historically exact system screenshot |
 | **E. Promotional Hybrid** | Marketing composition juxtaposing black premium box language and a dark Aero window | Two distinct material systems: packaging black and desktop glass | Separate the real edition reference from invented product messaging |
 
-**Default decision:** If the user says only "Windows Vista Ultimate Black," first offer the two distinct visual interpretations or choose the one that the surrounding task clearly supports. Do not silently force the entire desktop to be pitch-black.
+**Default decision:** If the user asks for **Windows Vista** without specifying a style, select **Ultimate Black** as the module's creative default. Infer the output *medium* from the user’s actual job: choose **Dark Aero Desktop** for desktop/window UI, **Ultimate Black Packaging** for retail/promotional artifacts, and a suitable dark Aero-inspired variant for a new website. Other Vista colorways and more literal historical reproductions remain available by explicit request. Never paint the entire client area pitch-black merely to satisfy the default.
 
 ## Visual system: the black packaging
 
@@ -199,9 +199,9 @@ Expected fields:
 
 `visual_mode`, `historical_fidelity_target`, `era_or_sp`, `artifact_medium`, `black_role`, `aero_tint`, `transparency_strength`, `wallpaper_policy`, `ui_structure`, `icon_materials`, `content_and_language`, `brand_permissions`, `negative_guidance`, `QA`, `renderer_state`.
 
-Load **Web Retro Image Gen first**, then this optional child lens. If icons need their own tactile construction, selectively consult [Aqua-Skeuo Icon Forge](../AQUA_SKEUO_ICON_FORGE.md). If source images are used stylistically, apply the [Reference Abstraction Guardrail](../../../components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md). The Visual Director alone coordinates overall state and final acceptance.
+Load **Web Retro Image Gen first**, then **Windows Vista** (Ultimate Black default). If icons need their own tactile construction, selectively consult [Aqua-Skeuo Icon Forge](../AQUA_SKEUO_ICON_FORGE.md). If source images are used stylistically, apply the [Reference Abstraction Guardrail](../../../components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md). The Visual Director alone coordinates overall state and final acceptance.
 
-This child lens does not become a second top-level specialist, does not require the user to install or emulate Vista, and does not bundle Microsoft executables, icons, copyrighted packaging artwork or theme resources.
+This Windows Vista subtheme does not become a second top-level specialist, does not require the user to install or emulate Vista, and does not bundle Microsoft executables, icons, copyrighted packaging artwork or theme resources.
 
 ## Historical references and evidence quality
 
