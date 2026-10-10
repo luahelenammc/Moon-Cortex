@@ -91,6 +91,44 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             self.assertIn(category, index)
         self.assertEqual(46, len(checks.EXPECTED))
 
+    def test_every_public_child_has_substantive_method_content(self) -> None:
+        """A public child needs an operational manual, not a two-paragraph stub."""
+        specs = {
+            "components/creative-direction/OMNIALCHEMY.md": "## Extended operating method",
+            "components/creative-direction/WEB_AESTHETICS.md": "## Parametric aesthetic workbench",
+            "components/image-editing/CONSERVATIVE_PHOTO_EDIT.md": "## Preservation-first editing handbook",
+            "components/references-and-identity/HUMAN_CANON_FORGE.md": "## Consent-based likeness workflow",
+            "components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md": "## Reference-to-originality extraction protocol",
+            "components/references-and-identity/CONFIGURABLE_VISUAL_PROFILE.md": "## User-owned configuration model",
+            "engines/photography/ANALOGIC_PHOTO.md": "## Photographic material system",
+            "engines/photography/VERNACULAR_SNAPSHOT_REALISM.md": "## Capture ecology: the engine's decisive variable",
+            "engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md": "## Period reconstruction without a nationality filter",
+            "engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md": "## Era-to-interface translation handbook",
+            "engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md": "## Visual systems handbook",
+            "engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md": "## Counterfactual editorial-worldbuilding system",
+            "engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md": "## Chromatic and compositional compiler",
+            "engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md": "## Tenderness-first uncanny grammar",
+            "engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md": "## Cinematic atmospheric still production",
+            "engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md": "## Editorial message-to-image pipeline",
+            "engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md": "## Isometric-source to physical-space conversion",
+        }
+        self.assertEqual(17, len(specs))
+        for relative, heading in specs.items():
+            path = checks.MODULE / relative
+            self.assertTrue(path.is_file(), relative)
+            content = path.read_text(encoding="utf-8")
+            self.assertGreaterEqual(len(content.encode("utf-8")), 5400, relative)
+            self.assertIn(heading, content, relative)
+            self.assertIn("QA", content, relative)
+
+    def test_shared_compilation_and_diagnostic_depth(self) -> None:
+        visual_state = (checks.MODULE / "docs/VISUAL_STATE_AND_COMPILATION.md").read_text(encoding="utf-8")
+        visual_qa = (checks.MODULE / "docs/VISUAL_QA_AND_REPAIR.md").read_text(encoding="utf-8")
+        self.assertIn("## Visual-frame resolution across multiple specialists", visual_state)
+        self.assertIn("## Diagnostic taxonomy for real output", visual_qa)
+        self.assertIn("provenance", visual_state.lower())
+        self.assertIn("unverified", visual_qa.lower())
+
     def test_specialist_family_registry_is_complete(self) -> None:
         registry = (checks.MODULE / "docs" / "SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
         for family in checks.SPECIALISTS:

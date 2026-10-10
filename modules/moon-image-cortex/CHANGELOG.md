@@ -3,6 +3,13 @@
 
 # Moon Image Cortex changelog
 
+## 0.1.0-pre.4 — 2026-10-09
+
+- Expanded all eleven specialist engines and six reusable components with detailed operating regimes, source-to-output parameters, prompt construction, realistic examples, failure diagnostics and module-specific QA.
+- Strengthened shared visual-state compilation, preservation-first editing, source/reference abstraction and artifact-quality inspection.
+- Retained one Visual Director, geography-neutral photography, independently addressable components and existing rights, privacy and renderer boundaries.
+- Added tests guarding the depth and discoverability of the enriched public modules; package manifest and complete deterministic ZIP remain synchronized.
+
 ## 0.1.0-pre.3 — 2026-10-09
 
 - Made the previously Brazil-specific nostalgic camera route explicitly geography- and era-neutral by default, with eight optional country-context research adapters plus unrestricted custom locations.

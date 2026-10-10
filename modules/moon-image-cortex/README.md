@@ -20,7 +20,7 @@ Moon Image Cortex helps an AI understand what an image needs to accomplish, choo
 | **Public status** | 10 active visual engines, 1 experimental engine, 6 reusable components, and 8 optional regional research lenses plus custom geography |
 | **Evidence** | Synthetic textual tests establish route and package checks, not image-rendering quality or external adoption |
 
-- **Version:** 0.1.0-pre.3
+- **Version:** 0.1.0-pre.4
 - **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)
 - **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
 - **Documentation license:** CC BY 4.0

@@ -17,6 +17,12 @@
 
 ## Unreleased
 
+### Moon Image Cortex detailed visual manuals — 2026-10-09
+
+- Added expanded task-specific operating methods across all 17 Image Cortex child modules, plus deeper shared compilation and image-quality diagnostics.
+- Updated module prerelease metadata and the complete portable package without changing canonical paths or creating competing operational entries.
+
+
 ### Moon Image Cortex child-component correction — 2026-10-09
 
 - Replaced the specialist monolith with individually addressable visual engines and cross-cutting component contracts, a selective-load index, and a complete updated portable package.
