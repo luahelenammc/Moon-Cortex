@@ -57,7 +57,9 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             self.assertTrue(child.is_file(), relative)
             text = child.read_text(encoding="utf-8")
             self.assertIn("Visual Director", text)
-            self.assertIn("not rendered", text.lower())
+            self.assertIn("first use", text.lower())
+            if "engines" in child.parts:
+                self.assertIn("not rendered", text.lower())
 
     def test_specialist_family_registry_is_complete(self) -> None:
         registry = (checks.MODULE / "docs" / "SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
