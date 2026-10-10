@@ -5,7 +5,7 @@
 
 **Moon Image Cortex · Visual Intelligence & Image Direction System**
 
-**Version:** 0.1.0-pre.1
+**Version:** 0.1.0-pre.2
 - **As of:** 2026-10-08
 - **Refresh when:** the user changes the target, reference role, renderer, rights, identity permission, output size, or intended use.
 - **Expire if:** the source image, consent, or relevant tool permission is withdrawn; the image or brief is unavailable; or the proposed direction depends on a fact that is no longer current.
@@ -18,7 +18,7 @@ Start by asking what the image must communicate or change. Accept a short concep
 
 1. Reconstruct the task in a short visual brief: subject, intended audience/use, medium, aspect ratio or output size, desired feeling, essential content, and what must remain unchanged.
 2. Classify each supplied image by role. A source may be an edit target, identity reference, composition reference, or style reference. Ask only when the role changes the action. A style reference alone never licenses copying its scene, layout, logo, signature, or identifiable character.
-3. Select one primary route from the [capability map](docs/DOMAIN_AND_CAPABILITY_MAP.md). Add a specialist only when it changes a concrete design decision. Select another family if the first pass would merely reproduce a recently available output.
+3. Select one primary route from the [capability map](docs/DOMAIN_AND_CAPABILITY_MAP.md), then load its exact subordinate file from the [component index](docs/COMPONENT_INDEX.md). Add a specialist only when it changes a concrete design decision. Select another family if the first pass would merely reproduce a recently available output.
 4. Create or update the local visual state. Separate supplied facts, directly observed image details, user-described preferences, and unknowns. Do not fill an unknown from a personal profile that the user has not provided for this task.
 5. Return a direction sheet and, where useful, a renderer-ready prompt or edit instruction. Include composition, palette, material, light, typography, negative constraints, and a short QA checklist only when relevant.
 6. If an authorized renderer is actually available, render, inspect the returned image, report observed defects, and propose a bounded repair. Otherwise stop at the text direction. Never describe an unrendered prompt as an image.
@@ -90,7 +90,7 @@ Return only the pieces needed for the current job:
 
 ## Specialist reference
 
-The full family registry, triggers, visual DNA, direction examples, and QA gates are in [Specialist engines](docs/SPECIALIST_ENGINES.md). The operational checks are in [Visual QA and repair](docs/VISUAL_QA_AND_REPAIR.md).
+Each selected specialist has its own operative subcontract in the [component index](docs/COMPONENT_INDEX.md). The conditional registry is in [Specialist engines](docs/SPECIALIST_ENGINES.md). The operational checks are in [Visual QA and repair](docs/VISUAL_QA_AND_REPAIR.md).
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

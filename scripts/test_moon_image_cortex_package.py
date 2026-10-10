@@ -45,6 +45,24 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         for intent in checks.TEST_INTENTS:
             self.assertEqual(1, sum(intent in row for row in rows), intent)
 
+    def test_child_component_files_are_individually_routable(self) -> None:
+        registry = (checks.MODULE / "docs" / "COMPONENT_INDEX.md").read_text(encoding="utf-8")
+        import re
+        from pathlib import Path
+        links = re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry)
+        self.assertEqual(17, len(links))
+        self.assertEqual(17, len(set(links)))
+        for relative in links:
+            child = (checks.MODULE / "docs" / relative).resolve()
+            self.assertTrue(child.is_file(), relative)
+            text = child.read_text(encoding="utf-8")
+            self.assertIn("Visual Director", text)
+            if "engines" in child.parts:
+                self.assertIn("component activation", text.lower())
+                self.assertIn("not rendered", text.lower())
+            else:
+                self.assertIn("first use", text.lower())
+
     def test_specialist_family_registry_is_complete(self) -> None:
         registry = (checks.MODULE / "docs" / "SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
         for family in checks.SPECIALISTS:

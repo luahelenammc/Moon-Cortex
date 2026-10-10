@@ -35,6 +35,24 @@ EXPECTED = {
     "examples/IDENTITY_SAFE_PORTRAIT.md",
     "examples/VISUAL_QA_FAILURES.md",
     "examples/SPECIALIST_GALLERY_SYNTHETIC.md",
+    "engines/ANALOGIC_PHOTO.md",
+    "engines/NOSTALGIC_CAMERA_BR_90S.md",
+    "engines/VERNACULAR_SNAPSHOT_REALISM.md",
+    "engines/WEB_RETRO_IMAGE_GEN.md",
+    "engines/AQUA_SKEUO_ICON_FORGE.md",
+    "engines/RETROFUTURO_HABITAVEL.md",
+    "engines/CHROMATIC_DREAM_LOGIC.md",
+    "engines/SENTIMENTAL_UNCANNY.md",
+    "engines/SUBLIME_LYRIC_STILL.md",
+    "engines/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md",
+    "engines/PIXEL_WORLD_CAMERA_TRANSLATION.md",
+    "components/OMNIALCHEMY.md",
+    "components/WEB_AESTHETICS.md",
+    "components/HUMAN_CANON_FORGE.md",
+    "components/CONSERVATIVE_PHOTO_EDIT.md",
+    "components/REFERENCE_ABSTRACTION_GUARDRAIL.md",
+    "components/CONFIGURABLE_VISUAL_PROFILE.md",
+    "docs/COMPONENT_INDEX.md",
 }
 LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(([^)]+)\)")
 TEST_INTENTS = [
@@ -131,8 +149,8 @@ def validation_errors() -> list[str]:
         readme = readme_path.read_text(encoding="utf-8")
         if "# Moon Image Cortex" not in readme.splitlines():
             errors.append("module README has an unexpected title")
-        if "- **Version:** 0.1.0-pre.1" not in readme:
-            errors.append("module README is missing version 0.1.0-pre.1")
+        if "- **Version:** 0.1.0-pre.2" not in readme:
+            errors.append("module README is missing version 0.1.0-pre.2")
         if "- **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)" not in readme:
             errors.append("module README does not route to the canonical entry")
         if "- **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)" not in readme:
@@ -141,8 +159,8 @@ def validation_errors() -> list[str]:
         entry = entry_path.read_text(encoding="utf-8")
         if not re.search(r"(?im)^# Visual Director\s*$", entry):
             errors.append("canonical entry has an unexpected title")
-        if "**Version:** 0.1.0-pre.1" not in entry:
-            errors.append("canonical entry is missing version 0.1.0-pre.1")
+        if "**Version:** 0.1.0-pre.2" not in entry:
+            errors.append("canonical entry is missing version 0.1.0-pre.2")
         if "## First use" not in entry:
             errors.append("canonical entry is missing embedded First Use")
         for field in ("visual_brief", "visual_state", "direction_sheet", "prompt_for_renderer", "edit_instruction", "identity_profile", "QA_report", "generated_image"):

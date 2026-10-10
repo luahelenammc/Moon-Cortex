@@ -8,7 +8,7 @@
 Reconstruct what an image needs to do, choose a fitting visual route, compile a direction, and inspect the result against the brief. The module works with image creation, image editing, aesthetic research, consensual identity references, and visual QA.
 
 - **Status:** Public pre-release
-- **Version:** 0.1.0-pre.1
+- **Version:** 0.1.0-pre.2
 - **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)
 - **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
 - **License:** CC BY 4.0 documentation
@@ -22,7 +22,8 @@ Open the [Visual Director](VISUAL_DIRECTOR.md#first-use) and describe the visual
 - [Visual Director](VISUAL_DIRECTOR.md) — sole operative entry, First Use, routing, state and output contract.
 - [Domain and capability map](docs/DOMAIN_AND_CAPABILITY_MAP.md) — capability families and route selection.
 - [Visual state and compilation](docs/VISUAL_STATE_AND_COMPILATION.md) — brief reconstruction, visual state, direction sheet and prompt assembly.
-- [Specialist engines](docs/SPECIALIST_ENGINES.md) — eleven active or experimental visual routes.
+- [Component index](docs/COMPONENT_INDEX.md) — six independent cross-cutting components and eleven separately addressable specialist engines.
+- [Specialist engine registry](docs/SPECIALIST_ENGINES.md) — conditional selection, ownership and route boundaries.
 - [Visual QA and repair](docs/VISUAL_QA_AND_REPAIR.md) — image, text, tiling, photo-edit and data-graphic checks.
 - [Identity, consent and boundaries](docs/IDENTITY_CONSENT_AND_BOUNDARIES.md) — generic user-owned identity profiles and image boundaries.
 - [Originality, attribution and claims](docs/ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) — reference transformation and evidence limits.

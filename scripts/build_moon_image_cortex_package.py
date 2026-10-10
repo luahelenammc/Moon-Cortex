@@ -42,12 +42,12 @@ def archive_bytes() -> bytes:
     import io
 
     buffer = io.BytesIO()
-    with zipfile.ZipFile(buffer, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+    with zipfile.ZipFile(buffer, "w", compression=zipfile.ZIP_STORED) as archive:
         for relative in sorted(files):
             info = zipfile.ZipInfo(f"{PACKAGE_PREFIX}{relative}", date_time=(2026, 10, 8, 0, 0, 0))
-            info.compress_type = zipfile.ZIP_DEFLATED
+            info.compress_type = zipfile.ZIP_STORED
             info.external_attr = 0o100644 << 16
-            archive.writestr(info, files[relative], compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+            archive.writestr(info, files[relative], compress_type=zipfile.ZIP_STORED)
     return buffer.getvalue()
 
 

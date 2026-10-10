@@ -17,6 +17,12 @@
 
 ## Unreleased
 
+### Moon Image Cortex child-component correction — 2026-10-09
+
+- Replaced the specialist monolith with individually addressable visual engines and cross-cutting component contracts, a selective-load index, and a complete updated portable package.
+- Kept one canonical Visual Director; advanced the image module's pre-release version for a material routing-and-transport contract correction.
+
+
 ### Moon Image Cortex public module — 2026-10-08
 
 - added the public **Moon Image Cortex** as the fourth active module with a canonical Visual Director and complete portable package;
