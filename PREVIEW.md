@@ -3,7 +3,9 @@
 
 # Moon Cortex · Available Modules
 
-Choose one of the four current domain systems below. Each includes a dedicated entry interface and portable ZIP package.
+Choose one of the four current domain systems below. **Plan A:** give its public GitHub module or canonical-entry URL to an AI with browsing/repository access. **Plan B:** use the module's ZIP when direct retrieval is unavailable. Each module has a dedicated operative entry.
+
+[How to use a module with an AI](docs/USE_WITH_AI.md)
 
 ## Available modules
 
