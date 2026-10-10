@@ -171,7 +171,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             self.assertIn(name, parent)
         self.assertFalse((directory / "WINDOWS_VISTA_ULTIMATE_BLACK.md").exists())
         vista = (directory / "WINDOWS_VISTA.md").read_text(encoding="utf-8")
-        self.assertIn("default creative preset is Ultimate Black", vista.lower().replace("**",""))
+        self.assertIn("default creative preset is ultimate black", vista.lower().replace("**",""))
         self.assertIn("not an official exclusive os skin", vista.lower())
         self.assertIn("Dark Aero Desktop", vista)
         self.assertIn("Ultimate Black Packaging", vista)
