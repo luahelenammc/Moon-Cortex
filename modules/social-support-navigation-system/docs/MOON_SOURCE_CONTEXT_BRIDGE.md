@@ -3,7 +3,7 @@
 
 # Moon Source Context Bridge
 
-This is an optional bridge between the public Moon Cortex module and the public Moon Source context/method body. It is not a dependency and it does not import private Local Moon Source material.
+This is an optional bridge between the public Moon Cortex module and the public Moon Source context/method body. It is optional and does not require shared storage or account permissions.
 
 **MSL profile:** 5.1-compatible Markdown-native bridge contract; domain, privacy and authority boundaries remain unchanged.
 
@@ -33,7 +33,7 @@ The bridge does not require routine Moon Source retrieval after a local case sys
 
 ## Privacy and non-contamination
 
-No private Local Moon Source corpus, private case, personal runtime, hidden prompt, protected heuristic or live resource pack is required or exported by this bridge. Public Moon Source consultation does not authorize disclosure of private case material, nor does it make Moon Source the owner of the case.
+Consulting Moon Source does not grant access to case records, credentials or unrelated accounts, nor transfer ownership of case information.
 
 The public module may receive generalized improvements that survive privacy, provenance, claim, utility and reconstructibility review. Live case facts and local institutional contacts remain in the local case/source system.
 

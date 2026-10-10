@@ -17,7 +17,7 @@
 **Creator and final human authority:** Lua Helena Moon Martins Cardoso (Moon)  
 **AI-assisted coauthorial development:** Moon + Áurion  
 **Moon Source relation:** public installation/context-governance bridge, not module ownership  
-**Donor lineage:** generalized from the private donor system Finanças Moon; no private donor data is included  
+**Scope:** reusable financial organization and reconciliation methods; user records remain user-controlled  
 **Canonical transport requirement:** complete Financial Living System package (`financial-living-system.zip` or equivalent complete extracted directory)  
 **Moon Source-aware installation dependency:** current public Moon Source access at [luahelenammc/Moon-Source](https://github.com/luahelenammc/Moon-Source)  
 **Routine runtime dependency after installation:** none
@@ -118,7 +118,7 @@ The executing AI should:
 - never claim Moon Source was consulted unless it was actually retrieved during the current installation;
 - never claim installation success when only setup or compilation was completed.
 
-The AI should act like an interface. The user should not need to know Moon Source or Finanças Moon vocabulary.
+The AI should act like an interface. The user should not need to know specialist system vocabulary.
 
 ## Package-first versus Moon Source-aware installation
 
@@ -324,7 +324,7 @@ Do not expose this raw model to a beginner unless it helps them make a decision.
 
 Map the user's own terms to universal concepts. For example, a local term for an instant transfer, statement, wallet, payroll advance, shared bill or reserve can be recorded alongside its normalized meaning.
 
-The user should not need to learn Moon Source, Finanças Moon or another country's financial vocabulary. Examples are local mappings, not a universal schema.
+The user should not need to learn internal project terminology or another country's financial vocabulary. Examples are local mappings, not a universal schema.
 
 ## Capability compiler
 
@@ -532,7 +532,7 @@ It must not claim financial-advisor, fiduciary, tax, legal or investment status;
 
 ## Attribution and lineage
 
-Moon Cortex · Financial Living System and its Adaptive Finance Bootstrap were created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion**. The financial architecture was generalized from the private donor system **Finanças Moon**.
+Moon Cortex · Financial Living System and its Adaptive Finance Bootstrap were created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion**. The module documents reusable financial organization methods and does not include personal financial records.
 
 Moon Source is the public related method repository used as an installation/context-governance bridge:
 

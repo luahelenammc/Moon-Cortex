@@ -171,7 +171,7 @@ High-frequency food, transport, healthcare, care, pets, culture or support spend
 
 ## Public boundary
 
-These invariants are generalized from the private Finanças Moon donor lineage. No personal balance, salary, account, card, family ledger, statement, health cost or private source detail is part of this specification.
+These invariants apply to user-controlled financial records. Actual balances, statements, account information and other personal details are supplied only within an authorized user workspace.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
