@@ -17,8 +17,11 @@ def refresh(slug: str) -> None:
     with zipfile.ZipFile(archive_path, "r") as original:
         records = [(info, original.read(info.filename)) for info in original.infolist()]
     matches = [info.filename for info, _ in records if info.filename == "README.md" or info.filename.endswith("/README.md")]
+    if not matches:
+        print(f"{archive_path.name} contains canonical module files without a README facade; no README sync needed")
+        return
     if len(matches) != 1:
-        raise SystemExit(f"expected one root README in {archive_path}, found={matches}; members={[x.filename for x, _ in records][:20]}")
+        raise SystemExit(f"ambiguous README location in {archive_path}: {matches}")
     target = matches[0]
     with NamedTemporaryFile(dir=archive_path.parent, suffix=".zip", delete=False) as tmp:
         path = Path(tmp.name)
