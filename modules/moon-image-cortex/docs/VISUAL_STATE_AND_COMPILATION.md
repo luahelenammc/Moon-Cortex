@@ -64,6 +64,51 @@ For a corpus of references used for aesthetic extraction, move at least three of
 
 When a revision matters, record: version, change, reason, protected properties, and what remains unverified. Keep image content user-local unless the user explicitly asks to publish an authorized artifact.
 
+## Visual-frame resolution across multiple specialists
+
+The shared state is an **active frame**, not a giant prompt assembled from every engine. Reconstruct intent first, choose one primary route, then add supporting methods only for decisions they truly control.
+
+### Priority resolution table
+
+| When two modules disagree | Governing decision |
+|---|---|
+| Concept compiler suggests theatrical symbolism; task requests straightforward journalism | Required documentary credibility and user brief win |
+| Style exploration proposes a strong period palette; supplied photograph has exact colors to preserve | Source preservation wins for the protected pixels |
+| Photography route suggests lens grain; requested output is a clean deterministic UI mockup | Target medium and legibility win |
+| Regional research lens suggests a local motif; no evidence links the scene to that place | Leave locale unspecified |
+| Identity profiler gives uncertain visual observation; consenting subject corrects it | Subject's explicit correction wins |
+| Specialized poster wants embedded text; exact factual copy is essential | External deterministic typesetting and factual QA win |
+
+### Prompt compiler: meaningful sections
+
+Use these fields only when needed:
+
+1. **Task statement:** new image, bounded edit or review of an actual artifact.
+2. **Visual proposition:** one sentence about subject, relationship and purpose.
+3. **Scene/blocking:** frame ratio, viewpoint, foreground/background, action and negative space.
+4. **Capture or illustration medium:** how perspective, line, paper, film, light and texture behave.
+5. **Color and hierarchy:** restrained palette or specified color logic, readable anchors and focal rhythm.
+6. **Sources and protected facts:** source roles, reference scope, permissions, identity rules and exact content.
+7. **Optional specialist DNA:** only the distinctive instructions needed from selected route(s).
+8. **Negative guidance:** concise, task-specific prohibitions rather than a universal anti-artifact wall.
+9. **Acceptance conditions:** what the user must be able to see or preserve after any actual output.
+
+### Variation mechanics
+
+When a user requests diverse options, create **deep alternatives**. Two prompts that differ only in “ethereal” versus “cinematic” are still one design. Change medium, camera geometry, composition, environment or narrative scale, while keeping the semantic nucleus fixed. When one variant was sampled randomly, do not silently curate it into a preferred option.
+
+### QA evidence states
+
+`direction_prepared` means only text exists. `renderer_called` means a real external tool invocation occurred. `artifact_returned` means a file can be inspected. `inspected_against_source` means a comparison was actually performed. `accepted` requires the user's goal and relevant constraints to have been checked, not just plausible prose.
+
+### Small executable handoff example
+
+**Request:** A company wants a credible illustrated flyer for a community cycling workshop.  
+**State:** `new_image`, public flyer, original graphics, no identity source, printed A4 output.  
+**Primary route:** Omnialchemy for the visual thesis; add Vintage Editorial Rubber Hose Poster **only if** the client actually requests that style.  
+**Direction:** Simple service scene with one strong action, limited palette and reserved space for exact event copy.  
+**QA:** Text correctness, hierarchy at print size, unambiguous date/location, and no invented endorsement or trademark.  
+**Renderer:** unavailable means direction plus typesetting instructions only, not a claimed finished flyer.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
