@@ -16,8 +16,10 @@ def refresh(slug: str) -> None:
     target = f"{slug}/README.md"
     with zipfile.ZipFile(archive_path, "r") as original:
         records = [(info, original.read(info.filename)) for info in original.infolist()]
-    if sum(info.filename == target for info, _ in records) != 1:
-        raise SystemExit(f"expected one {target} inside {archive_path}")
+    matches = [info.filename for info, _ in records if info.filename == "README.md" or info.filename.endswith("/README.md")]
+    if len(matches) != 1:
+        raise SystemExit(f"expected one root README in {archive_path}, found={matches}; members={[x.filename for x, _ in records][:20]}")
+    target = matches[0]
     with NamedTemporaryFile(dir=archive_path.parent, suffix=".zip", delete=False) as tmp:
         path = Path(tmp.name)
     try:

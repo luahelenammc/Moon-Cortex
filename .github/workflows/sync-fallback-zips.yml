@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - "modules/**/README.md"
+      - "scripts/refresh_module_zip_readmes.py"
   workflow_dispatch:
 
 permissions:
