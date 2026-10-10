@@ -37,6 +37,48 @@ Task and reference roles + selected or unspecified place + period and capture co
 
 “An informal 1994 family birthday photograph, no location provided.” Generate a modest everyday setting with an era-appropriate consumer-camera direction. **Do not select a country.** If the user later specifies Recife, activate [Brazil](regions/BRAZIL.md); if Glasgow, use [United Kingdom](regions/UNITED_KINGDOM.md) with Scotland-specific context determined by evidence rather than generic UK props.
 
+## Period reconstruction without a nationality filter
+
+The parent route is a **temporal and capture-ecology engine**. Its optional geographic lenses can constrain real material culture, but country is never inferred from who appears in the image, and it remains empty unless requested or established by source evidence. “1990s” is likewise not a default decade: the user chooses the time range or supplies clues that genuinely establish one.
+
+### Reconstruction matrix
+
+| Dimension | User-provided or source-supported input | Visual consequence |
+|---|---|---|
+| Date | Year, decade or period range | Consumer camera format, processing, wardrobe and devices may vary |
+| Setting | Domestic, school, workplace, travel or public event | Ordinary spatial relationships and prop families |
+| Photographer / relationship | Relative, friend, event participant | Casual or formal distance, framing and social timing |
+| Camera | Compact film, disposable, early digital or unknown | Flash behavior, focal characteristics, noise/grain and image ratio |
+| Recording history | Direct file, print, album page, later scan | Only justified color aging, dust, physical wear or JPEG artifacts |
+| Place | Unknown or user-selected locality | Locale-sensitive cues when evidenced; never a person's ethnicity |
+| Retained details | Actual reference objects, number of subjects, pose or key objects | Protect source-specific details while varying the visual treatment |
+
+### Capture regimes and distinct evidence
+
+**Compact film photograph:** believable grain and lens softness, inconsistent direct flash and modest consumer-camera dynamic range. A later print might bear localized fading, but new photo output should not falsely show album wear.
+
+**Disposable social camera:** plausible short-range flash, casual body placement, moments that look taken by a peer rather than an editorial director.
+
+**Early 2000s digital:** modest JPEG compression, limited dynamic range, on-camera flash and sensor-era color response. It must not automatically look like a scanned 1990s print.
+
+**Album rediscovery:** only when the user actually asks for a found or scanned album artifact: print borders, handling traces, modest paper discoloration and scan geometry become part of the output medium.
+
+### Direction-writing protocol
+
+Construct the scene at three distinct levels: **human event**, **capture device** and **subsequent medium history**. First identify the ordinary activity. Next make the photographer's viewpoint and visible imperfections causally plausible. Only then add optional archival aging. Determine locale independently from scene behavior using the [custom context](regions/CUSTOM_CONTEXT.md) or one chosen regional lens.
+
+**Avoid:** one country's generic suburban motifs, stereotyped costumes, random old brands, indiscriminate sepia, exaggerated date stamps, implausible mixture of print scratches and smartphone capture, sanitized AI interiors and centered advertising poses.
+
+### Verification questions
+
+- Does the result look like an actual remembered snapshot rather than an advertisement for nostalgia?
+- Could this camera and medium plausibly exist at the specified time?
+- Are visual imperfections connected to a photographic process?
+- Are scene-specific cultural details grounded, and have unknown locations remained unknown?
+- Is the photographed subject treated as a person, rather than a generic “national type”?
+
+**Example direction:** “A slightly awkward 1995 school celebration photographed by a relative with a consumer compact camera; available light mixed with a near-axis flash. Preserve the number of people and event details from the authorized reference. If the location is unspecified, do not invent national decorations.”
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
