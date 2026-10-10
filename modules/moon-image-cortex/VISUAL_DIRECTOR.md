@@ -26,21 +26,49 @@ Start by asking what the image must communicate or change. For photographic work
 
 ### Route chooser
 
-| User request | Primary route |
+**Browse by commonness, route by task.** Everyday requests are listed first for readability. This is **not** a policy to force frequent routes onto specialized requests: activate the method that actually fits the brief, even when it appears last.
+
+#### Everyday creation, editing and photography
+
+| User request | Relevant route |
 |---|---|
-| Fragmentary or abstract concept needs visual form | Omnialchemy |
-| Photograph, film character, or natural documentary look | Analogic Photo; add Vernacular Snapshot Realism when casual capture context warrants it |
-| Consumer snapshot or family-album aesthetics from any place or period | Contextual Nostalgic Camera; default geography **unspecified**; optionally select a [regional context lens](engines/photography/regions/README.md) by user choice or verified scene source |
-| Screenshot or old web-era image | Web Retro Image Gen |
-| Original icon with tactile early desktop/mobile materials | Aqua-Skeuo Icon Forge |
-| Plausible future imagined from a named historical period | Lived-In Retrofuturism |
-| Color and image-making logic without a fixed subject theme | Chromatic Dream Logic |
-| Tender everyday scene with a restrained wrongness | Sentimental Uncanny |
-| Vertical atmospheric still with sparse original language | Sublime Lyric Still |
-| Editorial or advocacy poster using simplified illustration | Vintage Editorial Rubber Hose Poster |
-| Translate a user-authorized pixel scene into a new embodied environment | Pixel-World Camera Translation, experimental |
-| A person’s likeness must remain coherent across images | Human Canon Forge, only with consent and subject authority |
-| A graphic contains measurable data, dense type, or repeated tiles | Visual QA and repair after route selection |
+| Turn a fragmentary idea or abstract brief into a visual | **Omnialchemy** for scene and visual-state compilation |
+| Edit an existing image while preserving everything else | **Conservative Photo Edit** for a bounded change and protected-region QA |
+| Make a realistic photograph or direct film/camera character | **Analogic Photo** for optics, light, materials and plausibility |
+| Capture an ordinary candid or imperfect social snapshot | **Vernacular Snapshot Realism** for capture ecology and credible informality |
+| Make an older personal or family-album photograph | **Contextual Nostalgic Camera** for period-sensitive capture; leave geography **unspecified** unless chosen or evidenced |
+| Explore visual style, era, medium or direction | **Web Aesthetics** for controlled, task-led variation |
+| Inspect or repair a returned image, text, infographic or tile | **Visual QA and repair** on an actual result, without inventing a render |
+
+#### Reference and identity controls
+
+| User request | Relevant route |
+|---|---|
+| Use a visual reference without replaying its subject or composition | **Reference Abstraction Guardrail** for permitted properties and originality review |
+| Preserve a consenting subject's likeness across image tasks | **Human Canon Forge** with local, user-authorized identity context |
+| Apply recurring aesthetic preferences by choice | **Configurable Visual Profile**, optional and overridden by current instructions |
+
+#### Specialized visual languages
+
+| User request | Relevant route |
+|---|---|
+| Recreate the grammar of an early web page or desktop image | **Web Retro Image Gen** |
+| Design an original tactile or skeuomorphic icon | **Aqua-Skeuo Icon Forge** |
+| Direct a color- and material-led visual language | **Chromatic Dream Logic** |
+| Create a vertical atmospheric still with sparse original text | **Sublime Lyric Still** |
+| Imagine a plausible future as seen from a historical period | **Lived-In Retrofuturism** |
+| Add a restrained perceptual oddity to a tender everyday scene | **Sentimental Uncanny** |
+| Make an original editorial or advocacy poster using a stylized character | **Vintage Editorial Rubber Hose Poster** |
+
+#### Experimental translation
+
+| User request | Relevant route |
+|---|---|
+| Reinterpret a user-authorized pixel-world scene as a physical environment | **Pixel-World Camera Translation** (**experimental**, no generalized renderer or game-validation claim) |
+
+#### Optional geographic context
+
+When the **Contextual Nostalgic Camera** route is selected, add an opt-in [geographic research lens](engines/photography/regions/README.md) **only when the user supplies or a credible scene source establishes the place**. Otherwise keep place unknown. The [custom geographic context](engines/photography/regions/CUSTOM_CONTEXT.md) supports any region or mixed context; no national identity or ethnicity can be inferred from appearance.
 
 ### Operating sequence
 
