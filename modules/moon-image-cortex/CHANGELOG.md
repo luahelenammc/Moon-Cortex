@@ -3,6 +3,13 @@
 
 # Moon Image Cortex changelog
 
+## 0.1.0-pre.6 — 2026-10-09
+
+- Added **Windows Vista Ultimate Black** as an opt-in **Web Retro Image Gen** child lens for historically informed black packaging, dark Aero personalization and original Vista-era interfaces.
+- Incorporated historical references to Microsoft's Aero DWM, iconography, Windows Sidebar, edition scope and contemporary retail packaging; explicitly distinguished official retail branding from nonexclusive user-colorized Aero chrome.
+- Extended Web Retro routing, the component index, specialist registry, examples, capability map and QA regression checks while preserving the 12 independent specialists and one Visual Director.
+- Synchronized the deterministic ZIP with the 48-file source allowlist and preserved the 22 original synthetic acceptance intents.
+
 ## 0.1.0-pre.5 — 2026-10-09
 
 - Added **Authored Pixel Art** as an independently loadable active visual engine for pixel-native sprites, icons, tilesets, original game screenshots, UI assets and animation-ready visual direction.

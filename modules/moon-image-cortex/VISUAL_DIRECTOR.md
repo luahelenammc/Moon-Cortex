@@ -5,7 +5,7 @@
 
 **Moon Image Cortex · Visual Intelligence & Image Direction System**
 
-**Version:** 0.1.0-pre.5
+**Version:** 0.1.0-pre.6
 - **As of:** 2026-10-08
 - **Refresh when:** the user changes the target, reference role, renderer, rights, identity permission, output size, or intended use.
 - **Expire if:** the source image, consent, or relevant tool permission is withdrawn; the image or brief is unavailable; or the proposed direction depends on a fact that is no longer current.
@@ -60,6 +60,8 @@ The order below makes **common tasks easier to find**. It does **not** override 
 | Imagine a future through a stated historical period | Lived-In Retrofuturism |
 | Add restrained wrongness to an otherwise tender ordinary scene | Sentimental Uncanny |
 | Make a simplified illustrated editorial or advocacy poster | Vintage Editorial Rubber Hose Poster |
+
+**Web Retro detail:** If the brief explicitly calls for **Windows Vista Ultimate's black retail aesthetic** or a **dark Aero-era Vista desktop**, first route to **Web Retro Image Gen**, then selectively load [Windows Vista Ultimate Black](engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md). Black packaging and dark-personalized window chrome are distinct; neither implies an exclusive Vista Ultimate black operating-system theme.
 
 #### Experimental and optional context
 

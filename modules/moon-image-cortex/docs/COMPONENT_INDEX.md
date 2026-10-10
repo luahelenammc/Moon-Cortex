@@ -40,6 +40,8 @@ These are more narrowly suited to a particular style, era or medium.
 | Color-led composition | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) | Controlled palette, surface and focal hierarchy |
 | Atmospheric compositions | [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) | Vertical atmosphere and negative space |
 
+**Optional Web Retro submodule:** [Windows Vista Ultimate Black](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) describes the **specific** black-premium retail-box identity, user-darkened Aero window chrome and original Vista-era app/website compositions. Load *under Web Retro Image Gen* only when requested. It does not add another general engine or change the number of top-level components.
+
 ### Highly specific artistic languages
 
 | Engine | Narrow use |

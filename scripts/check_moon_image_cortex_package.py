@@ -39,6 +39,7 @@ EXPECTED = {
     "engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md",
     "engines/photography/VERNACULAR_SNAPSHOT_REALISM.md",
     "engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md",
+    "engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md",
     "engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md",
     "engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md",
     "engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md",
@@ -161,8 +162,8 @@ def validation_errors() -> list[str]:
         readme = readme_path.read_text(encoding="utf-8")
         if "# Moon Image Cortex" not in readme.splitlines():
             errors.append("module README has an unexpected title")
-        if "- **Version:** 0.1.0-pre.5" not in readme:
-            errors.append("module README is missing version 0.1.0-pre.5")
+        if "- **Version:** 0.1.0-pre.6" not in readme:
+            errors.append("module README is missing version 0.1.0-pre.6")
         if "- **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)" not in readme:
             errors.append("module README does not route to the canonical entry")
         if "- **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)" not in readme:
@@ -171,8 +172,8 @@ def validation_errors() -> list[str]:
         entry = entry_path.read_text(encoding="utf-8")
         if not re.search(r"(?im)^# Visual Director\s*$", entry):
             errors.append("canonical entry has an unexpected title")
-        if "**Version:** 0.1.0-pre.5" not in entry:
-            errors.append("canonical entry is missing version 0.1.0-pre.5")
+        if "**Version:** 0.1.0-pre.6" not in entry:
+            errors.append("canonical entry is missing version 0.1.0-pre.6")
         if "## First use" not in entry:
             errors.append("canonical entry is missing embedded First Use")
         for field in ("visual_brief", "visual_state", "direction_sheet", "prompt_for_renderer", "edit_instruction", "identity_profile", "QA_report", "generated_image"):

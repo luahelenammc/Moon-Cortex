@@ -49,7 +49,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         registry = (checks.MODULE / "docs" / "COMPONENT_INDEX.md").read_text(encoding="utf-8")
         import re
         from pathlib import Path
-        links = [link for link in re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry) if "/regions/" not in link]
+        links = [link for link in re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry) if "/regions/" not in link and "/web-retro/" not in link]
         self.assertEqual(18, len(links))
         self.assertEqual(18, len(set(links)))
         for relative in links:
@@ -89,7 +89,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
         for category in ("photography", "interfaces-and-retro", "expressive-and-editorial", "experimental", "creative-direction", "references-and-identity", "image-editing"):
             self.assertIn(category, index)
-        self.assertEqual(47, len(checks.EXPECTED))
+        self.assertEqual(48, len(checks.EXPECTED))
 
     def test_every_public_child_has_substantive_method_content(self) -> None:
         """A public child needs an operational manual, not a two-paragraph stub."""
@@ -138,7 +138,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         registry = (checks.MODULE / "docs/SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
         self.assertIn("Pixel and game art", registry)
         self.assertEqual(12, len(checks.SPECIALISTS))
-        self.assertEqual(47, len(checks.EXPECTED))
+        self.assertEqual(48, len(checks.EXPECTED))
 
     def test_pixel_art_vs_physical_translation_routing(self) -> None:
         director = (checks.MODULE / "VISUAL_DIRECTOR.md").read_text(encoding="utf-8")
@@ -148,6 +148,33 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         self.assertIn("Pixel-World Camera Translation", manual)
         index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
         self.assertIn("pixel-native", index.lower())
+
+    def test_vista_black_is_opt_in_web_retro_child(self) -> None:
+        child = checks.MODULE / "engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md"
+        parent = checks.MODULE / "engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md"
+        self.assertTrue(child.is_file())
+        text = child.read_text(encoding="utf-8")
+        self.assertGreaterEqual(len(text.encode("utf-8")), 12000)
+        self.assertIn("**Status:** active, conditional", text)
+        for term in ("Ultimate Black Packaging", "Dark Aero Desktop", "Aero Glass",
+                     "not a special black operating-system skin", "QA / failure diagnostics",
+                     "not rendered", "Windows Vista", "Microsoft"):
+            self.assertIn(term.lower(), text.lower(), term)
+        self.assertIn("web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md", parent.read_text(encoding="utf-8"))
+        self.assertIn("Windows Vista Ultimate Black", (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8"))
+        self.assertIn("Windows Vista Ultimate Black", (checks.MODULE / "VISUAL_DIRECTOR.md").read_text(encoding="utf-8"))
+        self.assertEqual(12, len(checks.SPECIALISTS))
+        self.assertNotIn("Windows Vista Ultimate Black", checks.SPECIALISTS)
+        self.assertEqual(48, len(checks.EXPECTED))
+
+    def test_vista_black_historical_and_tool_boundaries(self) -> None:
+        text = (checks.MODULE / "engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md").read_text(encoding="utf-8")
+        for token in ("packaging", "personalization", "Windows 7", "Flip 3D",
+                      "Screenshot", "copyrighted", "source", "UI", "not rendered"):
+            self.assertIn(token.lower(), text.lower(), token)
+        self.assertIn("https://learn.microsoft.com", text)
+        self.assertIn("https://download.microsoft.com", text)
+        self.assertIn("Aqua-Skeuo Icon Forge", text)
 
     def test_shared_compilation_and_diagnostic_depth(self) -> None:
         visual_state = (checks.MODULE / "docs/VISUAL_STATE_AND_COMPILATION.md").read_text(encoding="utf-8")

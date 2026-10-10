@@ -31,6 +31,12 @@ Load this contract **only** when the Visual Director selects Web Retro Image Gen
 
 **Synthetic case:** Build a fictional 2004 local music portal. Reject a contemporary SaaS dashboard and avoid recreating any named service.
 
+## Optional Vista Ultimate Black submodule
+
+For a specifically requested **Windows Vista Ultimate black-retail identity**, **dark-personalized Aero Glass desktop**, or a new fictional product using that visual grammar, load [Windows Vista Ultimate Black](web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) **after this parent engine**. It distinguishes black retail packaging from optional dark window-glass personalization; Ultimate did not have a separate mandatory black desktop skin.
+
+Choose the submodule only for a real Vista-era brief. Continue using this parent directly for generic XP, Windows 7, early web, forums and unrelated period design. The submodule is a **conditional child lens**, not a new top-level specialist. No original Windows assets ship in the package.
+
 ## Component return and handoff
 
 Return the smallest useful subset of `direction_sheet`, `prompt_for_renderer`, `edit_instruction`, `QA_report` and source-role constraints. A prompt without an available authorized renderer must say **not rendered**. The Visual Director remains the only general operational entry. Examples above are synthetic instructions, not validated output samples.

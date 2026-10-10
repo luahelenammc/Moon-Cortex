@@ -20,6 +20,11 @@
 **QA:** Silhouette remains clear when small; the material reads without copied OS icons or vendor logo. These are directions only; no rendered image is included.
 
 
+**Input C:** “Show an original 2008-era dark Vista Ultimate-inspired productivity screen.”  
+**Route:** Web Retro Image Gen → [Windows Vista Ultimate Black](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) (optional child lens).  
+**Direction:** A dark-tinted Aero frame, Vista-style window controls, a breadcrumb/search top region and *light, readable* content panes. Keep the black Ultimate retail-box identity separate from user-configurable glass tint. No Windows 7 pinned superbar, Aero Peek or official brand reproduction.  
+**QA:** Distinguish desktop screenshot from photographed monitor, verify era-correct shell and do not claim it is a real installed operating system.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
