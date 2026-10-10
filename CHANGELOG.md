@@ -17,6 +17,11 @@
 
 ## Unreleased
 
+### Windows-era Web Retro subtheme consolidation — 2026-10-09
+
+- Grouped Windows 98, Windows XP, Windows Vista and Windows 7 as optional Web Retro subthemes; Windows Vista now selects Ultimate Black as its default artistic preset.
+- Preserved the detailed Vista research contract while adding separate historical interface guides for the other three Windows generations.
+
 ### Windows Vista Ultimate Black visual lens — 2026-10-09
 
 - Added an optional Web Retro child lens for Vista Ultimate's black retail presentation and historically grounded user-customized dark Aero desktop/interface direction.

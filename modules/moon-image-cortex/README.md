@@ -20,7 +20,7 @@ Moon Image Cortex helps an AI understand what an image needs to accomplish, choo
 | **Public status** | 11 active visual engines, 1 experimental engine, 6 reusable components, and 8 optional regional research lenses plus custom geography |
 | **Evidence** | Synthetic textual tests establish route and package checks, not image-rendering quality or external adoption |
 
-- **Version:** 0.1.0-pre.6
+- **Version:** 0.1.0-pre.7
 - **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)
 - **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
 - **Documentation license:** CC BY 4.0
@@ -70,7 +70,7 @@ These engines are useful when the user already has a more specific medium or vis
 
 Pixel art is a **native construction method**, not a retro filter. [Authored Pixel Art](engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md) preserves discrete pixels; the [experimental Pixel-World Camera Translation](engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) does the opposite by reconstructing a pixel-world scene as a physical space.
 
-**Windows Vista Ultimate (Black):** the [optional Web Retro submodule](engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) distinguishes the historical black product packaging from a separately customizable dark-tinted Aero Glass interface. Use it when that **specific Vista-era** language is requested, not for generic retro web designs.
+**Windows subthemes:** [Windows 98](engines/interfaces-and-retro/web-retro/WINDOWS_98.md) · [Windows XP](engines/interfaces-and-retro/web-retro/WINDOWS_XP.md) · [Windows Vista](engines/interfaces-and-retro/web-retro/WINDOWS_VISTA.md) (**Ultimate Black default**) · [Windows 7](engines/interfaces-and-retro/web-retro/WINDOWS_7.md). These are optional children of **Web Retro Image Gen**, not competing general engines. [Compare the four](engines/interfaces-and-retro/web-retro/README.md).
 
 ### More specific artistic languages
 

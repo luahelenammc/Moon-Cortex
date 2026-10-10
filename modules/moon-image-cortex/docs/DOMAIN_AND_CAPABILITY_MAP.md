@@ -35,9 +35,9 @@ The kernel owns capabilities that recur across routes:
 | Identity continuity | Human Canon Forge | create a consent-based local profile for a user-authorized subject |
 | Visual inspection | Photo, tile, text, typography, chart and renderer QA | detect a specific failure and repair only the affected dimension |
 
-## Vista-specific conditional route
+## Windows-era conditional subthemes
 
-[Windows Vista Ultimate Black](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) is selectively loaded *within* Web Retro Image Gen. Distinguish the predominantly black Vista Ultimate retail packaging from the Aero Glass window system, whose color and transparency could be personalized. A dark Aero Vista screen is a historical configuration choice, not an edition-exclusive operating-system skin. The lens governs historical period facts, palette/material logic, screenshots versus monitor/box photography and rights-aware original UI composition.
+[Windows 98](../engines/interfaces-and-retro/web-retro/WINDOWS_98.md) (Classic gray), [Windows XP](../engines/interfaces-and-retro/web-retro/WINDOWS_XP.md) (Luna Blue), [Windows Vista](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA.md) (**Ultimate Black default**) and [Windows 7](../engines/interfaces-and-retro/web-retro/WINDOWS_7.md) (Aero Blue) are [selective Web Retro children](../engines/interfaces-and-retro/web-retro/README.md). Choose one by the requested Windows period. The Vista Black preset is a module aesthetic default, while the historical Aero interface allowed personalization. These lenses cover era-specific interface, artifact medium, material and rights-aware visual decisions.
 
 ## Geography-neutral capture model
 
