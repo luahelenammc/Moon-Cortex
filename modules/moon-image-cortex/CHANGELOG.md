@@ -3,6 +3,14 @@
 
 # Moon Image Cortex changelog
 
+## 0.1.0-pre.3 — 2026-10-09
+
+- Made the previously Brazil-specific nostalgic camera route explicitly geography- and era-neutral by default, with eight optional country-context research adapters plus unrestricted custom locations.
+- Reorganized visual engines into photography, interfaces and retrofutures, expressive/editorial, and experimental families; organized six shared components by functional responsibility.
+- Adopted English-only active names and paths, including **Lived-In Retrofuturism**.
+- Expanded context-provenance and anti-stereotyping rules; retained user control over place and actual subjects, with no inferred nationality.
+- Updated route index, tests and reproducible ZIP; this is a public routing and structure revision, not measured cultural or rendering fidelity.
+
 ## 0.1.0-pre.2 — 2026-10-09
 
 - Corrected specialist-module anatomy: ten active and one experimental engine now have their own addressable public subcontracts.

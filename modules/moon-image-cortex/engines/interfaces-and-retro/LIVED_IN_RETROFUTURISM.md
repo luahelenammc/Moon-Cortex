@@ -1,15 +1,15 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Retrofuturo Habitável
+# Lived-In Retrofuturism
 
 **System:** Moon Image Cortex · **Type:** conditional visual specialist · **Status:** active
-**Parent authority:** [Visual Director](../VISUAL_DIRECTOR.md#first-use) · [Component index](../docs/COMPONENT_INDEX.md)
+**Parent authority:** [Visual Director](../../VISUAL_DIRECTOR.md#first-use) · [Component index](../../docs/COMPONENT_INDEX.md)
 **Renderer:** external and optional; this file contains no image generator.
 
 ## Component activation
 
-Load this contract **only** when the Visual Director selects Retrofuturo Habitável for an actual visual task. If using this file in isolation, first state the task, source permissions, intended output, and tool availability; do not infer that a renderer or identity profile is installed. The Visual Director resolves conflicts and controls handoff. The specialist supplies its own material, composition and QA rules.
+Load this contract **only** when the Visual Director selects Lived-In Retrofuturism for an actual visual task. If using this file in isolation, first state the task, source permissions, intended output, and tool availability; do not infer that a renderer or identity profile is installed. The Visual Director resolves conflicts and controls handoff. The specialist supplies its own material, composition and QA rules.
 
 ## Specialist method
 

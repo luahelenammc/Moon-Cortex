@@ -4,13 +4,13 @@
 # Web Aesthetics
 
 **System:** Moon Image Cortex · **Type:** conditional cross-cutting component
-**Parent authority:** [Visual Director](../VISUAL_DIRECTOR.md#first-use) · [Component index](../docs/COMPONENT_INDEX.md)
+**Parent authority:** [Visual Director](../../VISUAL_DIRECTOR.md#first-use) · [Component index](../../docs/COMPONENT_INDEX.md)
 
 This file is a subordinate component, **not** another general entry, personal memory, or renderer. Use it only when the task earns it. Public documentation does not install tools or persist identity data.
 
 ## Trigger and first use
 
-Use when the user requests an aesthetic exploration, period interface grammar, moodboard, visual variation or a system of compositional parameters, rather than a single predetermined scene. This component is **broader than** [Web Retro Image Gen](../engines/WEB_RETRO_IMAGE_GEN.md), which specializes in period-specific webpage and desktop artifacts.
+Use when the user requests an aesthetic exploration, period interface grammar, moodboard, visual variation or a system of compositional parameters, rather than a single predetermined scene. This component is **broader than** [Web Retro Image Gen](../../engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md), which specializes in period-specific webpage and desktop artifacts.
 
 ## Parameter dimensions
 

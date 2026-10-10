@@ -49,7 +49,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         registry = (checks.MODULE / "docs" / "COMPONENT_INDEX.md").read_text(encoding="utf-8")
         import re
         from pathlib import Path
-        links = re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry)
+        links = [link for link in re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry) if "/regions/" not in link]
         self.assertEqual(17, len(links))
         self.assertEqual(17, len(set(links)))
         for relative in links:
@@ -62,6 +62,34 @@ class MoonImageCortexPackageTests(unittest.TestCase):
                 self.assertIn("not rendered", text.lower())
             else:
                 self.assertIn("first use", text.lower())
+
+    def test_geographic_context_is_opt_in_and_unrestricted(self) -> None:
+        parent = (checks.MODULE / "engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md").read_text(encoding="utf-8")
+        self.assertIn("No country", parent)
+        self.assertIn("CUSTOM_CONTEXT.md", parent)
+        custom = (checks.MODULE / "engines/photography/regions/CUSTOM_CONTEXT.md").read_text(encoding="utf-8")
+        self.assertIn("country is optional", custom.lower())
+        countries = ["BRAZIL", "UNITED_STATES", "UNITED_KINGDOM", "JAPAN", "INDIA", "MEXICO", "FRANCE", "GERMANY"]
+        for country in countries:
+            child = checks.MODULE / "engines" / "photography" / "regions" / f"{country}.md"
+            self.assertTrue(child.is_file(), country)
+            data = child.read_text(encoding="utf-8")
+            self.assertIn("optional region-specific context adapter", data)
+            self.assertIn("not rendered", data.lower())
+
+    def test_english_only_active_engine_names(self) -> None:
+        sources = checks.module_files()
+        for path, raw in sources.items():
+            text = raw.decode("utf-8")
+            self.assertNotIn("Retrofuturo Habitável", text, path)
+            self.assertNotIn("Nostalgic Camera BR 90s", text, path)
+        self.assertIn("Lived-In Retrofuturism", (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8"))
+
+    def test_reorganized_component_paths_are_registered(self) -> None:
+        index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
+        for category in ("photography", "interfaces-and-retro", "expressive-and-editorial", "experimental", "creative-direction", "references-and-identity", "image-editing"):
+            self.assertIn(category, index)
+        self.assertEqual(46, len(checks.EXPECTED))
 
     def test_specialist_family_registry_is_complete(self) -> None:
         registry = (checks.MODULE / "docs" / "SPECIALIST_ENGINES.md").read_text(encoding="utf-8")

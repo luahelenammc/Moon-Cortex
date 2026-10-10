@@ -13,7 +13,7 @@ The module generalizes reusable methods from the private visual source while ret
 
 ## Public routes
 
-The public route registry includes the shared visual kernel and eleven specialists. Human Canon Forge is available as a generic consent mechanism. Weather/temperature graphic QA is a data-visualization protocol only; it provides no weather service or source data.
+The public route registry includes the shared visual kernel, eleven grouped specialists, and optional geography-context research lenses. No user's nationality, ethnicity or geographic setting is inferred or embedded in the public runtime. Human Canon Forge is available as a generic consent mechanism. Weather/temperature graphic QA is a data-visualization protocol only; it provides no weather service or source data.
 
 Where a source method is experimental, that status travels with it. Text fixtures do not expand its empirical reach.
 

@@ -1,48 +1,42 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Moon Image Cortex component index
+# Moon Image Cortex · Component map
 
-The [Visual Director](../VISUAL_DIRECTOR.md#first-use) is the **only canonical operational entry**. Every entry below is an independently addressable **subordinate component**, meant to be loaded conditionally. Installing a Markdown package does not install an image renderer or grant use of source images.
+The [Visual Director](../VISUAL_DIRECTOR.md#first-use) is the **sole general operational authority**. This page groups subcontracts by purpose, and the module remains usable without knowing the names in advance. Open only what the current task earns.
 
 ## Shared components
 
-| Component | When needed |
+| Domain responsibility | Component and role |
 |---|---|
-| [Omnialchemy](../components/OMNIALCHEMY.md) | Raw or symbolic briefs need visual synthesis |
-| [Web Aesthetics](../components/WEB_AESTHETICS.md) | Parametric exploration of medium, era and interface grammar |
-| [Human Canon Forge](../components/HUMAN_CANON_FORGE.md) | Consent-based human likeness continuity |
-| [Conservative Photo Edit](../components/CONSERVATIVE_PHOTO_EDIT.md) | Minimal-change photographic modifications |
-| [Reference Abstraction Guardrail](../components/REFERENCE_ABSTRACTION_GUARDRAIL.md) | Style-only abstraction and structural originality |
-| [Configurable Visual Profile](../components/CONFIGURABLE_VISUAL_PROFILE.md) | Portable user-owned visual tastes, never a baked-in personal profile |
+| **Concept and style** | [Omnialchemy](../components/creative-direction/OMNIALCHEMY.md) · [Web Aesthetics](../components/creative-direction/WEB_AESTHETICS.md) |
+| **References and identity** | [Human Canon Forge](../components/references-and-identity/HUMAN_CANON_FORGE.md) · [Reference Abstraction Guardrail](../components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md) · [Configurable Visual Profile](../components/references-and-identity/CONFIGURABLE_VISUAL_PROFILE.md) |
+| **Conservative edits** | [Conservative Photo Edit](../components/image-editing/CONSERVATIVE_PHOTO_EDIT.md) |
 
 ## Specialist engines
 
-| Component | Status |
+| Domain | Addressable visual routes |
 |---|---|
-| [Analogic Photo](../engines/ANALOGIC_PHOTO.md) | active |
-| [Nostalgic Camera BR 90s](../engines/NOSTALGIC_CAMERA_BR_90S.md) | active |
-| [Vernacular Snapshot Realism](../engines/VERNACULAR_SNAPSHOT_REALISM.md) | active |
-| [Web Retro Image Gen](../engines/WEB_RETRO_IMAGE_GEN.md) | active |
-| [Aqua-Skeuo Icon Forge](../engines/AQUA_SKEUO_ICON_FORGE.md) | active |
-| [Retrofuturo Habitável](../engines/RETROFUTURO_HABITAVEL.md) | active |
-| [Chromatic Dream Logic](../engines/CHROMATIC_DREAM_LOGIC.md) | active |
-| [Sentimental Uncanny](../engines/SENTIMENTAL_UNCANNY.md) | active |
-| [Sublime Lyric Still](../engines/SUBLIME_LYRIC_STILL.md) | active |
-| [Vintage Editorial Rubber Hose Poster](../engines/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | active |
-| [Pixel-World Camera Translation](../engines/PIXEL_WORLD_CAMERA_TRANSLATION.md) | experimental |
+| **Photography and memory** | [Analogic Photo](../engines/photography/ANALOGIC_PHOTO.md) · [Vernacular Snapshot Realism](../engines/photography/VERNACULAR_SNAPSHOT_REALISM.md) · [Contextual Nostalgic Camera](../engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) |
+| **Interfaces and historical futures** | [Web Retro Image Gen](../engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) · [Aqua-Skeuo Icon Forge](../engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) · [Lived-In Retrofuturism](../engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) |
+| **Atmosphere and editorial art** | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) · [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md) · [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) · [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) |
+| **Experimental translation** | [Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) *(experimental)* |
+
+## Optional geographic adapters
+
+[Regional camera context registry](../engines/photography/regions/README.md): Brazil, United States, United Kingdom, Japan, India, Mexico, France, Germany, and [an unrestricted custom locale](../engines/photography/regions/CUSTOM_CONTEXT.md). **No country is chosen by default.** A region describes where a scene takes place, never a person's ancestry, ethnicity or appearance. Do not load all regional packs automatically.
 
 ## Selective activation
 
-1. Start at Visual Director and classify the visual job.
-2. Load only the cross-cutting components and engine(s) that change actual decisions.
-3. Keep each child's output inside the shared task-local visual state; never turn a specialist into a competing general router.
-4. Render only with a real, authorized image tool; otherwise produce direction and label **not rendered**.
-5. Consult the shared [Visual QA](VISUAL_QA_AND_REPAIR.md) and perform a truthful readback on any actual returned image.
+1. Start at Visual Director; classify goal, reference roles, safety limits, intended medium and source permission.
+2. Select a useful cross-cutting method, then one primary visual specialist and any truly warranted supporting one.
+3. Add a geographic lens only when the user requests or credible scene evidence supplies a place. Prefer an open-ended custom context to an unsupported preset.
+4. Return a direction or edit instruction. Invoke a renderer only when available and authorized; otherwise say **not rendered**.
+5. Inspect actual output with [Visual QA](VISUAL_QA_AND_REPAIR.md) and keep local state user-owned.
 
-## Scope and exclusion
+## Scope
 
-Human Canon Forge describes a generic consent-based method, not anyone's private profile. Excluded until individually source-supported: Cat Canon Forge, Original Game Concept Art Engine and Cartoon Identity / Fantasy Image Set. Pixel-World Camera Translation stays experimental. The watermark-related artifact theory is unproven and must not be presented as a cause.
+No personal profiles, visual reference archives or source corpora ship in this module. Cultural lenses are not national aesthetic stereotypes. The [public boundary](../../../PUBLIC_BOUNDARY.md) applies. Source-gap concepts (Cat Canon Forge, Original Game Concept Art Engine, Cartoon Identity / Fantasy Image Set) are not published as invented methods.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

@@ -9,11 +9,11 @@ These twenty-two text-only fixtures exercise route selection, boundaries, and cl
 |---|---|---|
 | Fragmentary abstract concept | Omnialchemy | Choose a concrete scene, medium and light; do not default to a cosmic dashboard. |
 | Contemporary documentary photo | Analogic Photo or documentary direction | Natural lens and light; no unsolicited surrealism. |
-| Brazilian 1990s family album | Nostalgic Camera BR 90s + Vernacular Snapshot Realism | Plausible region and capture ecology; US props are not the default. |
+| Brazilian 1990s family album | Contextual Nostalgic Camera + Vernacular Snapshot Realism | Plausible region and capture ecology; US props are not the default. |
 | US 2000s disposable camera | Vernacular contextual variant | Reconstruct US 2000s capture ecology; no Brazilian-context leakage. |
 | 2000s XP web portal | Web Retro Image Gen | Period interface grammar; no modern SaaS UI or copied brand. |
 | Aqua-era fictional app icon | Aqua-Skeuo Icon Forge | Tactile, legible original icon; no copied trademark. |
-| 1970s future city poster | Retrofuturo Habitável | Historical ontology, original setting and print grammar, representation QA. |
+| 1970s future city poster | Lived-In Retrofuturism | Historical ontology, original setting and print grammar, representation QA. |
 | Non-gothic chromatic image | Chromatic Dream Logic | Color, material and composition logic without prescribed theme. |
 | Late Y2K uncanny bedroom | Sentimental Uncanny | Warmth plus subtle unease; not horror by default. |
 | Vertical atmospheric lyric-style still | Sublime Lyric Still | One visual force, small subject, sparse original wording. |
@@ -29,6 +29,16 @@ These twenty-two text-only fixtures exercise route selection, boundaries, and cl
 | Third-party copyrighted or logo reference | Rights gate + Anti-Echo | Allow general inspiration; do not directly replicate protected marks. |
 | Watermark causal diagnosis | Evidence gate | State causation is unverified; give no evasion instructions. |
 | Repeated similar outputs | Anti-house-style gate | Change route only when justified by subject, never by random shallow swaps. |
+
+## Neutral-geography regression cases
+
+These synthetic additional checks prevent national-default regressions. They are **not** real image benchmarks or proof of cultural accuracy.
+
+- **No-location family snapshot:** Keep geographic context unknown; load no country adapter.
+- **User chooses a UK setting:** Select the UK lens only when specified; never infer ethnicity.
+- **Country not in presets:** Apply the open custom-context method without a fictional national style.
+- **Mixed-location family history:** Preserve multiple selected contexts and sources, not one enforced flag.
+- **English retrofuture route:** Resolve to Lived-In Retrofuturism, not the retired Portuguese title.
 
 ## Review record
 

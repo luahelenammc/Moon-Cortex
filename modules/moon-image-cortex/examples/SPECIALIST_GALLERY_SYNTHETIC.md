@@ -9,7 +9,7 @@ Text-only route demonstrations. No images, private source examples or copied pro
 |---|---|---|
 | A fresh idea: “a library for forgotten seeds” | Omnialchemy | Choose one concrete community seed library, tangible glass jars, morning light and a readable working layout; no cosmic imagery. |
 | Contemporary documentary portrait of a baker | Analogic Photo | Natural window light, plausible 50 mm perspective, lived-in workroom, no unrequested film wear. |
-| Brazilian 1990s birthday album | Nostalgic Camera BR 90s + Vernacular | Direct compact-camera flash, casual framing, period-plausible home details; local specifics remain unknown if not supplied. |
+| user-selected Brazilian 1990s birthday album | Contextual Nostalgic Camera + Vernacular | Direct compact-camera flash, casual framing, period-plausible home details; local specifics remain unknown if not supplied. |
 | Late-Y2K bedroom that feels sweet and slightly off | Sentimental Uncanny | Keep warm ordinary room; one subtle reflection mismatch; no horror reveal. |
 | Vertical still for an original line about rain | Sublime Lyric Still | One dominant rain force, a small subject, open negative space, new wording only. |
 | Advocacy poster about a fictional service delay | Vintage Editorial Rubber Hose Poster | One visible obstruction, original figure, readable claim and dignity check. |
