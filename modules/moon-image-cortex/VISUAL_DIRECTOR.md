@@ -26,21 +26,47 @@ Start by asking what the image must communicate or change. For photographic work
 
 ### Route chooser
 
-| User request | Primary route |
+The order below makes **common tasks easier to find**. It does **not** override task fit, source permission, safety or the user's chosen visual direction. Route by actual intent, even when a highly specific engine is the right first choice.
+
+#### Everyday image work
+
+| User request | Route |
 |---|---|
-| Fragmentary or abstract concept needs visual form | Omnialchemy |
-| Photograph, film character, or natural documentary look | Analogic Photo; add Vernacular Snapshot Realism when casual capture context warrants it |
-| Consumer snapshot or family-album aesthetics from any place or period | Contextual Nostalgic Camera; default geography **unspecified**; optionally select a [regional context lens](engines/photography/regions/README.md) by user choice or verified scene source |
-| Screenshot or old web-era image | Web Retro Image Gen |
-| Original icon with tactile early desktop/mobile materials | Aqua-Skeuo Icon Forge |
-| Plausible future imagined from a named historical period | Lived-In Retrofuturism |
-| Color and image-making logic without a fixed subject theme | Chromatic Dream Logic |
-| Tender everyday scene with a restrained wrongness | Sentimental Uncanny |
-| Vertical atmospheric still with sparse original language | Sublime Lyric Still |
-| Editorial or advocacy poster using simplified illustration | Vintage Editorial Rubber Hose Poster |
-| Translate a user-authorized pixel scene into a new embodied environment | Pixel-World Camera Translation, experimental |
-| A person’s likeness must remain coherent across images | Human Canon Forge, only with consent and subject authority |
-| A graphic contains measurable data, dense type, or repeated tiles | Visual QA and repair after route selection |
+| Turn a rough or abstract idea into concrete image direction | Omnialchemy |
+| Edit or restore an existing image while preserving unrequested details | Conservative Photo Edit; treat the source as an edit target and protect non-target regions |
+| Plan a plausible photographic image or film-like capture | Analogic Photo |
+| Direct an everyday, informal or candid snapshot | Vernacular Snapshot Realism |
+| Build a period or family-album camera scene, with no default country or decade | Contextual Nostalgic Camera; add a [geographic lens](engines/photography/regions/README.md) only if the user selects or evidence establishes a place |
+| Explore or compare aesthetics, periods and visual parameters | Web Aesthetics |
+| Inspect or repair an actual image, text, chart or material defect | Visual QA and repair; select the appropriate primary route for reconstruction when needed |
+
+#### References and continuity, when relevant
+
+| User request | Route |
+|---|---|
+| Use an aesthetic reference without copying its underlying scene | Reference Abstraction Guardrail |
+| Preserve likeness for a consenting subject | Human Canon Forge, with subject authority and a locally controlled identity profile |
+| Apply optional recurring visual preferences | Configurable Visual Profile; the current brief always takes precedence |
+
+#### Specialized artistic requests
+
+| User request | Route |
+|---|---|
+| Reconstruct a period web page, browser or desktop image | Web Retro Image Gen |
+| Create an original tactile early desktop or mobile icon | Aqua-Skeuo Icon Forge |
+| Build color-led spatial, light and material coherence | Chromatic Dream Logic |
+| Create an atmospheric vertical still, with minimal original text if needed | Sublime Lyric Still |
+| Imagine a future through a stated historical period | Lived-In Retrofuturism |
+| Add restrained wrongness to an otherwise tender ordinary scene | Sentimental Uncanny |
+| Make a simplified illustrated editorial or advocacy poster | Vintage Editorial Rubber Hose Poster |
+
+#### Experimental and optional context
+
+| User request | Route |
+|---|---|
+| Reinterpret an authorized pixel-world scene as an original lived-in physical environment | Pixel-World Camera Translation, **experimental** |
+
+Geographic camera contexts are **optional overlays**, not general engines: leave place unknown by default, or use a [user-selected region](engines/photography/regions/README.md) / [custom context](engines/photography/regions/CUSTOM_CONTEXT.md) with suitable evidence.
 
 ### Operating sequence
 
