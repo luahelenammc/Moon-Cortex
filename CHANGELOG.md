@@ -17,6 +17,11 @@
 
 ## Unreleased
 
+### Authored Pixel Art visual engine — 2026-10-09
+
+- Added pixel-native art direction as an active Image Cortex specialist, separate from experimental pixel-world-to-physical translation.
+- Synchronized module routing, v0.1.0-pre.5 package manifest, documentation and native-grid QA regressions.
+
 ### Moon Image Cortex detailed visual manuals — 2026-10-09
 
 - Added expanded task-specific operating methods across all 17 Image Cortex child modules, plus deeper shared compilation and image-quality diagnostics.

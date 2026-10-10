@@ -36,6 +36,7 @@ These are more narrowly suited to a particular style, era or medium.
 |---|---|---|
 | Historical interfaces | [Web Retro Image Gen](../engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) | Fictional retro web and desktop artifacts |
 | Tactile icons | [Aqua-Skeuo Icon Forge](../engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) | Original material-rich skeuomorphic icon design |
+| **Pixel and game art** | [Authored Pixel Art](../engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md) | **Native** pixel construction for sprites, tilesets, pixel UI, original game scenes and animation-ready assets |
 | Color-led composition | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) | Controlled palette, surface and focal hierarchy |
 | Atmospheric compositions | [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) | Vertical atmosphere and negative space |
 
@@ -46,6 +47,8 @@ These are more narrowly suited to a particular style, era or medium.
 | [Lived-In Retrofuturism](../engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) | Historically imagined futures with plausible human-scale systems |
 | [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md) | Tender scenes with a subtle, restrained mismatch |
 | [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | Clear editorial visual argument using original simplified illustration |
+
+**Pixel-art route boundary:** **Authored Pixel Art** keeps output pixel-native; **Pixel-World Camera Translation** is experimental and turns an authorized pixel-like source into an independent physical environment. They are different outputs and are never interchangeable.
 
 ## Experimental routes
 

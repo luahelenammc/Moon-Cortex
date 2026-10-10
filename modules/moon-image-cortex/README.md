@@ -17,10 +17,10 @@ Moon Image Cortex helps an AI understand what an image needs to accomplish, choo
 | **You provide** | A short brief, image to edit, allowed references, or a specific visual problem |
 | **You receive** | A visual brief, direction sheet, optional image-tool prompt or edit instruction, and QA notes as needed |
 | **Optional depth** | Specialist aesthetics, identity/reference methods, experimental translation and regional context research |
-| **Public status** | 10 active visual engines, 1 experimental engine, 6 reusable components, and 8 optional regional research lenses plus custom geography |
+| **Public status** | 11 active visual engines, 1 experimental engine, 6 reusable components, and 8 optional regional research lenses plus custom geography |
 | **Evidence** | Synthetic textual tests establish route and package checks, not image-rendering quality or external adoption |
 
-- **Version:** 0.1.0-pre.4
+- **Version:** 0.1.0-pre.5
 - **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)
 - **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
 - **Documentation license:** CC BY 4.0
@@ -64,8 +64,11 @@ These engines are useful when the user already has a more specific medium or vis
 |---|---|---|
 | Historical interfaces | [Web Retro Image Gen](engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) | Original period web pages, early browser experiences and desktop artifacts |
 | Tactile icon design | [Aqua-Skeuo Icon Forge](engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) | Original glossy, beveled, material-rich desktop or mobile icons |
+| **Native pixel art and game assets** | [Authored Pixel Art](engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md) | Purposeful pixel clusters, palette discipline, sprites, tilesets, original mock game screenshots and pixel-native interfaces |
 | Color-led imagery | [Chromatic Dream Logic](engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) | Coherent palette, material, light and focal logic without mandatory themes |
 | Atmospheric stills | [Sublime Lyric Still](engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) | Vertical atmospheric images, negative space, spatial scale and minimal original text |
+
+Pixel art is a **native construction method**, not a retro filter. [Authored Pixel Art](engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md) preserves discrete pixels; the [experimental Pixel-World Camera Translation](engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) does the opposite by reconstructing a pixel-world scene as a physical space.
 
 ### More specific artistic languages
 
@@ -108,7 +111,7 @@ The [Visual Director](VISUAL_DIRECTOR.md#first-use) remains the **only general o
 
 **Flow:** visual need → brief → relevant component(s) → direction or edit instruction → authorized rendering when possible → QA → bounded repair.
 
-The ZIP carries the whole system for transport. **The AI should load only the parts needed for the current task**, not all 17 core components or the geographic lenses by default.
+The ZIP carries the whole system for transport. **The AI should load only the parts needed for the current task**, not all 18 core components or the geographic lenses by default.
 
 ## Reference and learning paths
 

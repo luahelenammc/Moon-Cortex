@@ -29,8 +29,9 @@ The kernel owns capabilities that recur across routes:
 | Concept compilation | Omnialchemy; Chromatic Dream Logic | translate an idea into visual grammar without imposing a theme |
 | Photographic image | Analogic Photo; Contextual Nostalgic Camera; Vernacular Snapshot Realism | select capture ecology, optics, light and texture; add geographic details **only when selected or sourced** |
 | Historical visual systems | Web Retro Image Gen; Aqua-Skeuo Icon Forge; Lived-In Retrofuturism | reconstruct web, icon or future-history grammar from a period |
+| **Native pixel and game art** | [Authored Pixel Art](../engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md) | choose a true pixel grid, silhouette and clusters, palette, tile or animation behavior and native-size inspection |
 | Mood-led illustration | Sentimental Uncanny; Sublime Lyric Still; Vintage Editorial Rubber Hose Poster | control tenderness, atmosphere, symbolic force, reading and editorial hierarchy |
-| Experimental translation | Pixel-World Camera Translation | reinterpret an authorized pixel-world frame as an embodied scene |
+| Experimental translation | Pixel-World Camera Translation | reinterpret an authorized pixel-world frame as an embodied **non-pixel** physical scene; this is not the authored-pixel route |
 | Identity continuity | Human Canon Forge | create a consent-based local profile for a user-authorized subject |
 | Visual inspection | Photo, tile, text, typography, chart and renderer QA | detect a specific failure and repair only the affected dimension |
 
