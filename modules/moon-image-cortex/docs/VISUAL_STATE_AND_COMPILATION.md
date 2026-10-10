@@ -13,7 +13,9 @@ The visual state is a temporary working model of this task, not a profile of the
 | visual_brief | intended meaning, subject, audience, use, format, and success condition |
 | source_roles | edit target, identity reference, composition reference, style reference, or factual source |
 | observations | directly visible source properties; describe uncertainty and crop limits |
-| user_description | what the user explicitly said about identity, taste, or intended meaning |\n| geographic_context | optional scene place and historical period, selected or evidenced; **not** inferred from subject ethnicity/nationality |\n| regional_adapter | optional explicitly chosen geography lens or custom context, with evidence and uncertainty |
+| user_description | what the user explicitly said about identity, taste, or intended meaning |
+| geographic_context | optional scene place and historical period, selected or evidenced; **not** inferred from subject ethnicity/nationality |
+| regional_adapter | optional explicitly chosen geography lens or custom context, with evidence and uncertainty |
 | must_preserve | content, scene, proportions, identity, text, factual data, texture, or legal notices |
 | allowed_change | exact transformation and areas in scope |
 | avoid | excluded elements, motifs, moods, layouts, and unwanted effects |

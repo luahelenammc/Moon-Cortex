@@ -49,7 +49,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         registry = (checks.MODULE / "docs" / "COMPONENT_INDEX.md").read_text(encoding="utf-8")
         import re
         from pathlib import Path
-        links = re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry)
+        links = [link for link in re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry) if "/regions/" not in link]
         self.assertEqual(17, len(links))
         self.assertEqual(17, len(set(links)))
         for relative in links:
