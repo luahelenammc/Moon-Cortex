@@ -6,7 +6,7 @@
 **Status:** public pre-release  
 **Structural grammar:** MSL 5.1
 
-Moon Cortex is a public lineage for domain modules that help AI systems produce situated, user-owned capabilities. The repository is intentionally smaller than a complete platform or product specification. Its job is to make coherent public systems inspectable while keeping each domain’s responsibility and boundary legible.
+Moon Cortex publishes domain modules that help AI systems produce situated, user-owned capabilities. Each module documents its responsibilities, entry point, outputs and limits.
 
 ## Generic Cortex loop
 
@@ -100,7 +100,7 @@ The repository-level rules for new and materially revised modules are defined in
 
 | Layer | Owns | Does not own |
 |---|---|---|
-| Moon Cortex | Public module identity, domain lineage and repository-level boundaries | Private donor corpora, the user’s local runtime or Moon Source’s method body |
+| Moon Cortex | Public module identity, domain contracts and repository-level boundaries | The user’s local runtime or Moon Source’s independent method body |
 | Financial Living System | Public finance-domain contract and integrated financial system | A pre-filled personal ledger or one mandatory local file tree |
 | Adaptive Finance Bootstrap | Finance field discovery, capability routing and local-system instantiation | Financial advice, user data ownership or autonomous transactions |
 | Social Support Navigation System | Social-support reconstruction, barrier/passage routing, institutional navigation and bounded handoffs | Public authority, legal/clinical decisions, eligibility or live case ownership |
@@ -129,17 +129,9 @@ The contract is:
 
 > **Cortex by identity. Domain-shaped entry by module. Moon Source by installation governance. The user by final sovereignty.**
 
-## Public/private boundary
+## Data protection and claims
 
-Public files contain generalized mechanisms, synthetic examples, public claims, package guidance and explicit limitations. They do not contain private finance records, social-support case histories, identifying records, live resource packs, private legal analysis, credentials or protected donor/runtime corpora.
-
-The donor lineages are named only to keep extraction honest:
-
-- **Finanças Moon** → Financial Living System;
-- **Defensoria Social** → Social Support Navigation System;
-- **Local Moon Source** → Probability Calibration System, as a generalized method only.
-
-Lineage does not publish either donor corpus or transfer private facts into the public body.
+A public module defines methods and interface contracts. Personal financial data, case records, identity images and credentials remain with the user or an authorized data holder; the repository does not provide a hosted storage service. Fictional examples are labeled as such. Measured impact, professional validity and adoption require independent supporting evidence.
 
 ## What this public pre-release establishes
 

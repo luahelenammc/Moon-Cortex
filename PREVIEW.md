@@ -1,17 +1,11 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Moon Cortex · Module Preview
+# Moon Cortex · Available Modules
 
-Moon Cortex is larger than the modules currently available in the public repository.
+Choose one of the four current domain systems below. Each includes a dedicated entry interface and portable ZIP package.
 
-This page offers a deliberately narrow glimpse of module families. It distinguishes public modules from directions that remain incubated behind the public boundary. Names, scope, packaging and order may still change for incubated work.
-
-The previews intentionally omit private donor material, internal prompts, schemas, evaluation logic and protected operational knowledge.
-
-**MSL profile:** 5.1-compatible Markdown-native preview surface; public/incubated status and boundary remain explicit.
-
-## Already public
+## Available modules
 
 ### Financial Living System
 
@@ -37,29 +31,16 @@ A visual-intelligence and image-direction system that reconstructs intent, selec
 
 **Status:** public pre-release · [open the canonical entry](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-image-cortex.zip?download=1)
 
-## Incubating
+## Choosing a module
 
-| Module family | Public preview | Status |
-|---|---|---|
-| **Voice, Text Engines & Interfaces** | A language-and-interaction family for shaping how AI reads context, communicates, revises and presents text for different human situations. | `incubating` |
-| **Music, Media & Taste Engines** | A taste-aware creative family for translating preference, references and media context into reusable music and media workflows. | `incubating` |
-| **Authorial Ecology System** | A literary and intellectual-work architecture for keeping distinct works, canons, sources, editorial gates and human–AI coauthorship connected without flattening them into one manuscript or exposing private creative material. | `incubating` |
-| **Adaptive Learning Loop** | An adaptive learning system that changes the next activity from real learner feedback instead of treating static age, grade or prior labels as sufficient state. | `incubating` |
-| **Tarot Interpretation System** | A deck-aware symbolic reading system that keeps the question, spread, deck tradition, uncertainty and reality boundary explicit instead of collapsing Tarot into one universal card dictionary. | `incubating` |
+| Need | Start with |
+|---|---|
+| Ongoing financial organization and reconciliation | [Financial Living System](modules/financial-living-system/README.md) |
+| Navigation across support needs, services and handoffs | [Social Support Navigation System](modules/social-support-navigation-system/README.md) |
+| Bounded forecasts, evidence quality and uncertainty | [Probability Calibration System](modules/probability-calibration-system/README.md) |
+| Visual direction, image editing and image QA | [Moon Image Cortex](modules/moon-image-cortex/README.md) |
 
-## What `incubating` means
-
-An incubated module is **not yet a public Moon Cortex release**.
-
-It may still be undergoing extraction from situated/private work, generalization, privacy stripping, boundary design, portability testing, internationalization, failure-mode analysis or public packaging. Inclusion here means the direction is real enough to name publicly; it does not promise a release date, final feature set or eventual publication.
-
-Some incubated work may be renamed, merged, narrowed, split, postponed or remain private if it never earns a safe and independently useful public form.
-
-## Public boundary
-
-This page exposes direction and current public entrypoints, not private anatomy. A future module must stand on its own, preserve provenance, remove reconstructible private state and expose only what another user needs to understand and use the generalized system.
-
-For the repository-wide disclosure contract, see [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md).
+For privacy, permitted use, and claim boundaries, see [Data protection and evidence](PUBLIC_BOUNDARY.md).
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

@@ -80,15 +80,15 @@ Moon Source is an optional public method bridge for these modules, **not** the o
 
 ## What's public, and what isn't?
 
-The public repository contains generalized domain methods, module contracts, portable packages, fictional examples, limited validation materials, and explicit restrictions. Some methods were generalized from private donor systems, but **the donor corpora are not distributed here**.
+This repository provides four documented domain modules, their portable packages, examples, integration guidance, and evidence-based limitations.
 
-It does **not** publish identifiable private records, real support cases, personal financial data, private forecasts, image reference packs, personal identity profiles, or credentials. It does not claim universal validity, professional authority, measured impact, external adoption, or image-model performance without supporting evidence.
+**User data stays under user control.** Do not commit personal records, credentials, identity images, or sensitive case information. Published examples are fictional; capability and performance claims require supporting evidence.
 
 | Publication state | Meaning |
 |---|---|
 | **Active public modules: 4** | The four modules in [Choose a module](#choose-a-module) have public entry points and individual ZIP packages. |
 | **Public pre-release** | Methods, scope, evidence limits, and packaging remain open to responsible revision. |
-| **Incubating families** | Selected future directions appear in [Module Preview](PREVIEW.md), but are not active public modules or promises of release. |
+| **Module catalog** | [Module overview](PREVIEW.md) summarizes the four available systems and their entry points. |
 | **Transport** | One complete, module-specific ZIP per active module; no all-in-one repository-wide ZIP. |
 | **Structural grammar** | MSL 5.1-compatible Markdown-native public surfaces. |
 
@@ -103,8 +103,8 @@ Read the full [public boundary](PUBLIC_BOUNDARY.md) before reusing sensitive wor
 | **Overall architecture** | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | **How to design or revise a module** | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
 | **Which names and paths remain stable** | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
-| **What is excluded from public release** | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
-| **Future and incubating module directions** | [PREVIEW.md](PREVIEW.md) |
+| **Privacy, permission and evidence rules** | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
+| **Available module overview** | [PREVIEW.md](PREVIEW.md) |
 | **Licenses, attribution, and reuse terms** | [LICENSING.md](LICENSING.md) · [NOTICE](NOTICE) |
 | **Release and repository history** | [CHANGELOG.md](CHANGELOG.md) |
 | **Related context architecture and creator's work** | [Moon Source](https://github.com/luahelenammc/Moon-Source) · [Professional site](https://www.luahelena.com.br/ia/?lang=en) |
