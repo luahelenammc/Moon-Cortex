@@ -31,19 +31,19 @@ You don't need to know an engine's name first. Start with the job you actually w
 
 | I want to… | How Moon Image Cortex can help |
 |---|---|
-| **Turn a rough concept into a picture** | [Omnialchemy](components/OMNIALCHEMY.md) develops a visual thesis, scene, palette, material, light, and composition without forcing a default aesthetic. |
-| **Plan a convincing photograph** | [Analogic Photo](engines/ANALOGIC_PHOTO.md) works with plausible light, optics, focus, and surface texture; [Vernacular Snapshot Realism](engines/VERNACULAR_SNAPSHOT_REALISM.md) helps when the image should feel candid rather than staged. |
+| **Turn a rough concept into a picture** | [Omnialchemy](components/creative-direction/OMNIALCHEMY.md) develops a visual thesis, scene, palette, material, light, and composition without forcing a default aesthetic. |
+| **Plan a convincing photograph** | [Analogic Photo](engines/photography/ANALOGIC_PHOTO.md) works with plausible light, optics, focus, and surface texture; [Vernacular Snapshot Realism](engines/photography/VERNACULAR_SNAPSHOT_REALISM.md) helps when the image should feel candid rather than staged. |
 | **Create a period-specific, location-aware family photograph** | [Contextual Nostalgic Camera](engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) is **country-neutral by default**. Opt into [regional context lenses](engines/photography/regions/README.md), or define any other place; geography never determines ethnicity or appearance. |
-| **Edit or restore an existing image carefully** | [Conservative Photo Edit](components/CONSERVATIVE_PHOTO_EDIT.md) specifies the requested change while protecting unrelated areas, identity, proportions, and texture. |
-| **Keep a consenting subject recognizable across images** | [Human Canon Forge](components/HUMAN_CANON_FORGE.md) structures a private, user-owned likeness profile and preservation constraints. |
-| **Explore styles or work from visual references** | [Web Aesthetics](components/WEB_AESTHETICS.md) organizes aesthetic parameters; [Reference Abstraction Guardrail](components/REFERENCE_ABSTRACTION_GUARDRAIL.md) extracts permitted visual principles without copying a source scene. |
-| **Design a fictional retro website or tactile icon** | [Web Retro Image Gen](engines/WEB_RETRO_IMAGE_GEN.md) reconstructs period-appropriate web imagery; [Aqua-Skeuo Icon Forge](engines/AQUA_SKEUO_ICON_FORGE.md) guides original, material-rich desktop or mobile icons. |
-| **Imagine the future through the past** | [Lived-In Retrofuturism](engines/RETROFUTURO_HABITAVEL.md) builds historically situated, human-scale retrofuture scenes and editorial images. |
-| **Find an expressive visual mood** | [Chromatic Dream Logic](engines/CHROMATIC_DREAM_LOGIC.md) explores color and material; [Sentimental Uncanny](engines/SENTIMENTAL_UNCANNY.md) adds restrained unease; [Sublime Lyric Still](engines/SUBLIME_LYRIC_STILL.md) develops atmospheric vertical stills. |
-| **Make an editorial or advocacy poster** | [Vintage Editorial Rubber Hose Poster](engines/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) builds an original visual metaphor and readable poster hierarchy. |
-| **Translate a pixel-art environment into a new physical scene** | [Pixel-World Camera Translation](engines/PIXEL_WORLD_CAMERA_TRANSLATION.md) offers an **experimental** route for authorized scenes, not sprite replication. |
+| **Edit or restore an existing image carefully** | [Conservative Photo Edit](components/image-editing/CONSERVATIVE_PHOTO_EDIT.md) specifies the requested change while protecting unrelated areas, identity, proportions, and texture. |
+| **Keep a consenting subject recognizable across images** | [Human Canon Forge](components/references-and-identity/HUMAN_CANON_FORGE.md) structures a private, user-owned likeness profile and preservation constraints. |
+| **Explore styles or work from visual references** | [Web Aesthetics](components/creative-direction/WEB_AESTHETICS.md) organizes aesthetic parameters; [Reference Abstraction Guardrail](components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md) extracts permitted visual principles without copying a source scene. |
+| **Design a fictional retro website or tactile icon** | [Web Retro Image Gen](engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) reconstructs period-appropriate web imagery; [Aqua-Skeuo Icon Forge](engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) guides original, material-rich desktop or mobile icons. |
+| **Imagine the future through the past** | [Lived-In Retrofuturism](engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) builds historically situated, human-scale retrofuture scenes and editorial images. |
+| **Find an expressive visual mood** | [Chromatic Dream Logic](engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) explores color and material; [Sentimental Uncanny](engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md) adds restrained unease; [Sublime Lyric Still](engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) develops atmospheric vertical stills. |
+| **Make an editorial or advocacy poster** | [Vintage Editorial Rubber Hose Poster](engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) builds an original visual metaphor and readable poster hierarchy. |
+| **Translate a pixel-art environment into a new physical scene** | [Pixel-World Camera Translation](engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) offers an **experimental** route for authorized scenes, not sprite replication. |
 | **Check or repair a visual result** | [Visual QA and repair](docs/VISUAL_QA_AND_REPAIR.md) checks texture, tiled artifacts, composition, legibility, and factual graphics such as shared measurement scales. |
-| **Use my own recurring visual preferences** | [Configurable Visual Profile](components/CONFIGURABLE_VISUAL_PROFILE.md) keeps optional, user-owned preferences separate from the public module and subordinate to the current request. |
+| **Use my own recurring visual preferences** | [Configurable Visual Profile](components/references-and-identity/CONFIGURABLE_VISUAL_PROFILE.md) keeps optional, user-owned preferences separate from the public module and subordinate to the current request. |
 
 ## How the system is organized
 
@@ -53,7 +53,7 @@ You don't need to know an engine's name first. Start with the job you actually w
 |---|---|---|
 | **Visual Director** | Reconstruct the task; decide which components matter; manage source roles, permissions, output, and QA | [Canonical entry](VISUAL_DIRECTOR.md#first-use) |
 | **Shared components** | Handle concept synthesis, aesthetic exploration, references, consent-based identity, conservative edits, and optional preferences | [Six components](docs/COMPONENT_INDEX.md#shared-components) |
-| **Specialist engines** | Apply a distinct photographic, historical, illustrative, cinematic, or experimental visual grammar | [Engine catalog](#specialist-engines) |
+| **Specialist engines** | Apply a distinct photographic, historical, illustrative, cinematic, or experimental visual grammar | [Engine catalog](#specialist-engines-by-category) |
 | **Visual QA** | Inspect an actual returned artifact and identify bounded fixes; distinguish observation from untested claims | [QA and repair](docs/VISUAL_QA_AND_REPAIR.md) |
 | **Renderer, when available** | A separate, authorized tool actually creates or edits image pixels; this package alone does not | [Tool and renderer contract](docs/TOOL_AND_RENDERER_CONTRACT.md) |
 
