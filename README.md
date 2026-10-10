@@ -3,167 +3,113 @@
 
 # 🌙 Moon Cortex
 
-**Domain systems for AI: start from the real field, activate only what belongs there, and leave the result under local ownership.**
+**AI domain systems that adapt to the situation, not the other way around.**
 
-AI often reaches for form too early. A financial problem becomes a dashboard. A social-support problem becomes a checklist. A complex field gets forced into whatever schema, workflow or interface is already familiar.
+A budget is not always a spreadsheet. A difficult support situation is not just a checklist. An uncertain outcome is not automatically a percentage. An image request is not always solved by adding adjectives to a prompt.
 
-**Moon Cortex takes the opposite route.** It is a public architecture and growing family of domain systems that help AI reconstruct a real situation first, then use a domain-specific method to produce the smallest useful capability, state or handoff that actually fits.
+**Moon Cortex starts with the real problem.** It is an open public family of domain-specific methods that help AI reconstruct what matters, select useful capabilities, and produce an appropriate result under the user's control.
 
-Moon Cortex is not one universal assistant, one mandatory runtime or a shelf of interchangeable templates. Each module has its own domain responsibility, entry interface, invariants, boundaries and output shape.
+Each module has its own job, entry point, boundaries, and output. **Moon Cortex is not one universal chatbot, a compulsory runtime, or a collection of interchangeable prompt templates.**
 
-This repository is the canonical public body of Moon Cortex.
+**[Choose a module](#choose-a-module)** · **[How to start](#getting-started)** · **[Explore the architecture](ARCHITECTURE.md)** · **[Public boundary](PUBLIC_BOUNDARY.md)**
 
-> ## 📦 Start with a module
->
-> 💸 **Financial Living System** — organize and reconcile a real personal-finance field as one living, user-owned system.  
-> [Read the module](modules/financial-living-system/README.md) · [Start / canonical entry](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/financial-living-system.zip?download=1)
->
-> 🧭 **Social Support Navigation System** — turn a fragmented support situation into functions, barriers, institutional routes, owners and bounded next steps.  
-> [Read the module](modules/social-support-navigation-system/README.md) · [Start / canonical entry](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/social-support-navigation-system.zip?download=1)
->
-> 📊 **Probability Calibration System** — structure a bounded forecast, separate fit, evidence, probability, confidence, and utility, and use quantitative methods only when their provenance and resolved history support them.  
-> [Read the module](modules/probability-calibration-system/README.md) · [Start / canonical entry](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/probability-calibration-system.zip?download=1)
+## Choose a module
 
-> 🎨 **Moon Image Cortex** — turn visual intent into a fitting direction, image-edit instruction, or inspected result across photographic, historical, editorial and experimental routes.  
-> [Read the module](modules/moon-image-cortex/README.md) · [Start / canonical entry](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [Download the complete package (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-image-cortex.zip?download=1)
+You don't need to understand the architecture first. Start with what you want to accomplish.
 
-## Why Moon Cortex exists
-
-A useful AI system needs more than a polished output. It needs the right **domain shape**.
-
-The same architectural form should not be imposed on personal finance, social support, visual work, learning, media or any other field merely because that form is convenient to generate. Different domains contain different kinds of state, risk, evidence, authority, transitions and useful outputs.
-
-Moon Cortex therefore treats a domain system as something that should be **instantiated from the field rather than imposed on it**.
-
-The governing question is not:
-
-> *What template should we build?*
-
-It is:
-
-> **What capability does this real field require, and what is the smallest form that can carry it safely and usefully?**
-
-## The Cortex loop
-
-Every module can have a different internal morphology, but the public architecture follows the same broad movement:
-
-```text
-real field
-    ↓
-domain reconstruction
-    ↓
-Moon Cortex module
-    ↓
-domain-shaped routing and capability selection
-    ↓
-proportional local form
-    ↓
-user-local operation, ownership and reconfiguration
-```
-
-The loop is stable. The shape inside it is not.
-
-A finance module may instantiate an integrated living system. A social-support module may instead produce a direct next step, a Resource Pack, a Living Case State or a bounded Support Handoff. The Probability Calibration System organizes an uncertainty estimate and its update conditions. Moon Image Cortex reconstructs visual intent, selects a suitable image route, and keeps direction, rendering, inspection and fidelity claims distinct. These belong in Moon Cortex because **the domain determines the morphology**.
-
-## Core laws
-
-A few principles carry most of the architecture:
-
-- **Field before form.** Understand the situation before choosing files, schemas, dashboards or workflows.
-- **Domain shape before universal interface.** A module should fit its field rather than imitate another successful module.
-- **Capability before decoration.** Activate a mechanism because the situation earns it, not because the package happens to contain it.
-- **Access is not activation.** A capability, connector or method being available does not mean it belongs in the current local system.
-- **One authoritative entry, one readable facade.** A composite module may have a human-facing README for presentation and directory navigation, while one canonical entry artifact remains the sole operational and semantic authority and carries the operative First use instructions.
-- **Complete transport, proportional attention.** A module may travel as a complete package while the executing AI loads only what the current task requires.
-- **Installation is not permanent dependency.** The useful result should remain operable from the user’s own authoritative sources whenever possible.
-- **Local sovereignty is part of the architecture.** Public modules can shape a local capability without owning the person’s resulting state, decisions or records.
-- **Claims follow evidence.** Public artifacts, synthetic tests, donor lineage and external adoption are different evidentiary categories.
-
-## Active public modules
-
-| Module | Use it when… | Canonical entry | Typical local result |
+| Your situation | Domain module | What you can get | Start / download |
 |---|---|---|---|
-| [Financial Living System](modules/financial-living-system/README.md) | financial reality needs to become legible across timing, obligations, reserves, credit, reconciliation or other material complexity | [Adaptive Finance Bootstrap](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) | a living user-local financial system |
-| [Social Support Navigation System](modules/social-support-navigation-system/README.md) | a support situation is fragmented across needs, barriers, institutions, informal dependencies or unresolved next steps | [Social Support Navigator](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) | a direct route, Living Case State, Resource Pack or Support Handoff |
-| [Probability Calibration System](modules/probability-calibration-system/README.md) | a bounded decision depends on an uncertain future outcome, evidence quality, or meaningful update triggers | [Probability Calibrator](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) | a qualitative probability band or evidence-supported quantitative estimate, with confidence and update conditions |
-| [Moon Image Cortex](modules/moon-image-cortex/README.md) | visual intent needs reconstruction into an image direction, authorized edit, aesthetic route or visual QA | [Visual Director](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) | a user-owned visual state, direction sheet, render handoff, or evidence-bounded QA report |
+| **My finances are scattered** across paydays, bills, cards, obligations, reserves, or statements. | 💸 **[Financial Living System](modules/financial-living-system/README.md)** | A proportionate, user-owned living financial system for tracking timing, commitments, and reconciliation. | [First use](modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) · [ZIP](downloads/financial-living-system.zip) |
+| **I need to navigate support**, services, institutions, family dependencies, or overlapping practical barriers. | 🧭 **[Social Support Navigation System](modules/social-support-navigation-system/README.md)** | A clear first route, owners and checkpoints, or a bounded case state, Resource Pack, or Support Handoff when warranted. | [First use](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [ZIP](downloads/social-support-navigation-system.zip) |
+| **I need to reason about an uncertain outcome** without confusing a hunch, evidence, confidence, and probability. | 📊 **[Probability Calibration System](modules/probability-calibration-system/README.md)** | A bounded forecast and update conditions; quantitative estimates only when the evidence and method justify them. | [First use](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [ZIP](downloads/probability-calibration-system.zip) |
+| **I want to create, edit, or assess an image**, work from aesthetic references, or choose a distinct visual language. | 🎨 **[Moon Image Cortex](modules/moon-image-cortex/README.md)** | A visual brief, direction sheet, edit instruction, renderer handoff, or evidence-bounded QA report. | [First use](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [ZIP](downloads/moon-image-cortex.zip) |
 
-These four **active public modules** demonstrate different Cortex shapes: an integrated living system, a navigation system, a field-first probability-calibration method, and a visual-intelligence system. They show the architecture’s range; future modules do not need to copy their internal forms.
+**Each module is independently usable.** Its README explains the field; its **canonical entry** teaches operative first use; its own ZIP carries the complete portable module. There is no mandatory repository-wide installation or universal Cortex package.
 
-## How to use a module
+## What makes it a Cortex system?
 
-Each composite module exposes a readable README surface for human browsing and a canonical entry artifact for operative First use and routing. The README makes the module legible; the canonical entry governs what the module actually does.
+The common idea is **field before form**: discover the actual situation before deciding what format, procedure, or capability it needs.
 
-The normal path is intentionally simple:
+**Real situation → domain reconstruction → selective capability → appropriate local result → feedback and revision**
 
-1. **Choose the domain module that matches the problem.**
-2. **Read the module README if you need orientation.** It shows purpose, boundaries, anatomy, canonical entry and download route without duplicating the operational method.
-3. **Open the canonical entry or download the complete package.** Each active module has one authoritative entry and its own complete ZIP.
-4. **Give the package to the AI as operative context** and state the real situation or goal.
-5. **Let the canonical entry route the work.** The user should not need to learn the repository taxonomy first.
-6. **Keep the useful result locally sovereign.** Ongoing state should live with the user, project or authorized local system rather than depending on hidden upstream memory.
+That shared movement can yield very different systems:
 
-The package travels whole; attention remains proportional. New and materially revised modules should follow the repository-level [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md).
-
-## Moon Cortex and Moon Source
-
-Moon Cortex is distinct from [Moon Source](https://github.com/luahelenammc/Moon-Source).
-
-- **Moon Cortex** is the public **domain-system body**: it owns module identity, domain contracts, module-specific routing, boundaries and public lineage.
-- **Moon Source** is the public **context-architecture body**: it governs sources, authority, freshness, provenance, transport, mutation, handoffs and related context operations.
-
-A Cortex module may deliberately consult Moon Source during installation or reconfiguration without becoming a Moon Source component and without requiring Moon Source as a permanent runtime dependency.
-
-In shorthand:
-
-> **Cortex by domain identity. Moon Source by context governance. The user by final sovereignty.**
-
-## Public boundary
-
-Moon Cortex publishes generalized mechanisms, module contracts, synthetic examples, bounded tests, implementation guidance and explicit limitations.
-
-It does **not** publish the private donor corpora from which some mechanisms were generalized, real personal records, live case states, private credentials or reconstructible combinations of protected material.
-
-Likewise, the existence of a public module does not by itself prove external adoption, universal correctness, professional validity, regulatory compliance, measured impact or production-scale deployment.
-
-The repository-level boundary is documented in [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md). Each module also defines the limitations specific to its own domain.
-
-## A growing family, not a frozen taxonomy
-
-Moon Cortex is intentionally multi-module. More domain systems can join the public body when they have a clear responsibility, sufficient generalization, safe public boundaries and a morphology earned by their own field.
-
-[**PREVIEW.md**](PREVIEW.md) shows selected module families still incubating behind the public boundary without exposing their private implementation state.
-
-Incubation is a property of those future modules — **not of Moon Cortex as a whole**.
-
-## Repository map
-
-| Need | Canonical route |
+| Module shape | Why it is different |
 |---|---|
-| Understand the shared Cortex architecture | [ARCHITECTURE.md](ARCHITECTURE.md) |
-| Design or materially revise a public module | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
-| Start visual work | [Moon Image Cortex Visual Director](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) |
-| Use the Financial Living System | [💸 Financial Living System](modules/financial-living-system/README.md) |
-| Use the Social Support Navigation System | [🧭 Social Support Navigation System](modules/social-support-navigation-system/README.md) |
-| Use the Probability Calibration System | [📊 Probability Calibration System](modules/probability-calibration-system/README.md) |
-| Preview incubating module families | [PREVIEW.md](PREVIEW.md) |
-| Inspect the public/private boundary | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
-| Keep public titles separate from release versions | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
-| Reuse or adapt public material | [LICENSING.md](LICENSING.md) + [NOTICE](NOTICE) |
-| Follow public change history | [CHANGELOG.md](CHANGELOG.md) |
-| Explore the related context architecture | [Moon Source](https://github.com/luahelenammc/Moon-Source) |
-| See Moon’s broader AI work | [luahelena.com.br/ia](https://www.luahelena.com.br/ia/?lang=en) |
+| **Living system** · Finance | Obligations, timing, reserves, credit, and reconciliation may require interconnected ongoing state rather than a one-time budget. |
+| **Navigation system** · Social support | A fragmented situation may need a first useful institutional door, functional support map, owner, checkpoint, or safe handoff rather than a large database. |
+| **Calibration method** · Probability | An estimate needs a defined outcome, evidence, provenance, uncertainty, and revision criteria. Sometimes a qualitative answer is the correct result. |
+| **Visual direction system** · Images | A visual goal requires choosing a medium, composition, reference role, specialist method, and QA. Actual image rendering depends on an external tool. |
 
-## Current baseline
+The architecture provides a common discipline, **not a requirement that every module copy the same file tree, data model, workflow, or runtime**.
 
-**Status:** active public architecture  
-**Active public modules:** Financial Living System; Social Support Navigation System; Probability Calibration System  
-**Canonical transport:** one complete ZIP per module  
-**Human browse surfaces:** one non-authoritative README per active composite module  
-**Repository-wide portable:** none  
-**Structural grammar:** MSL 5.1
+## Getting started
 
-Moon Cortex was created by **Lua Helena Moon Martins Cardoso (Moon)**. Some materials were developed through an AI-assisted coauthorial process with **Áurion**. Moon retains final authority.
+1. **Pick the domain above.** You can start from a practical problem rather than a module name.
+2. **Open its First use link**, or give its complete ZIP to an AI environment capable of reading the package. The canonical entry is the operational authority; the README is for understanding and navigation.
+3. **Describe the real situation and your goal.** Share only the information and source material you are authorized and comfortable using. The module determines what additional context is actually needed.
+4. **Use the output in your own context.** Keep continuing records, decisions, and generated local state with you or your authorized workspace. Revise when the situation changes.
+
+A downloaded module is documentation and, where included, optional reference code. **It does not automatically install an AI model, connect accounts, grant permissions, run in the background, or validate its own results.** Any real tool operation needs the capability and authorization to exist.
+
+## Shared design commitments
+
+| Principle | What it means in practice |
+|---|---|
+| **Field before form** | Understand the real problem before deciding on a dashboard, list, score, image, or system. |
+| **Domain identity matters** | Every module has its own responsibility and limits; one successful module is not a template forced onto another field. |
+| **One authoritative entry** | A human-friendly README can explain the module, but the canonical entry owns its operational method and First use. |
+| **Complete transport, selective attention** | Carry the whole module in its ZIP; load only the parts that matter for the current task. |
+| **Access is not activation** | A documented method or available connector is not automatically required, enabled, or authorized. |
+| **Local sovereignty** | The resulting state and decisions should remain under the user's or authorized project's control. |
+| **Claims follow evidence** | A specification, a synthetic example, a passing test, a rendered result, and measured external impact are different kinds of evidence. |
+
+See the [architecture](ARCHITECTURE.md) and [module design contract](docs/MODULE_DESIGN_CONTRACT.md) for the detailed public rules.
+
+## Moon Cortex, Moon Source, and you
+
+These are related, but they do different jobs.
+
+| Layer | Responsibility |
+|---|---|
+| **Moon Cortex** | The **domain-system body**: what a finance, social-support, probability, or visual module is allowed to do and what useful local output it creates. |
+| **[Moon Source](https://github.com/luahelenammc/Moon-Source)** | The **context-governance body**: source authority, freshness, provenance, transport, mutation, and handoff methods when intentionally applied. |
+| **The user or authorized project** | The final owner of local facts, state, permissions, choices, and continuing operation. |
+
+Moon Source is an optional public method bridge for these modules, **not** the owner of Moon Cortex and not a required permanent runtime.
+
+## What's public, and what isn't?
+
+The public repository contains generalized domain methods, module contracts, portable packages, fictional examples, limited validation materials, and explicit restrictions. Some methods were generalized from private donor systems, but **the donor corpora are not distributed here**.
+
+It does **not** publish identifiable private records, real support cases, personal financial data, private forecasts, image reference packs, personal identity profiles, or credentials. It does not claim universal validity, professional authority, measured impact, external adoption, or image-model performance without supporting evidence.
+
+| Publication state | Meaning |
+|---|---|
+| **Active public modules: 4** | The four modules in [Choose a module](#choose-a-module) have public entry points and individual ZIP packages. |
+| **Public pre-release** | Methods, scope, evidence limits, and packaging remain open to responsible revision. |
+| **Incubating families** | Selected future directions appear in [Module Preview](PREVIEW.md), but are not active public modules or promises of release. |
+| **Transport** | One complete, module-specific ZIP per active module; no all-in-one repository-wide ZIP. |
+| **Structural grammar** | MSL 5.1-compatible Markdown-native public surfaces. |
+
+Read the full [public boundary](PUBLIC_BOUNDARY.md) before reusing sensitive workflows or making deployment claims.
+
+## Explore the repository
+
+| Looking for… | Open |
+|---|---|
+| **The four modules and their files** | [modules/](modules/) |
+| **Portable downloads** | [downloads/](downloads/) |
+| **Overall architecture** | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| **How to design or revise a module** | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
+| **Which names and paths remain stable** | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
+| **What is excluded from public release** | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
+| **Future and incubating module directions** | [PREVIEW.md](PREVIEW.md) |
+| **Licenses, attribution, and reuse terms** | [LICENSING.md](LICENSING.md) · [NOTICE](NOTICE) |
+| **Release and repository history** | [CHANGELOG.md](CHANGELOG.md) |
+| **Related context architecture and creator's work** | [Moon Source](https://github.com/luahelenammc/Moon-Source) · [Professional site](https://www.luahelena.com.br/ia/?lang=en) |
+
+**Moon Cortex was created by Lua Helena Moon Martins Cardoso (Moon).** Some public materials were developed through AI-assisted coauthorial work with **Áurion**; Moon retains final human authority.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
