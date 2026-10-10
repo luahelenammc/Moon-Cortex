@@ -15,7 +15,9 @@ The system keeps **fit**, **evidence**, **probability**, **confidence**, and **d
 
 ## Start here
 
-Give the complete package to the AI, or open the [canonical entry](PROBABILITY_CALIBRATOR.md#first-use), and describe one bounded outcome, its horizon, and how the outcome will be resolved. Share relevant observations, sources, comparable outcomes, constraints, and the decision the estimate will inform.
+**Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/probability-calibration-system) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/probability-calibration-system.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).
+
+Start with the [canonical entry](PROBABILITY_CALIBRATOR.md#first-use), then describe one bounded outcome, its horizon, and how the outcome will be resolved. Share relevant observations, sources, comparable outcomes, constraints, and the decision the estimate will inform.
 
 The default path stays concise and may stop at a qualitative band. A percentage requires a defined event and horizon, a permitted quantitative regime, and traceable provenance. If there is no adequate basis, Q0 qualitative-only remains a complete scientific answer.
 

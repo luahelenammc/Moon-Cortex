@@ -9,7 +9,7 @@ Moon Image Cortex helps an AI understand what an image needs to accomplish, choo
 
 **It is not an image generator or a collection of fixed filters.** The [Visual Director](VISUAL_DIRECTOR.md#first-use) coordinates the work; individual components contribute methods only when relevant. Actual image generation or editing needs a separate, available and authorized tool.
 
-**[Start with the Visual Director](VISUAL_DIRECTOR.md#first-use)** · **[Browse the component index](docs/COMPONENT_INDEX.md)** · **[Download the complete ZIP](../../downloads/moon-image-cortex.zip)**
+**[Start with the Visual Director](VISUAL_DIRECTOR.md#first-use)** · **[Browse the component index](docs/COMPONENT_INDEX.md)** · **[ZIP fallback](../../downloads/moon-image-cortex.zip)**
 
 | At a glance | What this means |
 |---|---|
@@ -27,7 +27,9 @@ Moon Image Cortex helps an AI understand what an image needs to accomplish, choo
 
 ## Start here
 
-Describe the visual problem in ordinary language. You do **not** need to recognize an engine name or browse every component first. Open [Visual Director · First use](VISUAL_DIRECTOR.md#first-use) or give the [complete ZIP](../../downloads/moon-image-cortex.zip) to an AI environment that can read the documents.
+**Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/moon-image-cortex) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/moon-image-cortex.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).
+
+Describe the visual problem in ordinary language. You do **not** need to recognize an engine name or browse every component first. Open [Visual Director · First use](VISUAL_DIRECTOR.md#first-use) as the operative entry.
 
 The Director selects only the method the task earns. A prompt or direction is **not a rendered image**; if no suitable tool is actually available, the output is marked **not rendered**.
 
@@ -113,7 +115,7 @@ The [Visual Director](VISUAL_DIRECTOR.md#first-use) remains the **only general o
 
 **Flow:** visual need → brief → relevant component(s) → direction or edit instruction → authorized rendering when possible → QA → bounded repair.
 
-The ZIP carries the whole system for transport. **The AI should load only the parts needed for the current task**, not all 18 core components or the geographic lenses by default.
+The ZIP carries the complete system when direct GitHub retrieval is unavailable. **In either access mode, the AI should load only the parts needed for the current task**, not all 18 core components or the geographic lenses by default.
 
 ## Reference and learning paths
 

@@ -5,7 +5,7 @@
 
 **Turn a fragmented support situation into a smaller, safer route through needs, barriers, institutions, owners and bounded next steps.**
 
-[📖 Read the module](README.md) · [▶️ Start / canonical entry](SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [⬇️ Download complete package](../../downloads/social-support-navigation-system.zip) · [🌙 Moon Cortex](../../README.md)
+[📖 Read the module](README.md) · [▶️ Start / canonical entry](SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [⬇️ ZIP fallback](../../downloads/social-support-navigation-system.zip) · [🌙 Moon Cortex](../../README.md)
 
 ## Use this when
 
@@ -19,6 +19,8 @@
 Social Support Navigation System is a composite Moon Cortex domain module for organizing passage through fragmented support systems. Its canonical entry, **Social Support Navigator**, reconstructs the relevant function, barriers, dependencies, support tracks, owners and checkpoints before choosing a bounded next step.
 
 ## Start here
+
+**Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/social-support-navigation-system) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/social-support-navigation-system.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).
 
 Use [`SOCIAL_SUPPORT_NAVIGATOR.md#first-use`](SOCIAL_SUPPORT_NAVIGATOR.md#first-use) for the operative first run. The canonical entry owns navigation semantics and operational routing; this README is the human browse and directory-navigation surface.
 
@@ -56,7 +58,7 @@ Any Living Case State, Resource Pack or handoff produced from the module belongs
 - **Structural grammar:** MSL 5.1
 - **License:** CC BY 4.0 · see [repository licensing](../../LICENSING.md)
 
-> **Authority:** This README presents and navigates the module. [`SOCIAL_SUPPORT_NAVIGATOR.md`](SOCIAL_SUPPORT_NAVIGATOR.md) remains the operational and semantic authority and contains the operative **First use** instructions. The complete ZIP remains the transport surface.
+> **Authority:** This README presents and navigates the module. [`SOCIAL_SUPPORT_NAVIGATOR.md`](SOCIAL_SUPPORT_NAVIGATOR.md) remains the operational and semantic authority and contains the operative **First use** instructions. The complete ZIP remains the fallback transport surface.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

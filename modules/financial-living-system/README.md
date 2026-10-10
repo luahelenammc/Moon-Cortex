@@ -5,7 +5,7 @@
 
 **Turn a real financial field into the smallest living, user-owned system that can keep timing, obligations, reserves, credit and reconciliation legible.**
 
-[📖 Read the module](README.md) · [▶️ Start / canonical entry](ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) · [⬇️ Download complete package](../../downloads/financial-living-system.zip) · [🌙 Moon Cortex](../../README.md)
+[📖 Read the module](README.md) · [▶️ Start / canonical entry](ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) · [⬇️ ZIP fallback](../../downloads/financial-living-system.zip) · [🌙 Moon Cortex](../../README.md)
 
 ## Use this when
 
@@ -18,9 +18,11 @@
 
 Financial Living System is a composite Moon Cortex domain module. Its canonical entry, **Adaptive Finance Bootstrap**, reconstructs the field and instantiates only the capabilities the situation needs. The module can travel as a complete package while the AI keeps active attention proportional.
 
-> **Package travels whole; attention remains proportional.** Complete transport protects recoverability. It does not require every internal document to be loaded for every task.
+> **Links first; ZIP for complete fallback transport.** When GitHub retrieval is available, read the canonical entry and only the supporting material the task earns. If retrieval fails, the full ZIP protects recoverability without requiring every file to be loaded into context.
 
 ## Start here
+
+**Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/financial-living-system) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/financial-living-system.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).
 
 Use [`ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use`](ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) for the operative first run. The canonical entry owns setup, routing and instantiation semantics; this README does not reproduce them.
 
@@ -52,7 +54,7 @@ Financial Living System is not a bank connector, autonomous transaction layer, r
 - **Structural grammar:** MSL 5.1
 - **License:** CC BY 4.0 · see [repository licensing](../../LICENSING.md)
 
-> **Authority:** This README presents and navigates the module. [`ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md) remains the operational and semantic authority and contains the operative **First use** instructions. The complete ZIP remains the transport surface.
+> **Authority:** This README presents and navigates the module. [`ADAPTIVE_FINANCE_BOOTSTRAP.md`](ADAPTIVE_FINANCE_BOOTSTRAP.md) remains the operational and semantic authority and contains the operative **First use** instructions. The complete ZIP remains the fallback transport surface.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

@@ -1,0 +1,44 @@
+name: Synchronize documentation fallback ZIPs
+on:
+  push:
+    branches: [main]
+    paths:
+      - "modules/**/README.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: moon-cortex-module-zip-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/build_moon_image_cortex_package.py
+      - run: python scripts/build_probability_calibration_package.py
+      - run: python scripts/refresh_module_zip_readmes.py
+      - name: Check rebuilt fallbacks before publication
+        run: |
+          python scripts/check_moon_image_cortex_package.py
+          python scripts/check_probability_calibration_package.py
+      - name: Commit synchronized fallback packages
+        run: |
+          git add downloads/moon-image-cortex.zip downloads/probability-calibration-system.zip downloads/financial-living-system.zip downloads/social-support-navigation-system.zip
+          if git diff --cached --quiet; then
+            echo "Fallback packages are already synchronized"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "build(cortex): synchronize fallback ZIP packages with module docs"
+          git push origin HEAD:main
