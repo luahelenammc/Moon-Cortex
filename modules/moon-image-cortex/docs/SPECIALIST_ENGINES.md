@@ -1,31 +1,24 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Specialist engines · public component registry
+# Specialist engine registry
 
-Moon Image Cortex includes **ten active specialist engines** and **one experimental engine**, each as an addressable component with independent route constraints, inputs, synthetic example and QA gate. They are **not** competing system entry points. The [Visual Director](../VISUAL_DIRECTOR.md#first-use) alone owns general routing, tool authorization, task state, renderer claims, and handoff.
+The Visual Director routes by **image task**, never by nationality or a favorite house style. Engine contracts are grouped by distinct responsibilities; all examples are synthetic written instructions rather than renderer performance tests.
 
-Select only the engine earned by the user's task, then load its exact file. Do not load the full family for a small image request. For cross-cutting capabilities, consult the [component index](COMPONENT_INDEX.md).
-
-| Specialist component | Status | Trigger policy |
+| Group | Primary subcontracts | Activation |
 |---|---|---|
-| [Analogic Photo](../engines/ANALOGIC_PHOTO.md) | active | Visual Director selects only for a matching task |
-| [Nostalgic Camera BR 90s](../engines/NOSTALGIC_CAMERA_BR_90S.md) | active | Visual Director selects only for a matching task |
-| [Vernacular Snapshot Realism](../engines/VERNACULAR_SNAPSHOT_REALISM.md) | active | Visual Director selects only for a matching task |
-| [Web Retro Image Gen](../engines/WEB_RETRO_IMAGE_GEN.md) | active | Visual Director selects only for a matching task |
-| [Aqua-Skeuo Icon Forge](../engines/AQUA_SKEUO_ICON_FORGE.md) | active | Visual Director selects only for a matching task |
-| [Retrofuturo Habitável](../engines/RETROFUTURO_HABITAVEL.md) | active | Visual Director selects only for a matching task |
-| [Chromatic Dream Logic](../engines/CHROMATIC_DREAM_LOGIC.md) | active | Visual Director selects only for a matching task |
-| [Sentimental Uncanny](../engines/SENTIMENTAL_UNCANNY.md) | active | Visual Director selects only for a matching task |
-| [Sublime Lyric Still](../engines/SUBLIME_LYRIC_STILL.md) | active | Visual Director selects only for a matching task |
-| [Vintage Editorial Rubber Hose Poster](../engines/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | active | Visual Director selects only for a matching task |
-| [Pixel-World Camera Translation](../engines/PIXEL_WORLD_CAMERA_TRANSLATION.md) | experimental | Visual Director selects only for a matching task |
+| **Photography** | [Analogic Photo](../engines/photography/ANALOGIC_PHOTO.md), [Vernacular Snapshot Realism](../engines/photography/VERNACULAR_SNAPSHOT_REALISM.md), [Contextual Nostalgic Camera](../engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) | Physical capture, amateur snapshots, and remembered imagery; the nostalgia engine defaults to **no geography** |
+| **Interfaces and retrofutures** | [Web Retro Image Gen](../engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md), [Aqua-Skeuo Icon Forge](../engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md), [Lived-In Retrofuturism](../engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) | Period web/desktop grammar, tactile icons, historically imagined futures |
+| **Expressive and editorial** | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md), [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md), [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md), [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | Color-led imagery, restrained uncanny scenes, vertical atmosphere, illustration/posters |
+| **Experimental** | [Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) | Authorized pixel-world scene reinterpretation; transfer breadth unverified |
 
-## Shared route contract
+## Geographic context overlays, never nationality filters
 
-`task brief → visual state → selected specialist → direction sheet → optional authorized renderer → actual-image QA → bounded repair`
+[The regional registry](../engines/photography/regions/README.md) offers eight example geographical research lenses and a custom context. None is automatic; a location is independent of a person's nationality. For any unspecified or unsupported place, use the neutral camera parent and leave unknown facts open.
 
-Every child owns its unique visual grammar, its material and compositional logic, a synthetic use case, applicable consent or IP boundaries, an output/handoff contract, and a specific QA gate. Do not claim a tested render from a text-only example. Unsupported historical games or identity profiles are not silently fabricated.
+## Shared engine contract
+
+Each child provides trigger, visual DNA, composition/material cues, boundaries, illustrative instructions, and QA. The [Visual Director](../VISUAL_DIRECTOR.md#first-use) alone governs state, source roles, tools and the final handoff. External renderers are optional. Prompts without actual output must be marked **not rendered**.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

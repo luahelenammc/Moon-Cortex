@@ -9,7 +9,7 @@ Moon Image Cortex helps an AI figure out **what an image needs to accomplish**, 
 
 It is **not an image-generation model or a collection of one-click filters**. Think of it as the *creative direction and quality-control layer* around an image tool: one Visual Director, specialized engines for different kinds of imagery, and reusable components for tasks that cross styles.
 
-**[Start with the Visual Director](VISUAL_DIRECTOR.md#first-use)** · **[Browse all components](docs/COMPONENT_INDEX.md)** · **[Download the complete ZIP](../../downloads/moon-image-cortex.zip)**
+**[Start with the Visual Director](VISUAL_DIRECTOR.md#first-use)** · **[Browse all components](docs/COMPONENT_INDEX.md)** · **[Download the complete ZIP](downloads/moon-image-cortex.zip)**
 
 | At a glance | What this means |
 |---|---|
@@ -17,12 +17,12 @@ It is **not an image-generation model or a collection of one-click filters**. Th
 | **What you bring** | An idea, image to edit, reference, visual problem, or a combination |
 | **What you get** | A visual brief, direction sheet, optional render-ready prompt or edit instruction, and QA notes where useful |
 | **How it works** | A shared director activates only the relevant components, then uses a real image tool **if one is available and authorized** |
-| **Included** | 10 active specialist engines, 1 experimental route, and 6 cross-cutting components |
+| **Included** | 10 active specialist engines, 1 experimental route, 6 cross-cutting components, and 8 optional geographic lenses plus a custom route |
 | **Status** | Public pre-release; documented methods and synthetic text checks, **not** measured image-rendering performance |
 
-- **Version:** 0.1.0-pre.2
+- **Version:** 0.1.0-pre.3
 - **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)
-- **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
+- **Transport surface:** [Complete module package](downloads/moon-image-cortex.zip)
 - **Documentation license:** CC BY 4.0
 
 ## What can I use it for?
@@ -33,12 +33,12 @@ You don't need to know an engine's name first. Start with the job you actually w
 |---|---|
 | **Turn a rough concept into a picture** | [Omnialchemy](components/OMNIALCHEMY.md) develops a visual thesis, scene, palette, material, light, and composition without forcing a default aesthetic. |
 | **Plan a convincing photograph** | [Analogic Photo](engines/ANALOGIC_PHOTO.md) works with plausible light, optics, focus, and surface texture; [Vernacular Snapshot Realism](engines/VERNACULAR_SNAPSHOT_REALISM.md) helps when the image should feel candid rather than staged. |
-| **Revisit a specific photographic era** | [Nostalgic Camera BR 90s](engines/NOSTALGIC_CAMERA_BR_90S.md) directs Brazilian 1990s family-photo aesthetics with contextual period checks, rather than generic nostalgia. |
+| **Create a period-specific, location-aware family photograph** | [Contextual Nostalgic Camera](engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) is **country-neutral by default**. Opt into [regional context lenses](engines/photography/regions/README.md), or define any other place; geography never determines ethnicity or appearance. |
 | **Edit or restore an existing image carefully** | [Conservative Photo Edit](components/CONSERVATIVE_PHOTO_EDIT.md) specifies the requested change while protecting unrelated areas, identity, proportions, and texture. |
 | **Keep a consenting subject recognizable across images** | [Human Canon Forge](components/HUMAN_CANON_FORGE.md) structures a private, user-owned likeness profile and preservation constraints. |
 | **Explore styles or work from visual references** | [Web Aesthetics](components/WEB_AESTHETICS.md) organizes aesthetic parameters; [Reference Abstraction Guardrail](components/REFERENCE_ABSTRACTION_GUARDRAIL.md) extracts permitted visual principles without copying a source scene. |
 | **Design a fictional retro website or tactile icon** | [Web Retro Image Gen](engines/WEB_RETRO_IMAGE_GEN.md) reconstructs period-appropriate web imagery; [Aqua-Skeuo Icon Forge](engines/AQUA_SKEUO_ICON_FORGE.md) guides original, material-rich desktop or mobile icons. |
-| **Imagine the future through the past** | [Retrofuturo Habitável](engines/RETROFUTURO_HABITAVEL.md) builds historically situated, human-scale retrofuture scenes and editorial images. |
+| **Imagine the future through the past** | [Lived-In Retrofuturism](engines/RETROFUTURO_HABITAVEL.md) builds historically situated, human-scale retrofuture scenes and editorial images. |
 | **Find an expressive visual mood** | [Chromatic Dream Logic](engines/CHROMATIC_DREAM_LOGIC.md) explores color and material; [Sentimental Uncanny](engines/SENTIMENTAL_UNCANNY.md) adds restrained unease; [Sublime Lyric Still](engines/SUBLIME_LYRIC_STILL.md) develops atmospheric vertical stills. |
 | **Make an editorial or advocacy poster** | [Vintage Editorial Rubber Hose Poster](engines/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) builds an original visual metaphor and readable poster hierarchy. |
 | **Translate a pixel-art environment into a new physical scene** | [Pixel-World Camera Translation](engines/PIXEL_WORLD_CAMERA_TRANSLATION.md) offers an **experimental** route for authorized scenes, not sprite replication. |
@@ -59,42 +59,70 @@ You don't need to know an engine's name first. Start with the job you actually w
 
 **Typical path:** request → visual brief → selected components → direction / edit instruction → optional rendering → image inspection → bounded repair or handoff.
 
-Only the pieces relevant to a task need active attention. The complete ZIP is for portability, not an instruction to load all 17 components every time.
+Only the pieces relevant to a task need active attention. The complete ZIP is for portability, not an instruction to load all 17 core/specialist components or every regional lens every time.
 
-## Specialist engines
+## Specialist engines by category
 
-The ten active engines specialize in particular visual languages. The eleventh is experimental. Follow each link for its own trigger, aesthetic logic, sample direction, constraints, and QA gate.
+Engines are separated by **what they make**, not by an arbitrary aesthetic taxonomy. Each engine has its own activation contract, examples and QA; each remains subordinate to the [Visual Director](VISUAL_DIRECTOR.md#first-use).
 
-| Engine | What it is useful for |
+### Photography and personal memories
+
+| Engine | Use |
 |---|---|
-| **[Analogic Photo](engines/ANALOGIC_PHOTO.md)** | Credible photographic capture, lens behavior, film materiality, and natural light. |
-| **[Nostalgic Camera BR 90s](engines/NOSTALGIC_CAMERA_BR_90S.md)** | Brazilian 1990s consumer snapshots and historically contextual family-album imagery. |
-| **[Vernacular Snapshot Realism](engines/VERNACULAR_SNAPSHOT_REALISM.md)** | Everyday, casually captured photographs with plausible imperfections. |
-| **[Web Retro Image Gen](engines/WEB_RETRO_IMAGE_GEN.md)** | Original period web pages, early browser imagery, and desktop-era visual artifacts. |
-| **[Aqua-Skeuo Icon Forge](engines/AQUA_SKEUO_ICON_FORGE.md)** | Original tactile icons, enamel, gloss, bevel, and skeuomorphic interface objects. |
-| **[Retrofuturo Habitável](engines/RETROFUTURO_HABITAVEL.md)** | Alternative future histories, editorial space-age imagery, and believable lived environments. |
-| **[Chromatic Dream Logic](engines/CHROMATIC_DREAM_LOGIC.md)** | Color-led composition, tactile surfaces, focal hierarchy, and atmosphere without a fixed theme. |
-| **[Sentimental Uncanny](engines/SENTIMENTAL_UNCANNY.md)** | Familiar, tender scenes with one subtle perceptual mismatch. |
-| **[Sublime Lyric Still](engines/SUBLIME_LYRIC_STILL.md)** | Vertical atmospheric frames, negative space, scale, and minimal original text. |
-| **[Vintage Editorial Rubber Hose Poster](engines/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md)** | Original simplified characters, editorial metaphors, and socially sensitive advocacy posters. |
-| **[Pixel-World Camera Translation](engines/PIXEL_WORLD_CAMERA_TRANSLATION.md)** *(experimental)* | User-authorized pixel environments reinterpreted as new physical scenes. Cross-game performance is unverified. |
+| [Analogic Photo](engines/photography/ANALOGIC_PHOTO.md) | Physically plausible lens, film, grain, exposure and lighting choices. |
+| [Vernacular Snapshot Realism](engines/photography/VERNACULAR_SNAPSHOT_REALISM.md) | Everyday, candid photographs with socially and materially plausible imperfections. |
+| [Contextual Nostalgic Camera](engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) | Time- and context-sensitive consumer photos with **no nationality or decade imposed**. [Choose an optional regional lens](engines/photography/regions/README.md). |
 
-## Reusable components
+### Interfaces, objects and historical futures
 
-These six methods operate *across* the specialist engines; they are not six additional visual styles.
-
-| Component | Its job |
+| Engine | Use |
 |---|---|
-| **[Omnialchemy](components/OMNIALCHEMY.md)** | Compile a fragmentary idea into coherent visual direction without an automatic house style. |
-| **[Web Aesthetics](components/WEB_AESTHETICS.md)** | Explore aesthetic dimensions, period grammar, and deliberate variation. |
-| **[Human Canon Forge](components/HUMAN_CANON_FORGE.md)** | Protect likeness and explicit subject choices through consent-based, user-local identity rules. |
-| **[Conservative Photo Edit](components/CONSERVATIVE_PHOTO_EDIT.md)** | Make the smallest intended change to a supplied image while preserving everything else. |
-| **[Reference Abstraction Guardrail](components/REFERENCE_ABSTRACTION_GUARDRAIL.md)** | Use reference images for allowed visual ideas while avoiding recognizable echoes. |
-| **[Configurable Visual Profile](components/CONFIGURABLE_VISUAL_PROFILE.md)** | Apply personal visual defaults *only when chosen*, without making them public or permanent by assumption. |
+| [Web Retro Image Gen](engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) | Original web-era pages and desktop visual artifacts. |
+| [Aqua-Skeuo Icon Forge](engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) | Original tactile, glossy, material-rich interface icons. |
+| [Lived-In Retrofuturism](engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) | Historically situated imagined futures with believable human life and infrastructure. |
+
+### Expressive, atmospheric and editorial images
+
+| Engine | Use |
+|---|---|
+| [Chromatic Dream Logic](engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) | Color-led composition, material and focal hierarchy without mandatory symbolism. |
+| [Sentimental Uncanny](engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md) | Tender everyday imagery with one restrained perceptual mismatch. |
+| [Sublime Lyric Still](engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) | Atmospheric vertical images, scale and minimal original text. |
+| [Vintage Editorial Rubber Hose Poster](engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | Original editorial illustration, clear visual metaphors and responsible advocacy posters. |
+
+### Experimental image translation
+
+| Engine | Scope |
+|---|---|
+| [Pixel-World Camera Translation](engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) | Experimental: reinterprets authorized pixel-world scenes as independently composed physical environments; cross-game performance is unverified. |
+
+## Optional geographic camera contexts
+
+Location is **never inferred from a person's face, ancestry or language**. The nostalgic camera route works with location unspecified; these lenses merely help research a place and period *when requested*.
+
+| Available examples | Open choice |
+|---|---|
+| [Brazil](engines/photography/regions/BRAZIL.md) · [United States](engines/photography/regions/UNITED_STATES.md) · [United Kingdom](engines/photography/regions/UNITED_KINGDOM.md) · [Japan](engines/photography/regions/JAPAN.md) | [Any country, region or mixed context](engines/photography/regions/CUSTOM_CONTEXT.md) |
+| [India](engines/photography/regions/INDIA.md) · [Mexico](engines/photography/regions/MEXICO.md) · [France](engines/photography/regions/FRANCE.md) · [Germany](engines/photography/regions/GERMANY.md) | [Region registry and evidence limits](engines/photography/regions/README.md) |
+
+These are **research scaffolds**, not cultural costume presets, national style models or photo assets.
+
+## Reusable components by responsibility
+
+These six cross-cutting components may combine with multiple engines. They are **not six more image styles**.
+
+| Functional layer | Component | Purpose |
+|---|---|---|
+| **Creative direction** | [Omnialchemy](components/creative-direction/OMNIALCHEMY.md) | Converts abstract intent into a coherent visual thesis without a default house style. |
+| **Creative direction** | [Web Aesthetics](components/creative-direction/WEB_AESTHETICS.md) | Explores era, medium, composition and aesthetic parameters. |
+| **References and identity** | [Human Canon Forge](components/references-and-identity/HUMAN_CANON_FORGE.md) | Consent-based local likeness preservation, not a public profile database. |
+| **References and identity** | [Reference Abstraction Guardrail](components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md) | Transfers permitted visual principles while preventing reference echoes. |
+| **References and identity** | [Configurable Visual Profile](components/references-and-identity/CONFIGURABLE_VISUAL_PROFILE.md) | Applies optional, user-owned visual preferences. |
+| **Image editing** | [Conservative Photo Edit](components/image-editing/CONSERVATIVE_PHOTO_EDIT.md) | Changes only an authorized region while protecting unrelated image detail. |
 
 ## Getting started
 
-Open the **[Visual Director: First use](VISUAL_DIRECTOR.md#first-use)** or provide the **[complete ZIP](../../downloads/moon-image-cortex.zip)** to an AI environment that can read the documents. Describe what you want in ordinary language: a new image, an edit, a look, or a defect to inspect. The Director chooses a suitable route; you do **not** need to select or install individual engines first.
+Open the **[Visual Director: First use](VISUAL_DIRECTOR.md#first-use)** or provide the **[complete ZIP](downloads/moon-image-cortex.zip)** to an AI environment that can read the documents. Describe what you want in ordinary language: a new image, an edit, a look, or a defect to inspect. The Director chooses a suitable route; you do **not** need to select or install individual engines first.
 
 The result can be a direction sheet, an edit instruction, a usable prompt, or a QA report. **An image is generated only if a real renderer is available and authorized.** Otherwise the outcome is explicitly marked **not rendered**.
 
@@ -121,7 +149,7 @@ The result can be a direction sheet, an edit instruction, a usable prompt, or a 
 - **Not a validated benchmark:** the 22 synthetic cases test text-level directions and boundaries, not image-generation quality, identity accuracy, or external adoption.
 - **Not every local experiment is public:** some source-dependent concepts remain excluded; Pixel-World Camera Translation is expressly experimental.
 
-See the repository-wide [public boundary](../../PUBLIC_BOUNDARY.md), [licensing](../../LICENSING.md), and [module design contract](../../docs/MODULE_DESIGN_CONTRACT.md).
+See the repository-wide [public boundary](PUBLIC_BOUNDARY.md), [licensing](LICENSING.md), and [module design contract](docs/MODULE_DESIGN_CONTRACT.md).
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

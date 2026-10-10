@@ -27,12 +27,16 @@ The kernel owns capabilities that recur across routes:
 | Group | Routes | Responsibility |
 |---|---|---|
 | Concept compilation | Omnialchemy; Chromatic Dream Logic | translate an idea into visual grammar without imposing a theme |
-| Photographic image | Analogic Photo; Nostalgic Camera BR 90s; Vernacular Snapshot Realism | select capture ecology, optics, light, texture, era and regional details |
-| Historical visual systems | Web Retro Image Gen; Aqua-Skeuo Icon Forge; Retrofuturo Habitável | reconstruct web, icon or future-history grammar from a period |
+| Photographic image | Analogic Photo; Contextual Nostalgic Camera; Vernacular Snapshot Realism | select capture ecology, optics, light and texture; add geographic details **only when selected or sourced** |
+| Historical visual systems | Web Retro Image Gen; Aqua-Skeuo Icon Forge; Lived-In Retrofuturism | reconstruct web, icon or future-history grammar from a period |
 | Mood-led illustration | Sentimental Uncanny; Sublime Lyric Still; Vintage Editorial Rubber Hose Poster | control tenderness, atmosphere, symbolic force, reading and editorial hierarchy |
 | Experimental translation | Pixel-World Camera Translation | reinterpret an authorized pixel-world frame as an embodied scene |
 | Identity continuity | Human Canon Forge | create a consent-based local profile for a user-authorized subject |
 | Visual inspection | Photo, tile, text, typography, chart and renderer QA | detect a specific failure and repair only the affected dimension |
+
+## Geography-neutral capture model
+
+Country or region is **unknown by default** and independent of subject nationality. In photographic work, the [Contextual Nostalgic Camera](../engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) may load a user-selected [geographic adapter](../engines/photography/regions/README.md), or an entirely custom one. The optional preset list does not constrain where a user can situate a scene. No source means no national props, no inferred ethnicity and no false local specificity.
 
 ## Route selection
 
