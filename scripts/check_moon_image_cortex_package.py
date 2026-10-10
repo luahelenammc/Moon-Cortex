@@ -45,6 +45,7 @@ EXPECTED = {
     "engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md",
     "engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md",
     "engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md",
+    "engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md",
     "engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md",
     "components/creative-direction/OMNIALCHEMY.md",
     "components/creative-direction/WEB_AESTHETICS.md",
@@ -100,6 +101,7 @@ SPECIALISTS = [
     "Sentimental Uncanny",
     "Sublime Lyric Still",
     "Vintage Editorial Rubber Hose Poster",
+    "Authored Pixel Art",
     "Pixel-World Camera Translation",
 ]
 
@@ -159,8 +161,8 @@ def validation_errors() -> list[str]:
         readme = readme_path.read_text(encoding="utf-8")
         if "# Moon Image Cortex" not in readme.splitlines():
             errors.append("module README has an unexpected title")
-        if "- **Version:** 0.1.0-pre.4" not in readme:
-            errors.append("module README is missing version 0.1.0-pre.4")
+        if "- **Version:** 0.1.0-pre.5" not in readme:
+            errors.append("module README is missing version 0.1.0-pre.5")
         if "- **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)" not in readme:
             errors.append("module README does not route to the canonical entry")
         if "- **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)" not in readme:
@@ -169,8 +171,8 @@ def validation_errors() -> list[str]:
         entry = entry_path.read_text(encoding="utf-8")
         if not re.search(r"(?im)^# Visual Director\s*$", entry):
             errors.append("canonical entry has an unexpected title")
-        if "**Version:** 0.1.0-pre.4" not in entry:
-            errors.append("canonical entry is missing version 0.1.0-pre.4")
+        if "**Version:** 0.1.0-pre.5" not in entry:
+            errors.append("canonical entry is missing version 0.1.0-pre.5")
         if "## First use" not in entry:
             errors.append("canonical entry is missing embedded First Use")
         for field in ("visual_brief", "visual_state", "direction_sheet", "prompt_for_renderer", "edit_instruction", "identity_profile", "QA_report", "generated_image"):
@@ -241,7 +243,7 @@ def main() -> int:
     if errors:
         print("\n".join(f"ERROR: {item}" for item in errors), file=sys.stderr)
         return 1
-    print(f"Moon Image Cortex validation passed: {len(EXPECTED)} source files, 11 specialist routes, 22 synthetic intents, deterministic ZIP.")
+    print(f"Moon Image Cortex validation passed: {len(EXPECTED)} source files, 12 specialist routes (11 active, 1 experimental), 22 synthetic intents, deterministic ZIP.")
     return 0
 
 

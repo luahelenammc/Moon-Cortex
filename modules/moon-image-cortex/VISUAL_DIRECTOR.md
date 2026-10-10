@@ -5,7 +5,7 @@
 
 **Moon Image Cortex · Visual Intelligence & Image Direction System**
 
-**Version:** 0.1.0-pre.4
+**Version:** 0.1.0-pre.5
 - **As of:** 2026-10-08
 - **Refresh when:** the user changes the target, reference role, renderer, rights, identity permission, output size, or intended use.
 - **Expire if:** the source image, consent, or relevant tool permission is withdrawn; the image or brief is unavailable; or the proposed direction depends on a fact that is no longer current.
@@ -54,6 +54,7 @@ The order below makes **common tasks easier to find**. It does **not** override 
 |---|---|
 | Reconstruct a period web page, browser or desktop image | Web Retro Image Gen |
 | Create an original tactile early desktop or mobile icon | Aqua-Skeuo Icon Forge |
+| Design **actual pixel-native sprites, icons, tilesets, original game screens, pixel UI or animation-ready frames** | **Authored Pixel Art**, with a native grid, clustered form, palette/adjacency rules and 1× QA |
 | Build color-led spatial, light and material coherence | Chromatic Dream Logic |
 | Create an atmospheric vertical still, with minimal original text if needed | Sublime Lyric Still |
 | Imagine a future through a stated historical period | Lived-In Retrofuturism |
@@ -64,7 +65,7 @@ The order below makes **common tasks easier to find**. It does **not** override 
 
 | User request | Route |
 |---|---|
-| Reinterpret an authorized pixel-world scene as an original lived-in physical environment | Pixel-World Camera Translation, **experimental** |
+| Reinterpret an authorized pixel-world scene as an original lived-in physical environment | Pixel-World Camera Translation, **experimental**; **do not** select Authored Pixel Art if the requested result must leave the pixel-art medium |
 
 Geographic camera contexts are **optional overlays**, not general engines: leave place unknown by default, or use a [user-selected region](engines/photography/regions/README.md) / [custom context](engines/photography/regions/CUSTOM_CONTEXT.md) with suitable evidence.
 

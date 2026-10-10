@@ -13,6 +13,8 @@ Text-only route demonstrations. No images, private source examples or copied pro
 | Late-Y2K bedroom that feels sweet and slightly off | Sentimental Uncanny | Keep warm ordinary room; one subtle reflection mismatch; no horror reveal. |
 | Vertical still for an original line about rain | Sublime Lyric Still | One dominant rain force, a small subject, open negative space, new wording only. |
 | Advocacy poster about a fictional service delay | Vintage Editorial Rubber Hose Poster | One visible obstruction, original figure, readable claim and dignity check. |
+| Original 32×48 botanist sprite | Authored Pixel Art | Fix native grid, readable silhouette and compact palette; inspect at 1× and keep a consistent animation anchor. |
+| Original 16×16 grass-to-stone tileset | Authored Pixel Art | Design center, borders and corners as a repeatable family; test seams before adding decorative pixels. |
 | Generic pixel room translated to physical space | Pixel-World Camera Translation, experimental | Rebuild a new room from broad spatial relations; no sprites, game UI or affiliation. |
 
 **Use:** Select only a relevant specialist and follow its full trigger, invariants and QA gate in [Specialist engines](../docs/SPECIALIST_ENGINES.md).

@@ -3,6 +3,13 @@
 
 # Moon Image Cortex changelog
 
+## 0.1.0-pre.5 — 2026-10-09
+
+- Added **Authored Pixel Art** as an independently loadable active visual engine for pixel-native sprites, icons, tilesets, original game screenshots, UI assets and animation-ready visual direction.
+- Defined artifact-class routing, native-grid versus presentation scaling, cluster and silhouette economy, palette/material grammar, adjacency and motion continuity, source originality and explicit real-scale QA.
+- Distinguished Authored Pixel Art from experimental Pixel-World Camera Translation, which reconstructs physical spaces rather than preserving pixel-authored output.
+- Updated the Visual Director, public component index, capability map, specialist registry, portability manifest and regression tests. No renderer or measured image-quality claim was introduced.
+
 ## 0.1.0-pre.4 — 2026-10-09
 
 - Expanded all eleven specialist engines and six reusable components with detailed operating regimes, source-to-output parameters, prompt construction, realistic examples, failure diagnostics and module-specific QA.
