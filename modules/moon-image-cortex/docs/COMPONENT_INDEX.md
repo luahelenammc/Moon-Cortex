@@ -3,40 +3,78 @@
 
 # Moon Image Cortex · Component map
 
-The [Visual Director](../VISUAL_DIRECTOR.md#first-use) is the **sole general operational authority**. This page groups subcontracts by purpose, and the module remains usable without knowing the names in advance. Open only what the current task earns.
+The [Visual Director](../VISUAL_DIRECTOR.md#first-use) is the **only general operational entry**. This is a discovery map: **general, likely everyday workflows come first; increasingly specific styles come later**. That ordering is editorial, not a measured ranking or an instruction to prefer a general method when the user's task warrants a specialist.
 
-## Shared components
+## Most common starting points
 
-| Domain responsibility | Component and role |
+These six combine broad, cross-cutting methods and familiar photographic applications. They are grouped by **what people want to do**, not by internal file type.
+
+| Start with | Use it for | Component type |
+|---|---|---|
+| [Omnialchemy](../components/creative-direction/OMNIALCHEMY.md) | Turn a loose concept into a coherent visual brief. | Shared creative direction |
+| [Conservative Photo Edit](../components/image-editing/CONSERVATIVE_PHOTO_EDIT.md) | Change part of an existing image while protecting everything else. | Shared image editing |
+| [Analogic Photo](../engines/photography/ANALOGIC_PHOTO.md) | Direct believable photography, film characteristics, light and optics. | Photography engine |
+| [Vernacular Snapshot Realism](../engines/photography/VERNACULAR_SNAPSHOT_REALISM.md) | Make everyday, candid captures feel materially plausible. | Photography engine |
+| [Contextual Nostalgic Camera](../engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) | Recreate time-sensitive, consumer-camera memories with **no country default**. | Photography engine |
+| [Web Aesthetics](../components/creative-direction/WEB_AESTHETICS.md) | Explore aesthetic parameters, medium, era and visual variation. | Shared creative direction |
+
+For a task about inspecting an already generated artifact, consult [Visual QA and repair](VISUAL_QA_AND_REPAIR.md).
+
+## Reference and identity controls
+
+Useful across different kinds of images, but optional unless references, likeness or user-chosen recurring preferences are involved.
+
+| Component | Role |
 |---|---|
-| **Concept and style** | [Omnialchemy](../components/creative-direction/OMNIALCHEMY.md) · [Web Aesthetics](../components/creative-direction/WEB_AESTHETICS.md) |
-| **References and identity** | [Human Canon Forge](../components/references-and-identity/HUMAN_CANON_FORGE.md) · [Reference Abstraction Guardrail](../components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md) · [Configurable Visual Profile](../components/references-and-identity/CONFIGURABLE_VISUAL_PROFILE.md) |
-| **Conservative edits** | [Conservative Photo Edit](../components/image-editing/CONSERVATIVE_PHOTO_EDIT.md) |
+| [Reference Abstraction Guardrail](../components/references-and-identity/REFERENCE_ABSTRACTION_GUARDRAIL.md) | Transfer only permitted visual principles, not recognizable source artwork. |
+| [Human Canon Forge](../components/references-and-identity/HUMAN_CANON_FORGE.md) | Protect a consenting person's likeness in an explicitly user-owned local profile. |
+| [Configurable Visual Profile](../components/references-and-identity/CONFIGURABLE_VISUAL_PROFILE.md) | Apply opt-in user preferences while allowing each new brief to override them. |
 
-## Specialist engines
+## Specialized creative families
 
-| Domain | Addressable visual routes |
+### Digital interfaces and historical visuals
+
+| Specialist engine | Distinct use |
 |---|---|
-| **Photography and memory** | [Analogic Photo](../engines/photography/ANALOGIC_PHOTO.md) · [Vernacular Snapshot Realism](../engines/photography/VERNACULAR_SNAPSHOT_REALISM.md) · [Contextual Nostalgic Camera](../engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) |
-| **Interfaces and historical futures** | [Web Retro Image Gen](../engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) · [Aqua-Skeuo Icon Forge](../engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) · [Lived-In Retrofuturism](../engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) |
-| **Atmosphere and editorial art** | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) · [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md) · [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) · [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) |
-| **Experimental translation** | [Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) *(experimental)* |
+| [Web Retro Image Gen](../engines/interfaces-and-retro/WEB_RETRO_IMAGE_GEN.md) | Original imagery of older web pages, browsers and desktop environments. |
+| [Aqua-Skeuo Icon Forge](../engines/interfaces-and-retro/AQUA_SKEUO_ICON_FORGE.md) | Original tactile icons and skeuomorphic interface objects. |
 
-## Optional geographic adapters
+### Color and atmosphere
 
-[Regional camera context registry](../engines/photography/regions/README.md): Brazil, United States, United Kingdom, Japan, India, Mexico, France, Germany, and [an unrestricted custom locale](../engines/photography/regions/CUSTOM_CONTEXT.md). **No country is chosen by default.** A region describes where a scene takes place, never a person's ancestry, ethnicity or appearance. Do not load all regional packs automatically.
+| Specialist engine | Distinct use |
+|---|---|
+| [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md) | Color, material and focal hierarchy independent of a fixed theme. |
+| [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md) | Atmospheric vertical stills with scale and deliberate negative space. |
+
+### Niche editorial and conceptual work
+
+| Specialist engine | Distinct use |
+|---|---|
+| [Lived-In Retrofuturism](../engines/interfaces-and-retro/LIVED_IN_RETROFUTURISM.md) | Historically situated imagined futures with lived-in human context. |
+| [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md) | Gentle scenes disturbed by one subtle anomaly. |
+| [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | Original editorial characters and readable advocacy metaphors. |
+
+## Experimental
+
+| Specialist engine | Status |
+|---|---|
+| [Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) | **Experimental** scene-to-environment translation; cross-game validation is absent. |
+
+## Optional geographic overlays
+
+[Regional camera context registry](../engines/photography/regions/README.md) provides optional research lenses for Brazil, United States, United Kingdom, Japan, India, Mexico, France and Germany. [Custom context](../engines/photography/regions/CUSTOM_CONTEXT.md) supports **any** place or mixed setting. Geography remains **unspecified by default** and is never inferred from appearance or ethnicity. Country lenses are *not* first-class engines, mandatory styles or ready-made national stereotypes.
 
 ## Selective activation
 
-1. Start at Visual Director; classify goal, reference roles, safety limits, intended medium and source permission.
-2. Select a useful cross-cutting method, then one primary visual specialist and any truly warranted supporting one.
-3. Add a geographic lens only when the user requests or credible scene evidence supplies a place. Prefer an open-ended custom context to an unsupported preset.
-4. Return a direction or edit instruction. Invoke a renderer only when available and authorized; otherwise say **not rendered**.
-5. Inspect actual output with [Visual QA](VISUAL_QA_AND_REPAIR.md) and keep local state user-owned.
+1. Start with Visual Director and classify the user's actual need.
+2. Load the relevant broad method or specific specialist **on its merits**, not because it appears earlier in this catalog.
+3. Reference, identity and geographic overlays activate only when required and authorized; do not ingest every engine or country file.
+4. Return a bounded direction or edit instruction; say **not rendered** unless a real authorized tool produced an image.
+5. Inspect actual output when available, apply [Visual QA](VISUAL_QA_AND_REPAIR.md), and retain task state under user authority.
 
 ## Scope
 
-No personal profiles, visual reference archives or source corpora ship in this module. Cultural lenses are not national aesthetic stereotypes. The [public boundary](../../../PUBLIC_BOUNDARY.md) applies. Source-gap concepts (Cat Canon Forge, Original Game Concept Art Engine, Cartoon Identity / Fantasy Image Set) are not published as invented methods.
+No personal profiles, reference archives or private donor corpora ship here. The repository [public boundary](../../../PUBLIC_BOUNDARY.md) applies. Source-gap concepts including Cat Canon Forge, Original Game Concept Art Engine and Cartoon Identity / Fantasy Image Set remain unpublished rather than invented.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
