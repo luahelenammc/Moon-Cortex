@@ -91,6 +91,66 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             self.assertIn(category, index)
         self.assertEqual(46, len(checks.EXPECTED))
 
+    def test_public_navigation_prioritizes_broad_use(self) -> None:
+        """The public browse order must keep niche routes out of the first-use showcase."""
+        cases = (
+            (
+                checks.MODULE / "README.md",
+                [
+                    "## Most common starting points",
+                    "## Reference and identity tools",
+                    "## Specialized visual families",
+                    "## Experimental routes",
+                    "## Optional geographic contexts",
+                ],
+            ),
+            (
+                checks.MODULE / "docs" / "COMPONENT_INDEX.md",
+                [
+                    "## Most common starting points",
+                    "## Reference and identity controls",
+                    "## Specialized creative families",
+                    "## Experimental",
+                    "## Optional geographic overlays",
+                ],
+            ),
+            (
+                checks.MODULE / "VISUAL_DIRECTOR.md",
+                [
+                    "#### Everyday creation, editing and photography",
+                    "#### Reference and identity controls",
+                    "#### Specialized visual languages",
+                    "#### Experimental translation",
+                    "#### Optional geographic context",
+                ],
+            ),
+        )
+        for path, headings in cases:
+            text = path.read_text(encoding="utf-8")
+            positions = [text.index(heading) for heading in headings]
+            self.assertEqual(sorted(positions), positions, path.name)
+            general = text[positions[0]:positions[1]]
+            self.assertIn("Omnialchemy", general)
+            self.assertIn("Conservative Photo Edit", general)
+            self.assertIn("Analogic Photo", general)
+            self.assertIn("Vernacular Snapshot Realism", general)
+            self.assertIn("Contextual Nostalgic Camera", general)
+            self.assertIn("Web Aesthetics", general)
+            self.assertNotIn("Pixel-World Camera Translation", general)
+            self.assertNotIn("Vintage Editorial Rubber Hose Poster", general)
+
+    def test_catalog_retains_single_entry_and_complete_family(self) -> None:
+        """Editorial prioritization does not eliminate access to any public component."""
+        index = (checks.MODULE / "docs" / "COMPONENT_INDEX.md").read_text(encoding="utf-8")
+        import re
+        routes = re.findall(r"\\]\\((\\.\\./(?:engines|components)/[^)]+\\.md)\\)", index)
+        routes = [route for route in routes if "/regions/" not in route]
+        self.assertEqual(17, len(routes))
+        self.assertEqual(17, len(set(routes)))
+        self.assertIn("sole", index.lower())
+        self.assertIn("not rendered", index.lower())
+        self.assertIn("geography", index.lower())
+
     def test_specialist_family_registry_is_complete(self) -> None:
         registry = (checks.MODULE / "docs" / "SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
         for family in checks.SPECIALISTS:
