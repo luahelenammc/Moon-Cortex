@@ -107,7 +107,7 @@ A presentation-only README does not by itself change package semantics. Do not a
 
 The public module shapes a capability; it does not own the user's resulting local state.
 
-Whenever ongoing state is created, prefer a design where it can remain with the user, project or authorized local system and continue without hidden dependency on Moon Cortex, unapproved external sources or hidden upstream memory.
+Whenever ongoing state is created, prefer a design where it can remain with the user, project or authorized local system and continue without hidden dependency on Moon Cortex, private donor material or invisible upstream memory.
 
 The public package may provide structure, routing and reconfiguration rules. It should not become the sole place where a person's own current facts, decisions or records can be resumed unless that dependency is explicit and justified.
 
@@ -118,7 +118,7 @@ Keep these categories distinct:
 - public architecture;
 - synthetic test;
 - fictional example;
-- third-party credit and attribution where genuinely applicable;
+- donor lineage;
 - user-local result;
 - external adoption;
 - measured impact;
@@ -162,6 +162,14 @@ The preferred response is:
 3. fix the smallest owning surface;
 4. preserve the canonical operational body when its behavior remains correct;
 5. promote the lesson into this contract only when it generalizes across modules.
+
+## Dependent mirror closure on public updates
+
+This repository follows the **single shared [Cross-Source Mirror Sync Protocol](https://github.com/luahelenammc/Moon-Source/blob/main/docs/CROSS_SOURCE_MIRROR_PROTOCOL.md)** for registered downstream relationships. This is maintainer-side cross-source aftercare, not a new Moon Cortex runtime, public user requirement, or permission to access private consumers.
+
+**Cortex branch binding (F1):** A material update to a registered public module (currently including the Probability Calibration System and Moon Image Cortex) requires the authorized update executor to compare the **affected module files and validated deterministic ZIP/manifest** with the registered frozen local family; if changed, reconcile that exact public-only frozen source family, preserve independent local evidence, identity profiles, preferences, engines and constraints, and verify readback. An unrelated repository HEAD change returns `no_delta`. If private access is missing, report `pending_blocked` and hand off to an authorized maintainer without claiming cross-source closure.
+
+**Module authority stays here.** Moon Cortex owns each domain's operational semantics, public packaging, tests and public/privacy boundary. Moon Source provides an optional public mirroring method; each Cortex module retains its operational authority. Mirrors and external systems require separate authorization.
 
 ## Promotion gate for a public module
 
