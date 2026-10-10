@@ -34,13 +34,11 @@ These twenty-two text-only fixtures exercise route selection, boundaries, and cl
 
 These synthetic additional checks prevent national-default regressions. They are **not** real image benchmarks or proof of cultural accuracy.
 
-| Test intent | Expected result |
-|---|---|
-| No-location family snapshot | Keep geographic context unknown and do not load a country adapter |
-| User chooses a UK setting | Select the UK lens and request region/time only if needed; never infer ethnicity |
-| Country not in presets | Use the custom context without inventing a national style |
-| Mixed-location family history | Preserve both chosen geographic contexts and sources rather than forcing one flag |
-| Retrofuture English-name path | Route to Lived-In Retrofuturism, never the retired Portuguese name |
+- **No-location family snapshot:** Keep geographic context unknown; load no country adapter.
+- **User chooses a UK setting:** Select the UK lens only when specified; never infer ethnicity.
+- **Country not in presets:** Apply the open custom-context method without a fictional national style.
+- **Mixed-location family history:** Preserve multiple selected contexts and sources, not one enforced flag.
+- **English retrofuture route:** Resolve to Lived-In Retrofuturism, not the retired Portuguese title.
 
 ## Review record
 
