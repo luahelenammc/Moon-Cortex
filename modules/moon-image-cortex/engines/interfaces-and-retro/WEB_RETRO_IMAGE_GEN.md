@@ -4,7 +4,7 @@
 # Web Retro Image Gen
 
 **System:** Moon Image Cortex · **Type:** conditional visual specialist · **Status:** active
-**Parent authority:** [Visual Director](../VISUAL_DIRECTOR.md#first-use) · [Component index](../docs/COMPONENT_INDEX.md)
+**Parent authority:** [Visual Director](../../VISUAL_DIRECTOR.md#first-use) · [Component index](../../docs/COMPONENT_INDEX.md)
 **Renderer:** external and optional; this file contains no image generator.
 
 ## Component activation
