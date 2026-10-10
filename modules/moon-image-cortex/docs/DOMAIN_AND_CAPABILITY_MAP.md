@@ -35,6 +35,10 @@ The kernel owns capabilities that recur across routes:
 | Identity continuity | Human Canon Forge | create a consent-based local profile for a user-authorized subject |
 | Visual inspection | Photo, tile, text, typography, chart and renderer QA | detect a specific failure and repair only the affected dimension |
 
+## Vista-specific conditional route
+
+[Windows Vista Ultimate Black](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) is selectively loaded *within* Web Retro Image Gen. Distinguish the predominantly black Vista Ultimate retail packaging from the Aero Glass window system, whose color and transparency could be personalized. A dark Aero Vista screen is a historical configuration choice, not an edition-exclusive operating-system skin. The lens governs historical period facts, palette/material logic, screenshots versus monitor/box photography and rights-aware original UI composition.
+
 ## Geography-neutral capture model
 
 Country or region is **unknown by default** and independent of subject nationality. In photographic work, the [Contextual Nostalgic Camera](../engines/photography/CONTEXTUAL_NOSTALGIC_CAMERA.md) may load a user-selected [geographic adapter](../engines/photography/regions/README.md), or an entirely custom one. The optional preset list does not constrain where a user can situate a scene. No source means no national props, no inferred ethnicity and no false local specificity.

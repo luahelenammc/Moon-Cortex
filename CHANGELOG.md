@@ -17,6 +17,11 @@
 
 ## Unreleased
 
+### Windows Vista Ultimate Black visual lens — 2026-10-09
+
+- Added an optional Web Retro child lens for Vista Ultimate's black retail presentation and historically grounded user-customized dark Aero desktop/interface direction.
+- Added corresponding catalog routing, examples and material/period QA; kept the existing top-level specialist count unchanged.
+
 ### Authored Pixel Art visual engine — 2026-10-09
 
 - Added pixel-native art direction as an active Image Cortex specialist, separate from experimental pixel-world-to-physical translation.

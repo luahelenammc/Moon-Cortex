@@ -13,6 +13,10 @@ The Visual Director routes by **image task**, never by nationality or a favorite
 | **Expressive and editorial** | [Chromatic Dream Logic](../engines/expressive-and-editorial/CHROMATIC_DREAM_LOGIC.md), [Sentimental Uncanny](../engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md), [Sublime Lyric Still](../engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md), [Vintage Editorial Rubber Hose Poster](../engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md) | Color-led imagery, restrained uncanny scenes, vertical atmosphere, illustration/posters |
 | **Experimental** | [Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) | Authorized pixel-world scene reinterpretation; transfer breadth unverified |
 
+## Web Retro child lenses
+
+[Windows Vista Ultimate Black](../engines/interfaces-and-retro/web-retro/WINDOWS_VISTA_ULTIMATE_BLACK.md) is a **conditional child of Web Retro Image Gen**, not another independent specialist. It covers premium black retail packaging, user-customized dark Aero desktop chrome and era-correct derivative web or app visuals. Packaging black is distinct from an official desktop default; select by the user's target artifact.
+
 ## Geographic context overlays, never nationality filters
 
 [The regional registry](../engines/photography/regions/README.md) offers eight example geographical research lenses and a custom context. None is automatic; a location is independent of a person's nationality. For any unspecified or unsupported place, use the neutral camera parent and leave unknown facts open.
