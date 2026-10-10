@@ -29,7 +29,7 @@
 - generalized the shared visual kernel, consent-based Human Canon method, eleven specialist routes, visual QA protocols and 22 text-only acceptance fixtures;
 - added reproducible package build and validation scripts and connected them to the existing repository checks;
 - updated the root module index, architecture, public boundary, licensing, NOTICE, preview and changelog;
-- recorded experimental and source-gap routes, attribution boundaries and the absence of renderer-performance, exact-likeness and external-adoption claims.
+- documented specialist route status, attribution obligations and renderer/evaluation limits.
 
 ### Probability Calibration System public module — 2026-09-30
 
@@ -48,11 +48,11 @@
 Second public module and multi-module root generalization.
 
 - added **Moon Cortex · Social Support Navigation System** as a second public domain module;
-- retained **Defensoria Social** only as bounded private donor lineage and changed the public module identity to avoid confusion with a public or regulated authority;
+- clarified the Social Support Navigation System identity without implying professional or public authority;
 - added the complete module portable at `downloads/social-support-navigation-system.zip`;
 - generalized the root README and architecture from one finance demonstration to multiple domain-shaped module topologies;
 - expanded the public boundary, licensing, NOTICE and attribution model to cover both module families;
-- moved Social Support Navigation System into the public section of `PREVIEW.md` while retaining existing incubated families;
+- added Social Support Navigation System to the available module catalog;
 - replaced the finance-specific root stamp with a generic Moon Cortex stamp;
 - preserved Financial Living System `0.1.0-pre.4`, its paths, complete ZIP and integrated-package contract;
 - made no repository-wide multi-module portable and no software-license decision.
@@ -97,7 +97,7 @@ Editorial and architectural clarification of the first finance module without pa
 
 Initial public pre-release foundation and first domain module.
 
-- introduced Moon Cortex as a pre-release module lineage;
+- introduced Moon Cortex as a public, domain-oriented module family;
 - marked the repository’s public pre-inauguration through its first usable portable module, without presenting this as the full Moon Cortex launch;
 - added the Finance Bootstrap Seed as the canonical portable artifact;
 - corrected activation UX so the canonical seed self-starts when supplied as operative context, without requiring the user to know a command phrase;
@@ -105,7 +105,7 @@ Initial public pre-release foundation and first domain module.
 - added public financial invariants, adaptive capability routing, installation profiles and reality tests;
 - added synthetic examples for simple salary, credit/non-monthly pay and irregular multi-currency income;
 - added explicit privacy, claims, attribution and licensing boundaries;
-- kept the repository free of private Finanças Moon content, bank connectors, autonomous transactions and `SKILL.md` adapters.
+- specified finance data handling, third-party access boundaries and non-autonomous transaction limits.
 
 This remains a pre-release. Future Cortex architecture is not finalized by these entries.
 

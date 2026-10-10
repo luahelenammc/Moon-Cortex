@@ -70,7 +70,7 @@ Available examples: [Brazil](../engines/photography/regions/BRAZIL.md), [United 
 
 ## Public boundary
 
-No private identity profiles, donor photographs, source reference packs or protected assets are included. [Public boundary](../../../PUBLIC_BOUNDARY.md) applies. Cat Canon Forge, Original Game Concept Art Engine and Cartoon Identity / Fantasy Image Set remain outside the public body pending supported generalizable source methods.
+Identity and source-image permissions remain user-controlled. [Public boundary](../../../PUBLIC_BOUNDARY.md) applies. 
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

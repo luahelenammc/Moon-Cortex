@@ -1,43 +1,29 @@
 <!-- SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon) -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# Moon Source context bridge
+# Moon Source Context Bridge
 
-This document maps public scope to private source jurisdiction. It contains no copied private prompts, user profiles, personal examples, reference packs or source-corpus excerpts.
+Moon Image Cortex governs **visual task direction**, while [Moon Source](https://github.com/luahelenammc/Moon-Source) provides optional, separate methods for context authority, freshness, source roles and handoffs.
 
-## Authority and scope
+## When to use the bridge
 
-Moon Image Cortex is the public visual method and route authority for this module. Local Moon Source remains the authority for private source material, individual profiles, original task records, images, and detailed evolving context. The public module does not make those sources public or portable.
+| Need | Responsibility |
+|---|---|
+| Visual creation, photo editing and image QA | [Visual Director](../VISUAL_DIRECTOR.md#first-use) chooses the visual method and prepares the relevant outputs |
+| Source freshness, authorization and provenance | An available Moon Source method can help identify which supplied material governs the current task |
+| Personal preferences or consenting identity references | The user decides what to provide and where their records remain |
+| Image generation or editing | A separately available, authorized renderer is required; documented directions alone do not render pixels |
 
-The module generalizes reusable methods from the private visual source while retaining evidence limits and source boundaries. A future local user may connect their own authorized profile or source context; the public package has no such dependency.
+## Handoff
 
-## Public routes
+1. Identify the actual visual goal and authorized source roles.
+2. Load the selected visual component; use public Moon Source context guidance only when needed.
+3. Keep source authority, permission, output constraints and unknown details distinguishable.
+4. Return a visual direction or edit instruction; inspect an actual image only when a renderer returns one.
 
-The public route registry includes the shared visual kernel, eleven grouped specialists, and optional geography-context research lenses. No user's nationality, ethnicity or geographic setting is inferred or embedded in the public runtime. Human Canon Forge is available as a generic consent mechanism. Weather/temperature graphic QA is a data-visualization protocol only; it provides no weather service or source data.
+This bridge does not create a dependency between repositories or grant tool access.
 
-Where a source method is experimental, that status travels with it. Text fixtures do not expand its empirical reach.
-
-## Exclusions with reason
-
-| Candidate or material | Decision | Reason |
-|---|---|---|
-| Person-specific identity profile and personal visual references | Excluded | Private identity context and source images |
-| Individual aesthetic preferences and creative context | Excluded | Person-specific creative material |
-| Situational artwork, personal cover art, image canon and social-post source packs | Excluded | Individual or situational content with private provenance |
-| Identity-linked symbolic systems and sensitive body/health context | Excluded | Personal, sensitive, identity-linked material |
-| Source photos, third-party images and prompt packs | Excluded | Private or third-party artifacts, not needed for the general method |
-| Original Game Concept Art Engine | Excluded, source gap | The game source contains one project-specific seven-frame bridge, not a general engine method |
-| Cartoon Identity / Fantasy Image Set | Excluded, source gap | Candidate is referenced but its general method body is absent |
-| Cat Canon Forge | Excluded, source gap | A predecessor is mentioned but the method body is unavailable; no animal identity method is invented |
-| Branded historical interface packs | Excluded as assets | Public method keeps era grammar but not protected logos, exact layouts or source marks |
-| Watermark cause claims | Excluded as fact | Donor labels causal theory as unverified; only observable quality symptoms are retained |
-
-## Method flow
-
-For each retained family, the adaptation keeps its user-facing trigger, general visual function, control rules, negative constraints and QA decision. Personal names, image assets, profile facts, source prompts, private project examples and unsupported performance claims are not part of the public package.
-
-See [Originality, attribution and claims](ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) for public lineage notes and [Public Boundary](../../../PUBLIC_BOUNDARY.md) for repository-level scope.
-
+See [Originality, attribution and claims](ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) for permitted reference use and [data protection](../../../PUBLIC_BOUNDARY.md) for user-controlled information.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

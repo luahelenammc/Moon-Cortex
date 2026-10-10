@@ -107,7 +107,7 @@ A presentation-only README does not by itself change package semantics. Do not a
 
 The public module shapes a capability; it does not own the user's resulting local state.
 
-Whenever ongoing state is created, prefer a design where it can remain with the user, project or authorized local system and continue without hidden dependency on Moon Cortex, private donor material or invisible upstream memory.
+Whenever ongoing state is created, prefer a design where it can remain with the user, project or authorized local system and continue without hidden dependency on Moon Cortex, unapproved external sources or hidden upstream memory.
 
 The public package may provide structure, routing and reconfiguration rules. It should not become the sole place where a person's own current facts, decisions or records can be resumed unless that dependency is explicit and justified.
 
@@ -118,7 +118,7 @@ Keep these categories distinct:
 - public architecture;
 - synthetic test;
 - fictional example;
-- donor lineage;
+- third-party credit and attribution where genuinely applicable;
 - user-local result;
 - external adoption;
 - measured impact;
