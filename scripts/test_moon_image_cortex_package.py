@@ -50,8 +50,8 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         import re
         from pathlib import Path
         links = [link for link in re.findall(r"\]\((\.\./(?:engines|components)/[^)]+\.md)\)", registry) if "/regions/" not in link]
-        self.assertEqual(17, len(links))
-        self.assertEqual(17, len(set(links)))
+        self.assertEqual(18, len(links))
+        self.assertEqual(18, len(set(links)))
         for relative in links:
             child = (checks.MODULE / "docs" / relative).resolve()
             self.assertTrue(child.is_file(), relative)
@@ -89,7 +89,7 @@ class MoonImageCortexPackageTests(unittest.TestCase):
         index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
         for category in ("photography", "interfaces-and-retro", "expressive-and-editorial", "experimental", "creative-direction", "references-and-identity", "image-editing"):
             self.assertIn(category, index)
-        self.assertEqual(46, len(checks.EXPECTED))
+        self.assertEqual(47, len(checks.EXPECTED))
 
     def test_every_public_child_has_substantive_method_content(self) -> None:
         """A public child needs an operational manual, not a two-paragraph stub."""
@@ -110,9 +110,10 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             "engines/expressive-and-editorial/SENTIMENTAL_UNCANNY.md": "## Tenderness-first uncanny grammar",
             "engines/expressive-and-editorial/SUBLIME_LYRIC_STILL.md": "## Cinematic atmospheric still production",
             "engines/expressive-and-editorial/VINTAGE_EDITORIAL_RUBBER_HOSE_POSTER.md": "## Editorial message-to-image pipeline",
+            "engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md": "## Visual DNA: deliberate discrete construction",
             "engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md": "## Isometric-source to physical-space conversion",
         }
-        self.assertEqual(17, len(specs))
+        self.assertEqual(18, len(specs))
         for relative, heading in specs.items():
             path = checks.MODULE / relative
             self.assertTrue(path.is_file(), relative)
@@ -120,6 +121,33 @@ class MoonImageCortexPackageTests(unittest.TestCase):
             self.assertGreaterEqual(len(content.encode("utf-8")), 5400, relative)
             self.assertIn(heading, content, relative)
             self.assertTrue("qa" in content.lower() or "audit" in content.lower(), relative)
+
+    def test_authored_pixel_art_is_native_and_active(self) -> None:
+        relative = "engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md"
+        manual = (checks.MODULE / relative).read_text(encoding="utf-8")
+        self.assertIn("**Status:** active", manual)
+        self.assertIn("## Component activation", manual)
+        for contract in (
+            "native canvas", "clusters", "silhouette", "palette", "tileset",
+            "animation", "1×", "not rendered", "Visual Director",
+        ):
+            self.assertIn(contract.lower(), manual.lower(), contract)
+        director = (checks.MODULE / "VISUAL_DIRECTOR.md").read_text(encoding="utf-8")
+        self.assertIn("Authored Pixel Art", director)
+        self.assertIn("Pixel-World Camera Translation", director)
+        registry = (checks.MODULE / "docs/SPECIALIST_ENGINES.md").read_text(encoding="utf-8")
+        self.assertIn("Pixel and game art", registry)
+        self.assertEqual(12, len(checks.SPECIALISTS))
+        self.assertEqual(47, len(checks.EXPECTED))
+
+    def test_pixel_art_vs_physical_translation_routing(self) -> None:
+        director = (checks.MODULE / "VISUAL_DIRECTOR.md").read_text(encoding="utf-8")
+        self.assertIn("actual pixel-native sprites", director)
+        self.assertIn("physical environment", director)
+        manual = (checks.MODULE / "engines/pixel-and-game-art/AUTHORED_PIXEL_ART.md").read_text(encoding="utf-8")
+        self.assertIn("Pixel-World Camera Translation", manual)
+        index = (checks.MODULE / "docs/COMPONENT_INDEX.md").read_text(encoding="utf-8")
+        self.assertIn("pixel-native", index.lower())
 
     def test_shared_compilation_and_diagnostic_depth(self) -> None:
         visual_state = (checks.MODULE / "docs/VISUAL_STATE_AND_COMPILATION.md").read_text(encoding="utf-8")
