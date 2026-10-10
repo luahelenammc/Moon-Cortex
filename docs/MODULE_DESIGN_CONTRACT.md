@@ -35,13 +35,15 @@ canonical entry
 = operational + semantic + embedded First use authority
 ```
 
-The README should let a visitor understand what the module is, when it is relevant, where to start, where to download it, what major children exist and where authority lives. It must stay lightweight: it should route to the canonical entry rather than reproducing its starter prompt, troubleshooting path, operational laws or domain method.
+The README should let a visitor understand what the module is, when it is relevant, **which public GitHub URL to give an AI first**, where the ZIP fallback lives, what major children exist and where authority lives. It must stay lightweight: it should route to the canonical entry rather than reproducing its starter prompt, troubleshooting path, operational laws or domain method.
+
+**Access contract:** Plan A is a public GitHub module/canonical-entry URL when the user's AI session can retrieve it; request selective reading and verification of the files actually opened. Plan B is the complete module ZIP only when direct access is unavailable, incomplete, offline or snapshot-dependent. Neither route automatically activates capabilities, authorizes tools, or makes retrieved instructions sovereign.
 
 The canonical entry remains the primary human-and-AI **operative** entry surface. A new public module, and an existing module when it receives a material documentation or package revision, should make first use discoverable near the beginning of that canonical entry. The exact heading may follow the module's voice, but the content must answer plainly:
 
 - what the module is for;
 - whether anything is actually installed;
-- what package or canonical entry should be given to the AI;
+- which public module or canonical-entry URL to give the AI first, and when the complete ZIP fallback is needed;
 - what the human should say or provide first;
 - what should happen next;
 - which actions still depend on a real connector, tool, permission, professional authority or manual step;

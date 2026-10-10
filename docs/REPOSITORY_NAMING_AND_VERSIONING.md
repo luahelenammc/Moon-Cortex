@@ -7,6 +7,10 @@ Moon Cortex keeps human-facing identity separate from release state.
 
 **MSL profile:** 5.1-compatible Markdown-native naming/release surface; title identity and version state remain separate.
 
+## Link-first access and ZIP fallback
+
+Current module links and canonical-entry URLs on public GitHub are the preferred way to pass Moon Cortex to an AI session with retrieval enabled. Complete module ZIPs are fallback transport for blocked, unsupported, incomplete or offline retrieval. READMEs and catalogs must not imply a ZIP is required before a GitHub link can be used. Confirm actual retrieval and keep authority, activation and permissions separate. See [Use with AI](USE_WITH_AI.md).
+
 ## Governed surfaces
 
 For current public modules, keep the stable title in:
