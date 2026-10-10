@@ -35,6 +35,53 @@ Load this contract **only** when the Visual Director selects Vintage Editorial R
 
 Return the smallest useful subset of `direction_sheet`, `prompt_for_renderer`, `edit_instruction`, `QA_report` and source-role constraints. A prompt without an available authorized renderer must say **not rendered**. The Visual Director remains the only general operational entry. Examples above are synthetic instructions, not validated output samples.
 
+## Editorial message-to-image pipeline
+
+The engine turns serious or explanatory themes into **an approachable original visual metaphor**. It combines a disciplined editorial headline, one readable 1920s–1940s-inspired rubber-hose character grammar and the feeling of a printed poster, zine or magazine page. Humor may open a door to the subject, but the message must not trivialize suffering.
+
+### Content before mascot
+
+1. State the **public-facing thesis** in one concise sentence.
+2. Identify the audience, intended action, publication format and sensitive material.
+3. Choose an **original** visual metaphor that communicates the thesis without requiring a paragraph.
+4. Decide if a character improves clarity. Some messages work better with a hand, object or scene, without a mascot.
+5. Build typographic hierarchy around the thesis; the picture should support the headline, not obscure it.
+6. Establish a small palette, paper stock and print method before requesting distressed texture.
+
+### Visual grammar
+
+| Layer | Working rules |
+|---|---|
+| Poster surface | Cream/off-white paper, selective scan grain, lightly aged print or zine treatment when the artifact warrants it |
+| Typography | High-contrast editorial serif or period-inspired display lettering, often occupying major visual mass |
+| Character | Flexible black rubber-hose limbs, simplified rounded shoes/gloves, economical facial marks and readable theatrical pose |
+| Palette | Black structure, cream ground and a restrained set of green, red, yellow, orange or blue accents |
+| Shape and gesture | One clear action such as holding, guarding, walking, pointing, resisting or being hindered |
+| Copy | One memorable assertion, optional short support line and intentionally reserved space for accurate typesetting |
+
+Character design should be original and not an approximation of any identifiable protected mascot. Period inspiration does not override rights in specific contemporary artworks.
+
+### Message and dignity gate
+
+Before selecting a humorous metaphor, ask whether laughter is directed at oppressive systems or at affected people. Subjects such as bereavement, hunger, violence, racism, transphobia or other real harm require sensitivity; avoid using victims as cute props. The visual should make an argument without treating a vulnerable person as the punchline.
+
+### Six output types
+
+- Single educational/editorial poster
+- Advocacy event announcement with space for real date/place copy
+- Carousel title card with a consistent but not cloned character
+- Campaign asset with original institutional identity
+- Vintage-style magazine cover or flyer
+- Visual thesis sheet for later typesetting and QA
+
+### Prompt skeleton
+
+> Design an original vintage editorial poster about **{topic}**, expressing **{short_thesis}** through **{specific_metaphor}**. Use one distinct rubber-hose-inspired character or object, bold readable gestures, monumental editorial serif hierarchy, a limited black/cream/accent palette and believable printed-paper materiality. Reserve a clean area for exact text. Avoid existing mascots, unrelated jokes, infantilization, generic vector illustration, excessive decoration, counterfeit print distress and invented official seals.
+
+### QA and post-production
+
+At thumbnail size, can the thesis be understood? Is the mascot readable and relevant? Does the typography dominate where needed? Are character anatomy and shadow coherent? Is paper texture subtle rather than noisy? Are any names, quotes, statistics, dates or organizational marks accurate and rights-cleared? If the image model renders defective text, **typeset externally** using the confirmed copy. Do not claim the text is correct without visual verification.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---

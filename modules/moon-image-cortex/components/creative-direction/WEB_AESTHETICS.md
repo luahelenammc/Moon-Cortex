@@ -33,6 +33,45 @@ Return parameter sheet, named visual variant(s), source/reference roles and a ro
 
 A fictional early-2000s community website gets period, typography, bitmap icons and density parameters; it is not a recreation of a particular service or copied screenshot.
 
+## Parametric aesthetic workbench
+
+This component provides a controlled **design-variable space**. Unlike a specialist engine, it does not prescribe one era or style. Its task is to select coherent values and hand them to Omnialchemy or a specific visual route.
+
+### Parameter matrix
+
+| Dimension | Example values | Constraint |
+|---|---|---|
+| Visual era | Late 1990s, early web 2000s, 2010s, present or unspecified | Do not assume that a calendar year defines an entire culture |
+| Medium | Photograph, scanned print, 2D illustration, screen capture, editorial page | Match artifact material and medium-specific defects |
+| Interface grammar | Desktop browser, forum, fan site, mobile skeuomorphism or none | Do not imply a digital interface in a physical photograph |
+| Palette | Warm limited colors, cool fluorescents, chromatic high contrast, monochrome | Palette has a focal function, not an aesthetic label pile |
+| Density | Sparse, modular, cluttered, maximal but readable | Maintain hierarchy under high density |
+| Nostalgia | None, faint, foregrounded, period-reconstructed | Nostalgia is not synonymous with grain and sepia |
+| Uncanny | None, slight mismatch, moderate unease | Reserve horror or visible anomalies for explicit requests |
+| Luminance / noise | Soft daylight, dark with accents, screen glare, paper grain | Each effect needs a plausible medium |
+| Typography | Functional UI, editorial serif, bitmap, minimal display type | Use actual readable copy only where essential |
+| Composition | Centered, asymmetrical, grid-based, narrative landscape, vertical still | Use the format and intended reading distance |
+
+### Coherent sampling and variation
+
+**Define the design space before drawing a variant.** Mark which dimensions are user-fixed, which are independently available and which are constrained by a selected era or medium. A sampled combination must be checked for internal coherence: for instance, a period CRT interface can carry glow, scan geometry and browser chrome, but not default to an iOS 7 flat icon grid.
+
+When a user requests randomness, define the candidate pools and any restrictions *before sampling*. A true seeded random draw requires an actual random generator and seed; if neither exists, present the result as a deliberate variant, not a scientific random sample. Do not silently cherry-pick sampled outputs after calling them randomized.
+
+### Divergence rather than adjective swapping
+
+For three variants of the same concept, change at least several meaningful axes:
+
+1. **Documentary**: a grounded environment, natural light, matter-of-fact framing.
+2. **Editorial artifact**: a page or poster with controlled typographic hierarchy and print material.
+3. **Period digital**: interface container, bitmap-era density and era-consistent screen behavior.
+
+Each variant needs its own rationale, dominant composition, negative guidance and QA conditions. Keep the subject and factual constraints constant unless variation is explicitly authorized.
+
+### Output schema
+
+`goal`, `fixed_parameters`, `sampled_or_selected_parameters`, `source_roles`, `coherence_notes`, `variants`, `selected_route`, `QA_hypotheses`. Run final visual compilation through the chosen engine; this component alone does not render an image.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---

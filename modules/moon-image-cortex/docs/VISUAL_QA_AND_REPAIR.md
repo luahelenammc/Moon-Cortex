@@ -19,7 +19,7 @@ A repair states the defect, the smallest affected region or rule, and what remai
 
 Watch for inconsistent reflections or shadows, impossible lens perspective, plastic or waxy texture, smudged micro-detail, over-sharpened halos, repeated forms, invented text, and detail that changes identity or scene facts. A soft-but-sharp look, flattened high-frequency texture, waxiness, or repeated tiles are symptoms, not proof of a cause.
 
-The donor source hypothesized watermark-linked degradation but did not establish causality. Treat watermark causation as **unverified**. Do not infer provenance from texture, promise a watermark cure, or give watermark-removal/evasion instructions. If symptoms are present, reduce global micro-detail, simplify high-frequency textures, test a clean lower-detail render, or repair one local region. These are quality controls, not provenance tools.
+The appearance of texture degradation does not establish its cause. Treat watermark causation as **unverified**. Do not infer provenance from texture, promise a watermark cure, or give watermark-removal/evasion instructions. If symptoms are present, reduce global micro-detail, simplify high-frequency textures, test a clean lower-detail render, or repair one local region. These are quality controls, not provenance tools.
 
 ## Tiling and mosaic QA
 
@@ -57,6 +57,53 @@ If recent outputs are actually available, compare their palette, composition, mo
 - Wrong visual thesis: reconstruct and reroute; micro-edits cannot fix a bad brief.
 - Rights or consent gap: stop use of that source; request authorized material or make an independent direction.
 - No renderer or no actual artifact: return instructions only and label the render absent.
+
+## Diagnostic taxonomy for real output
+
+Classify the **visible symptom** before deciding on a repair. Similar-looking images can fail for different reasons: no source image, poor reference resolution, optical blur, compression, global denoising, unrequested semantic regeneration and local texture repetition all require different actions. Do not claim to know a generator's internals from visual appearance alone.
+
+| Symptom | How it appears | First useful check | Smallest reasonable repair |
+|---|---|---|---|
+| **Soft-but-sharp paradox** | Edge outlines look sharp while skin, fabric, hair or vegetation has little genuine microstructure | Compare with original at matching scale; distinguish resolution/compression and aesthetic filtering | Return to source, reduce global smoothing and limit restoration scope |
+| **Plastic or waxy skin** | Pores flattened, material gloss uniform, natural color variation erased | Is retouch or invented beauty filtering permitted? | Reduce face treatment and preserve source texture |
+| **Hair/fabric material loss** | Hair groups into sculpted clumps; cloth weave disappears | Review original region and focus plane | Repair only the target region at controlled strength |
+| **Mosaic / texture tiling** | Leaf, wall, garment or grass detail repeats recognizable micro-patterns | Inspect crops across multiple locations | Simplify procedural detail or locally replace the repeated material |
+| **False sharpening** | Bright/dark halos around edges and crunchy noise | Compare edge profiles at native scale | Lower or remove sharpening; avoid sharpening already degraded pixels |
+| **Geometry or identity drift** | Changed facial proportions, furniture shape, limb placement or viewpoint | Compare protected facts with source | Reject full reconstruction and restore original protected content |
+| **Text, icon or numerical drift** | Incorrect letters, invented numbers, misaligned chart markers | Verify exact copy and independent numerical calculations | Typeset text deterministically or redraw measured graphics |
+| **Seams and masks** | Halos or lighting discontinuity at replacement boundary | Inspect mask boundary and surrounding light | Correct boundary only, preserving the rest |
+
+### A practical severity rubric
+
+- **Minor:** a small visible defect confined to an unprotected edge or surface; one local repair is reasonable.
+- **Moderate:** repeated patterns, soft-but-sharp material failure or noticeable artifact over a meaningful region; reduce processing strength, return to source or simplify the medium.
+- **Severe:** person no longer recognizable, significant facts changed, scene geometry replaced or large regions corrupted; reject result and restart from the preserved original or revise the brief.
+
+### Texture realism beyond “more detail”
+
+High resolution does not guarantee natural microstructure. Natural surfaces vary by local causes: skin pores differ with light and anatomy; cloth has weave direction and wear; foliage has irregular scale, species and depth; pavement and plaster show nonrepeating spatial weathering. Avoid global prompts like “ultra-detailed everywhere” when the actual problem is material credibility. Use a focal hierarchy so background detail may legitimately resolve less sharply than the subject.
+
+### Distinguish provenance from image quality
+
+Visual smoothness, repeated detail or soft sharpness **cannot establish** a watermark, provenance fingerprint or a specific renderer's hidden processing. This module addresses visible image quality, not watermark detection or removal. An unknown causal explanation stays unknown.
+
+### Before/after comparison procedure
+
+1. Match crop, orientation, dimensions and display scale.
+2. Identify protected regions and note what the user authorized to change.
+3. Scan whole-frame composition for unexpected additions and removals.
+4. Inspect material crops in skin, hair, fabric, foliage and repeated patterns.
+5. Verify lighting/reflections and any local edit seam.
+6. For legible public content, separately inspect actual words, typography and numbers.
+7. Decide accept, local repair, full rejection or insufficient evidence. Record what was **actually inspected**.
+
+### Repair request format
+
+`artifact_and_version` · `observed_defect` · `affected_region` · `protected_regions` · `most_plausible_noncausal_description` · `smallest_repair` · `comparison_result` · `unverified_items`.
+
+**Example:** “Source photo and generated edit align in composition, but fine hair strands become waxy in the upper right. Restore material continuity only in that region; do not change face, background or crop. Confirm by comparing the corrected crop to the original.”
+
+**Stopping rule:** once a defect exceeds the scope of a local correction or an unverified source assumption is essential, stop retrying and return to the Visual Director for a new direction.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 

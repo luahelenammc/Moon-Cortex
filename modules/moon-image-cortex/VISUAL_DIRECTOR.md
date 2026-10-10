@@ -5,7 +5,7 @@
 
 **Moon Image Cortex · Visual Intelligence & Image Direction System**
 
-**Version:** 0.1.0-pre.3
+**Version:** 0.1.0-pre.4
 - **As of:** 2026-10-08
 - **Refresh when:** the user changes the target, reference role, renderer, rights, identity permission, output size, or intended use.
 - **Expire if:** the source image, consent, or relevant tool permission is withdrawn; the image or brief is unavailable; or the proposed direction depends on a fact that is no longer current.

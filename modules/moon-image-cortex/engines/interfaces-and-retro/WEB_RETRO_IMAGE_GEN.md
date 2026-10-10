@@ -35,6 +35,37 @@ Load this contract **only** when the Visual Director selects Web Retro Image Gen
 
 Return the smallest useful subset of `direction_sheet`, `prompt_for_renderer`, `edit_instruction`, `QA_report` and source-role constraints. A prompt without an available authorized renderer must say **not rendered**. The Visual Director remains the only general operational entry. Examples above are synthetic instructions, not validated output samples.
 
+## Era-to-interface translation handbook
+
+This engine creates a **new fictional interface** using historically coherent visual grammar. It does not reproduce a real archive screenshot, real website copy or protected logos. Separate **what the interface does** from **how a period web artifact communicates it**.
+
+### Distinct era regimes
+
+| Chosen visual era | Layout and interface grammar | Medium-specific cues |
+|---|---|---|
+| Mid-to-late 1990s / Windows 95–98 | Modest browser viewport, beveled gray controls, pixel icons, small system or serif text, link-heavy structure, tables, counters/guestbook when functionally justified | CRT viewing can add curvature, scanlines, mild moiré and screen glare; a clean screenshot should not |
+| Early-to-mid 2000s / XP-era web | More rounded containers, gradients, image buttons, forum/community modules, sidebars, badges and portal density | LCD or CRT depends on actual medium; compression may be modest |
+| Late 2000s–early 2010s / glossy web | Controlled rounded cards, Web 2.0 gloss, strong hero modules, gradients, skeuomorphic transitions | Do not accidentally turn it into a contemporary flat-design dashboard |
+| User-specified niche setting | Era-consistent adaptations for forum, fan page, web game, wiki, personal site or service portal | Local language and culture only when grounded; never assume a US nostalgia template |
+
+### Build a fictitious product as a period interface
+
+1. Write the **function** in plain language: journal, local forum, virtual room directory, photo library, AI assistant or knowledge index.
+2. Choose period and platform; decide whether the artifact is a **direct screenshot** or a **photograph of a real monitor**.
+3. Define a readable page anatomy: navigation, headline, primary content, side content and one or two actions.
+4. Select window chrome, icon style, system font, web graphics, borders, gradients and pixel density coherent with the period.
+5. Specify the screen/surface only if photographed: monitor case, phosphor/CRT curvature, viewing angle, glare, camera focus, scanline/moiré behavior.
+6. Keep copy short and functionally plausible. For published pages, typeset exact navigation and required copy after generating the visual base.
+7. Check originality, layout plausibility, output legibility, title/copy correctness and actual era features.
+
+### Prompt architecture
+
+`original concept → chosen era → OS/browser language → page regions → palette/type/iconography → screenshot/photographed-screen policy → content priorities → negative guidance → QA`.
+
+**Example:** An imaginary neighborhood movie club website in 2002. Left navigation, small guestbook action, framed poster thumbnails and compact forum panel, period-appropriate browser header and functional labels. No cloned GeoCities page, real franchise mark or random QR code.
+
+**Failure diagnostics:** false historical mixing; 1998 interface containing modern phone mockups; synthetic pseudo-text as functional controls; illegible contrast; giant contemporary cards; borrowed website layouts; CRT scanlines added to a clean screenshot; screen hardware and browser UI conflated.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---

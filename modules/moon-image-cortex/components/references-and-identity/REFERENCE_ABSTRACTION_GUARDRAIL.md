@@ -28,6 +28,45 @@ Return a `transferable_invariants` list, `excluded_specifics`, new visual thesis
 
 Given an authorized palette study of rain-soaked neon imagery, apply the light-color relationship to a newly imagined greenhouse workbench without reproducing the source street, silhouettes or camera angle.
 
+## Reference-to-originality extraction protocol
+
+A supplied reference can reveal an **aesthetic system** without granting permission to borrow the concrete image. The mechanism has four phases:
+
+`reference observations → portable aesthetic invariants → structural forgetting → new scene synthesis → similarity QA`.
+
+### Three tiers of source influence
+
+| Tier | Treatment |
+|---|---|
+| **Transferable properties** | Color relationships, light behavior, contrast, atmospheric temperature, tactile finish, detail density, focal falloff and degree of stylization |
+| **Ranges, never templates** | Intimate/medium/monumental scale, amount of human presence, degree of asymmetry, wide versus compressed depth, nature/architecture balance |
+| **No automatic borrowing** | Identifiable setting, person, outfit, pose, object arrangement, iconic motifs, horizon layout, architecture, story beat, memorable silhouette or exact frame |
+
+### Structural forgetting procedure
+
+1. Make a short private working inventory of what the user actually wants from the references.
+2. Describe only general aesthetic tendencies: e.g., warm rim light, painterly low-frequency edges, saturated complementary colors and a clear central mass.
+3. Separately list the reference's distinctive subjects, spatial layouts, recognizable landmarks and compositions as **excluded specifics**, not as source instructions.
+4. Create a new subject and visual thesis independently of the references. Choose new environment, dominant composition, subject relationship and physical scale.
+5. Compare the new direction to the general aesthetic notes and verify continuity of *quality*, not content.
+6. If an actual output visually echoes a specific source scene, regenerate the scene composition rather than simply renaming the source objects.
+
+A practical diversity heuristic is to alter **three or more** of environment, composition, central motif, scale and lighting when a generated concept drifts too close to a reference. This is an originality aid, **not** a legal safe harbor or proof against copyright infringement.
+
+### Prompt compiler clause
+
+> Use the supplied references only to understand color orchestration, atmospheric light, detail distribution, tactile finish and compositional confidence. Construct a distinct scene and new spatial solution. Do not carry over the original subjects, silhouettes, pose, scene, object positions, signature motifs or recognizable layout. Apply source influences as broad aesthetic guidance, not as a near-duplicate design.
+
+### Similarity QA
+
+- Is the new image recognizable as an alternate shot of a supplied reference?
+- Did an unusual object, composition, camera angle, skyline or figure arrangement recur without permission?
+- Does a color match mask almost identical spatial organization?
+- Are source rights, identity permissions and intended use understood?
+- Could a cleaner, newly authored scene deliver the same atmospheric experience?
+
+**Failure recovery:** Replace scene concept and geometry first; only afterward adjust the lighting or medium. Repeating negative words without changing the composition usually leaves structural imitation intact.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
