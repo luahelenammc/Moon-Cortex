@@ -163,6 +163,19 @@ The preferred response is:
 4. preserve the canonical operational body when its behavior remains correct;
 5. promote the lesson into this contract only when it generalizes across modules.
 
+## Dependent frozen-mirror closure on public updates
+
+A public module can have an owner-authorized, private frozen mirror that consumes its public method without inheriting or exposing the private consumer's state. **When an operator updates, approves, publishes, or releases such a module, the update protocol must include downstream mirror reconciliation before claiming full cross-source closure.** This is part of that same authorized update execution, not a timer, watcher, repository background job, or new general installation requirement.
+
+For the Moon Image Cortex module, the maintainer's completion checklist is:
+
+1. Validate the changed public module against its canonical entry, source map, relevant tests, and deterministic ZIP/manifest. Compare the *module file tree and package inputs*, rather than treating every repository HEAD change as a new module release.
+2. Compare the verified public module files with any registered, owner-authorized frozen mirror. When the public module changed, update the mirror as one coherent public-only snapshot with exact source version, path, commit and file provenance. When it did not change, record `no_delta` and do not rewrite the mirror.
+3. Reconcile only the affected consumer bindings or compatibility notes. Preserve every independent local engine, personal/identity reference, protected source pack, local authorial decision, permission and stronger restriction. No public→private merge may overwrite sovereign local material; no private→public export happens through this obligation.
+4. Perform readback of the intended downstream write before reporting `synced`. If private tools, access or permissions are absent, report `pending_blocked` and give the authorized maintainer the smallest actionable handoff. Distinguish the successful public commit/release from incomplete cross-source closure rather than claiming both were synchronized.
+
+This contract is a **maintainer-side lifecycle requirement**, not part of the public module's user-facing First use, and does not turn a private connector into a public dependency. Do not publish private file IDs, links, credentials, sensitive material or a private mirror's contents merely to prove compliance. CI validates public artifacts only; a CI pass cannot attest to a private Google Docs write. Do not add scheduled polling, scheduled tasks or per-invocation GitHub checks to substitute for update discipline.
+
 ## Promotion gate for a public module
 
 Before a new module is treated as public-ready, confirm that:
