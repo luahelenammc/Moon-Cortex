@@ -40,7 +40,7 @@ When sharing or adapting a material part of this repository, identify:
 
 > Adapted from **Moon Cortex · Moon Image Cortex**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original module path: luahelenammc/Moon-Cortex/modules/moon-image-cortex/. Licensed under CC BY 4.0.
 
-The Probability Calibration System generalizes a method from Local Moon Source. The private source, local context, personal forecast logs, and situational adapters are not included in the public module. Moon Image Cortex generalizes visual methods while excluding personal images, identity profiles, private reference packs, and source prompts.
+The modules document independent interfaces and user-local data handling; permission for source material remains governed by its applicable license and the user's authorization.
 
 Attribution does not imply endorsement, partnership, certification, adoption, professional licensure or validation by Moon.
 
@@ -54,38 +54,29 @@ Tracked public Markdown documents in the repository use a compact identity foote
 
 ### Financial Living System stamp
 
-The finance module retains its module-specific identity and portable link. Its donor lineage is **Finanças Moon**.
+The finance module retains its module-specific identity and portable link.
 
 ### Social Support Navigation System stamp
 
-The social module retains its module-specific identity and portable link. Its donor lineage is the private internal project **Defensoria Social**.
+The social module retains its module-specific identity and portable link.
 
 ### Probability Calibration System stamp
 
-The probability module retains its module-specific identity and portable link. Its donor lineage is Local Moon Source, generalized at the method level only; private state and situational adapters remain outside the public module.
+The probability module retains its module-specific identity and portable link.
 
 ### Moon Image Cortex stamp
 
-The visual module retains its module-specific identity and portable link. Its donor lineage is Local Moon Source, generalized at the method level only; private profiles, images, source packs and prompts remain outside the public module.
+The visual module retains its module-specific identity and portable link.
 
 Module-specific stamps point to module-specific portables. The repository should not gain a repository-wide distribution package merely because it contains multiple modules.
 
-## Donor lineage
+## Repository relationships
 
-The current public modules were generalized from private donor systems:
-
-- **Finanças Moon** → **Financial Living System**;
-- **Defensoria Social** → **Social Support Navigation System**;
-- **Local Moon Source** → **Probability Calibration System** (generalized probability method only);
-- **Local Moon Source** → **Moon Image Cortex** (generalized visual methods only).
-
-The donor corpora and private source state are not part of this public release. Naming a donor does not license, disclose or publish its private data, cases, contacts, records, conversations or situated source state.
-
-Moon Source provided public context-architecture and installation-method lineage. Moon Source does not own any Cortex module. Preserve the public relationship and applicable terms when reusing material from either repository; do not infer permission to expose private source bodies.
+[Moon Source](https://github.com/luahelenammc/Moon-Source) is a separate public context-architecture project. It does not own or license the independent Cortex modules. Use the applicable license for the material actually reused; retain material third-party attributions and notices.
 
 ## Third-party material
 
-The standard CC BY 4.0 text is reproduced for clarity and remains governed by its own public-license terms. External names, URLs and referenced standards remain subject to their own terms. Moon Image Cortex records two public lineage references in its attribution document; the references are not reproduced assets, prompts, layouts, or evidence of permission. No third-party code, image, dataset or embedded media is intentionally incorporated in this release.
+The standard CC BY 4.0 text is reproduced for clarity and remains governed by its own public-license terms. External names, URLs and referenced standards remain subject to their own terms. Moon Image Cortex records artistic reference credits in its attribution document; the references are not reproduced assets, prompts, layouts, or evidence of permission. No third-party code, image, dataset or embedded media is intentionally incorporated in this release.
 
 This file is project documentation, not legal advice. The applicable license text and law govern.
 

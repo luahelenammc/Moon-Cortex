@@ -22,19 +22,9 @@ Prefer aliases, masked identifiers, ranges and role labels. Exact transaction de
 
 Third-party private information should remain out unless it is necessary, authorized and appropriately protected.
 
-## Public disclosure boundary
+## Handling user data
 
-The released public module excludes:
-
-- personal salary, balance, credit limit, debt or account data;
-- statements, screenshots or private financial files;
-- family names, relationships or reimbursement details that identify real people;
-- medical, tax, care, surgery or other personal circumstances;
-- private source links or connector configuration;
-- recognizable private transaction sequences disguised with aliases;
-- private implementation detail that is unnecessary to understand or use the public contract.
-
-Published synthetic examples are newly composed from generalized mechanisms. They are not renamed copies of private financial situations.
+Finance data should remain in the user's chosen secure destination. Do not place statements, balance details, identifiers, private financial files or recognizable transactions into a public repository. Published illustrations are fictional and do not establish financial outcomes.
 
 ## What the module may claim
 
@@ -46,7 +36,7 @@ The public module may claim that it is:
 - instantiated through a portable, model-agnostic Adaptive Finance Bootstrap;
 - a method for separating cash, liability, receivable, reserve and temporal ownership;
 - capable of generating a user-local living financial system in a host that supports the required persistence and readback;
-- generalized from repeated private dogfooding in the Finanças Moon donor system, without publishing that private corpus.
+- available as a documented, independently reusable public module.
 
 ## What the module must not claim
 
@@ -79,7 +69,6 @@ Currency and terminology do not identify a jurisdiction by themselves.
 Use calibrated labels:
 
 - `PUBLIC_ARTIFACT` — an inspectable public file exists;
-- `INTERNAL_SOURCE_USED` — a private donor informed a sanitized formulation without becoming public;
 - `IMPLEMENTED_BOUNDED` — a bounded public implementation exists;
 - `TESTED_BOUNDED` — a bounded test supports a narrow claim;
 - `SYNTHETIC` — a fictional didactic example;
@@ -100,10 +89,6 @@ AI-assisted coauthorial development:
 
 The AI statement describes process. Áurion is not represented as a legal human author or copyright holder.
 
-Donor lineage:
-
-> The financial architecture was generalized from the private long-running donor system **Finanças Moon**.
-
 Moon Source relationship:
 
 > Moon Source provides related public context-architecture and installation methods. It does not own the Financial Living System.
@@ -114,7 +99,7 @@ Preserve the canonical Moon Cortex path and the applicable CC BY 4.0 license whe
 
 The public release is intended to remain true to these properties:
 
-- private links, balances, names, statements and transaction fragments remain outside the repository;
+- personal links, balances, names, statements and transaction fragments remain under the user's control;
 - jurisdiction-specific payment or tax terms do not become universal schema without qualification;
 - examples remain fictional and non-evidentiary;
 - the claim ceiling stays bounded by observed tests;

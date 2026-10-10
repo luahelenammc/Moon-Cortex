@@ -129,7 +129,7 @@ The ZIP carries the whole system for transport. **The AI should load only the pa
 ## Scope and honest limits
 
 - **Not a renderer:** prompts and instructions do not generate pixels on their own. Image performance requires actual rendering and inspection.
-- **Not an identity database:** personal images, private reference packs, biometric profiles and donor records are not distributed; a consenting subject controls likeness constraints.
+- **Identity and consent:** source photographs and likeness profiles require permission and remain user-controlled; no identity database is provided.
 - **Not permission to copy:** aesthetic sources do not automatically authorize reuse of logos, layouts, characters or copyrighted images.
 - **Not a validated image benchmark:** synthetic texts test contracts and routing, not exact likeness, measured visual quality or external adoption.
 - **Not a national preset library:** optional location lenses aid research; geography does not dictate a person's identity or imagery.

@@ -49,15 +49,9 @@ Use one primary route. Add a second route only when a distinct constraint demand
 5. Produce a concise direction and tailor QA to likely failure modes.
 6. If a renderer is available and authorized, inspect its output before claiming success.
 
-## Route exclusions and status
+## Experimental status
 
-All eleven specialist families are part of the public registry. Pixel-World Camera Translation is **experimental** because its source testing is narrow. Synthetic examples verify that its boundaries are stated; they do not establish transfer performance across games, renderers, or use cases.
-
-The following source-dependent candidates are not public routes because the donor material supplied no general method body:
-
-- **Original Game Concept Art Engine — excluded, source gap.** The game source offers one project-specific seven-frame bridge, not a reusable art-direction engine. Game mechanics and narrative remain governed by their own project.
-- **Cartoon Identity / Fantasy Image Set — excluded, source gap.** The candidate is named in source references, but there is no stable general method to publish without invention.
-- **Cat Canon Forge — excluded, source gap.** A predecessor is mentioned, but its full method is absent. Human Canon principles are not silently extended into an animal-identity recipe.
+[Pixel-World Camera Translation](../engines/experimental/PIXEL_WORLD_CAMERA_TRANSLATION.md) is an experimental visual direction method. Its current written examples do not establish performance across games or image-generation tools.
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
