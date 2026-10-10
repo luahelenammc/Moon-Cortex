@@ -9,7 +9,7 @@ Moon Image Cortex helps an AI figure out **what an image needs to accomplish**, 
 
 It is **not an image-generation model or a collection of one-click filters**. Think of it as the *creative direction and quality-control layer* around an image tool: one Visual Director, specialized engines for different kinds of imagery, and reusable components for tasks that cross styles.
 
-**[Start with the Visual Director](VISUAL_DIRECTOR.md#first-use)** · **[Browse all components](docs/COMPONENT_INDEX.md)** · **[Download the complete ZIP](downloads/moon-image-cortex.zip)**
+**[Start with the Visual Director](VISUAL_DIRECTOR.md#first-use)** · **[Browse all components](docs/COMPONENT_INDEX.md)** · **[Download the complete ZIP](../../downloads/moon-image-cortex.zip)**
 
 | At a glance | What this means |
 |---|---|
@@ -22,7 +22,7 @@ It is **not an image-generation model or a collection of one-click filters**. Th
 
 - **Version:** 0.1.0-pre.3
 - **Canonical entry:** [Visual Director](VISUAL_DIRECTOR.md#first-use)
-- **Transport surface:** [Complete module package](downloads/moon-image-cortex.zip)
+- **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
 - **Documentation license:** CC BY 4.0
 
 ## What can I use it for?
@@ -122,7 +122,7 @@ These six cross-cutting components may combine with multiple engines. They are *
 
 ## Getting started
 
-Open the **[Visual Director: First use](VISUAL_DIRECTOR.md#first-use)** or provide the **[complete ZIP](downloads/moon-image-cortex.zip)** to an AI environment that can read the documents. Describe what you want in ordinary language: a new image, an edit, a look, or a defect to inspect. The Director chooses a suitable route; you do **not** need to select or install individual engines first.
+Open the **[Visual Director: First use](VISUAL_DIRECTOR.md#first-use)** or provide the **[complete ZIP](../../downloads/moon-image-cortex.zip)** to an AI environment that can read the documents. Describe what you want in ordinary language: a new image, an edit, a look, or a defect to inspect. The Director chooses a suitable route; you do **not** need to select or install individual engines first.
 
 The result can be a direction sheet, an edit instruction, a usable prompt, or a QA report. **An image is generated only if a real renderer is available and authorized.** Otherwise the outcome is explicitly marked **not rendered**.
 
@@ -149,7 +149,7 @@ The result can be a direction sheet, an edit instruction, a usable prompt, or a 
 - **Not a validated benchmark:** the 22 synthetic cases test text-level directions and boundaries, not image-generation quality, identity accuracy, or external adoption.
 - **Not every local experiment is public:** some source-dependent concepts remain excluded; Pixel-World Camera Translation is expressly experimental.
 
-See the repository-wide [public boundary](PUBLIC_BOUNDARY.md), [licensing](LICENSING.md), and [module design contract](docs/MODULE_DESIGN_CONTRACT.md).
+See the repository-wide [public boundary](../../PUBLIC_BOUNDARY.md), [licensing](../../LICENSING.md), and [module design contract](../../docs/MODULE_DESIGN_CONTRACT.md).
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
