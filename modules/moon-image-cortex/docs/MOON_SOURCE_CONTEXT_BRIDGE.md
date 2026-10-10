@@ -13,7 +13,7 @@ The module generalizes reusable methods from the private visual source while ret
 
 ## Public routes
 
-The public route registry includes the shared visual kernel and eleven specialists. Human Canon Forge is available as a generic consent mechanism. Weather/temperature graphic QA is a data-visualization protocol only; it provides no weather service or source data.
+The public route registry includes the shared visual kernel, eleven grouped specialists, and optional geography-context research lenses. No user's nationality, ethnicity or geographic setting is inferred or embedded in the public runtime. Human Canon Forge is available as a generic consent mechanism. Weather/temperature graphic QA is a data-visualization protocol only; it provides no weather service or source data.
 
 Where a source method is experimental, that status travels with it. Text fixtures do not expand its empirical reach.
 
@@ -36,7 +36,7 @@ Where a source method is experimental, that status travels with it. Text fixture
 
 For each retained family, the adaptation keeps its user-facing trigger, general visual function, control rules, negative constraints and QA decision. Personal names, image assets, profile facts, source prompts, private project examples and unsupported performance claims are not part of the public package.
 
-See [Originality, attribution and claims](ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) for public lineage notes and [Public Boundary](../../../PUBLIC_BOUNDARY.md) for repository-level scope.
+See [Originality, attribution and claims](ORIGINALITY_ATTRIBUTION_AND_CLAIMS.md) for public lineage notes and [Public Boundary](../PUBLIC_BOUNDARY.md) for repository-level scope.
 
 
 <!-- MOON-CORTEX-PUBLIC-STAMP -->

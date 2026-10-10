@@ -5,7 +5,7 @@
 
 **Input:** “Make a 1970s-inspired poster about a future public rooftop garden connected to transit.”
 
-**Route:** Retrofuturo Habitável.
+**Route:** Lived-In Retrofuturism.
 
 **Visual thesis:** In a city designed around shared mobility, the roof becomes a common garden and waiting place rather than a private luxury.
 
