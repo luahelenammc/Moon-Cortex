@@ -4,13 +4,13 @@
 # Human Canon Forge
 
 **System:** Moon Image Cortex · **Type:** conditional cross-cutting component
-**Parent authority:** [Visual Director](../VISUAL_DIRECTOR.md#first-use) · [Component index](../docs/COMPONENT_INDEX.md)
+**Parent authority:** [Visual Director](../../VISUAL_DIRECTOR.md#first-use) · [Component index](../../docs/COMPONENT_INDEX.md)
 
 This file is a subordinate component, **not** another general entry, personal memory, or renderer. Use it only when the task earns it. Public documentation does not install tools or persist identity data.
 
 ## Trigger and first use
 
-Use **only** for a consenting person's user-authorized likeness across portraits, editing or fictionalized scenes. This is a generic method, never an embedded personal identity pack. Review [identity and consent rules](../docs/IDENTITY_CONSENT_AND_BOUNDARIES.md) first.
+Use **only** for a consenting person's user-authorized likeness across portraits, editing or fictionalized scenes. This is a generic method, never an embedded personal identity pack. Review [identity and consent rules](../../docs/IDENTITY_CONSENT_AND_BOUNDARIES.md) first.
 
 ## Consent and evidence
 
