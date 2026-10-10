@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon)
+# SPDX-License-Identifier: Apache-2.0
+# Temporary same-repository PR package synchronization; remove before merge.
+name: One-off Image Cortex public browse-order ZIP sync
+on:
+  pull_request:
+    paths:
+      - "modules/moon-image-cortex/**"
+      - ".github/workflows/image-cortex-one-off-browse-order-sync.yml"
+permissions:
+  contents: write
+jobs:
+  refresh:
+    if: github.event.pull_request.head.ref == 'docs/image-cortex-public-utility-first-20261009' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/build_moon_image_cortex_package.py
+      - name: Commit synchronized portable to PR branch
+        run: |
+          git add downloads/moon-image-cortex.zip
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "build(image): sync public-utility-first document ordering into ZIP"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
