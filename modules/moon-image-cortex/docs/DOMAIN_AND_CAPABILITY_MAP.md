@@ -5,6 +5,8 @@
 
 Moon Image Cortex is a visual-intelligence layer. It turns an image request into a suitable visual direction, a renderer prompt or edit instruction when useful, and a truthful inspection report when an output exists.
 
+For individually loadable specialist and cross-cutting contracts, see the [component index](COMPONENT_INDEX.md). Load only the file needed for the current task.
+
 ## Shared kernel
 
 The kernel owns capabilities that recur across routes:

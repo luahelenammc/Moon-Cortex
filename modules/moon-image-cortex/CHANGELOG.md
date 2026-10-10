@@ -3,6 +3,14 @@
 
 # Moon Image Cortex changelog
 
+## 0.1.0-pre.2 — 2026-10-09
+
+- Corrected specialist-module anatomy: ten active and one experimental engine now have their own addressable public subcontracts.
+- Promoted six generalized cross-cutting components, including Omnialchemy, Web Aesthetics, Human Canon Forge, Conservative Photo Edit, Reference Abstraction Guardrail, and Configurable Visual Profile.
+- Added an index with selective activation and honest tool/renderer boundaries; the Visual Director remains the sole general operational entry.
+- Expanded the portable ZIP to transport the complete component family, with structural tests.
+- No private source packs, biometric profiles, third-party visual references, or unvalidated renderer-performance claims were exported.
+
 ## 0.1.0-pre.1 — 2026-10-08
 
 - Established Moon Image Cortex as the fourth public Moon Cortex module.
