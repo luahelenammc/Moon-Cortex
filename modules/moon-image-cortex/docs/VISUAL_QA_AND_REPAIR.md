@@ -105,6 +105,18 @@ Visual smoothness, repeated detail or soft sharpness **cannot establish** a wate
 
 **Stopping rule:** once a defect exceeds the scope of a local correction or an unverified source assumption is essential, stop retrying and return to the Visual Director for a new direction.
 
+## Persistent synthetic-texture failures: bounded retries
+
+A visibly tiled image does not establish why the renderer produced that texture. Repeated observations across independent outputs, altered prompts or fresh sessions are evidence of **recurrence**, not evidence of session-to-session transfer, a hidden watermark, a particular model mechanism or a guaranteed platform-wide defect. Community reports may contextualize a symptom; they do not validate its cause or a universal fix.
+
+**Differentiate before repair:** (a) microfacets, speckles or patterned high-frequency material repeated across crystals, foliage, fabric or stone; (b) false sharpening and edge halos; (c) compensatory blur or denoising that erases subject material; (d) graphic-looking internal marks represented as though they were volumetric inclusions. These can coexist but require distinct quality judgments. A cleaner silhouette with blurred substance is not a verified repair of a texture problem.
+
+**Controlled comparison:** record the brief, actual output, material regions affected and one meaningful change in the attempted remedy. A new conversation, stronger negative wording, lower-detail directions, or a clean text-only restart are *tests*, not promised cures. Inspect at the intended display size and at a reasonable enlarged crop. Do not inherit defective generated pixels as if they were clean source evidence.
+
+**Stop-loss gate:** when the same material defect remains consequential after at most **two bounded corrective attempts**, stop proposing near-identical rerenders. Preserve the best user-approved artifact as an optional reference, label the unresolved limitation, and offer an alternative only if it changes the strategy materially: simpler material count, isolated objects, authorized non-generative finishing, or another available renderer. Avoid another “magic prompt” and do not imply that a fresh chat alone resolves the failure. This is a conservative workflow limit, not a claim about a generator's internal algorithm.
+
+**Evidence ceiling:** visual QA establishes observed symptoms and comparison results, not model causality, guaranteed photorealism or broad benchmark performance. Keep user-specific source images and case records out of the public package.
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
