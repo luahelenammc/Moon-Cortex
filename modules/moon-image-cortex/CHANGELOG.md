@@ -3,6 +3,12 @@
 
 # Moon Image Cortex changelog
 
+## QA maintenance clarification — 2026-10-23 (pre.7, no semantic release bump)
+
+- Added a bounded stop-loss gate for recurrent synthetic-texture artifacts after two corrective attempts, with separate inspection of mosaic tiling, false sharpening, compensatory blur and flat internal imagery.
+- Clarified that cross-session recurrence and community reports do not prove any internal cause or watermark mechanism; no renderer-performance claim or new capability is introduced.
+- Preserved the existing Visual Director authority, 52-file public module footprint and deterministic ZIP contract.
+
 ## 0.1.0-pre.7 — 2026-10-09
 
 - Grouped four optional Windows subthemes directly under Web Retro Image Gen: Windows 98 (Classic gray), Windows XP (Luna Blue), Windows Vista (**Ultimate Black default**) and Windows 7 (Aero Blue).

@@ -136,6 +136,7 @@ The ZIP carries the complete system when direct GitHub retrieval is unavailable.
 ## Scope and honest limits
 
 - **Not a renderer:** prompts and instructions do not generate pixels on their own. Image performance requires actual rendering and inspection.
+- **Persistent texture artifacts:** the [visual QA guide](docs/VISUAL_QA_AND_REPAIR.md#persistent-synthetic-texture-failures-bounded-retries) distinguishes repeated mosaic patterns, oversharpening, and blur and sets a bounded retry limit; prompt changes do not guarantee a cure.
 - **Identity and consent:** source photographs and likeness profiles require permission and remain user-controlled; no identity database is provided.
 - **Not permission to copy:** aesthetic sources do not automatically authorize reuse of logos, layouts, characters or copyrighted images.
 - **Not a validated image benchmark:** synthetic texts test contracts and routing, not exact likeness, measured visual quality or external adoption.
