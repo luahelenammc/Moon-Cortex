@@ -13,6 +13,8 @@ The system keeps **fit**, **evidence**, **probability**, **confidence**, and **d
 - **Transport surface:** [Complete module package](../../downloads/probability-calibration-system.zip)
 - **License:** CC BY 4.0 for documentation; Apache-2.0 for the dependency-light reference code
 
+**Agent Skill:** [Download the installable skill ZIP](../../downloads/skills/moon-probability-calibration.zip). The skill is an optional procedural snapshot; the canonical entry remains authoritative.
+
 ## Start here
 
 **Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/probability-calibration-system) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/probability-calibration-system.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).

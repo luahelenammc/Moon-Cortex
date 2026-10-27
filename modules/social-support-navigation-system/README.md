@@ -18,6 +18,8 @@
 
 Social Support Navigation System is a composite Moon Cortex domain module for organizing passage through fragmented support systems. Its canonical entry, **Social Support Navigator**, reconstructs the relevant function, barriers, dependencies, support tracks, owners and checkpoints before choosing a bounded next step.
 
+**Agent Skill:** [Download the installable skill ZIP](../../downloads/skills/moon-social-support-navigation.zip). The skill is an optional procedural snapshot; the canonical entry remains authoritative.
+
 ## Start here
 
 **Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/social-support-navigation-system) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/social-support-navigation-system.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).

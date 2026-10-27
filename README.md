@@ -26,6 +26,10 @@ You don't need to understand the architecture first. Start with what you want to
 
 **Each module is independently usable.** Give its public GitHub module or canonical-entry URL to an AI with web/repository access (Plan A). Its README explains the field, and the **canonical entry** governs operative first use. If that AI cannot retrieve the required files, provide the module's ZIP instead (Plan B). There is no mandatory repository-wide installation or universal Cortex package.
 
+## Agent Skills
+
+Each module also offers an optional [installable skill ZIP](downloads/skills/), with its method and complete module snapshot. Choose the individual skill on the module page; installation depends on your AI environment. The existing module ZIPs remain available for ordinary attachment or offline reading.
+
 ## What makes it a Cortex system?
 
 The common idea is **field before form**: discover the actual situation before deciding what format, procedure, or capability it needs.

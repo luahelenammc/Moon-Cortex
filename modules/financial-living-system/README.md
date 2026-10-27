@@ -20,6 +20,8 @@ Financial Living System is a composite Moon Cortex domain module. Its canonical 
 
 > **Links first; ZIP for complete fallback transport.** When GitHub retrieval is available, read the canonical entry and only the supporting material the task earns. If retrieval fails, the full ZIP protects recoverability without requiring every file to be loaded into context.
 
+**Agent Skill:** [Download the installable skill ZIP](../../downloads/skills/moon-financial-living-system.zip). The skill is an optional procedural snapshot; the canonical entry remains authoritative.
+
 ## Start here
 
 **Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/financial-living-system) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/financial-living-system.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).

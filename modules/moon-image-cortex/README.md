@@ -25,6 +25,8 @@ Moon Image Cortex helps an AI understand what an image needs to accomplish, choo
 - **Transport surface:** [Complete module package](../../downloads/moon-image-cortex.zip)
 - **Documentation license:** CC BY 4.0
 
+**Agent Skill:** [Download the installable skill ZIP](../../downloads/skills/moon-image-cortex.zip). The skill is an optional procedural snapshot; the canonical entry remains authoritative.
+
 ## Start here
 
 **Plan A (recommended):** paste this [public GitHub module link](https://github.com/luahelenammc/Moon-Cortex/tree/main/modules/moon-image-cortex) or its [canonical entry](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) into an AI conversation with web/repository retrieval. Ask it to read the First use instructions and only the support files this task needs. **Plan B:** [download the complete module ZIP](../../downloads/moon-image-cortex.zip) if direct retrieval is unavailable, incomplete, or offline use is required. Confirm what the AI actually opened. [Access guide](https://github.com/luahelenammc/Moon-Cortex/blob/main/docs/USE_WITH_AI.md).
