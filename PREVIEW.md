@@ -3,7 +3,7 @@
 
 # Moon Cortex · Available Modules
 
-Choose one of the four current domain systems below. **Plan A:** give its public GitHub module or canonical-entry URL to an AI with browsing/repository access. **Plan B:** use the module's ZIP when direct retrieval is unavailable. Each module has a dedicated operative entry.
+Choose one of the five current domain systems below. **Plan A:** give its public GitHub module or canonical-entry URL to an AI with browsing/repository access. **Plan B:** use the module's ZIP when direct retrieval is unavailable. Each module has a dedicated operative entry.
 
 [How to use a module with an AI](docs/USE_WITH_AI.md)
 
@@ -33,6 +33,12 @@ A visual-intelligence and image-direction system that reconstructs intent, selec
 
 **Status:** public pre-release · [open the canonical entry](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-image-cortex.zip?download=1)
 
+### Moon Music Engine
+
+An AI-assisted music-direction system that translates original lyrics, sonic intent and reference attributes into generator-ready plans, controlled variations and targeted corrections while preserving authorship.
+
+**Status:** public pre-release · [open the canonical entry](modules/moon-music-engine/MUSIC_DIRECTOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-music-engine.zip?download=1)
+
 ## Choosing a module
 
 | Need | Start with |
@@ -41,6 +47,7 @@ A visual-intelligence and image-direction system that reconstructs intent, selec
 | Navigation across support needs, services and handoffs | [Social Support Navigation System](modules/social-support-navigation-system/README.md) |
 | Bounded forecasts, evidence quality and uncertainty | [Probability Calibration System](modules/probability-calibration-system/README.md) |
 | Visual direction, image editing and image QA | [Moon Image Cortex](modules/moon-image-cortex/README.md) |
+| Songwriting, lyric protection, music prompts and generator repair | [Moon Music Engine](modules/moon-music-engine/README.md) |
 
 For privacy, permitted use, and claim boundaries, see [Data protection and evidence](PUBLIC_BOUNDARY.md).
 

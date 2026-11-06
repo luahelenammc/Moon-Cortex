@@ -17,6 +17,13 @@
 
 ## Unreleased
 
+### Moon Music Engine public upstream — 2026-11-06
+
+- Added **Moon Music Engine** as the fifth public domain module, with a single Music Director, four selective modes, lyric sovereignty, controlled sonic variation, generator adapters and lightweight musical QA.
+- Integrated module catalog, preview, architecture, public boundary, attribution and portable/Agent Skill distribution.
+- Documentation-only release; no integrated audio synthesis, platform access, external adoption or measured sonic quality is claimed.
+
+
 ### Windows-era Web Retro subtheme consolidation — 2026-10-09
 
 - Grouped Windows 98, Windows XP, Windows Vista and Windows 7 as optional Web Retro subthemes; Windows Vista now selects Ultimate Black as its default artistic preset.

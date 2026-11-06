@@ -26,7 +26,7 @@ local operation, feedback and reconfiguration
 
 The loop is stable. Its internal morphology is not.
 
-## Four demonstrated module shapes
+## Five demonstrated module shapes
 
 ### Financial Living System
 
@@ -76,6 +76,8 @@ Probability calibration is a field-first method, not a universal equation or man
 
 Moon Image Cortex adds a fourth shape: it reconstructs visual intent, selects one suitable route, and distinguishes direction, rendering, inspection and evidence. Its specialist engines remain optional and no default aesthetic is imposed.
 
+Moon Music Engine adds a fifth: it reconstructs musical intent, routes between sonic direction, lyric conservation, song prototyping and generation repair, and outputs tool-aware prompts while keeping actual audio synthesis outside the method. Controlled sonic variation cannot override explicit authorial constraints.
+
 These differences are part of the design. The Financial Living System does not legislate a bootstrap shape for future modules, and the Social Support Navigation System does not need to imitate finance to belong in the Cortex. The Probability Calibration System does not make numerical output mandatory.
 
 ## Human entry and module design contract
@@ -107,6 +109,7 @@ The repository-level rules for new and materially revised modules are defined in
 | Social Support Navigator | Entry, orchestration, output routing and persistence gate for the social module | The person’s sovereignty, institutional decisions or professional judgment |
 | Probability Calibration System | Field-first estimation and update contract that keeps fit, evidence, probability and confidence distinct | A universal formula, unsupported numeric precision, predictive validity or professional authority |
 | Probability Calibrator | Target definition, evidence review, probability expression, confidence, freshness and update routing | A running predictive model, current data feed, user forecast log or the outcome itself |
+| Moon Music Engine | Public music-direction and lyric-sovereignty contract, variation rules, prompt handoffs and proportional musical QA | A generator account, copyrighted music rights, private taste profile, synthesis engine or verified acoustic performance |
 | Moon Source | Public context architecture and installation methods when deliberately consulted | Ownership of either Cortex module or perpetual runtime execution |
 | User-local state | Current facts, decisions, sources, records, choices and updates after local use | The public identity or claims of the Cortex modules |
 
@@ -115,7 +118,7 @@ The repository-level rules for new and materially revised modules are defined in
 These states must remain distinct:
 
 - **Transport:** each public module has its own canonical complete ZIP. There is no repository-wide multi-module portable yet.
-- **Entry:** each module chooses its own entry interface. Finance uses the Adaptive Finance Bootstrap; social support uses the Social Support Navigator; probability calibration uses the Probability Calibrator; visual work uses the Visual Director.
+- **Entry:** each module chooses its own entry interface. Finance uses the Adaptive Finance Bootstrap; social support uses the Social Support Navigator; probability calibration uses the Probability Calibrator; visual work uses the Visual Director; music work uses the Music Director.
 - **Installation:** a module may optionally consult current public Moon Source methods for context, authority, freshness and readback governance.
 - **Runtime:** the generated or organized user-local system should operate from its own authoritative sources. Routine use should not require hidden upstream memory.
 
@@ -137,11 +140,12 @@ A public module defines methods and interface contracts. Personal financial data
 
 It establishes:
 
-- a multi-module public Cortex body with four demonstrated domain shapes;
+- a multi-module public Cortex body with five demonstrated domain shapes;
 - a complete integrated Financial Living System portable;
 - a complete Social Support Navigation System portable;
 - a complete Probability Calibration System portable;
 - a complete Moon Image Cortex portable;
+- a complete Moon Music Engine portable;
 - field-before-form and user-local sovereignty laws;
 - domain-specific entry and output contracts;
 - synthetic validation and explicit claim boundaries;
