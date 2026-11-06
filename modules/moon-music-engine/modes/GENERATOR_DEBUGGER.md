@@ -3,7 +3,7 @@
 
 # Generator Debugger
 
-Correct observed or reported deviations without turning a failed generation into a fresh unrelated song.
+Correct observed or reported deviations without turning a failed generation into a fresh unrelated song. If the listener explicitly offers a Taste State, distinguish a failure against the prompt from an unexpected conditional preference. A dislike of an actual render can support a **proposed** Taste Cartographer update, never a silent personal-profile rewrite.
 
 ## Diagnosis
 Ask for a real excerpt/audio when needed and available, or accept a user's concrete failure report. Distinguish direct listening observations, user reports and text-only hypotheses. Preserve the intended lyric, voice, format and musical center.

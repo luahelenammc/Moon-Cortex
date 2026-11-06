@@ -17,6 +17,14 @@
 
 ## Unreleased
 
+### Moon Music Engine · Taste Cartographer — 2026-11-06
+
+- Added a user-owned, corrigible **Taste Cartographer** as an independent primary engine within the existing Moon Music Engine, not a sixth Cortex module.
+- Generalized dynamic taste constellations, Deep Core / Current Orbit / Dormant Loves / Saturation, conditional preferences, anti-taste, qualitative evidence, discovery radii and feedback-based deltas.
+- Added a portable Taste State schema, consent-gated Profile-to-Creation Bridge, platform restrictions and a fully synthetic example; integrated automatic routing in Music Director and Agent Skill.
+- Advanced the music module to `0.1.0-pre.3` while keeping stable paths and avoiding public exposure of personal taste histories.
+
+
 ### Moon Music Engine reference distillation promoted — 2026-11-06
 
 - Promoted **Reference-to-Feature Translator** to the primary route for real songs, artists, bands, albums and playlists used as creative inputs.

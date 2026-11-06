@@ -5,16 +5,16 @@
 
 **Canonical operational entry · Moon Music Engine**
 
-**Version:** 0.1.0-pre.2
+**Version:** 0.1.0-pre.3
 - **Status:** public pre-release
-- **Role:** reference-to-feature distillation, musical-intent reconstruction, selective mode routing, output compilation and honest execution limits
+- **Role:** personal taste mapping, reference-to-feature distillation, intent reconstruction, selective mode routing, output compilation and honest execution limits
 - **Scope:** text-based creative direction and evaluation; actual audio rendering requires an external tool
 
 ## First use
 
 1. Open this file as the operative entry, from the [public canonical URL](https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/moon-music-engine/MUSIC_DIRECTOR.md#first-use), or from the complete module ZIP if retrieval is blocked. Confirm which files were actually read.
-2. Tell the AI, in ordinary language, what to make or revise. A single sentence, an original lyric, a reference with allowed attributes, or a description of a failed generation is enough to start.
-3. The Director reconstructs what is known, identifies non-negotiable constraints, chooses one primary mode and loads only necessary supporting documents. **A named real song, band, artist, album or playlist automatically routes to Reference-to-Feature Translator** when used as an aesthetic reference, unless the user explicitly wants a different operation. Ask only about a missing distinction that materially changes the result.
+2. Tell the AI, in ordinary language, what to map, discover, make or revise. A single sentence, an original lyric, a reference with allowed attributes, or a description of a failed generation is enough to start.
+3. The Director reconstructs what is known, identifies non-negotiable constraints, chooses one primary mode and loads only necessary supporting documents. **Mapping, correcting or exploring the listener's taste routes first to Taste Cartographer**, which is an independent primary mode. **A named real song, band, artist, album or playlist automatically routes to Reference-to-Feature Translator** when used as an aesthetic reference, unless the user explicitly wants a different operation. Ask only about a missing distinction that materially changes the result.
 4. Receive a short, actionable musical artifact; if actual rendering is unavailable, receive a prompt/handoff clearly marked **not rendered / not listened to**. Refine with the user's feedback.
 5. The author owns their lyrics, allowed recordings, versions and continuing creative state. Reading this method does not install an app, enable a generator or authorize use of a platform account.
 
@@ -28,7 +28,7 @@
 
 Reconstruct these selectively, never as a mandatory user form:
 
-- **Purpose:** original track, remake of user's own work, lyric revision, instrumental cue, ambient bed, soundtrack prototype, or repair
+- **Purpose:** taste mapping, music discovery, original track, remake of user's own work, lyric revision, instrumental cue, ambient bed, soundtrack prototype, or repair
 - **Authorship/material:** user-supplied lyric, new requested lyric, real named references as analysis inputs, legally accessible/licensed source material, protected/restricted elements, allowed edits
 - **Sound:** genre families, tempo or BPM range if known, pulse/groove, instruments, vocal configuration, timbre, arrangement, recording/production character
 - **Form:** intro, verse, pre-chorus, chorus, bridge, solo, outro only when actually beneficial
@@ -42,15 +42,21 @@ Don't invent listening observations, platform controls, song length, precise tem
 
 | Signal from the user | Primary mode | Load next |
 |---|---|---|
+| **Map, build, correct or discover from my musical profile** | **Taste Cartographer** | [primary engine](modes/TASTE_CARTOGRAPHER.md), [Taste State Schema](docs/TASTE_STATE_SCHEMA.md) |
+| **Use my profile to create or improve a song** | **Music Director + relevant creative mode** | [Profile-to-Creation Bridge](docs/PROFILE_TO_CREATION_BRIDGE.md), only with opted-in and available state |
 | **Real song, band, artist, album or playlist used as a stylistic example** | **Reference-to-Feature Translator** | **[primary motor](modes/REFERENCE_TO_FEATURE_TRANSLATOR.md)**, then optional [Style Architect](modes/STYLE_ARCHITECT.md) |
 | "What should this sound like?" without a specific real-music reference | Style Architect | [mode](modes/STYLE_ARCHITECT.md) |
 | Human lyrics to protect, improve or format | Lyric Doctor | [mode](modes/LYRIC_DOCTOR.md), [Lyric Sovereignty](docs/LYRIC_SOVEREIGNTY.md) |
 | New song premise needing structure, lyric and sound | Song Prototyper | [mode](modes/SONG_PROTOTYPER.md) |
 | A generation failed, or a prompt needs repair | Generator Debugger | [mode](modes/GENERATOR_DEBUGGER.md) |
 
+**Reference distinction:** a named track supplied as evidence for *the listener's preferences* routes to Taste Cartographer, which may ask Reference-to-Feature Translator for song-level sonic traits. A named track supplied *to create a new sound* routes to Reference-to-Feature Translator, with optional taste weighting only when authorized. Never assume a profile exists or is available cross-chat.
+
 Additional bounded methods: [Controlled Variation](docs/CONTROLLED_VARIATION.md) for requested exploration; [Tool Adapters](docs/TOOL_ADAPTERS.md) for provider formatting; [Musical QA](docs/MUSICAL_QA.md) for proportional consistency checks. Several modes may cooperate, but do not turn every request into a four-mode ritual.
 
 ## Operational loop
+
+**T. Map taste when requested.** [Taste Cartographer](modes/TASTE_CARTOGRAPHER.md) builds a provisional, user-owned map of constellations, deep/current/dormant preferences, saturation, conditions, aversions, evidence and feedback. Its [Profile-to-Creation Bridge](docs/PROFILE_TO_CREATION_BRIDGE.md) selects minimal sonic features for original composition **only when consented**; no streaming account access or automatic persistence is implied.
 
 **A. Preserve the center.** Identify the author's emotional/narrative premise, declared voice, language, protected lines, intended audience and any prohibited effects. Ask before altering protected text.
 
@@ -68,14 +74,17 @@ Additional bounded methods: [Controlled Variation](docs/CONTROLLED_VARIATION.md)
 
 Produce only sections the task needs:
 
-1. **Reference map, when applicable:** named real reference(s), individually requested facets, evidence/provenance labels, transferable vs protected elements and differentiating creative decisions.
-2. **Direction:** short sonic identity, instrumentation, groove, voice, build and ending.
-3. **Style prompt:** concise copy-ready generator text (typically in English when useful, while the lyric remains in its requested language).
-4. **Lyrics:** user text intact by default; clearly labeled optional micro-edits, or original new lyrics with structure when requested.
-5. **Negative guidance:** only constraints that reduce a plausible failure, not a wall of contradictions.
-6. **Titles:** for new songs, propose one main title and typically 3–6 alternatives; not mandatory for debugging or instrumental cue analysis.
-7. **Variations/seed:** if requested, state the exploration intensity and exactly what may change, without pretending to guarantee random outcomes.
-8. **Execution status:** "prompt prepared", "audio generated by external tool" only when actually confirmed, or "not generated/not listened to".
+1. **Taste profile, when requested:** a corrigible, provenance-labeled local Taste State or proposed delta, not a stored account profile by default.
+2. **Reference map, when applicable:** named real reference(s), individually requested facets, evidence/provenance labels, transferable vs protected elements and differentiating creative decisions.
+3. **Direction:** short sonic identity, instrumentation, groove, voice, build and ending.
+4. **Style prompt:** concise copy-ready generator text (typically in English when useful, while the lyric remains in its requested language).
+5. **Lyrics:** user text intact by default; clearly labeled optional micro-edits, or original new lyrics with structure when requested.
+6. **Negative guidance:** only constraints that reduce a plausible failure, not a wall of contradictions.
+7. **Titles:** for new songs, propose one main title and typically 3–6 alternatives; not mandatory for debugging or instrumental cue analysis.
+8. **Variations/seed:** if requested, state the exploration intensity and exactly what may change, without pretending to guarantee random outcomes.
+9. **Execution status:** "prompt prepared", "audio generated by external tool" only when actually confirmed, or "not generated/not listened to".
+
+**Taste privacy:** never infer an account profile or import Spotify Content/Service into an AI profile. Apply [Taste Privacy and Platforms](docs/TASTE_PRIVACY_AND_PLATFORMS.md). A current explicit creative instruction outranks all inferred past taste.
 
 The music remains under the user's creative decisions. No universal house style, automatic personal-profile assumptions, hidden ongoing service or provider access is implied.
 

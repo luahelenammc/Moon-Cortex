@@ -3,15 +3,15 @@
 
 # Moon Music Engine
 
-**Real-music reference distillation, original sonic direction, songwriting and generator repair.**
+**Personal taste cartography, real-reference distillation, original sonic direction and songwriting.**
 
-Moon Music Engine can start from **real songs, bands, artists, albums or playlists**, distill their musical attributes ethically, and recombine those features into an original, tool-aware production brief. It also works from a lyric, a new idea or a disappointing generation. It works with generative-music tools such as Suno through explicit adapters, but does not require a Suno account to prepare a creative direction.
+Moon Music Engine helps listeners **map their own musical DNA**, or start from real songs, bands, artists, albums and playlists, distill musical features ethically, and recombine these into original, tool-aware briefs. Taste Cartographer is an independent primary engine for gathering and correcting a personal, user-owned Taste State. It also works from a lyric, a new idea or a disappointing generation. It works with generative-music tools such as Suno through explicit adapters, but does not require a Suno account to prepare a creative direction.
 
 It is **not** a music synthesis model, automatic Suno connection, artist imitation service, or replacement for the author's choices. Audio generation requires a separately available, authorized tool.
 
 **[Start with Music Director](MUSIC_DIRECTOR.md#first-use)** · **[Modes](#capabilities)** · **[Complete module ZIP](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-music-engine.zip)** · **[Agent Skill ZIP](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/skills/moon-music-engine.zip)**
 
-- **Version:** 0.1.0-pre.2
+- **Version:** 0.1.0-pre.3
 - **Status:** public pre-release / documentary method
 - **Canonical entry:** [Music Director](MUSIC_DIRECTOR.md#first-use)
 - **Transport surface:** [Complete module ZIP](../../downloads/moon-music-engine.zip)
@@ -27,6 +27,7 @@ Tell the AI what you want to make or improve, any existing original lyrics, the 
 
 | Real need | Selective method |
 |---|---|
+| **Map, correct, explore or update my musical taste** | **[Taste Cartographer](modes/TASTE_CARTOGRAPHER.md)** · independent primary engine |
 | **Bring real songs, artists or bands to distill a sound without copying** | **[Reference-to-Feature Translator](modes/REFERENCE_TO_FEATURE_TRANSLATOR.md)** · primary engine |
 | Translate mood or a distilled feature map into specific sound | [Style Architect](modes/STYLE_ARCHITECT.md) |
 | Preserve and improve a human-written lyric | [Lyric Doctor](modes/LYRIC_DOCTOR.md) |
@@ -37,13 +38,15 @@ Tell the AI what you want to make or improve, any existing original lyrics, the 
 
 The [Real-reference walkthroughs](examples/REAL_REFERENCE_WALKTHROUGHS.md) show named songs and artists in analysis alongside original, name-free generator prompts. Reference names are permitted inputs; **removing them alone does not ensure copyright compliance**.
 
+The [Taste State Schema](docs/TASTE_STATE_SCHEMA.md) defines a user-owned, correctable profile; [Profile-to-Creation Bridge](docs/PROFILE_TO_CREATION_BRIDGE.md) supplies only opted-in, task-relevant sonic features to other engines. See [Taste Privacy and Platforms](docs/TASTE_PRIVACY_AND_PLATFORMS.md) and [synthetic walkthrough](examples/SYNTHETIC_TASTE_BOOTSTRAP.md).
+
 The [Lyric Sovereignty](docs/LYRIC_SOVEREIGNTY.md) contract protects user-written material and explicit narrative boundaries. [Tool adapters](docs/TOOL_ADAPTERS.md) keep provider-specific syntax separate from composition.
 
 ## Output you can expect
 
 By default: a compact direction, a practical generator style prompt, structured lyric when appropriate, negative guidance, and a clear note about what has *not* been generated or heard. **For real-music references**, also show what was drawn from each source, what was generalized, what is a creative proposal, and which identifying features are intentionally excluded. Suggest a main title and alternatives when a **new song** is being created. Provide variations only when useful or requested.
 
-The user retains ownership and control over their own project files, recordings, lyrics, feedback and iterations. No private musical taste profile is bundled or automatically inferred.
+The user retains ownership of their **Taste State**, project files, recordings, lyrics and feedback. No real personal musical profile is bundled, inferred from account data, or automatically stored. Using taste for creation is optional and controlled by the listener.
 
 ## Evidence and boundaries
 

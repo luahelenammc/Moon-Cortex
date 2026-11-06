@@ -27,7 +27,7 @@ A percentage here is a **creative exploration control**, not a measured acoustic
 
 **Protected:** original lyrics without edit permission, speaker identity, requested language, voice constraints, emotional/narrative premise, "instrumental only", prohibited traits, copyright/consent boundaries and explicit negative guidance.
 
-High intensity, including 90%, means extensive **sonic** freedom, never 90% random rewriting of a protected lyric.
+High intensity, including 90%, means extensive **sonic** freedom, never 90% random rewriting of a protected lyric. If the person authorizes taste-informed exploration, a Bridge/Edge/Rift may deliberately cross or challenge their known constellations. An inferred taste feature is **not** an immutable creative constraint.
 
 ## Seeds and reproducibility
 

@@ -13,6 +13,7 @@ Perform a proportional consistency check. This is **not** a rigorous listening e
 5. Are negative instructions targeted rather than contradictory?
 6. For named real songs or artists, did the Reference-to-Feature Translator produce an **explicit reference-to-attribute map**, distinguish observed/source-supported/inferred/proposed claims, avoid exact melodic/hook/lyric/recording transfer, and produce a **new** arrangement rather than a disguised near-copy? Was the author name removed only from the generator view, not erased from a truthful analysis?
 7. Does the output say whether audio was actually generated or heard?
+8. When a taste profile influences a task, was its use explicitly authorized, based on accessible user-owned evidence and minimized to relevant features? Did the process respect conditional preferences, fatigue, uncertainty and current-task overrides? A generated track isn't evidence the listener liked it.
 
 ## After genuine tool output, if available
 Compare the result to the brief: vocal identity, lyric fidelity, instrumentation, pulse, section arc, mix and user reaction. Prefer one targeted repair per iteration. Do not infer audio defects from text alone.

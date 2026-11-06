@@ -3,7 +3,7 @@
 
 # Song Prototyper
 
-Move from a premise or fragment to a usable original song sketch.
+Move from a premise or fragment to a usable original song sketch. User-owned preferences may inform this prototype through the optional, permissioned [Profile-to-Creation Bridge](../docs/PROFILE_TO_CREATION_BRIDGE.md), but present instructions, lyric sovereignty and the user's desired novelty outrank historical taste hypotheses.
 
 ## Procedure
 1. Extract narrative center, musical target and author-supplied material, keeping facts and creative proposals distinct.
