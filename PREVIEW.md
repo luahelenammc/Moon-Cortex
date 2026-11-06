@@ -35,7 +35,7 @@ A visual-intelligence and image-direction system that reconstructs intent, selec
 
 ### Moon Music Engine
 
-An AI-assisted music-direction system that translates original lyrics, sonic intent and reference attributes into generator-ready plans, controlled variations and targeted corrections while preserving authorship.
+An AI-assisted music-direction system whose primary Reference-to-Feature Translator analyzes **real songs, artists and bands** as inspiration, then recomposes their transferable sonic properties into original generator-ready directions. Also supports lyric sovereignty, controlled variation and targeted corrections.
 
 **Status:** public pre-release · [open the canonical entry](modules/moon-music-engine/MUSIC_DIRECTOR.md#first-use) · [download the complete portable (.zip)](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-music-engine.zip?download=1)
 

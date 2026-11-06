@@ -17,6 +17,13 @@
 
 ## Unreleased
 
+### Moon Music Engine reference distillation promoted — 2026-11-06
+
+- Promoted **Reference-to-Feature Translator** to the primary route for real songs, artists, bands, albums and playlists used as creative inputs.
+- Added provenance-labeled trait extraction, multi-reference synthesis, originality boundaries and real-reference walkthroughs.
+- Revised the Music Director, Style Architect, Skill, user-facing catalog and module pre-release state (`0.1.0-pre.2`).
+
+
 ### Moon Music Engine public upstream — 2026-11-06
 
 - Added **Moon Music Engine** as the fifth public domain module, with a single Music Director, four selective modes, lyric sovereignty, controlled sonic variation, generator adapters and lightweight musical QA.

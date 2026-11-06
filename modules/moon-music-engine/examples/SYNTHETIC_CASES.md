@@ -27,8 +27,8 @@ These original, fictional examples illustrate method routing. They do not establ
 
 ## 5 · Reference without copying
 **User:** "I like the dynamic shape of a 1980s power ballad, but don't copy a song."  
-**Route:** Style Architect.  
-**Output:** gated drum atmosphere, slow-building electric guitars, lifted refrain, spacious reverb, no identifiable melody or lyrics from another work.
+**Route:** Reference-to-Feature Translator → Style Architect.  
+**Output:** a reference-to-feature card for the requested era and energy arc; gated drum atmosphere, slow-building electric guitars, lifted refrain, spacious reverb, no identifiable melody or lyrics from another work. A real named artist would remain visible in the analysis but not the generator prompt.
 
 ## 6 · Non-English lyric
 **User:** "Keep these Portuguese verses; use an English style prompt."  
@@ -40,3 +40,4 @@ These original, fictional examples illustrate method routing. They do not establ
 ---
 
 > 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · Questions, suggestions, or proposals? Feel free to contact me at [LuaHelenaMMC@gmail.com](mailto:LuaHelenaMMC@gmail.com).
+\n## 7 · Real band-name inspiration, independent output\n**User (fictional scenario):** "Use Sade and Massive Attack as reference points; I want a new song, not a replica."  \n**Route:** Reference-to-Feature Translator → Song Prototyper.  \n**Output:** separate analysis of the requested restraint and slow-weighted production, an original downtempo soul prompt omitting artist names, distinct arrangement, untouched user lyric and a clear no-audio-playback status. See [real-reference walkthrough](REAL_REFERENCE_WALKTHROUGHS.md).\n

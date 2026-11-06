@@ -11,7 +11,7 @@ Perform a proportional consistency check. This is **not** a rigorous listening e
 3. Are voice, language, instrumental-only and protected lyric constraints intact?
 4. Are there incompatible instructions or too many low-value adjectives?
 5. Are negative instructions targeted rather than contradictory?
-6. Are references translated into general sound characteristics, without a reproduction or imitation request?
+6. For named real songs or artists, did the Reference-to-Feature Translator produce an **explicit reference-to-attribute map**, distinguish observed/source-supported/inferred/proposed claims, avoid exact melodic/hook/lyric/recording transfer, and produce a **new** arrangement rather than a disguised near-copy? Was the author name removed only from the generator view, not erased from a truthful analysis?
 7. Does the output say whether audio was actually generated or heard?
 
 ## After genuine tool output, if available

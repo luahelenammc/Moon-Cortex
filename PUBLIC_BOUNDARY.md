@@ -11,7 +11,7 @@ Moon Cortex contains five public domain modules with documented interfaces, exam
 - **Social support:** real case details, patient/client records, addresses and institutional communications require appropriate authorization and protection. Published case illustrations are fictional.
 - **Probability:** a forecast must identify its evidence and uncertainty; individual medical, legal or financial assessments require qualified review where appropriate.
 - **Images:** identity references and likeness profiles require consent, remain user-controlled, and must not be copied into a public repository without permission.
-- **Music:** user lyrics, private taste profiles, recordings and unpublished creative material stay user-controlled. The module does not embed third-party songs, lyrics, personal listening histories or claims of generator access; service terms and output rights require separate confirmation.
+- **Music:** user lyrics, private taste profiles, recordings and unpublished creative material stay user-controlled. The module can analyze user-named third-party songs, artists and bands into broad transferable musical traits, but does not embed third-party songs, lyrics, personal listening histories or claims of generator access. A name-free prompt is not a guarantee of originality or copyright clearance; rights, source access, voice imitation and service terms require separate assessment.
 - **All modules:** do not submit credentials, tokens, confidential third-party material or unlicensed assets. Observe applicable third-party license and permission terms.
 
 ## Accuracy and evidence
