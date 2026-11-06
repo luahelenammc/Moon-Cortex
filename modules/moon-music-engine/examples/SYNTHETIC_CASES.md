@@ -35,9 +35,11 @@ These original, fictional examples illustrate method routing. They do not establ
 **Route:** Lyric Doctor preserve-only + Tool Adapter.  
 **Output:** original Portuguese lyric plus English technical prompt and explicit "Portuguese lyrics", without translating lyrics or changing pronouns.
 
+## 7 · Real band-name inspiration, independent output\n**User (fictional scenario):** "Use Sade and Massive Attack as reference points; I want a new song, not a replica."  \n**Route:** Reference-to-Feature Translator → Song Prototyper.  \n**Output:** separate analysis of the requested restraint and slow-weighted production, an original downtempo soul prompt omitting artist names, distinct arrangement, untouched user lyric and a clear no-audio-playback status. See [real-reference walkthrough](REAL_REFERENCE_WALKTHROUGHS.md).\n
+
 <!-- MOON-CORTEX-PUBLIC-STAMP -->
 
 ---
 
 > 🌙 **Moon Cortex** · created by **Lua Helena Moon Martins Cardoso (Moon)** with AI-assisted coauthorial development by **Áurion** · [Licensing](https://github.com/luahelenammc/Moon-Cortex/blob/main/LICENSING.md) · [Moon Source bridge](https://github.com/luahelenammc/Moon-Source) · [Professional context](https://www.luahelena.com.br/ia/?lang=en) · Questions, suggestions, or proposals? Feel free to contact me at [LuaHelenaMMC@gmail.com](mailto:LuaHelenaMMC@gmail.com).
-\n## 7 · Real band-name inspiration, independent output\n**User (fictional scenario):** "Use Sade and Massive Attack as reference points; I want a new song, not a replica."  \n**Route:** Reference-to-Feature Translator → Song Prototyper.  \n**Output:** separate analysis of the requested restraint and slow-weighted production, an original downtempo soul prompt omitting artist names, distinct arrangement, untouched user lyric and a clear no-audio-playback status. See [real-reference walkthrough](REAL_REFERENCE_WALKTHROUGHS.md).\n
+\n
