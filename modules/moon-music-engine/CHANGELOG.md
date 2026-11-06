@@ -3,6 +3,14 @@
 
 # Moon Music Engine · Changelog
 
+## 0.1.0-pre.3 · 2026-11-06
+
+- Added **Taste Cartographer** as an independent primary engine to build, revise and use a personal, user-owned musical taste map from voluntary, permissioned evidence.
+- Generalized the original dynamic-taste methodology into Deep Core, Current Orbit, Dormant Loves, Saturation, Constellations, Bridges, Conditional Preferences, Anti-Taste, provenance and uncertainty.
+- Added a portable Taste State template, the consent-gated Profile-to-Creation Bridge, privacy/platform boundaries, and a fully synthetic end-to-end example.
+- Connected the new mode to Music Director, Reference Translator, Style Architect, Song Prototyper, Generator Debugger, Controlled Variation, and proportionate QA.
+- No personal profile, playlist dump or streaming export has been included. The pre-release does not claim measured longitudinal recommendation accuracy, streaming integrations or audio generation.
+
 ## 0.1.0-pre.2 · 2026-11-06
 - Promoted real song/band/artist/album/playlist reference distillation to a **primary Reference-to-Feature Translator** with automatic routing.
 - Added evidence-tagged musical feature maps, multi-reference blending, original generator handoffs, concrete differentiation and rights-aware boundaries.

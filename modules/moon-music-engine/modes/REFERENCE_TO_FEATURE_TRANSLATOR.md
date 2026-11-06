@@ -7,7 +7,7 @@
 
 Use this engine when someone brings a **real song, band, artist, album, playlist, performance or set of tracks** and wants to create a new sound inspired by *particular musical qualities*, without cloning an existing work. The name of a reference is useful to understand the request; removing a name from a final prompt is **not**, by itself, a copyright clearance test.
 
-This engine is a first-class route in the [Music Director](../MUSIC_DIRECTOR.md), and may feed the [Style Architect](STYLE_ARCHITECT.md), [Song Prototyper](SONG_PROTOTYPER.md), or [Generator Debugger](GENERATOR_DEBUGGER.md). It requires no personal taste history or private upstream profile.
+This engine is a first-class route in the [Music Director](../MUSIC_DIRECTOR.md), and may feed the [Style Architect](STYLE_ARCHITECT.md), [Song Prototyper](SONG_PROTOTYPER.md), [Generator Debugger](GENERATOR_DEBUGGER.md), or [Taste Cartographer](TASTE_CARTOGRAPHER.md). When named songs are evidence for personal taste mapping, the Cartographer owns claims about the listener while this Translator owns song-level sonic descriptions. A track's features alone do not prove which features the listener enjoys. It requires no personal taste history or private upstream profile.
 
 ## First-use behavior
 

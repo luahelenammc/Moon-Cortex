@@ -3,7 +3,7 @@
 
 # Style Architect
 
-Build a generator-usable **sonic identity**, not an adjective salad. **When real songs, artists, albums, bands or playlists are supplied as references, route first through the [Reference-to-Feature Translator](REFERENCE_TO_FEATURE_TRANSLATOR.md).** It is a primary engine, not an optional footnote.
+Build a generator-usable **sonic identity**, not an adjective salad. When the user explicitly wants music based on their taste and provides a valid Taste State, accept only a task-sized [Profile-to-Creation Bridge](../docs/PROFILE_TO_CREATION_BRIDGE.md) payload, not their entire profile. **When real songs, artists, albums, bands or playlists are supplied as references, route first through the [Reference-to-Feature Translator](REFERENCE_TO_FEATURE_TRANSLATOR.md).** It is a primary engine, not an optional footnote.
 
 ## Inputs
 Use intent, emotional trajectory, musical references, language, vocals, any existing lyrics, and protected constraints. If the user supplies named real-music references, use the Translator's provenance-tagged feature map as input; never imply audio playback if it was not available. Extract generalized sonic behavior rather than writing an imitation command.
