@@ -76,7 +76,7 @@ Probability calibration is a field-first method, not a universal equation or man
 
 Moon Image Cortex adds a fourth shape: it reconstructs visual intent, selects one suitable route, and distinguishes direction, rendering, inspection and evidence. Its specialist engines remain optional and no default aesthetic is imposed.
 
-Moon Music Engine adds a fifth: it reconstructs musical intent and makes **real-song / band / artist reference distillation a primary domain engine** (Reference-to-Feature Translator). It then coordinates sonic direction, lyric conservation, song prototyping and generation repair, producing original tool-aware prompts while keeping copyright-sensitive expression and actual audio synthesis outside the method. Controlled sonic variation cannot override explicit authorial constraints.
+Moon Music Engine adds a fifth: it holds **two distinct primary engines**: Taste Cartographer for personal, conditional, user-owned musical taste mapping and discovery, and Reference-to-Feature Translator for ethical abstraction from real songs, artists and bands. A consent-based bridge can select the smallest relevant taste features for sonic direction, lyric conservation, prototyping and generation repair. Personal state stays outside the public module and actual audio synthesis remains external. Controlled sonic variation cannot override explicit authorial constraints.
 
 These differences are part of the design. The Financial Living System does not legislate a bootstrap shape for future modules, and the Social Support Navigation System does not need to imitate finance to belong in the Cortex. The Probability Calibration System does not make numerical output mandatory.
 
@@ -109,7 +109,7 @@ The repository-level rules for new and materially revised modules are defined in
 | Social Support Navigator | Entry, orchestration, output routing and persistence gate for the social module | The person’s sovereignty, institutional decisions or professional judgment |
 | Probability Calibration System | Field-first estimation and update contract that keeps fit, evidence, probability and confidence distinct | A universal formula, unsupported numeric precision, predictive validity or professional authority |
 | Probability Calibrator | Target definition, evidence review, probability expression, confidence, freshness and update routing | A running predictive model, current data feed, user forecast log or the outcome itself |
-| Moon Music Engine | Public music-direction and lyric-sovereignty contract, variation rules, prompt handoffs and proportional musical QA | A generator account, copyrighted music rights, private taste profile, synthesis engine or verified acoustic performance |
+| Moon Music Engine | Independent taste-mapping and reference-distillation methods, user-owned Taste State format, opt-in profile-to-creation bridge, lyric sovereignty and prompts | Actual private listening data, generator accounts, copyrighted music rights, hidden profiling, synthesis engine or measured musical efficacy |
 | Moon Source | Public context architecture and installation methods when deliberately consulted | Ownership of either Cortex module or perpetual runtime execution |
 | User-local state | Current facts, decisions, sources, records, choices and updates after local use | The public identity or claims of the Cortex modules |
 

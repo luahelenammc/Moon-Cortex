@@ -7,6 +7,9 @@ Moon Cortex contains five public domain modules with documented interfaces, exam
 
 ## Data and consent
 
+**Musical taste profiles:** the public Moon Music Engine publishes a generic method and optional portable format, **not real listeners' favorites, streaming history, playlists or personal Taste States**. Profiling requires voluntary, rights-permitted evidence; persistence and external use require separate user authority. The Spotify Platform/Content must not be ingested into AI for derivative listening-profile construction. See [Music Taste Privacy and Platforms](modules/moon-music-engine/docs/TASTE_PRIVACY_AND_PLATFORMS.md).
+
+
 - **Finance:** statements, balances, account access and transaction history remain under the user's or authorized institution's control. No banking connection is implied by the documentation.
 - **Social support:** real case details, patient/client records, addresses and institutional communications require appropriate authorization and protection. Published case illustrations are fictional.
 - **Probability:** a forecast must identify its evidence and uncertainty; individual medical, legal or financial assessments require qualified review where appropriate.
