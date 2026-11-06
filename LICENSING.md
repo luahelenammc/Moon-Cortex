@@ -40,6 +40,10 @@ When sharing or adapting a material part of this repository, identify:
 
 > Adapted from **Moon Cortex · Moon Image Cortex**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original module path: luahelenammc/Moon-Cortex/modules/moon-image-cortex/. Licensed under CC BY 4.0.
 
+### Moon Music Engine example
+
+> Adapted from **Moon Cortex · Moon Music Engine**, by Lua Helena Moon Martins Cardoso (Moon), with AI-assisted coauthorial development by Áurion. Local adaptation by **[project/person]**, **[version/date]**. Original module path: luahelenammc/Moon-Cortex/modules/moon-music-engine/. Licensed under CC BY 4.0.
+
 The modules document independent interfaces and user-local data handling; permission for source material remains governed by its applicable license and the user's authorization.
 
 Attribution does not imply endorsement, partnership, certification, adoption, professional licensure or validation by Moon.
@@ -67,6 +71,10 @@ The probability module retains its module-specific identity and portable link.
 ### Moon Image Cortex stamp
 
 The visual module retains its module-specific identity and portable link.
+
+### Moon Music Engine stamp
+
+The music module retains its module-specific identity and portable link.
 
 Module-specific stamps point to module-specific portables. The repository should not gain a repository-wide distribution package merely because it contains multiple modules.
 

@@ -32,6 +32,7 @@ jobs:
           python-version: "3.x"
       - run: python scripts/build_moon_image_cortex_package.py
       - run: python scripts/build_probability_calibration_package.py
+      - run: python scripts/build_moon_music_engine_package.py
       - run: python scripts/refresh_module_zip_readmes.py
       - run: python scripts/build_skill_packages.py
       - name: Check rebuilt fallbacks before publication
@@ -41,7 +42,7 @@ jobs:
           python scripts/build_skill_packages.py --check
       - name: Commit synchronized fallback packages
         run: |
-          git add downloads/moon-image-cortex.zip downloads/probability-calibration-system.zip downloads/financial-living-system.zip downloads/social-support-navigation-system.zip downloads/skills/*.zip
+          git add downloads/moon-image-cortex.zip downloads/probability-calibration-system.zip downloads/moon-music-engine.zip downloads/financial-living-system.zip downloads/social-support-navigation-system.zip downloads/skills/*.zip
           if git diff --cached --quiet; then
             echo "Fallback packages are already synchronized"
             exit 0

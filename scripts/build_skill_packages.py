@@ -15,6 +15,7 @@ MODULES = {
     'social-support-navigation-system': 'moon-social-support-navigation',
     'probability-calibration-system': 'moon-probability-calibration',
     'moon-image-cortex': 'moon-image-cortex',
+    'moon-music-engine': 'moon-music-engine',
 }
 
 def portable_markdown(source: Path, module_dir: Path) -> bytes:
@@ -72,11 +73,12 @@ def payload(module: str, name: str) -> dict[str, bytes]:
 def build(module: str, name: str) -> bytes:
     out = io.BytesIO()
     with zipfile.ZipFile(out, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        compression = zipfile.ZIP_STORED if module == 'moon-music-engine' else zipfile.ZIP_DEFLATED
         for path, data in sorted(payload(module, name).items()):
             info = zipfile.ZipInfo(path, (2026, 1, 1, 0, 0, 0))
-            info.compress_type = zipfile.ZIP_DEFLATED
+            info.compress_type = compression
             info.external_attr = 0o100644 << 16
-            archive.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+            archive.writestr(info, data, compress_type=compression, compresslevel=9)
     return out.getvalue()
 
 def main() -> None:

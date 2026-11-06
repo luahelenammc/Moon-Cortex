@@ -17,6 +17,9 @@ Current public modules:
 - Moon Cortex · Moon Image Cortex
   - canonical path: modules/moon-image-cortex/
   - canonical portable: downloads/moon-image-cortex.zip
+- Moon Cortex · Moon Music Engine
+  - canonical path: modules/moon-music-engine/
+  - canonical portable: downloads/moon-music-engine.zip
 
 Canonical source: https://github.com/luahelenammc/Moon-Cortex
 Moon Source installation reference: https://github.com/luahelenammc/Moon-Source

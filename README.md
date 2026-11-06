@@ -23,6 +23,7 @@ You don't need to understand the architecture first. Start with what you want to
 | **I need to navigate support**, services, institutions, family dependencies, or overlapping practical barriers. | 🧭 **[Social Support Navigation System](modules/social-support-navigation-system/README.md)** | A clear first route, owners and checkpoints, or a bounded case state, Resource Pack, or Support Handoff when warranted. | [First use](modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md#first-use) · [ZIP](downloads/social-support-navigation-system.zip) |
 | **I need to reason about an uncertain outcome** without confusing a hunch, evidence, confidence, and probability. | 📊 **[Probability Calibration System](modules/probability-calibration-system/README.md)** | A bounded forecast and update conditions; quantitative estimates only when the evidence and method justify them. | [First use](modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md#first-use) · [ZIP](downloads/probability-calibration-system.zip) |
 | **I want to create, edit, or assess an image**, work from aesthetic references, or choose a distinct visual language. | 🎨 **[Moon Image Cortex](modules/moon-image-cortex/README.md)** | A visual brief, direction sheet, edit instruction, renderer handoff, or evidence-bounded QA report. | [First use](modules/moon-image-cortex/VISUAL_DIRECTOR.md#first-use) · [ZIP](downloads/moon-image-cortex.zip) |
+| **I want to compose or improve an AI-assisted song**, preserve my lyrics, explore a sound or fix a music generation. | 🎼 **[Moon Music Engine](modules/moon-music-engine/README.md)** | Sonic direction, protected lyric handling, music-tool prompts, controlled variation or generator repair. | [First use](modules/moon-music-engine/MUSIC_DIRECTOR.md#first-use) · [ZIP](downloads/moon-music-engine.zip) |
 
 **Each module is independently usable.** Give its public GitHub module or canonical-entry URL to an AI with web/repository access (Plan A). Its README explains the field, and the **canonical entry** governs operative first use. If that AI cannot retrieve the required files, provide the module's ZIP instead (Plan B). There is no mandatory repository-wide installation or universal Cortex package.
 
@@ -44,6 +45,7 @@ That shared movement can yield very different systems:
 | **Navigation system** · Social support | A fragmented situation may need a first useful institutional door, functional support map, owner, checkpoint, or safe handoff rather than a large database. |
 | **Calibration method** · Probability | An estimate needs a defined outcome, evidence, provenance, uncertainty, and revision criteria. Sometimes a qualitative answer is the correct result. |
 | **Visual direction system** · Images | A visual goal requires choosing a medium, composition, reference role, specialist method, and QA. Actual image rendering depends on an external tool. |
+| **Music direction system** · Audio | A music goal requires conserving author intent, musical structure, vocal and production direction, and a provider handoff; audio rendering depends on an external generator. |
 
 The architecture provides a common discipline, **not a requirement that every module copy the same file tree, data model, workflow, or runtime**.
 
@@ -84,15 +86,15 @@ Moon Source is an optional public method bridge for these modules, **not** the o
 
 ## What's public, and what isn't?
 
-This repository provides four documented domain modules, their portable packages, examples, integration guidance, and evidence-based limitations.
+This repository provides five documented domain modules, their portable packages, examples, integration guidance, and evidence-based limitations.
 
 **User data stays under user control.** Do not commit personal records, credentials, identity images, or sensitive case information. Published examples are fictional; capability and performance claims require supporting evidence.
 
 | Publication state | Meaning |
 |---|---|
-| **Active public modules: 4** | The four modules in [Choose a module](#choose-a-module) have public entry points and individual ZIP packages. |
+| **Active public modules: 5** | The five modules in [Choose a module](#choose-a-module) have public entry points and individual ZIP packages. |
 | **Public pre-release** | Methods, scope, evidence limits, and packaging remain open to responsible revision. |
-| **Module catalog** | [Module overview](PREVIEW.md) summarizes the four available systems and their entry points. |
+| **Module catalog** | [Module overview](PREVIEW.md) summarizes the five available systems and their entry points. |
 | **Access and transport** | Direct public GitHub links are the default access route; one complete, module-specific ZIP per active module is the fallback, with no mandatory all-in-one package. |
 | **Structural grammar** | MSL 5.1-compatible Markdown-native public surfaces. |
 
@@ -102,7 +104,7 @@ Read the full [public boundary](PUBLIC_BOUNDARY.md) before reusing sensitive wor
 
 | Looking for… | Open |
 |---|---|
-| **The four modules and their files** | [modules/](modules/) |
+| **The five modules and their files** | [modules/](modules/) |
 | **Portable downloads** | [downloads/](downloads/) |
 | **Overall architecture** | [ARCHITECTURE.md](ARCHITECTURE.md) |
 | **How to design or revise a module** | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
