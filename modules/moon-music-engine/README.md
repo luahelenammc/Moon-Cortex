@@ -14,7 +14,7 @@ It is **not** a music synthesis model, automatic Suno connection, artist imitati
 - **Version:** 0.1.0-pre.1
 - **Status:** public pre-release / documentary method
 - **Canonical entry:** [Music Director](MUSIC_DIRECTOR.md#first-use)
-- **Transport surface:** [Complete module ZIP](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-music-engine.zip)
+- **Transport surface:** [Complete module ZIP](../../downloads/moon-music-engine.zip)
 - **Documentation license:** CC BY 4.0
 
 ## First steps

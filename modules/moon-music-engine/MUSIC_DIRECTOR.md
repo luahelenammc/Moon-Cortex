@@ -5,7 +5,7 @@
 
 **Canonical operational entry · Moon Music Engine**
 
-- **Version:** 0.1.0-pre.1
+**Version:** 0.1.0-pre.1
 - **Status:** public pre-release
 - **Role:** musical-intent reconstruction, selective mode routing, output compilation and honest execution limits
 - **Scope:** text-based creative direction and evaluation; actual audio rendering requires an external tool
