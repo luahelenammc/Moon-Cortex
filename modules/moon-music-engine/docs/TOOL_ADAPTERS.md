@@ -5,6 +5,10 @@
 
 Keep musical intelligence independent of any one generation service. Platform-specific field semantics and policies may change and must be confirmed when the exact current interface matters.
 
+## Named real-music references
+
+Artists, bands, songs and albums can be named in the **analysis/reference map**, which is distinct from the generator input. Route such prompts through the [Reference-to-Feature Translator](../modes/REFERENCE_TO_FEATURE_TRANSLATOR.md). Its generator output must describe *independently recomposed musical traits* without band/artist/song names by default. Merely removing names does not prevent near-copying, so also exclude reproduced hooks, melodies, riffs, samples, identifiable vocal impersonation and near-identical arrangements.
+
 ## Generic musical handoff
 - **Style:** compact description of genre family, pulse, lead/vocal, instruments, production and dynamic progression.
 - **Lyrics:** supplied original text or new original text only when requested, with simple section tags if compatible.

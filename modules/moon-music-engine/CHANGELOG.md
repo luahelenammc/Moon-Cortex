@@ -3,6 +3,12 @@
 
 # Moon Music Engine · Changelog
 
+## 0.1.0-pre.2 · 2026-11-06
+- Promoted real song/band/artist/album/playlist reference distillation to a **primary Reference-to-Feature Translator** with automatic routing.
+- Added evidence-tagged musical feature maps, multi-reference blending, original generator handoffs, concrete differentiation and rights-aware boundaries.
+- Expanded Style Architect, QA, adapters, public module navigation and real-reference demonstrations.
+- Continued to distinguish lawful musical inspiration from identifiable copying; no guarantee of copyright clearance or actual audio listening.
+
 ## 0.1.0-pre.1 · 2026-11-06
 - Introduced the public Moon Music Engine with one authoritative Music Director and four selective creation/repair modes.
 - Documented user-owned lyric preservation, configurable sonic variation, generator adapters and proportional QA.

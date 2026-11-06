@@ -3,15 +3,15 @@
 
 # Moon Music Engine
 
-**AI-assisted songwriting, sonic direction, controlled variation and generator repair.**
+**Real-music reference distillation, original sonic direction, songwriting and generator repair.**
 
-Moon Music Engine turns a human musical intention, original lyric, reference or disappointing generation into a useful, tool-aware music production brief. It works with generative-music tools such as Suno through explicit adapters, but does not require a Suno account to prepare a creative direction.
+Moon Music Engine can start from **real songs, bands, artists, albums or playlists**, distill their musical attributes ethically, and recombine those features into an original, tool-aware production brief. It also works from a lyric, a new idea or a disappointing generation. It works with generative-music tools such as Suno through explicit adapters, but does not require a Suno account to prepare a creative direction.
 
 It is **not** a music synthesis model, automatic Suno connection, artist imitation service, or replacement for the author's choices. Audio generation requires a separately available, authorized tool.
 
 **[Start with Music Director](MUSIC_DIRECTOR.md#first-use)** · **[Modes](#capabilities)** · **[Complete module ZIP](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/moon-music-engine.zip)** · **[Agent Skill ZIP](https://github.com/luahelenammc/Moon-Cortex/raw/refs/heads/main/downloads/skills/moon-music-engine.zip)**
 
-- **Version:** 0.1.0-pre.1
+- **Version:** 0.1.0-pre.2
 - **Status:** public pre-release / documentary method
 - **Canonical entry:** [Music Director](MUSIC_DIRECTOR.md#first-use)
 - **Transport surface:** [Complete module ZIP](../../downloads/moon-music-engine.zip)
@@ -27,18 +27,21 @@ Tell the AI what you want to make or improve, any existing original lyrics, the 
 
 | Real need | Selective method |
 |---|---|
-| Translate mood or references into specific sound | [Style Architect](modes/STYLE_ARCHITECT.md) |
+| **Bring real songs, artists or bands to distill a sound without copying** | **[Reference-to-Feature Translator](modes/REFERENCE_TO_FEATURE_TRANSLATOR.md)** · primary engine |
+| Translate mood or a distilled feature map into specific sound | [Style Architect](modes/STYLE_ARCHITECT.md) |
 | Preserve and improve a human-written lyric | [Lyric Doctor](modes/LYRIC_DOCTOR.md) |
 | Develop a song from an idea | [Song Prototyper](modes/SONG_PROTOTYPER.md) |
 | Diagnose a generated result and correct instructions | [Generator Debugger](modes/GENERATOR_DEBUGGER.md) |
 | Explore unusual but bounded sonic alternatives | [Controlled Variation](docs/CONTROLLED_VARIATION.md) |
 | Check composition and prompt quality | [Musical QA](docs/MUSICAL_QA.md) |
 
+The [Real-reference walkthroughs](examples/REAL_REFERENCE_WALKTHROUGHS.md) show named songs and artists in analysis alongside original, name-free generator prompts. Reference names are permitted inputs; **removing them alone does not ensure copyright compliance**.
+
 The [Lyric Sovereignty](docs/LYRIC_SOVEREIGNTY.md) contract protects user-written material and explicit narrative boundaries. [Tool adapters](docs/TOOL_ADAPTERS.md) keep provider-specific syntax separate from composition.
 
 ## Output you can expect
 
-By default: a compact direction, a practical generator style prompt, structured lyric when appropriate, negative guidance, and a clear note about what has *not* been generated or heard. Suggest a main title and alternatives when a **new song** is being created. Provide variations only when useful or requested.
+By default: a compact direction, a practical generator style prompt, structured lyric when appropriate, negative guidance, and a clear note about what has *not* been generated or heard. **For real-music references**, also show what was drawn from each source, what was generalized, what is a creative proposal, and which identifying features are intentionally excluded. Suggest a main title and alternatives when a **new song** is being created. Provide variations only when useful or requested.
 
 The user retains ownership and control over their own project files, recordings, lyrics, feedback and iterations. No private musical taste profile is bundled or automatically inferred.
 

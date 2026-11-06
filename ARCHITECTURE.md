@@ -76,7 +76,7 @@ Probability calibration is a field-first method, not a universal equation or man
 
 Moon Image Cortex adds a fourth shape: it reconstructs visual intent, selects one suitable route, and distinguishes direction, rendering, inspection and evidence. Its specialist engines remain optional and no default aesthetic is imposed.
 
-Moon Music Engine adds a fifth: it reconstructs musical intent, routes between sonic direction, lyric conservation, song prototyping and generation repair, and outputs tool-aware prompts while keeping actual audio synthesis outside the method. Controlled sonic variation cannot override explicit authorial constraints.
+Moon Music Engine adds a fifth: it reconstructs musical intent and makes **real-song / band / artist reference distillation a primary domain engine** (Reference-to-Feature Translator). It then coordinates sonic direction, lyric conservation, song prototyping and generation repair, producing original tool-aware prompts while keeping copyright-sensitive expression and actual audio synthesis outside the method. Controlled sonic variation cannot override explicit authorial constraints.
 
 These differences are part of the design. The Financial Living System does not legislate a bootstrap shape for future modules, and the Social Support Navigation System does not need to imitate finance to belong in the Cortex. The Probability Calibration System does not make numerical output mandatory.
 
