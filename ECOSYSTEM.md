@@ -17,14 +17,14 @@ flowchart TB
     C["Moon Cortex atlas: discovery and link checks"]
     S["Moon Source: context and source governance"]
     A["AOP: execution orchestration"]
-    P["PRISMA: public route pending"]
+    P["PRISMA: adaptive representation"]
     H -->|chooses and authorizes| C
     C -. "catalogs; does not control" .-> S
     C -. "catalogs; does not control" .-> A
-    C -. "route pending; no link registered" .-> P
+    C -. "catalogs; does not control" .-> P
 ```
 
-A dotted line means **discovery only**. It does not mean an installed dependency, common runtime, permission grant or transfer of authority. The PRISMA repository is not yet available at a verified public URL; no link is published here until its creation and entry point can be read back.
+A dotted line means **discovery only**. It does not mean an installed dependency, common runtime, permission grant or transfer of authority. [PRISMA](https://github.com/luahelenammc/PRISMA) is an independent public release candidate, verified at its own repository and release.
 
 ## Choose by the work in front of you
 
@@ -33,7 +33,7 @@ A dotted line means **discovery only**. It does not mean an installed dependency
 | Identify which context or source governs, preserve continuity, or plan a source change | [Moon Source](https://github.com/luahelenammc/Moon-Source) · [Source Operations](https://github.com/luahelenammc/Moon-Source/blob/main/docs/SOURCE_OPERATIONS.md) | Moon Source governs its context and source operations methods. |
 | Route a task across available models, tools, execution surfaces or workers | [Adaptive Orchestration Protocol](https://github.com/luahelenammc/Adaptive-Orchestration-Protocol) · [AOP core](https://github.com/luahelenammc/Adaptive-Orchestration-Protocol/blob/main/ADAPTIVE_ORCHESTRATION_PROTOCOL.md) | AOP governs its orchestration method and release set. It does not create tool access. |
 | Work on finance, social support, probability, images or music | [The five applied systems](README.md#choose-a-module) | Each module governs its own domain method; local facts and choices stay with the user or authorized project. |
-| Adapt a task through perspectives or personas | PRISMA public route pending verification | Until a public canonical repository and entry point are verified, the atlas provides no PRISMA link or implementation package. |
+| Adapt a task through perspectives or personas | [PRISMA](https://github.com/luahelenammc/PRISMA) · [Canonical method](https://github.com/luahelenammc/PRISMA/blob/main/PRISMA.md) · [Public RC and offline packages](https://github.com/luahelenammc/PRISMA/releases/tag/v0.1.0-rc.1) | PRISMA owns its method and releases; local sources and people retain authority. |
 | Map relations or verify registered cross-repository routes | This atlas · [registry](registry/ecosystem.json) · [route contract](docs/CROSS_REPOSITORY_COMPATIBILITY.md) | The atlas governs its index and route checks only. |
 
 The five applied systems retain their existing identities, first-use paths and complete ZIP fallbacks. See [Choose a module](README.md#choose-a-module) for the current entry points.
@@ -44,16 +44,16 @@ The five applied systems retain their existing identities, first-use paths and c
 |---|---|---|
 | **Moon Cortex atlas** | Public discovery metadata, relationship maps and an opt-in contract for checking links between repositories | The semantic authority, runtime, release process or private data of any indexed project |
 | **Moon-Cortex repository** | Five applied domain systems, their public interfaces, packages, tests and evidence boundaries | A universal runtime or Moon Source's independent method body |
-| **Moon Source** | Context governance, source authority, freshness, provenance, mutation and succession methods | AOP's current release or PRISMA's future source |
+| **Moon Source** | Context governance, source authority, freshness, provenance, mutation and succession methods | AOP's current release or PRISMA's independent method or releases |
 | **AOP** | Model-neutral routing and orchestration behavior, adapters and release packages | Tool availability, project truth or another project's decision authority |
-| **PRISMA** | Intended adaptive representation and perspective work; its public route is pending | No public implementation is registered here yet |
+| **PRISMA** | Source-governed perspectives, labeled simulation and structured contrast | Local truth, canon, decisions, independent-agent claims or source authority |
 | **Human or governing project** | Consent, permissions, local facts, domain canon, decisions and persistence | The atlas cannot infer or take these powers |
 
 A relationship in the catalog is not a dependency. A project may use its own method, decline a listed method or combine methods under its own rules.
 
 ## Public snapshot
 
-The registry describes the public state observed on **2026-11-23**. It is a dated index, not a live service or proof of present availability. At that readback, the Moon-Cortex repository was at `655e46bb2094409bf269bd5444c0a0ef6230746d`, Moon Source at `815536d3636a59ce71c5ac0eaae491071af4e4f2`, and AOP at `44bf2e278fc09525878d0e3888319a268a8b246b`. The PRISMA GitHub repository lookup returned 404, so its canonical fields remain empty and are not linked.
+The registry is a dated index, not a live service. The PRISMA public release candidate was verified on **2026-11-23** at commit `3c638f3d6b042619eacf6b26851fc0097bb20944`; [validation](https://github.com/luahelenammc/PRISMA/actions/runs/45286808563) passed. Other observed repository commits remain in the [registry](registry/ecosystem.json).
 
 The atlas lists public projects only. Private project sources and unpublished material do not enter the public registry.
 

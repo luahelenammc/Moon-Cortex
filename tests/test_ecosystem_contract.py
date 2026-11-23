@@ -81,13 +81,14 @@ class CurrentRegistryTests(unittest.TestCase):
             "probability-calibration-system", "moon-image-cortex", "moon-music-engine",
         }.issubset(ids))
 
-    def test_pending_prisma_has_no_published_route_or_distribution(self):
+    def test_public_prisma_is_independent_and_rc_is_linked(self):
         ecosystem = json.loads((ROOT / "registry/ecosystem.json").read_text())
         prisma = next(p for p in ecosystem["projects"] if p["id"] == "prisma")
-        self.assertEqual("unpublished_pending_verification", prisma["status"])
-        self.assertIsNone(prisma["canonical_repo"])
-        self.assertIsNone(prisma["canonical_entry"])
-        self.assertEqual([], prisma["distribution"])
+        self.assertEqual("active_public", prisma["status"])
+        self.assertEqual("release_candidate", prisma["release_stage"])
+        self.assertEqual("https://github.com/luahelenammc/PRISMA", prisma["canonical_repo"])
+        self.assertEqual("https://github.com/luahelenammc/PRISMA/blob/main/PRISMA.md", prisma["canonical_entry"])
+        self.assertTrue(any(d.get("type") == "external_release" and d.get("owner_repo") == "luahelenammc/PRISMA" for d in prisma["distribution"]))
         self.assertEqual([], validate_pending_project_urls(ecosystem, ROOT))
 
     def test_pending_prisma_rejects_a_guessed_public_url(self):

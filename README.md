@@ -84,7 +84,7 @@ These are related, but they do different jobs.
 | **Moon-Cortex repository** | The **applied-system body**: five domain modules with their own methods, entries, boundaries, tests and local outputs. |
 | **[Moon Source](https://github.com/luahelenammc/Moon-Source)** | The **context-governance body**: source authority, freshness, provenance, transport, mutation and succession methods when intentionally applied. |
 | **[Adaptive Orchestration Protocol](https://github.com/luahelenammc/Adaptive-Orchestration-Protocol)** | An independent, model-neutral method for routing execution across real capabilities. It has no required dependency on this repository. |
-| **PRISMA** | A planned adaptive-perspective project whose public repository and entry route are still pending verification; no link is registered yet. |
+| **[PRISMA](https://github.com/luahelenammc/PRISMA)** | Independent adaptive perspective and persona engine; [canonical method](https://github.com/luahelenammc/PRISMA/blob/main/PRISMA.md) and [public release candidate](https://github.com/luahelenammc/PRISMA/releases/tag/v0.1.0-rc.1). |
 | **The user or authorized project** | The final owner of local facts, state, permissions, choices, domain canon and continuing operation. |
 
 Moon Source remains an optional method bridge for these modules, **not** the owner of Moon Cortex and not a required permanent runtime. The atlas references independent projects; it does not install them or change their release authority.
