@@ -26,10 +26,10 @@
     },
     {
       "id": "prisma",
-      "repository": null,
-      "branch": null,
-      "visibility": "unpublished_pending_verification",
-      "head_at_observation": null
+      "repository": "luahelenammc/PRISMA",
+      "branch": "main",
+      "visibility": "public",
+      "head_at_observation": "3c638f3d6b042619eacf6b26851fc0097bb20944"
     }
   ],
   "projects": [
@@ -229,20 +229,37 @@
       "id": "prisma",
       "name": "PRISMA",
       "class": "adaptive_representation",
-      "canonical_repo": null,
-      "canonical_entry": null,
-      "summary": "Planned autonomous project for adaptive perspectives and persona representation; public repository and entry point are not verified yet.",
-      "status": "unpublished_pending_verification",
+      "canonical_repo": "https://github.com/luahelenammc/PRISMA",
+      "canonical_entry": "https://github.com/luahelenammc/PRISMA/blob/main/PRISMA.md",
+      "summary": "Independent model-neutral method for source-governed perspectives, labeled simulation, fictional character exploration, disagreement and reception hypotheses. Public release candidate 0.1.0-rc.1.",
+      "status": "active_public",
       "status_verified_at": "2026-11-23",
-      "distribution": [],
+      "distribution": [
+        {
+          "type": "repository",
+          "path": "PRISMA.md"
+        },
+        {
+          "type": "external_release",
+          "url": "https://github.com/luahelenammc/PRISMA/releases/tag/v0.1.0-rc.1",
+          "version": "0.1.0-rc.1",
+          "owner_repo": "luahelenammc/PRISMA"
+        }
+      ],
       "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
-      "owned_function": "Pending public source confirmation; no implementation or public runtime is registered here.",
+      "owned_function": "PRISMA method, modes, representation contract, reference gate and its own releases; no authority over local canon, persons or decisions.",
       "imports": [],
       "references": [],
-      "exports": [],
+      "exports": [
+        "adaptive-representation",
+        "persona-and-perspective-contract",
+        "reference-gate"
+      ],
       "privacy_boundary": "No source corpus, intimate profile, clinical case or unpublished material is included in this public registry.",
       "legacy_routes": [],
-      "validation_ref": "scripts/check_ecosystem_links.py"
+      "validation_ref": "https://github.com/luahelenammc/PRISMA/actions/runs/45286808563",
+      "head_at_status_check": "3c638f3d6b042619eacf6b26851fc0097bb20944",
+      "release_stage": "release_candidate"
     },
     {
       "id": "financial-living-system",

@@ -16,7 +16,7 @@ The public **Moon-Cortex repository** remains the home of its five applied domai
 | Moon-Cortex applied systems | Five domain-specific methods and packages | This repository's existing public body, with unchanged module paths and first-use routes. |
 | [Moon Source](https://github.com/luahelenammc/Moon-Source) | Context governance, source authority and succession methods | Optional bridge; [Source Operations](https://github.com/luahelenammc/Moon-Source/blob/main/docs/SOURCE_OPERATIONS.md) remains the authority for source succession. |
 | [Adaptive Orchestration Protocol](https://github.com/luahelenammc/Adaptive-Orchestration-Protocol) | Model-neutral execution routing and its release set | Independent sibling. An atlas link does not create an AOP dependency. |
-| PRISMA | Intended adaptive-perspective work | Public repository and canonical entry have not yet been verified; no URL is registered until they exist. |
+| [PRISMA](https://github.com/luahelenammc/PRISMA) | Source-governed adaptive representation and perspectives | Independent public RC; [canonical entry](https://github.com/luahelenammc/PRISMA/blob/main/PRISMA.md); no transfer of local authority. |
 
 ```mermaid
 flowchart TB
@@ -24,11 +24,11 @@ flowchart TB
     C["Moon Cortex atlas"]
     S["Moon Source"]
     A["AOP"]
-    P["PRISMA route pending"]
+    P["PRISMA: adaptive representation"]
     H -->|chooses and authorizes| C
     C -. "discovers only" .-> S
     C -. "discovers only" .-> A
-    C -. "route pending" .-> P
+    C -. "catalogs; does not control" .-> P
 ```
 
 Dotted edges represent discovery, not imports or authority. The five applied modules described below remain distinct systems inside the **Moon-Cortex repository**; the atlas is a navigational layer around them, not a sixth module.
