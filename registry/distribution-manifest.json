@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "observed_at": "2026-11-23",
+  "captured_from_commit": "655e46bb2094409bf269bd5444c0a0ef6230746d",
+  "purpose": "Integrity baseline for the five existing applied-system ZIPs and five skill ZIPs. This is a checksum manifest, not a distribution mirror.",
+  "packages": [
+    {
+      "path": "downloads/financial-living-system.zip",
+      "format": "zip",
+      "size_bytes": 59335,
+      "sha256": "f627c5b2470ccb059131ec0933e3eb55890645a141a665c0581f03611f287f1f"
+    },
+    {
+      "path": "downloads/moon-image-cortex.zip",
+      "format": "zip",
+      "size_bytes": 336329,
+      "sha256": "37e13b237cfb033ae2d31b336fdfd7408d07c453c33ed94518ec5430c0174309"
+    },
+    {
+      "path": "downloads/moon-music-engine.zip",
+      "format": "zip",
+      "size_bytes": 85172,
+      "sha256": "2dd4718f2a01ec98fc3ad21d79dca2523711ce1302ceab481e4fec0bec192940"
+    },
+    {
+      "path": "downloads/probability-calibration-system.zip",
+      "format": "zip",
+      "size_bytes": 56720,
+      "sha256": "ae9c3fb8ea1c23f492cadd2188adff1053473e22851436014f274c4bf4efbeb1"
+    },
+    {
+      "path": "downloads/skills/moon-financial-living-system.zip",
+      "format": "zip",
+      "size_bytes": 51686,
+      "sha256": "963906445e42baf52dc16eb16b9a84745b901a0d4a08cb8baaa6a04b4ebf722f"
+    },
+    {
+      "path": "downloads/skills/moon-image-cortex.zip",
+      "format": "zip",
+      "size_bytes": 177532,
+      "sha256": "ddb7e4da930b108a83a9f281f1eac8eb337e4d34e3bad64f59e519b2f07a9f0f"
+    },
+    {
+      "path": "downloads/skills/moon-music-engine.zip",
+      "format": "zip",
+      "size_bytes": 128396,
+      "sha256": "2988e11da4fe641ab79327abd1650860cf85dc553f7791e1ab84ecbc2cd4a1bb"
+    },
+    {
+      "path": "downloads/skills/moon-probability-calibration.zip",
+      "format": "zip",
+      "size_bytes": 71900,
+      "sha256": "d03323267b217b9b37d37120870a4294bfdc4438f509f21b8dc96596e852c411"
+    },
+    {
+      "path": "downloads/skills/moon-social-support-navigation.zip",
+      "format": "zip",
+      "size_bytes": 55115,
+      "sha256": "f5a6de26d2a089451217bb8ffc9fbca8ef455ef1588f440d705d3d28516ae71f"
+    },
+    {
+      "path": "downloads/social-support-navigation-system.zip",
+      "format": "zip",
+      "size_bytes": 37874,
+      "sha256": "4d2122792ce8c9a5a5d19d17293d0368162ba482861ee5989130886a25245224"
+    }
+  ]
+}

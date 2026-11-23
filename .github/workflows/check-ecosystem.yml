@@ -1,0 +1,30 @@
+# SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon)
+# SPDX-License-Identifier: Apache-2.0
+
+name: Validate federation registry and route continuity
+on:
+  pull_request:
+    paths:
+      - "README.md"
+      - "ARCHITECTURE.md"
+      - "ECOSYSTEM.md"
+      - "ECOSYSTEM.pt-BR.md"
+      - "registry/**"
+      - "docs/ECOSYSTEM_GOVERNANCE.md"
+      - "docs/CROSS_REPOSITORY_COMPATIBILITY.md"
+      - "scripts/check_ecosystem_links.py"
+      - "tests/**"
+      - ".github/workflows/check-ecosystem.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/check_ecosystem_links.py
+      - run: python -m unittest discover -s tests -v

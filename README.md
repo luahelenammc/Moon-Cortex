@@ -11,7 +11,9 @@ A budget is not always a spreadsheet. A difficult support situation is not just 
 
 Each module has its own job, entry point, boundaries, and output. **Moon Cortex is not one universal chatbot, a compulsory runtime, or a collection of interchangeable prompt templates.**
 
-**[Choose a module](#choose-a-module)** · **[Give a module link to AI](docs/USE_WITH_AI.md)** · **[How to start](#getting-started)** · **[Explore the architecture](ARCHITECTURE.md)** · **[Public boundary](PUBLIC_BOUNDARY.md)**
+The **Moon-Cortex repository remains the applied-systems body**. The new [Moon Cortex Federation Atlas](ECOSYSTEM.md) maps its relationship to independent public architectures and verifies registered links; it does not move their content or take over their authority.
+
+**[Architecture ecology atlas](ECOSYSTEM.md)** · **[Atlas em português](ECOSYSTEM.pt-BR.md)** · **[Choose a module](#choose-a-module)** · **[Give a module link to AI](docs/USE_WITH_AI.md)** · **[How to start](#getting-started)** · **[Explore the architecture](ARCHITECTURE.md)** · **[Public boundary](PUBLIC_BOUNDARY.md)**
 
 ## Choose a module
 
@@ -78,11 +80,14 @@ These are related, but they do different jobs.
 
 | Layer | Responsibility |
 |---|---|
-| **Moon Cortex** | The **domain-system body**: what a finance, social-support, probability, or visual module is allowed to do and what useful local output it creates. |
-| **[Moon Source](https://github.com/luahelenammc/Moon-Source)** | The **context-governance body**: source authority, freshness, provenance, transport, mutation, and handoff methods when intentionally applied. |
-| **The user or authorized project** | The final owner of local facts, state, permissions, choices, and continuing operation. |
+| **Moon Cortex atlas** | A **discovery and interoperability layer**: it maps public relationships and checks only registered cross-repository routes. |
+| **Moon-Cortex repository** | The **applied-system body**: five domain modules with their own methods, entries, boundaries, tests and local outputs. |
+| **[Moon Source](https://github.com/luahelenammc/Moon-Source)** | The **context-governance body**: source authority, freshness, provenance, transport, mutation and succession methods when intentionally applied. |
+| **[Adaptive Orchestration Protocol](https://github.com/luahelenammc/Adaptive-Orchestration-Protocol)** | An independent, model-neutral method for routing execution across real capabilities. It has no required dependency on this repository. |
+| **PRISMA** | A planned adaptive-perspective project whose public repository and entry route are still pending verification; no link is registered yet. |
+| **The user or authorized project** | The final owner of local facts, state, permissions, choices, domain canon and continuing operation. |
 
-Moon Source is an optional public method bridge for these modules, **not** the owner of Moon Cortex and not a required permanent runtime.
+Moon Source remains an optional method bridge for these modules, **not** the owner of Moon Cortex and not a required permanent runtime. The atlas references independent projects; it does not install them or change their release authority.
 
 ## What's public, and what isn't?
 
@@ -95,6 +100,7 @@ This repository provides five documented domain modules, their portable packages
 | **Active public modules: 5** | The five modules in [Choose a module](#choose-a-module) have public entry points and individual ZIP packages. |
 | **Public pre-release** | Methods, scope, evidence limits, and packaging remain open to responsible revision. |
 | **Module catalog** | [Module overview](PREVIEW.md) summarizes the five available systems and their entry points. |
+| **Federation atlas** | [ECOSYSTEM.md](ECOSYSTEM.md) maps public architectures without making them dependencies; [Portuguese version](ECOSYSTEM.pt-BR.md). |
 | **Access and transport** | Direct public GitHub links are the default access route; one complete, module-specific ZIP per active module is the fallback, with no mandatory all-in-one package. |
 | **Structural grammar** | MSL 5.1-compatible Markdown-native public surfaces. |
 
@@ -107,6 +113,7 @@ Read the full [public boundary](PUBLIC_BOUNDARY.md) before reusing sensitive wor
 | **The five modules and their files** | [modules/](modules/) |
 | **Portable downloads** | [downloads/](downloads/) |
 | **Overall architecture** | [ARCHITECTURE.md](ARCHITECTURE.md) |
+| **Map independent public architectures** | [Federation Atlas](ECOSYSTEM.md) · [Português (Brasil)](ECOSYSTEM.pt-BR.md) |
 | **How to design or revise a module** | [Module Design Contract](docs/MODULE_DESIGN_CONTRACT.md) |
 | **Which names and paths remain stable** | [Repository Naming and Versioning](docs/REPOSITORY_NAMING_AND_VERSIONING.md) |
 | **Privacy, permission and evidence rules** | [PUBLIC_BOUNDARY.md](PUBLIC_BOUNDARY.md) |
