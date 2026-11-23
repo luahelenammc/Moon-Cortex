@@ -6,7 +6,34 @@
 **Status:** public pre-release  
 **Structural grammar:** MSL 5.1
 
-Moon Cortex publishes domain modules that help AI systems produce situated, user-owned capabilities. Each module documents its responsibilities, entry point, outputs and limits.
+## Federation atlas: discovery without ownership transfer
+
+The public **Moon-Cortex repository** remains the home of its five applied domain systems. **Moon Cortex** also provides a federative discovery surface in [ECOSYSTEM.md](ECOSYSTEM.md): a dated catalog, a relationship map and an opt-in contract for checking public routes between repositories. The atlas does not merge project bodies, install a common runtime or take authority over an indexed source.
+
+| Architecture | Owns | Relationship to this repository |
+|---|---|---|
+| Moon Cortex atlas | Public catalog, relationship map and route-check contract | Maps this repository and independent public siblings; no control over their methods or releases. |
+| Moon-Cortex applied systems | Five domain-specific methods and packages | This repository's existing public body, with unchanged module paths and first-use routes. |
+| [Moon Source](https://github.com/luahelenammc/Moon-Source) | Context governance, source authority and succession methods | Optional bridge; [Source Operations](https://github.com/luahelenammc/Moon-Source/blob/main/docs/SOURCE_OPERATIONS.md) remains the authority for source succession. |
+| [Adaptive Orchestration Protocol](https://github.com/luahelenammc/Adaptive-Orchestration-Protocol) | Model-neutral execution routing and its release set | Independent sibling. An atlas link does not create an AOP dependency. |
+| PRISMA | Intended adaptive-perspective work | Public repository and canonical entry have not yet been verified; no URL is registered until they exist. |
+
+```mermaid
+flowchart TB
+    H["Human and project authority"]
+    C["Moon Cortex atlas"]
+    S["Moon Source"]
+    A["AOP"]
+    P["PRISMA route pending"]
+    H -->|chooses and authorizes| C
+    C -. "discovers only" .-> S
+    C -. "discovers only" .-> A
+    C -. "route pending" .-> P
+```
+
+Dotted edges represent discovery, not imports or authority. The five applied modules described below remain distinct systems inside the **Moon-Cortex repository**; the atlas is a navigational layer around them, not a sixth module.
+
+Within this repository, Moon Cortex publishes domain modules that help AI systems produce situated, user-owned capabilities. Each module documents its responsibilities, entry point, outputs and limits.
 
 ## Generic Cortex loop
 

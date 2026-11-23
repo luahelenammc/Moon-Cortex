@@ -1,0 +1,403 @@
+{
+  "schema_version": "1.0.0",
+  "observed_at": "2026-11-23",
+  "authority": "Non-sovereign discovery index. Each canonical project owns its domain, releases and local truth.",
+  "sources": [
+    {
+      "id": "moon-cortex",
+      "repository": "luahelenammc/Moon-Cortex",
+      "branch": "main",
+      "visibility": "public",
+      "head_at_observation": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "moon-source",
+      "repository": "luahelenammc/Moon-Source",
+      "branch": "main",
+      "visibility": "public",
+      "head_at_observation": "815536d3636a59ce71c5ac0eaae491071af4e4f2"
+    },
+    {
+      "id": "adaptive-orchestration-protocol",
+      "repository": "luahelenammc/Adaptive-Orchestration-Protocol",
+      "branch": "main",
+      "visibility": "public",
+      "head_at_observation": "44bf2e278fc09525878d0e3888319a268a8b246b"
+    },
+    {
+      "id": "prisma",
+      "repository": null,
+      "branch": null,
+      "visibility": "unpublished_pending_verification",
+      "head_at_observation": null
+    }
+  ],
+  "projects": [
+    {
+      "id": "moon-cortex-atlas",
+      "name": "Moon Cortex Federation Atlas",
+      "class": "federation_atlas",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/ECOSYSTEM.md",
+      "summary": "A discovery and link-continuity layer for independent public architectures and applied systems.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "markdown",
+          "path": "ECOSYSTEM.md"
+        },
+        {
+          "type": "translation",
+          "path": "ECOSYSTEM.pt-BR.md"
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Public discovery metadata, relationship maps and optional cross-repository route checks.",
+      "imports": [],
+      "references": [
+        "moon-source",
+        "adaptive-orchestration-protocol",
+        "prisma"
+      ],
+      "exports": [
+        "ecosystem-registry",
+        "cross-repository-compatibility-contract",
+        "offline-and-optional-online-route-checker"
+      ],
+      "privacy_boundary": "Publishes generic architecture and validation only; no private project corpus, case material, identity profile, credential or unpublished work.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "moon-cortex-applied-systems",
+      "name": "Moon-Cortex Public Applied Systems",
+      "class": "applied_systems_repository",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/README.md",
+      "summary": "The existing five public domain systems and their first-use routes and complete package fallbacks.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "repository",
+          "path": "README.md"
+        },
+        {
+          "type": "zip",
+          "path": "downloads/financial-living-system.zip",
+          "sha256": "f627c5b2470ccb059131ec0933e3eb55890645a141a665c0581f03611f287f1f",
+          "size_bytes": 59335
+        },
+        {
+          "type": "zip",
+          "path": "downloads/moon-image-cortex.zip",
+          "sha256": "37e13b237cfb033ae2d31b336fdfd7408d07c453c33ed94518ec5430c0174309",
+          "size_bytes": 336329
+        },
+        {
+          "type": "zip",
+          "path": "downloads/moon-music-engine.zip",
+          "sha256": "2dd4718f2a01ec98fc3ad21d79dca2523711ce1302ceab481e4fec0bec192940",
+          "size_bytes": 85172
+        },
+        {
+          "type": "zip",
+          "path": "downloads/probability-calibration-system.zip",
+          "sha256": "ae9c3fb8ea1c23f492cadd2188adff1053473e22851436014f274c4bf4efbeb1",
+          "size_bytes": 56720
+        },
+        {
+          "type": "skill_zip",
+          "path": "downloads/skills/moon-financial-living-system.zip",
+          "sha256": "963906445e42baf52dc16eb16b9a84745b901a0d4a08cb8baaa6a04b4ebf722f",
+          "size_bytes": 51686
+        },
+        {
+          "type": "skill_zip",
+          "path": "downloads/skills/moon-image-cortex.zip",
+          "sha256": "ddb7e4da930b108a83a9f281f1eac8eb337e4d34e3bad64f59e519b2f07a9f0f",
+          "size_bytes": 177532
+        },
+        {
+          "type": "skill_zip",
+          "path": "downloads/skills/moon-music-engine.zip",
+          "sha256": "2988e11da4fe641ab79327abd1650860cf85dc553f7791e1ab84ecbc2cd4a1bb",
+          "size_bytes": 128396
+        },
+        {
+          "type": "skill_zip",
+          "path": "downloads/skills/moon-probability-calibration.zip",
+          "sha256": "d03323267b217b9b37d37120870a4294bfdc4438f509f21b8dc96596e852c411",
+          "size_bytes": 71900
+        },
+        {
+          "type": "skill_zip",
+          "path": "downloads/skills/moon-social-support-navigation.zip",
+          "sha256": "f5a6de26d2a089451217bb8ffc9fbca8ef455ef1588f440d705d3d28516ae71f",
+          "size_bytes": 55115
+        },
+        {
+          "type": "zip",
+          "path": "downloads/social-support-navigation-system.zip",
+          "sha256": "4d2122792ce8c9a5a5d19d17293d0368162ba482861ee5989130886a25245224",
+          "size_bytes": 37874
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Five domain-specific methods: finance, social support, probability, image and music.",
+      "imports": [],
+      "references": [
+        "moon-source"
+      ],
+      "exports": [
+        "financial-living-system",
+        "social-support-navigation-system",
+        "probability-calibration-system",
+        "moon-image-cortex",
+        "moon-music-engine"
+      ],
+      "privacy_boundary": "No personal financial data, real case records, private taste profile, identity image, unpublished material or credentials in public packages.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "moon-source",
+      "name": "Moon Source",
+      "class": "context_governance",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Source",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Source/blob/main/README.md",
+      "summary": "Public methods for context authority, freshness, provenance, mutation, continuity and handoff.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "repository",
+          "path": "README.md"
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Context governance and source operations; Source Operations remains the succession authority.",
+      "imports": [],
+      "references": [
+        "adaptive-orchestration-protocol"
+      ],
+      "exports": [
+        "context-governance",
+        "source-operations",
+        "cross-source-mirror-protocol"
+      ],
+      "privacy_boundary": "Registry points only to public methods; private project sources and records stay with their governing source.",
+      "legacy_routes": [],
+      "validation_ref": "https://github.com/luahelenammc/Moon-Source/blob/main/docs/SOURCE_OPERATIONS.md",
+      "head_at_status_check": "815536d3636a59ce71c5ac0eaae491071af4e4f2"
+    },
+    {
+      "id": "adaptive-orchestration-protocol",
+      "name": "Adaptive Orchestration Protocol",
+      "class": "execution_orchestration",
+      "canonical_repo": "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol",
+      "canonical_entry": "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol/blob/main/README.md",
+      "summary": "Independent model-neutral method for routing work across real capabilities, execution surfaces and reasoning topology.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "repository",
+          "path": "README.md"
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "AOP core, subordinate adapters, releases and compatibility procedure.",
+      "imports": [],
+      "references": [
+        "moon-source"
+      ],
+      "exports": [
+        "task-routing",
+        "execution-topology",
+        "model-adapters"
+      ],
+      "privacy_boundary": "The atlas references only the public repository; no user task context, credentials or private execution data is copied.",
+      "legacy_routes": [],
+      "validation_ref": "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol/blob/main/docs/MIGRATION_AND_COMPATIBILITY.md",
+      "head_at_status_check": "44bf2e278fc09525878d0e3888319a268a8b246b"
+    },
+    {
+      "id": "prisma",
+      "name": "PRISMA",
+      "class": "adaptive_representation",
+      "canonical_repo": null,
+      "canonical_entry": null,
+      "summary": "Planned autonomous project for adaptive perspectives and persona representation; public repository and entry point are not verified yet.",
+      "status": "unpublished_pending_verification",
+      "status_verified_at": "2026-11-23",
+      "distribution": [],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Pending public source confirmation; no implementation or public runtime is registered here.",
+      "imports": [],
+      "references": [],
+      "exports": [],
+      "privacy_boundary": "No source corpus, intimate profile, clinical case or unpublished material is included in this public registry.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py"
+    },
+    {
+      "id": "financial-living-system",
+      "name": "Financial Living System",
+      "class": "applied_domain_module",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/financial-living-system/ADAPTIVE_FINANCE_BOOTSTRAP.md",
+      "summary": "Financial state, timing, obligations and reconciliation under user control.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "zip",
+          "path": "downloads/financial-living-system.zip",
+          "sha256": "f627c5b2470ccb059131ec0933e3eb55890645a141a665c0581f03611f287f1f",
+          "size_bytes": 59335
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Financial state, timing, obligations and reconciliation under user control.",
+      "imports": [],
+      "references": [
+        "moon-cortex-applied-systems"
+      ],
+      "exports": [
+        "financial-living-system"
+      ],
+      "privacy_boundary": "Only generic methods and synthetic examples are public; private/user-local information remains with the user or authorized project.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "social-support-navigation-system",
+      "name": "Social Support Navigation System",
+      "class": "applied_domain_module",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/social-support-navigation-system/SOCIAL_SUPPORT_NAVIGATOR.md",
+      "summary": "Functional support navigation, barriers and handoffs; real case data remains protected.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "zip",
+          "path": "downloads/social-support-navigation-system.zip",
+          "sha256": "4d2122792ce8c9a5a5d19d17293d0368162ba482861ee5989130886a25245224",
+          "size_bytes": 37874
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Functional support navigation, barriers and handoffs; real case data remains protected.",
+      "imports": [],
+      "references": [
+        "moon-cortex-applied-systems"
+      ],
+      "exports": [
+        "social-support-navigation-system"
+      ],
+      "privacy_boundary": "Only generic methods and synthetic examples are public; private/user-local information remains with the user or authorized project.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "probability-calibration-system",
+      "name": "Probability Calibration System",
+      "class": "applied_domain_module",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/probability-calibration-system/PROBABILITY_CALIBRATOR.md",
+      "summary": "Evidence-bounded forecasting with uncertainty and user-owned forecast records.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "zip",
+          "path": "downloads/probability-calibration-system.zip",
+          "sha256": "ae9c3fb8ea1c23f492cadd2188adff1053473e22851436014f274c4bf4efbeb1",
+          "size_bytes": 56720
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Evidence-bounded forecasting with uncertainty and user-owned forecast records.",
+      "imports": [],
+      "references": [
+        "moon-cortex-applied-systems"
+      ],
+      "exports": [
+        "probability-calibration-system"
+      ],
+      "privacy_boundary": "Only generic methods and synthetic examples are public; private/user-local information remains with the user or authorized project.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "moon-image-cortex",
+      "name": "Moon Image Cortex",
+      "class": "applied_domain_module",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/moon-image-cortex/VISUAL_DIRECTOR.md",
+      "summary": "Visual intent, route selection, rendering instructions and evidence-bounded visual QA.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "zip",
+          "path": "downloads/moon-image-cortex.zip",
+          "sha256": "37e13b237cfb033ae2d31b336fdfd7408d07c453c33ed94518ec5430c0174309",
+          "size_bytes": 336329
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "Visual intent, route selection, rendering instructions and evidence-bounded visual QA.",
+      "imports": [],
+      "references": [
+        "moon-cortex-applied-systems"
+      ],
+      "exports": [
+        "moon-image-cortex"
+      ],
+      "privacy_boundary": "Only generic methods and synthetic examples are public; private/user-local information remains with the user or authorized project.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    },
+    {
+      "id": "moon-music-engine",
+      "name": "Moon Music Engine",
+      "class": "applied_domain_module",
+      "canonical_repo": "https://github.com/luahelenammc/Moon-Cortex",
+      "canonical_entry": "https://github.com/luahelenammc/Moon-Cortex/blob/main/modules/moon-music-engine/MUSIC_DIRECTOR.md",
+      "summary": "User-owned musical taste mapping and ethical reference-to-feature translation.",
+      "status": "active_public",
+      "status_verified_at": "2026-11-23",
+      "distribution": [
+        {
+          "type": "zip",
+          "path": "downloads/moon-music-engine.zip",
+          "sha256": "2dd4718f2a01ec98fc3ad21d79dca2523711ce1302ceab481e4fec0bec192940",
+          "size_bytes": 85172
+        }
+      ],
+      "maintainer": "Lua Helena Moon Martins Cardoso (Moon)",
+      "owned_function": "User-owned musical taste mapping and ethical reference-to-feature translation.",
+      "imports": [],
+      "references": [
+        "moon-cortex-applied-systems"
+      ],
+      "exports": [
+        "moon-music-engine"
+      ],
+      "privacy_boundary": "Only generic methods and synthetic examples are public; private/user-local information remains with the user or authorized project.",
+      "legacy_routes": [],
+      "validation_ref": "scripts/check_ecosystem_links.py",
+      "head_at_status_check": "655e46bb2094409bf269bd5444c0a0ef6230746d"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "observed_at": "2026-11-23",
+  "policy_sources": [
+    "https://github.com/luahelenammc/Moon-Source/blob/main/docs/SOURCE_OPERATIONS.md",
+    "https://github.com/luahelenammc/Moon-Source/tree/main/archive",
+    "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol/blob/main/docs/MIGRATION_AND_COMPATIBILITY.md"
+  ],
+  "routes": [],
+  "scope_notes": "No public path is renamed or moved by the atlas change. Record only an observed and implemented legacy route; do not invent routes."
+}
